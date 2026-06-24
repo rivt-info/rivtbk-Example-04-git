@@ -1,0 +1,7 @@
+06-22 00:34  rv101-Introduction   INFO     Doc start
+06-22 00:34  rv101-Introduction   INFO     rivtlib version: 1.0.0a5
+06-22 00:34  rv101-Introduction   INFO     rivt backup : c:\git\rivtbk-example-04\101-Introduction\rv_stor\logs\rv101-Introduction.bak
+06-22 00:34  rv101-Introduction   INFO     Introductionv| endnotes
+06-22 00:34  rv101-Introduction   INFO     SECTION 1.1 - type I
+06-22 00:34  rv101-Introduction   INFO     SECTION : Publish Doc 
+06-22 00:34  rv101-Introduction   INFO     block tag : METADATA]]
