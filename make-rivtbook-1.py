@@ -12,9 +12,9 @@ import sys
 import importlib
 
 # ========= Modify report settings between the double lines ==============
-reportset = f"""
+bookset = f"""
 [settings]
-;------- report file name including the pdf extension
+;------- rivt book file name including the pdf extension
 ;----------------------------------------------------------------
 ;
 rept_filename = rivtbk-Isolation Bearing Design.pdf
@@ -33,11 +33,11 @@ rep_verbose = true
 title = Tree Fort
 subtitle = Structural Design
 client = Report Example
-project_ref = Proj. 0003
+project_ref = Proj. 0004
 authors = R Holland 
 copyright = StL
 version = 1.0.0a12
-;----- put logo, header, footer files in *page* folder, size is % page width
+;----- put logo, header, footer files in *img* folder, size is % page width
 coverlogo = bearing1.png
 coverlogo_size = 50
 running_logo = rivt02.png 
@@ -52,8 +52,8 @@ pdf_margins = 1in, 1in, 1in, 1in
 """
 # ============================================================================
 # the following lines are required following the settings
-os.environ["reportset"] = reportset
-module_name = 'rivtlib.rvreport'
+os.environ["bookset"] = bookset
+module_name = 'rivtlib.rvbook'
 if module_name in sys.modules:
     # Reloads the module on subsequent iterations
     importlib.reload(sys.modules[module_name])

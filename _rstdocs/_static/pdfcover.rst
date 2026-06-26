@@ -1,4 +1,5 @@
 
+
 .. role:: btext
    :class: big-text
 
@@ -11,47 +12,44 @@
 |
 |
         
-.. image:: ./_static/logo1.png
+.. image:: ./_static/bearing1.png
    :width: 50%
    :align: center
-
-|
-|
-|
-
-
-.. rst-class:: center
-
-    :mtext:`Example 1 - rivt Doc`
-
-    |
-
-    :btext:`UDL Beam`
-
-    
-    |
-    |
-    |
-    |
-    |
-    |
-
-
-    :mtext:`Attn: User Example`
-
-    |
-
-    :stext:`proj. 0001`
-
    
+|
+|
+|
 
-.. raw:: pdf
+.. class:: center
 
-   PageBreak noHead
-   
+    :mtext:`Structural Design`
+  
+|
+
+.. class:: center  
+
+    :btext:`Tree Fort`
+
+|
+|
+|
+|
+|
+
+.. class:: center  
+
+   :mtext:`Report Example`
+
+|
+
+.. class:: center  
+
+   :stext:`Proj. 0004`
 
 .. raw:: pdf
 
    PageBreak mainPage
    SetPageCounter 1
 
+
+      

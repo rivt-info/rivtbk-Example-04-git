@@ -1,108 +1,3 @@
-.. |s| unicode:: 0xA0 
-
-
-
-.. |blklogo| image:: ./_static/logo1.png
-   :height: 100px
-   :alt: logo
-
-
-    
-.. header::
-    .. list-table::
-        :class: header-box
-        :align: left
-        :widths: 90 10
-        
-        * - **103 Shear Stiffness** - v1.0.0a12 |s| |s| |s| |s|  **###Section###**
-          - p. **###Page###**   
-
-          
-
-.. footer:: 
-    .. list-table::
-        :class: footer-box
-        :align: left
-        :widths: 84 22 16
-        
-        * - 2026-06-22 |s| |s| |s| **|** |s| |s| |s| R Holland        
-          - **rivt**        
-          - |blklogo|
-
-
-                  
-
-.. role:: btext
-   :class: big-text
-
-.. role:: mtext
-    :class: medium-text
-
-.. role:: stext
-    :class: small-text
-
-|
-|
-|
-|
-        
-.. image:: _static/bearing1.png
-   :width: 30%
-   :align: center
-
-|
-|
-|
-|
-|
-
-.. rst-class:: center
-
-    :mtext:`Isolation Bearing Design`
-
-|
-
-.. rst-class:: center
-
-    :btext:`103 Shear Stiffness`
-    
-|
-|
-|
-|
-|
-
-
-.. rst-class:: center
-
-    :mtext:`Example 04 - rivtbook`
-
-|
-
-.. rst-class:: center
-
-    :stext:`proj. 0001`
-
-   
-.. raw:: pdf
-
-   PageBreak noHead
-      
-**103 Shear Stiffness** - v1.0.0a12
-
---------------------
-
-|
-
-.. contents:: Table of Contents
-  :depth: 2
-
-  
-.. raw:: pdf
- 
-   PageBreak mainPage
-   SetPageCounter 1
-
  
 .. raw:: pdf
 
@@ -213,12 +108,12 @@ cpi         3.1418            3.1418       contant pi
 
            rht = 20.40 inch     [rht] = 51.82 cm   | rubber height
 
-           rnl                      rthk
-           ———————————————————————  ———————————————
-           51                       0.40 inch
-           —————                    —————
-           number of rubber layers  layer thickness
-           ———————————————————————  ———————————————
+           rthk             rnl
+           ———————————————  ———————————————————————
+           0.40 inch        51
+           —————            —————
+           layer thickness  number of rubber layers
+           ———————————————  ———————————————————————
 
 
 
@@ -234,12 +129,12 @@ cpi         3.1418            3.1418       contant pi
 
            bht = 24.95 inch     [bht] = 63.37 cm   | bearing height
 
-           sthk                     rnl                      rht
-           ———————————————————————  ———————————————————————  —————————————
-           0.09 inch                51                       20.40 inch
-           —————                    —————                    —————
-           11 guage shim thickness  number of rubber layers  rubber height
-           ———————————————————————  ———————————————————————  —————————————
+           sthk                     rht            rnl
+           ———————————————————————  —————————————  ———————————————————————
+           0.09 inch                20.40 inch     51
+           —————                    —————          —————
+           11 guage shim thickness  rubber height  number of rubber layers
+           ———————————————————————  —————————————  ———————————————————————
 
 
 
@@ -258,12 +153,12 @@ cpi         3.1418            3.1418       contant pi
 
            Ks₁ = 3.48 k_i     [Ks₁] = 6.10 kN_cm   | shear stiffness
 
-           G₁             rht            cpi         rdia
-           —————————————  —————————————  ——————————  ————————————————
-           58.00 lb_in2   20.40 inch     3.1418      39.50 inch
-           —————          —————          —————       —————
-           shear modulus  rubber height  contant pi  bearing diameter
-           —————————————  —————————————  ——————————  ————————————————
+           G₁             rht            rdia              cpi
+           —————————————  —————————————  ————————————————  ——————————
+           58.00 lb_in2   20.40 inch     39.50 inch        3.1418
+           —————          —————          —————             —————
+           shear modulus  rubber height  bearing diameter  contant pi
+           —————————————  —————————————  ————————————————  ——————————
 
 
  

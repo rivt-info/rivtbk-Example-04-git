@@ -1,0 +1,13 @@
+06-25 22:10  make-rivtbook-1   INFO     >> rst << generated from: C:\git\rivtbk-example-04-git\bk101-Introduction\rv101-Introduction.py
+
+06-25 22:10  make-rivtbook-1   INFO     >> rst << generated from: C:\git\rivtbk-example-04-git\bk102-Bearing-Compression-Stiffness\rv102-compression-stiffness.py
+
+06-25 22:10  make-rivtbook-1   INFO     >> rst << generated from: C:\git\rivtbk-example-04-git\bk103-Bearing-Shear-Stiffness\rv103-shear-stiffness.py
+
+06-25 22:10  make-rivtbook-1   INFO     >> rst << generated from: C:\git\rivtbk-example-04-git\bk201-Bearing-Viscous-Damping\rv201-bearing-viscous.py
+
+06-25 22:10  make-rivtbook-1   INFO     >> rst << generated from: C:\git\rivtbk-example-04-git\bk202-Bearing-Hysteretic-Damping\rv202-bearing-hysteretic.py
+
+06-25 22:10  make-rivtbook-1   INFO     >> rst << generated from: C:\git\rivtbk-example-04-git\bk301-System Period\rv301-system-period.py
+
+06-25 22:10  make-rivtbook-1   INFO     |||||||||| README report : Tree Fort
