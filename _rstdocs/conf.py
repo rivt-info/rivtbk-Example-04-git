@@ -4,7 +4,7 @@ from pathlib import Path
 
 sys.path.append(str(Path(".").resolve()))
 
-project = "Tree Fort"
+project = "Seismic Isolation Bearing Design"
 copyright = "StL"
 author = "R Holland"
 release = "1.0.0a12"
@@ -70,7 +70,7 @@ favicons = [
 # source start file, target name, title, author, options
 # options: ('index', 'MyProject', 'My Project', 'Author Name', 'options...')
 # More than one author : \r'Guido van Rossum\Fred L. Drake, Jr., editor'
-pdf_documents = [("index", "rivtbk-Isolation Bearing Design", "Tree Fort", "R Holland")]
+pdf_documents = [("index", "rivtbk-Isolation Bearing Design", "Seismic Isolation Bearing Design", "R Holland")]
 suppress_warnings = ['toc.excluded']
 # Label to use as a prefix for the subtitle on the cover page
 subtitle_prefix = "User Manual"

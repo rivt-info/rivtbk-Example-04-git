@@ -8,17 +8,3 @@
 >> rst << generated from: C:\git\rivtbk-example-04-git\bk103-Bearing-Shear-Stiffness\rv103-shear-stiffness.py
 >> rst << generated from: C:\git\rivtbk-example-04-git\bk103-Bearing-Shear-Stiffness\rv103-shear-stiffness.py
 >> rst << generated from: C:\git\rivtbk-example-04-git\bk103-Bearing-Shear-Stiffness\rv103-shear-stiffness.py
->> rst << generated from: C:\git\rivtbk-example-04-git\bk103-Bearing-Shear-Stiffness\rv103-shear-stiffness.py
->> rst << generated from: C:\git\rivtbk-example-04-git\bk103-Bearing-Shear-Stiffness\rv103-shear-stiffness.py
->> rst << generated from: C:\git\rivtbk-example-04-git\bk103-Bearing-Shear-Stiffness\rv103-shear-stiffness.py
->> rst << generated from: C:\git\rivtbk-example-04-git\bk103-Bearing-Shear-Stiffness\rv103-shear-stiffness.py
->> rst << generated from: C:\git\rivtbk-example-04-git\bk103-Bearing-Shear-Stiffness\rv103-shear-stiffness.py
->> rst << generated from: C:\git\rivtbk-example-04-git\bk103-Bearing-Shear-Stiffness\rv103-shear-stiffness.py
->> rst << generated from: C:\git\rivtbk-example-04-git\bk103-Bearing-Shear-Stiffness\rv103-shear-stiffness.py
->> rst << generated from: C:\git\rivtbk-example-04-git\bk103-Bearing-Shear-Stiffness\rv103-shear-stiffness.py
->> rst << generated from: C:\git\rivtbk-example-04-git\bk103-Bearing-Shear-Stiffness\rv103-shear-stiffness.py
->> rst << generated from: C:\git\rivtbk-example-04-git\bk103-Bearing-Shear-Stiffness\rv103-shear-stiffness.py
->> rst << generated from: C:\git\rivtbk-example-04-git\bk103-Bearing-Shear-Stiffness\rv103-shear-stiffness.py
->> rst << generated from: C:\git\rivtbk-example-04-git\bk103-Bearing-Shear-Stiffness\rv103-shear-stiffness.py
->> rst << generated from: C:\git\rivtbk-example-04-git\bk103-Bearing-Shear-Stiffness\rv103-shear-stiffness.py
->> rst << generated from: C:\git\rivtbk-example-04-git\bk103-Bearing-Shear-Stiffness\rv103-shear-stiffness.py

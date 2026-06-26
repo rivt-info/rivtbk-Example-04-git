@@ -8,8 +8,3 @@
 >> rst << generated from: C:\git\rivtbk-example-04-git\bk301-System Period\rv301-system-period.py
 >> rst << generated from: C:\git\rivtbk-example-04-git\bk301-System Period\rv301-system-period.py
 >> rst << generated from: C:\git\rivtbk-example-04-git\bk301-System Period\rv301-system-period.py
->> rst << generated from: C:\git\rivtbk-example-04-git\bk301-System Period\rv301-system-period.py
->> rst << generated from: C:\git\rivtbk-example-04-git\bk301-System Period\rv301-system-period.py
->> rst << generated from: C:\git\rivtbk-example-04-git\bk301-System Period\rv301-system-period.py
->> rst << generated from: C:\git\rivtbk-example-04-git\bk301-System Period\rv301-system-period.py
->> rst << generated from: C:\git\rivtbk-example-04-git\bk301-System Period\rv301-system-period.py

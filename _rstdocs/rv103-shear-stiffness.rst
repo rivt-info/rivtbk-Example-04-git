@@ -129,12 +129,12 @@ cpi         3.1418            3.1418       contant pi
 
            bht = 24.95 inch     [bht] = 63.37 cm   | bearing height
 
-           sthk                     rht            rnl
-           ———————————————————————  —————————————  ———————————————————————
-           0.09 inch                20.40 inch     51
-           —————                    —————          —————
-           11 guage shim thickness  rubber height  number of rubber layers
-           ———————————————————————  —————————————  ———————————————————————
+           rht            sthk                     rnl
+           —————————————  ———————————————————————  ———————————————————————
+           20.40 inch     0.09 inch                51
+           —————          —————                    —————
+           rubber height  11 guage shim thickness  number of rubber layers
+           —————————————  ———————————————————————  ———————————————————————
 
 
 
@@ -153,12 +153,12 @@ cpi         3.1418            3.1418       contant pi
 
            Ks₁ = 3.48 k_i     [Ks₁] = 6.10 kN_cm   | shear stiffness
 
-           G₁             rht            rdia              cpi
-           —————————————  —————————————  ————————————————  ——————————
-           58.00 lb_in2   20.40 inch     39.50 inch        3.1418
-           —————          —————          —————             —————
-           shear modulus  rubber height  bearing diameter  contant pi
-           —————————————  —————————————  ————————————————  ——————————
+           G₁             rht            cpi         rdia
+           —————————————  —————————————  ——————————  ————————————————
+           58.00 lb_in2   20.40 inch     3.1418      39.50 inch
+           —————          —————          —————       —————
+           shear modulus  rubber height  contant pi  bearing diameter
+           —————————————  —————————————  ——————————  ————————————————
 
 
  
@@ -180,12 +180,12 @@ cpi         3.1418            3.1418       contant pi
 
            sh₁ ₁ = 24     [sh₁ ₁] = 24   | shape factor 1
 
-           sdia           rthk
-           —————————————  ———————————————
-           38 inch        0 inch
-           —————          —————
-           shim diameter  layer thickness
-           —————————————  ———————————————
+           rthk             sdia
+           ———————————————  —————————————
+           0 inch           38 inch
+           —————            —————
+           layer thickness  shim diameter
+           ———————————————  —————————————
 
 
 

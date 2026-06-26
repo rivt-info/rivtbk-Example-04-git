@@ -1,8 +1,8 @@
-06-25 22:10  rv202-bearing-hysteretic   INFO     Doc start
-06-25 22:10  rv202-bearing-hysteretic   INFO     rivtlib version: 1.0.0a5
-06-25 22:10  rv202-bearing-hysteretic   INFO     rivt backup : C:\git\rivtbk-example-04-git\_rvstor\logs\rv202-bearing-hysteretic.bak
-06-25 22:10  rv202-bearing-hysteretic   INFO     Hysteretic Damping
-06-25 22:10  rv202-bearing-hysteretic   INFO     SECTION 2.2 - type I
-06-25 22:10  rv202-bearing-hysteretic   INFO     Bibliography | endnotes
-06-25 22:10  rv202-bearing-hysteretic   INFO     SECTION : Publish Doc 
-06-25 22:10  rv202-bearing-hysteretic   INFO     block tag : METADATA]]
+06-26 01:54  rv202-bearing-hysteretic   INFO     Doc start
+06-26 01:54  rv202-bearing-hysteretic   INFO     rivtlib version: 1.0.0a5
+06-26 01:54  rv202-bearing-hysteretic   INFO     rivt backup : C:\git\rivtbk-example-04-git\_rvstor\logs\rv202-bearing-hysteretic.bak
+06-26 01:54  rv202-bearing-hysteretic   INFO     Hysteretic Damping
+06-26 01:54  rv202-bearing-hysteretic   INFO     SECTION 2.2 - type I
+06-26 01:54  rv202-bearing-hysteretic   INFO     Bibliography | endnotes
+06-26 01:54  rv202-bearing-hysteretic   INFO     SECTION : Publish Doc 
+06-26 01:54  rv202-bearing-hysteretic   INFO     block tag : METADATA]]

@@ -30,9 +30,9 @@ regen_pdf = false
 rep_verbose = true
 
 [format]
-title = Tree Fort
+title = Seismic Isolation Bearing Design
 subtitle = Structural Design
-client = Report Example
+client = rivt Book Example
 project_ref = Proj. 0004
 authors = R Holland 
 copyright = StL

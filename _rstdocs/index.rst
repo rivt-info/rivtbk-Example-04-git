@@ -14,7 +14,7 @@
         :align: left
         :widths: 90 10
         
-        * - **Tree Fort** - v1.0.0a12 |s| |s| |s| |s|  **###Section###**
+        * - **Seismic Isolation Bearing Design** - v1.0.0a12 |s| |s| |s| |s|  **###Section###**
           - p. **###Page###**   
 
           
@@ -25,7 +25,7 @@
         :align: left
         :widths: 84 22 16
         
-        * - 2026-06-25 |s| |s| |s| **|** |s| |s| |s| R Holland        
+        * - 2026-06-26 |s| |s| |s| **|** |s| |s| |s| R Holland        
           - **rivt**        
           - |blklogo|                  
 

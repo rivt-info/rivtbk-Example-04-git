@@ -28,7 +28,7 @@
 
 .. class:: center  
 
-    :btext:`Tree Fort`
+    :btext:`Seismic Isolation Bearing Design`
 
 |
 |
@@ -38,7 +38,7 @@
 
 .. class:: center  
 
-   :mtext:`Report Example`
+   :mtext:`rivt Book Example`
 
 |
 
