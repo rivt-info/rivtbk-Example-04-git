@@ -1,6 +1,6 @@
 import rivtlib.rvapi as rv
 
-rv.I("""Introductionv| endnotes
+rv.I("""Introduction 
 
     This is an example of a rivtbook. rivtbooks are collections of rivt files
     organized around a common subject. Each rivt file (subdivision) and its

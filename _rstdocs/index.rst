@@ -25,7 +25,7 @@
         :align: left
         :widths: 84 22 16
         
-        * - 2026-06-26 |s| |s| |s| **|** |s| |s| |s| R Holland        
+        * - 2026-06-27 |s| |s| |s| **|** |s| |s| |s| R Holland        
           - **rivt**        
           - |blklogo|                  
 
@@ -34,11 +34,11 @@
     :maxdepth: 1
 
 
-    rv101-Introduction.rst
-    rv102-compression-stiffness.rst
-    rv103-shear-stiffness.rst
-    rv201-bearing-viscous.rst
-    rv202-bearing-hysteretic.rst
-    rv301-system-period.rst
+    rv001-Introduction.rst
+    rv002-compression-stiffness.rst
+    rv003-shear-stiffness.rst
+    rv004-bearing-viscous.rst
+    rv005-bearing-hysteretic.rst
+    rv006-system-period.rst
 
     

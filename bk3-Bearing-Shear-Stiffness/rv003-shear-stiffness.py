@@ -51,8 +51,8 @@ rv.I("""Rubber Elastic Properties
 rv.V("""Shear Stiffness Example
 
     Bearing Specifications _[T]
-    G_1 ==: 58 * psin | psin, MPA, 2 | shear modulus                                                    
-    K_1 ==: 200000 * psin | psin, MPA, 2 | bulk modulus
+    G_1 ==: 58 * p_si | p_si, MPA, 2 | shear modulus                                                    
+    K_1 ==: 200000 * p_si | p_si, MPA, 2 | bulk modulus
     rnl ==: 51 | --, --, 0 |    number of rubber layers
     rdia ==: 39.5 * inch |  inch, cm, 2 | bearing diameter                                 
     rthk ==: .4 * inch | inch, cm, 2 |  layer thickness
@@ -63,7 +63,7 @@ rv.V("""Shear Stiffness Example
     Bearing Stiffness for Circular Bearing _[B]
     rht <=: rnl * rthk | inch, cm, 2 | rubber height                               
     bht <=: rht + ((rnl-1) * sthk) | inch, cm, 2 | bearing height                 
-    Ks_1 <=: ((G_1 * cpi * rdia**2 / (4 * rht)))| k_in, kN_cm,2 | shear stiffness
+    Ks_1 <=: ((G_1 * cpi * rdia**2 / (4 * rht)))| k_in, kN_cm, 2 | shear stiffness
 
     Shape Factor for Circular Bearing _[B] 
     sh1_1 <=: sdia / (4 * rthk) | --, --, 0 | shape factor 1                                    

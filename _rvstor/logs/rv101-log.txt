@@ -1,7 +1,7 @@
-06-26 01:53  rv101-Introduction   INFO     Doc start
-06-26 01:53  rv101-Introduction   INFO     rivtlib version: 1.0.0a5
-06-26 01:53  rv101-Introduction   INFO     rivt backup : C:\git\rivtbk-example-04-git\_rvstor\logs\rv101-Introduction.bak
-06-26 01:53  rv101-Introduction   INFO     Introductionv| endnotes
-06-26 01:53  rv101-Introduction   INFO     SECTION 1.1 - type I
-06-26 01:53  rv101-Introduction   INFO     SECTION : Publish Doc 
-06-26 01:53  rv101-Introduction   INFO     block tag : METADATA]]
+06-26 01:56  rv101-Introduction   INFO     Doc start
+06-26 01:56  rv101-Introduction   INFO     rivtlib version: 1.0.0a5
+06-26 01:56  rv101-Introduction   INFO     rivt backup : C:\git\rivtbk-example-04-git\_rvstor\logs\rv101-Introduction.bak
+06-26 01:56  rv101-Introduction   INFO     Introductionv| endnotes
+06-26 01:56  rv101-Introduction   INFO     SECTION 1.1 - type I
+06-26 01:56  rv101-Introduction   INFO     SECTION : Publish Doc 
+06-26 01:56  rv101-Introduction   INFO     block tag : METADATA]]

@@ -43,7 +43,7 @@ endobj
 endobj
 6 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 19 0 R /XYZ 48.51969 733.078 0 ] /Rect [ 51.35433 705.318 145.5599 716.118 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 19 0 R /XYZ 48.51969 733.078 0 ] /Rect [ 51.35433 705.318 139.6932 716.118 ] /Subtype /Link /Type /Annot
 >>
 endobj
 7 0 obj
@@ -3074,7 +3074,7 @@ endobj
 endobj
 69 0 obj
 <<
-/Author () /CreationDate (D:20260626015409-07'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260626015409-07'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+/Author () /CreationDate (D:20260627013739-07'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260627013739-07'00') /Producer (ReportLab PDF Library - \(opensource\)) 
   /Subject (\(unspecified\)) /Title () /Trapped /False
 >>
 endobj
@@ -3085,66 +3085,66 @@ endobj
 endobj
 71 0 obj
 <<
-/Dest [ 19 0 R /XYZ 48.51969 733.078 0 ] /Next 72 0 R /Parent 70 0 R /Title (1.1 | Introductionv)
+/Dest [ 19 0 R /XYZ 48.51969 733.078 0 ] /Next 72 0 R /Parent 70 0 R /Title (0.1 | Introduction)
 >>
 endobj
 72 0 obj
 <<
 /Count -2 /Dest [ 22 0 R /XYZ 51.35433 733.078 0 ] /First 73 0 R /Last 74 0 R /Next 75 0 R /Parent 70 0 R 
-  /Prev 71 0 R /Title (1.2 | Compression Shape Factor)
+  /Prev 71 0 R /Title (0.2 | Compression Shape Factor)
 >>
 endobj
 73 0 obj
 <<
-/Dest [ 26 0 R /XYZ 51.35433 615.7315 0 ] /Next 74 0 R /Parent 72 0 R /Title (1.2 - 2 | Compression Modulus)
+/Dest [ 26 0 R /XYZ 51.35433 615.7315 0 ] /Next 74 0 R /Parent 72 0 R /Title (0.2 - 2 | Compression Modulus)
 >>
 endobj
 74 0 obj
 <<
-/Dest [ 27 0 R /XYZ 48.51969 669.7315 0 ] /Parent 72 0 R /Prev 73 0 R /Title (1.2 - 3 | Strip Analysis)
+/Dest [ 27 0 R /XYZ 48.51969 669.7315 0 ] /Parent 72 0 R /Prev 73 0 R /Title (0.2 - 3 | Strip Analysis)
 >>
 endobj
 75 0 obj
 <<
 /Count -1 /Dest [ 28 0 R /XYZ 51.35433 733.078 0 ] /First 76 0 R /Last 76 0 R /Next 77 0 R /Parent 70 0 R 
-  /Prev 72 0 R /Title (1.3 | Rubber Elastic Properties)
+  /Prev 72 0 R /Title (0.3 | Rubber Elastic Properties)
 >>
 endobj
 76 0 obj
 <<
-/Dest [ 28 0 R /XYZ 51.35433 206.9715 0 ] /Parent 75 0 R /Title (1.3 - 2 | Shear Stiffness Example)
+/Dest [ 28 0 R /XYZ 51.35433 206.9715 0 ] /Parent 75 0 R /Title (0.3 - 2 | Shear Stiffness Example)
 >>
 endobj
 77 0 obj
 <<
 /Count -1 /Dest [ 33 0 R /XYZ 48.51969 733.078 0 ] /First 78 0 R /Last 78 0 R /Next 79 0 R /Parent 70 0 R 
-  /Prev 75 0 R /Title (2.1 | Equivalent Viscous Damping)
+  /Prev 75 0 R /Title (0.4 | Equivalent Viscous Damping)
 >>
 endobj
 78 0 obj
 <<
-/Dest [ 33 0 R /XYZ 48.51969 118.5523 0 ] /Parent 77 0 R /Title (2.1 - 2 | section-label)
+/Dest [ 33 0 R /XYZ 48.51969 118.5523 0 ] /Parent 77 0 R /Title (0.4 - 2 | section-label)
 >>
 endobj
 79 0 obj
 <<
-/Dest [ 38 0 R /XYZ 51.35433 733.078 0 ] /Next 80 0 R /Parent 70 0 R /Prev 77 0 R /Title (2.2 | Hysteretic Damping)
+/Dest [ 38 0 R /XYZ 51.35433 733.078 0 ] /Next 80 0 R /Parent 70 0 R /Prev 77 0 R /Title (0.5 | Hysteretic Damping)
 >>
 endobj
 80 0 obj
 <<
 /Count -2 /Dest [ 42 0 R /XYZ 48.51969 733.078 0 ] /First 81 0 R /Last 82 0 R /Parent 70 0 R /Prev 79 0 R 
-  /Title (3.1 | section 1)
+  /Title (0.6 | section 1)
 >>
 endobj
 81 0 obj
 <<
-/Dest [ 42 0 R /XYZ 48.51969 470.7715 0 ] /Next 82 0 R /Parent 80 0 R /Title (3.1 - 2 | section-2)
+/Dest [ 42 0 R /XYZ 48.51969 470.7715 0 ] /Next 82 0 R /Parent 80 0 R /Title (0.6 - 2 | section-2)
 >>
 endobj
 82 0 obj
 <<
-/Dest [ 42 0 R /XYZ 48.51969 239.545 0 ] /Parent 80 0 R /Prev 81 0 R /Title (3.1 - 3 | Plot Mode Shapes)
+/Dest [ 42 0 R /XYZ 48.51969 239.545 0 ] /Parent 80 0 R /Prev 81 0 R /Title (0.6 - 3 | Plot Mode Shapes)
 >>
 endobj
 83 0 obj
@@ -3321,7 +3321,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-26       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-27       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -3361,7 +3361,7 @@ endstream
 endobj
 85 0 obj
 <<
-/Length 3044
+/Length 3043
 >>
 stream
 1 0 0 1 0 0 cm 
@@ -3378,7 +3378,7 @@ q
 q
 1 0 0 1 0 87 cm
 q
-BT 1 0 0 1 0 1.8 Tm 10.8 TL 0 .4 .6 rg /F2+0 9 Tf 10.8 TL (1.1 | Introductionv) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm 10.8 TL 0 .4 .6 rg /F2+0 9 Tf 10.8 TL (0.1 | Introduction) Tj T* ET
 Q
 Q
 q
@@ -3391,7 +3391,7 @@ Q
 q
 1 0 0 1 0 70.2 cm
 q
-BT 1 0 0 1 0 1.8 Tm 10.8 TL 0 .4 .6 rg /F2+0 9 Tf 10.8 TL (1.2 | Compression Shape Factor) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm 10.8 TL 0 .4 .6 rg /F2+0 9 Tf 10.8 TL (0.2 | Compression Shape Factor) Tj T* ET
 Q
 Q
 q
@@ -3404,7 +3404,7 @@ Q
 q
 1 0 0 1 0 53.4 cm
 q
-BT 1 0 0 1 0 1.8 Tm 10.8 TL 0 .4 .6 rg /F2+0 9 Tf 10.8 TL (1.3 | Rubber Elastic Properties) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm 10.8 TL 0 .4 .6 rg /F2+0 9 Tf 10.8 TL (0.3 | Rubber Elastic Properties) Tj T* ET
 Q
 Q
 q
@@ -3417,7 +3417,7 @@ Q
 q
 1 0 0 1 0 36.6 cm
 q
-BT 1 0 0 1 0 1.8 Tm 10.8 TL 0 .4 .6 rg /F2+0 9 Tf 10.8 TL (2.1 | Equivalent Viscous Damping) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm 10.8 TL 0 .4 .6 rg /F2+0 9 Tf 10.8 TL (0.4 | Equivalent Viscous Damping) Tj T* ET
 Q
 Q
 q
@@ -3430,7 +3430,7 @@ Q
 q
 1 0 0 1 0 19.8 cm
 q
-BT 1 0 0 1 0 1.8 Tm 10.8 TL 0 .4 .6 rg /F2+0 9 Tf 10.8 TL (2.2 | Hysteretic Damping) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm 10.8 TL 0 .4 .6 rg /F2+0 9 Tf 10.8 TL (0.5 | Hysteretic Damping) Tj T* ET
 Q
 Q
 q
@@ -3443,7 +3443,7 @@ Q
 q
 1 0 0 1 0 3 cm
 q
-BT 1 0 0 1 0 1.8 Tm 10.8 TL 0 .4 .6 rg /F2+0 9 Tf 10.8 TL (3.1 | section 1) Tj T* ET
+BT 1 0 0 1 0 1.8 Tm 10.8 TL 0 .4 .6 rg /F2+0 9 Tf 10.8 TL (0.6 | section 1) Tj T* ET
 Q
 Q
 q
@@ -3529,7 +3529,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-26       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-27       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -3569,14 +3569,14 @@ endstream
 endobj
 86 0 obj
 <<
-/Length 2001
+/Length 1999
 >>
 stream
 1 0 0 1 0 0 cm 
 q
 1 0 0 1 48.51969 720.118 cm
 q
-BT 1 0 0 1 0 2.16 Tm 12.96 TL .133333 .133333 .133333 rg /F2+0 10.8 Tf 12.96 TL (1.1 | Introductionv) Tj T* ET
+BT 1 0 0 1 0 2.16 Tm 12.96 TL .133333 .133333 .133333 rg /F2+0 10.8 Tf 12.96 TL (0.1 | Introduction) Tj T* ET
 Q
 Q
 q
@@ -3599,7 +3599,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (1.1 | Introductionv) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (0.1 | Introduction) Tj T* ET
 Q
 Q
 q
@@ -3658,7 +3658,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-26       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-27       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -3705,7 +3705,7 @@ stream
 q
 1 0 0 1 51.35433 720.118 cm
 q
-BT 1 0 0 1 0 2.16 Tm 12.96 TL .133333 .133333 .133333 rg /F2+0 10.8 Tf 12.96 TL (1.2 | Compression Shape Factor) Tj T* ET
+BT 1 0 0 1 0 2.16 Tm 12.96 TL .133333 .133333 .133333 rg /F2+0 10.8 Tf 12.96 TL (0.2 | Compression Shape Factor) Tj T* ET
 Q
 Q
 q
@@ -3767,7 +3767,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (1.2 | Compression Shape Factor) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (0.2 | Compression Shape Factor) Tj T* ET
 Q
 Q
 q
@@ -3826,7 +3826,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-26       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-27       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -3910,7 +3910,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (1.2 | Compression Shape Factor) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (0.2 | Compression Shape Factor) Tj T* ET
 Q
 Q
 q
@@ -3969,7 +3969,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-26       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-27       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -4034,7 +4034,7 @@ Q
 q
 1 0 0 1 51.35433 603.8515 cm
 q
-BT 1 0 0 1 0 1.98 Tm 11.88 TL .133333 .133333 .133333 rg /F2+0 9.9 Tf 11.88 TL (1.2 - 2 | Compression Modulus) Tj T* ET
+BT 1 0 0 1 0 1.98 Tm 11.88 TL .133333 .133333 .133333 rg /F2+0 9.9 Tf 11.88 TL (0.2 - 2 | Compression Modulus) Tj T* ET
 Q
 Q
 q
@@ -4204,7 +4204,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (1.2 - 2 | Compression Modulus) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (0.2 - 2 | Compression Modulus) Tj T* ET
 Q
 Q
 q
@@ -4263,7 +4263,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-26       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-27       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -4322,7 +4322,7 @@ Q
 q
 1 0 0 1 48.51969 657.8515 cm
 q
-BT 1 0 0 1 0 1.98 Tm 11.88 TL .133333 .133333 .133333 rg /F2+0 9.9 Tf 11.88 TL (1.2 - 3 | Strip Analysis) Tj T* ET
+BT 1 0 0 1 0 1.98 Tm 11.88 TL .133333 .133333 .133333 rg /F2+0 9.9 Tf 11.88 TL (0.2 - 3 | Strip Analysis) Tj T* ET
 Q
 Q
 q
@@ -4456,7 +4456,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (1.2 - 3 | Strip Analysis) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (0.2 - 3 | Strip Analysis) Tj T* ET
 Q
 Q
 q
@@ -4515,7 +4515,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-26       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-27       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -4555,14 +4555,14 @@ endstream
 endobj
 91 0 obj
 <<
-/Length 17383
+/Length 17386
 >>
 stream
 1 0 0 1 0 0 cm 
 q
 1 0 0 1 51.35433 720.118 cm
 q
-BT 1 0 0 1 0 2.16 Tm 12.96 TL .133333 .133333 .133333 rg /F2+0 10.8 Tf 12.96 TL (1.3 | Rubber Elastic Properties) Tj T* ET
+BT 1 0 0 1 0 2.16 Tm 12.96 TL .133333 .133333 .133333 rg /F2+0 10.8 Tf 12.96 TL (0.3 | Rubber Elastic Properties) Tj T* ET
 Q
 Q
 q
@@ -5483,7 +5483,7 @@ Q
 q
 1 0 0 1 51.35433 195.0915 cm
 q
-BT 1 0 0 1 0 1.98 Tm 11.88 TL .133333 .133333 .133333 rg /F2+0 9.9 Tf 11.88 TL (1.3 - 2 | Shear Stiffness Example) Tj T* ET
+BT 1 0 0 1 0 1.98 Tm 11.88 TL .133333 .133333 .133333 rg /F2+0 9.9 Tf 11.88 TL (0.3 - 2 | Shear Stiffness Example) Tj T* ET
 Q
 Q
 q
@@ -5517,7 +5517,7 @@ q
 1 0 0 1 6 93 cm
 q
 .772549 .819608 .772549 rg
-n 0 0 73.35433 12 re f*
+n 0 0 76.29758 12 re f*
 Q
 q
 0 0 0 rg
@@ -5525,10 +5525,10 @@ BT 1 0 0 1 0 3 Tm /F4+0 9 Tf 12 TL (variable) Tj T* ET
 Q
 Q
 q
-1 0 0 1 91.35433 93 cm
+1 0 0 1 94.29758 93 cm
 q
 .772549 .819608 .772549 rg
-n 0 0 124.5669 12 re f*
+n 0 0 111.6166 12 re f*
 Q
 q
 0 0 0 rg
@@ -5536,10 +5536,10 @@ BT 1 0 0 1 0 3 Tm /F4+0 9 Tf 12 TL (value) Tj T* ET
 Q
 Q
 q
-1 0 0 1 227.9213 93 cm
+1 0 0 1 217.9142 93 cm
 q
 .772549 .819608 .772549 rg
-n 0 0 81.88976 12 re f*
+n 0 0 85.12734 12 re f*
 Q
 q
 0 0 0 rg
@@ -5547,10 +5547,10 @@ BT 1 0 0 1 0 3 Tm /F4+0 9 Tf 12 TL ([value]) Tj T* ET
 Q
 Q
 q
-1 0 0 1 321.811 93 cm
+1 0 0 1 315.0415 93 cm
 q
 .772549 .819608 .772549 rg
-n 0 0 184.315 12 re f*
+n 0 0 191.0844 12 re f*
 Q
 q
 0 0 0 rg
@@ -5566,21 +5566,21 @@ BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (G_1) Tj T* ET
 Q
 Q
 q
-1 0 0 1 91.35433 75 cm
+1 0 0 1 94.29758 75 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (58.00 lb_in2) Tj T* ET
+BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (58.00 p_si) Tj T* ET
 Q
 Q
 q
-1 0 0 1 227.9213 75 cm
+1 0 0 1 217.9142 75 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (0.40 MPA) Tj T* ET
 Q
 Q
 q
-1 0 0 1 321.811 75 cm
+1 0 0 1 315.0415 75 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (shear modulus) Tj T* ET
@@ -5594,21 +5594,21 @@ BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (K_1) Tj T* ET
 Q
 Q
 q
-1 0 0 1 91.35433 57 cm
+1 0 0 1 94.29758 57 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (200000.00 lb_in2) Tj T* ET
+BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (200000.00 p_si) Tj T* ET
 Q
 Q
 q
-1 0 0 1 227.9213 57 cm
+1 0 0 1 217.9142 57 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (1378.95 MPA) Tj T* ET
 Q
 Q
 q
-1 0 0 1 321.811 57 cm
+1 0 0 1 315.0415 57 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (bulk modulus) Tj T* ET
@@ -5622,21 +5622,21 @@ BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (rnl) Tj T* ET
 Q
 Q
 q
-1 0 0 1 91.35433 39 cm
+1 0 0 1 94.29758 39 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (51) Tj T* ET
 Q
 Q
 q
-1 0 0 1 227.9213 39 cm
+1 0 0 1 217.9142 39 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (51) Tj T* ET
 Q
 Q
 q
-1 0 0 1 321.811 39 cm
+1 0 0 1 315.0415 39 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (number of rubber layers) Tj T* ET
@@ -5650,21 +5650,21 @@ BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (rdia) Tj T* ET
 Q
 Q
 q
-1 0 0 1 91.35433 21 cm
+1 0 0 1 94.29758 21 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (39.50 inch) Tj T* ET
 Q
 Q
 q
-1 0 0 1 227.9213 21 cm
+1 0 0 1 217.9142 21 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (100.33 cm) Tj T* ET
 Q
 Q
 q
-1 0 0 1 321.811 21 cm
+1 0 0 1 315.0415 21 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (bearing diameter) Tj T* ET
@@ -5678,21 +5678,21 @@ BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (rthk) Tj T* ET
 Q
 Q
 q
-1 0 0 1 91.35433 3 cm
+1 0 0 1 94.29758 3 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (0.40 inch) Tj T* ET
 Q
 Q
 q
-1 0 0 1 227.9213 3 cm
+1 0 0 1 217.9142 3 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (1.02 cm) Tj T* ET
 Q
 Q
 q
-1 0 0 1 321.811 3 cm
+1 0 0 1 315.0415 3 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (layer thickness) Tj T* ET
@@ -5719,7 +5719,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (1.3 | Rubber Elastic Properties) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (0.3 | Rubber Elastic Properties) Tj T* ET
 Q
 Q
 q
@@ -5778,7 +5778,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-26       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-27       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -5818,7 +5818,7 @@ endstream
 endobj
 92 0 obj
 <<
-/Length 7442
+/Length 7185
 >>
 stream
 1 0 0 1 0 0 cm 
@@ -5840,7 +5840,7 @@ q
 1 0 0 1 6 57 cm
 q
 .772549 .819608 .772549 rg
-n 0 0 73.35433 12 re f*
+n 0 0 76.29758 12 re f*
 Q
 q
 0 0 0 rg
@@ -5848,10 +5848,10 @@ BT 1 0 0 1 0 3 Tm /F4+0 9 Tf 12 TL (variable) Tj T* ET
 Q
 Q
 q
-1 0 0 1 91.35433 57 cm
+1 0 0 1 94.29758 57 cm
 q
 .772549 .819608 .772549 rg
-n 0 0 124.5669 12 re f*
+n 0 0 111.6166 12 re f*
 Q
 q
 0 0 0 rg
@@ -5859,10 +5859,10 @@ BT 1 0 0 1 0 3 Tm /F4+0 9 Tf 12 TL (value) Tj T* ET
 Q
 Q
 q
-1 0 0 1 227.9213 57 cm
+1 0 0 1 217.9142 57 cm
 q
 .772549 .819608 .772549 rg
-n 0 0 81.88976 12 re f*
+n 0 0 85.12734 12 re f*
 Q
 q
 0 0 0 rg
@@ -5870,10 +5870,10 @@ BT 1 0 0 1 0 3 Tm /F4+0 9 Tf 12 TL ([value]) Tj T* ET
 Q
 Q
 q
-1 0 0 1 321.811 57 cm
+1 0 0 1 315.0415 57 cm
 q
 .772549 .819608 .772549 rg
-n 0 0 184.315 12 re f*
+n 0 0 191.0844 12 re f*
 Q
 q
 0 0 0 rg
@@ -5889,21 +5889,21 @@ BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (sdia) Tj T* ET
 Q
 Q
 q
-1 0 0 1 91.35433 39 cm
+1 0 0 1 94.29758 39 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (38.00 inch) Tj T* ET
 Q
 Q
 q
-1 0 0 1 227.9213 39 cm
+1 0 0 1 217.9142 39 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (96.52 cm) Tj T* ET
 Q
 Q
 q
-1 0 0 1 321.811 39 cm
+1 0 0 1 315.0415 39 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (shim diameter) Tj T* ET
@@ -5917,21 +5917,21 @@ BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (sthk) Tj T* ET
 Q
 Q
 q
-1 0 0 1 91.35433 21 cm
+1 0 0 1 94.29758 21 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (0.09 inch) Tj T* ET
 Q
 Q
 q
-1 0 0 1 227.9213 21 cm
+1 0 0 1 217.9142 21 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (0.23 cm) Tj T* ET
 Q
 Q
 q
-1 0 0 1 321.811 21 cm
+1 0 0 1 315.0415 21 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (11 guage shim thickness) Tj T* ET
@@ -5945,21 +5945,21 @@ BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (cpi) Tj T* ET
 Q
 Q
 q
-1 0 0 1 91.35433 3 cm
+1 0 0 1 94.29758 3 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (3.1418) Tj T* ET
 Q
 Q
 q
-1 0 0 1 227.9213 3 cm
+1 0 0 1 217.9142 3 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (3.1418) Tj T* ET
 Q
 Q
 q
-1 0 0 1 321.811 3 cm
+1 0 0 1 315.0415 3 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL (contant pi) Tj T* ET
@@ -6009,87 +6009,7 @@ BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Eq. 1:) Tj /F1+0 9 Tf 12 TL (
 Q
 Q
 q
-1 0 0 1 48.51969 463.878 cm
-q
-q
-1 0 0 1 0 0 cm
-q
-1 0 0 1 6.6 6.6 cm
-q
-.662745 .662745 .662745 RG
-.5 w
-.819608 .870588 .870588 rg
-n -6 -6 510.926 132 re B*
-Q
-q
-0 0 0 rg
-BT 1 0 0 1 0 111 Tm /F4+0 9 Tf 12 TL (rht = rnl\002rthk) Tj T*  T* (rht = 20.40 inch     [rht] = 51.82 cm   | rubber height) Tj T*  T* (rthk             rnl) Tj T* (\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003  \003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003) Tj T* (0.40 inch        51) Tj T* (\003\003\003\003\003            \003\003\003\003\003) Tj T* (layer thickness  number of rubber layers) Tj T* (\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003  \003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003) Tj T* ET
-Q
-Q
-Q
-Q
-Q
-q
 1 0 0 1 48.51969 451.878 cm
-Q
-q
-1 0 0 1 48.51969 439.878 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL ( ) Tj T* ET
-Q
-Q
-q
-1 0 0 1 48.51969 437.878 cm
-Q
-q
-1 0 0 1 48.51969 419.878 cm
-q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Eq. 2:) Tj /F1+0 9 Tf 12 TL ( bearing height) Tj T* ET
-Q
-Q
-q
-1 0 0 1 48.51969 280.678 cm
-q
-q
-1 0 0 1 0 0 cm
-q
-1 0 0 1 6.6 6.6 cm
-q
-.662745 .662745 .662745 RG
-.5 w
-.819608 .870588 .870588 rg
-n -6 -6 510.926 132 re B*
-Q
-q
-0 0 0 rg
-BT 1 0 0 1 0 111 Tm /F4+0 9 Tf 12 TL (bht = rht + sthk\002\(rnl - 1\)) Tj T*  T* (bht = 24.95 inch     [bht] = 63.37 cm   | bearing height) Tj T*  T* (rht            sthk                     rnl) Tj T* (\003\003\003\003\003\003\003\003\003\003\003\003\003  \003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003  \003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003) Tj T* (20.40 inch     0.09 inch                51) Tj T* (\003\003\003\003\003          \003\003\003\003\003                    \003\003\003\003\003) Tj T* (rubber height  11 guage shim thickness  number of rubber layers) Tj T* (\003\003\003\003\003\003\003\003\003\003\003\003\003  \003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003  \003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003) Tj T* ET
-Q
-Q
-Q
-Q
-Q
-q
-1 0 0 1 48.51969 268.678 cm
-Q
-q
-1 0 0 1 48.51969 256.678 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL ( ) Tj T* ET
-Q
-Q
-q
-1 0 0 1 48.51969 254.678 cm
-Q
-q
-1 0 0 1 48.51969 236.678 cm
-q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Eq. 3:) Tj /F1+0 9 Tf 12 TL ( shear stiffness) Tj T* ET
-Q
-Q
-q
-1 0 0 1 48.51969 85.47795 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -6103,7 +6023,87 @@ n -6 -6 510.926 144 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 123 Tm /F4+0 9 Tf 12 TL (                 2) Tj T* (      G\004\002cpi\002rdia) Tj T* (Ks\004 = \005\005\005\005\005\005\005\005\005\005\005\005) Tj T* (         4\002rht) Tj T*  T* (Ks\004 = 3.48 k_i     [Ks\004] = 6.10 kN_cm   | shear stiffness) Tj T*  T* (G\004             rht            cpi         rdia) Tj T* (\003\003\003\003\003\003\003\003\003\003\003\003\003  \003\003\003\003\003\003\003\003\003\003\003\003\003  \003\003\003\003\003\003\003\003\003\003  \003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003) Tj T* (58.00 lb_in2   20.40 inch     3.1418      39.50 inch) Tj T* (\003\003\003\003\003          \003\003\003\003\003          \003\003\003\003\003       \003\003\003\003\003) Tj T* ET
+BT 1 0 0 1 0 123 Tm /F4+0 9 Tf 12 TL (rht = rnl\002rthk) Tj T*  T* (rht = 20.40 inch     [rht] = 51.82 cm   | rubber height) Tj T*  T* (rnl               rthk) Tj T* (\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003  \003\003\003\003\003\003\003\003\003\003\003\003\003\003\003) Tj T* (51                0.40 inch) Tj T* (\003\003\003\003\003             \003\003\003\003\003) Tj T* (number of rubber  layer thickness) Tj T* (layers            -) Tj T* (\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003  \003\003\003\003\003\003\003\003\003\003\003\003\003\003\003) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 48.51969 439.878 cm
+Q
+q
+1 0 0 1 48.51969 427.878 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL ( ) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 425.878 cm
+Q
+q
+1 0 0 1 48.51969 407.878 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Eq. 2:) Tj /F1+0 9 Tf 12 TL ( bearing height) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 256.678 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.819608 .870588 .870588 rg
+n -6 -6 510.926 144 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 123 Tm /F4+0 9 Tf 12 TL (bht = rht + sthk\002\(rnl - 1\)) Tj T*  T* (bht = 24.95 inch     [bht] = 63.37 cm   | bearing height) Tj T*  T* (sthk           rnl               rht) Tj T* (\003\003\003\003\003\003\003\003\003\003\003\003\003  \003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003  \003\003\003\003\003\003\003\003\003\003\003\003\003) Tj T* (0.09 inch      51                20.40 inch) Tj T* (\003\003\003\003\003          \003\003\003\003\003             \003\003\003\003\003) Tj T* (11 guage shim  number of rubber  rubber height) Tj T* (thickness      layers            -) Tj T* (\003\003\003\003\003\003\003\003\003\003\003\003\003  \003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003  \003\003\003\003\003\003\003\003\003\003\003\003\003) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 48.51969 244.678 cm
+Q
+q
+1 0 0 1 48.51969 232.678 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL ( ) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 230.678 cm
+Q
+q
+1 0 0 1 48.51969 212.678 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Eq. 3:) Tj /F1+0 9 Tf 12 TL ( shear stiffness) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 73.47795 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.819608 .870588 .870588 rg
+n -6 -6 510.926 132 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 111 Tm /F4+0 9 Tf 12 TL (                 2) Tj T* (      G\004\002cpi\002rdia) Tj T* (Ks\004 = \005\005\005\005\005\005\005\005\005\005\005\005) Tj T* (         4\002rht) Tj T*  T* (Ks\004 = 3.48 k_in     [Ks\004] = 6.10 kN_cm   | shear stiffness) Tj T*  T* (rht            G\004             cpi         rdia) Tj T* (\003\003\003\003\003\003\003\003\003\003\003\003\003  \003\003\003\003\003\003\003\003\003\003\003\003\003  \003\003\003\003\003\003\003\003\003\003  \003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003) Tj T* (20.40 inch     58.00 p_si     3.1418      39.50 inch) Tj T* ET
 Q
 Q
 Q
@@ -6119,7 +6119,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (1.3 | Rubber Elastic Properties) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (0.3 | Rubber Elastic Properties) Tj T* ET
 Q
 Q
 q
@@ -6178,7 +6178,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-26       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-27       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -6218,12 +6218,12 @@ endstream
 endobj
 93 0 obj
 <<
-/Length 4277
+/Length 4393
 >>
 stream
 1 0 0 1 0 0 cm 
 q
-1 0 0 1 51.35433 695.878 cm
+1 0 0 1 51.35433 683.878 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -6233,44 +6233,44 @@ q
 .662745 .662745 .662745 RG
 .5 w
 .819608 .870588 .870588 rg
-n -6 -6 510.926 36 re B*
+n -6 -6 510.926 48 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 15 Tm /F4+0 9 Tf 12 TL (shear modulus  rubber height  contant pi  bearing diameter) Tj T* (\003\003\003\003\003\003\003\003\003\003\003\003\003  \003\003\003\003\003\003\003\003\003\003\003\003\003  \003\003\003\003\003\003\003\003\003\003  \003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003) Tj T* ET
+BT 1 0 0 1 0 27 Tm /F4+0 9 Tf 12 TL (\003\003\003\003\003          \003\003\003\003\003          \003\003\003\003\003       \003\003\003\003\003) Tj T* (rubber height  shear modulus  contant pi  bearing diameter) Tj T* (\003\003\003\003\003\003\003\003\003\003\003\003\003  \003\003\003\003\003\003\003\003\003\003\003\003\003  \003\003\003\003\003\003\003\003\003\003  \003\003\003\003\003\003\003\003\003\003\003\003\003\003\003\003) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 51.35433 677.878 cm
+1 0 0 1 51.35433 665.878 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F2+0 9 Tf 12 TL (Shape Factor for Circular Bearing) Tj T* ET
 Q
 Q
 q
-1 0 0 1 51.35433 670.878 cm
+1 0 0 1 51.35433 658.878 cm
 Q
 q
-1 0 0 1 51.35433 658.878 cm
+1 0 0 1 51.35433 646.878 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL ( ) Tj T* ET
 Q
 Q
 q
-1 0 0 1 51.35433 656.878 cm
+1 0 0 1 51.35433 644.878 cm
 Q
 q
-1 0 0 1 51.35433 638.878 cm
+1 0 0 1 51.35433 626.878 cm
 q
 BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Eq. 4:) Tj /F1+0 9 Tf 12 TL ( shape factor 1) Tj T* ET
 Q
 Q
 q
-1 0 0 1 51.35433 475.678 cm
+1 0 0 1 51.35433 463.678 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -6291,26 +6291,26 @@ Q
 Q
 Q
 q
-1 0 0 1 51.35433 463.678 cm
+1 0 0 1 51.35433 451.678 cm
 Q
 q
-1 0 0 1 51.35433 451.678 cm
+1 0 0 1 51.35433 439.678 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1+0 9 Tf 12 TL ( ) Tj T* ET
 Q
 Q
 q
-1 0 0 1 51.35433 449.678 cm
+1 0 0 1 51.35433 437.678 cm
 Q
 q
-1 0 0 1 51.35433 431.678 cm
+1 0 0 1 51.35433 419.678 cm
 q
 BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Eq. 5:) Tj /F1+0 9 Tf 12 TL ( shape factor 2) Tj T* ET
 Q
 Q
 q
-1 0 0 1 51.35433 268.478 cm
+1 0 0 1 51.35433 256.478 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -6331,7 +6331,7 @@ Q
 Q
 Q
 q
-1 0 0 1 51.35433 262.478 cm
+1 0 0 1 51.35433 250.478 cm
 Q
 q
 1 0 0 1 45.35433 779.6614 cm
@@ -6343,7 +6343,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (1.3 | Rubber Elastic Properties) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (0.3 | Rubber Elastic Properties) Tj T* ET
 Q
 Q
 q
@@ -6402,7 +6402,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-26       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-27       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -6449,7 +6449,7 @@ stream
 q
 1 0 0 1 48.51969 720.118 cm
 q
-BT 1 0 0 1 0 2.16 Tm 12.96 TL .133333 .133333 .133333 rg /F2+0 10.8 Tf 12.96 TL (2.1 | Equivalent Viscous Damping) Tj T* ET
+BT 1 0 0 1 0 2.16 Tm 12.96 TL .133333 .133333 .133333 rg /F2+0 10.8 Tf 12.96 TL (0.4 | Equivalent Viscous Damping) Tj T* ET
 Q
 Q
 q
@@ -6507,7 +6507,7 @@ Q
 q
 1 0 0 1 48.51969 106.6723 cm
 q
-BT 1 0 0 1 0 1.98 Tm 11.88 TL .133333 .133333 .133333 rg /F2+0 9.9 Tf 11.88 TL (2.1 - 2 | section-label) Tj T* ET
+BT 1 0 0 1 0 1.98 Tm 11.88 TL .133333 .133333 .133333 rg /F2+0 9.9 Tf 11.88 TL (0.4 - 2 | section-label) Tj T* ET
 Q
 Q
 q
@@ -6523,7 +6523,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (2.1 | Equivalent Viscous Damping) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (0.4 | Equivalent Viscous Damping) Tj T* ET
 Q
 Q
 q
@@ -6582,7 +6582,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-26       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-27       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -6723,7 +6723,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (2.1 | Equivalent Viscous Damping) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (0.4 | Equivalent Viscous Damping) Tj T* ET
 Q
 Q
 q
@@ -6782,7 +6782,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-26       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-27       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -6858,7 +6858,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (2.1 | Equivalent Viscous Damping) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (0.4 | Equivalent Viscous Damping) Tj T* ET
 Q
 Q
 q
@@ -6917,7 +6917,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-26       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-27       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -6964,7 +6964,7 @@ stream
 q
 1 0 0 1 51.35433 720.118 cm
 q
-BT 1 0 0 1 0 2.16 Tm 12.96 TL .133333 .133333 .133333 rg /F2+0 10.8 Tf 12.96 TL (2.2 | Hysteretic Damping) Tj T* ET
+BT 1 0 0 1 0 2.16 Tm 12.96 TL .133333 .133333 .133333 rg /F2+0 10.8 Tf 12.96 TL (0.5 | Hysteretic Damping) Tj T* ET
 Q
 Q
 q
@@ -7109,7 +7109,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (2.2 | Hysteretic Damping) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (0.5 | Hysteretic Damping) Tj T* ET
 Q
 Q
 q
@@ -7168,7 +7168,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-26       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-27       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -7326,7 +7326,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (2.2 | Hysteretic Damping) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (0.5 | Hysteretic Damping) Tj T* ET
 Q
 Q
 q
@@ -7385,7 +7385,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-26       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-27       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -7487,7 +7487,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (2.2 | Hysteretic Damping) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (0.5 | Hysteretic Damping) Tj T* ET
 Q
 Q
 q
@@ -7546,7 +7546,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-26       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-27       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -7593,7 +7593,7 @@ stream
 q
 1 0 0 1 48.51969 720.118 cm
 q
-BT 1 0 0 1 0 2.16 Tm 12.96 TL .133333 .133333 .133333 rg /F2+0 10.8 Tf 12.96 TL (3.1 | section 1) Tj T* ET
+BT 1 0 0 1 0 2.16 Tm 12.96 TL .133333 .133333 .133333 rg /F2+0 10.8 Tf 12.96 TL (0.6 | section 1) Tj T* ET
 Q
 Q
 q
@@ -7666,7 +7666,7 @@ Q
 q
 1 0 0 1 48.51969 458.8915 cm
 q
-BT 1 0 0 1 0 1.98 Tm 11.88 TL .133333 .133333 .133333 rg /F2+0 9.9 Tf 11.88 TL (3.1 - 2 | section-2) Tj T* ET
+BT 1 0 0 1 0 1.98 Tm 11.88 TL .133333 .133333 .133333 rg /F2+0 9.9 Tf 11.88 TL (0.6 - 2 | section-2) Tj T* ET
 Q
 Q
 q
@@ -7733,7 +7733,7 @@ Q
 q
 1 0 0 1 48.51969 227.665 cm
 q
-BT 1 0 0 1 0 1.98 Tm 11.88 TL .133333 .133333 .133333 rg /F2+0 9.9 Tf 11.88 TL (3.1 - 3 | Plot Mode Shapes) Tj T* ET
+BT 1 0 0 1 0 1.98 Tm 11.88 TL .133333 .133333 .133333 rg /F2+0 9.9 Tf 11.88 TL (0.6 - 3 | Plot Mode Shapes) Tj T* ET
 Q
 Q
 q
@@ -7817,7 +7817,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (3.1 | section 1) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (0.6 | section 1) Tj T* ET
 Q
 Q
 q
@@ -7876,7 +7876,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-26       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-27       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -8060,7 +8060,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (3.1 | section 1) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F2+0 9 Tf 12 TL (Seismic Isolation Bearing Design) Tj /F1+0 9 Tf 12 TL ( - v1.0.0a12         ) Tj /F2+0 9 Tf 12 TL (0.6 | section 1) Tj T* ET
 Q
 Q
 q
@@ -8119,7 +8119,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-26       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL 0 0 0 rg /F1+0 9 Tf 12 TL (2026-06-27       ) Tj /F2+0 9 Tf 12 TL (|) Tj /F1+0 9 Tf 12 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -8329,59 +8329,59 @@ xref
 0000708734 00000 n 
 0000708989 00000 n 
 0000709064 00000 n 
-0000709184 00000 n 
-0000709368 00000 n 
-0000709499 00000 n 
-0000709625 00000 n 
-0000709810 00000 n 
-0000709932 00000 n 
-0000710118 00000 n 
-0000710230 00000 n 
-0000710368 00000 n 
-0000710524 00000 n 
-0000710645 00000 n 
-0000710772 00000 n 
-0000710955 00000 n 
-0000713829 00000 n 
-0000716925 00000 n 
-0000718978 00000 n 
-0000721957 00000 n 
-0000724423 00000 n 
-0000730768 00000 n 
-0000735501 00000 n 
-0000752937 00000 n 
-0000760431 00000 n 
-0000764760 00000 n 
-0000769137 00000 n 
-0000773992 00000 n 
-0000776752 00000 n 
-0000784848 00000 n 
-0000793155 00000 n 
-0000798413 00000 n 
-0000805607 00000 n 
-0000810329 00000 n 
-0000810559 00000 n 
-0000810594 00000 n 
-0000810629 00000 n 
-0000810664 00000 n 
-0000810699 00000 n 
-0000810734 00000 n 
-0000810769 00000 n 
-0000810804 00000 n 
-0000810839 00000 n 
+0000709183 00000 n 
+0000709367 00000 n 
+0000709498 00000 n 
+0000709624 00000 n 
+0000709809 00000 n 
+0000709931 00000 n 
+0000710117 00000 n 
+0000710229 00000 n 
+0000710367 00000 n 
+0000710523 00000 n 
+0000710644 00000 n 
+0000710771 00000 n 
+0000710954 00000 n 
+0000713828 00000 n 
+0000716923 00000 n 
+0000718974 00000 n 
+0000721953 00000 n 
+0000724419 00000 n 
+0000730764 00000 n 
+0000735497 00000 n 
+0000752936 00000 n 
+0000760173 00000 n 
+0000764618 00000 n 
+0000768995 00000 n 
+0000773850 00000 n 
+0000776610 00000 n 
+0000784706 00000 n 
+0000793013 00000 n 
+0000798271 00000 n 
+0000805465 00000 n 
+0000810187 00000 n 
+0000810417 00000 n 
+0000810452 00000 n 
+0000810487 00000 n 
+0000810522 00000 n 
+0000810557 00000 n 
+0000810592 00000 n 
+0000810627 00000 n 
+0000810662 00000 n 
+0000810697 00000 n 
+0000810732 00000 n 
+0000810767 00000 n 
+0000810802 00000 n 
+0000810838 00000 n 
 0000810874 00000 n 
-0000810909 00000 n 
-0000810944 00000 n 
-0000810980 00000 n 
-0000811016 00000 n 
-0000811052 00000 n 
-0000811088 00000 n 
-0000811124 00000 n 
-0000811160 00000 n 
+0000810910 00000 n 
+0000810946 00000 n 
+0000810982 00000 n 
+0000811018 00000 n 
 trailer
 <<
 /ID 
-[<e3f7ae686eaf3a9d1133317f295a8bf8><e3f7ae686eaf3a9d1133317f295a8bf8>]
+[<ada23651189587d69b631034aadc0676><ada23651189587d69b631034aadc0676>]
 % ReportLab generated PDF document -- digest (opensource)
 
 /Info 69 0 R
@@ -8389,5 +8389,5 @@ trailer
 /Size 121
 >>
 startxref
-811196
+811054
 %%EOF

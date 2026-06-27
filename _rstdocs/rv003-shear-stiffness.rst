@@ -9,7 +9,7 @@
 
 .. _Rubber Elastic Properties:
 
-**1.3** | Rubber Elastic Properties
+**0.3** | Rubber Elastic Properties
 ================================================================================
  
  
@@ -72,25 +72,25 @@ Shore A       Young's modulus  Shear modulus     k    Bulk modulus
 
 .. _Shear Stiffness Example:
 
-**1.3 - 2** | Shear Stiffness Example
+**0.3 - 2** | Shear Stiffness Example
 --------------------------------------------------------------------------------
  
 
 **Table 3**: Bearing Specifications
 
 
-==========  ================  ===========  =======================
-variable    value             [value]      description
-==========  ================  ===========  =======================
-G_1         58.00 lb_in2      0.40 MPA     shear modulus
-K_1         200000.00 lb_in2  1378.95 MPA  bulk modulus
-rnl         51                51           number of rubber layers
-rdia        39.50 inch        100.33 cm    bearing diameter
-rthk        0.40 inch         1.02 cm      layer thickness
-sdia        38.00 inch        96.52 cm     shim diameter
-sthk        0.09 inch         0.23 cm      11 guage shim thickness
-cpi         3.1418            3.1418       contant pi
-==========  ================  ===========  =======================
+==========  ==============  ===========  =======================
+variable    value           [value]      description
+==========  ==============  ===========  =======================
+G_1         58.00 p_si      0.40 MPA     shear modulus
+K_1         200000.00 p_si  1378.95 MPA  bulk modulus
+rnl         51              51           number of rubber layers
+rdia        39.50 inch      100.33 cm    bearing diameter
+rthk        0.40 inch       1.02 cm      layer thickness
+sdia        38.00 inch      96.52 cm     shim diameter
+sthk        0.09 inch       0.23 cm      11 guage shim thickness
+cpi         3.1418          3.1418       contant pi
+==========  ==============  ===========  =======================
  
 **Bearing Stiffness for Circular Bearing**
 
@@ -108,12 +108,13 @@ cpi         3.1418            3.1418       contant pi
 
            rht = 20.40 inch     [rht] = 51.82 cm   | rubber height
 
-           rthk             rnl
-           ———————————————  ———————————————————————
-           0.40 inch        51
-           —————            —————
-           layer thickness  number of rubber layers
-           ———————————————  ———————————————————————
+           rnl               rthk
+           ————————————————  ———————————————
+           51                0.40 inch
+           —————             —————
+           number of rubber  layer thickness
+           layers            -
+           ————————————————  ———————————————
 
 
 
@@ -129,12 +130,13 @@ cpi         3.1418            3.1418       contant pi
 
            bht = 24.95 inch     [bht] = 63.37 cm   | bearing height
 
-           rht            sthk                     rnl
-           —————————————  ———————————————————————  ———————————————————————
-           20.40 inch     0.09 inch                51
-           —————          —————                    —————
-           rubber height  11 guage shim thickness  number of rubber layers
-           —————————————  ———————————————————————  ———————————————————————
+           sthk           rnl               rht
+           —————————————  ————————————————  —————————————
+           0.09 inch      51                20.40 inch
+           —————          —————             —————
+           11 guage shim  number of rubber  rubber height
+           thickness      layers            -
+           —————————————  ————————————————  —————————————
 
 
 
@@ -151,13 +153,13 @@ cpi         3.1418            3.1418       contant pi
            Ks₁ = ────────────
                     4⋅rht    
 
-           Ks₁ = 3.48 k_i     [Ks₁] = 6.10 kN_cm   | shear stiffness
+           Ks₁ = 3.48 k_in     [Ks₁] = 6.10 kN_cm   | shear stiffness
 
-           G₁             rht            cpi         rdia
+           rht            G₁             cpi         rdia
            —————————————  —————————————  ——————————  ————————————————
-           58.00 lb_in2   20.40 inch     3.1418      39.50 inch
+           20.40 inch     58.00 p_si     3.1418      39.50 inch
            —————          —————          —————       —————
-           shear modulus  rubber height  contant pi  bearing diameter
+           rubber height  shear modulus  contant pi  bearing diameter
            —————————————  —————————————  ——————————  ————————————————
 
 

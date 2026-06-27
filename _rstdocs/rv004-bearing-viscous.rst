@@ -9,11 +9,11 @@
 
 .. _Equivalent Viscous Damping:
 
-**2.1** | Equivalent Viscous Damping
+**0.4** | Equivalent Viscous Damping
 ================================================================================
  
 
-.. figure:: C:/git/rivtbk-example-04-git/bk201-Bearing-Viscous-Damping/img/fig201-1.png
+.. figure:: C:/git/rivtbk-example-04-git/bk4-Bearing-Viscous-Damping/img/fig201-1.png
    :width: 80%
    :align: center
 
@@ -54,12 +54,12 @@ frequency-response curve.
 
 .. _section-label:
 
-**2.1 - 2** | section-label
+**0.4 - 2** | section-label
 --------------------------------------------------------------------------------
  
  
 
-.. figure:: C:/git/rivtbk-example-04-git/bk201-Bearing-Viscous-Damping/img/fig201-2.png
+.. figure:: C:/git/rivtbk-example-04-git/bk4-Bearing-Viscous-Damping/img/fig201-2.png
    :width: 80%
    :align: center
 

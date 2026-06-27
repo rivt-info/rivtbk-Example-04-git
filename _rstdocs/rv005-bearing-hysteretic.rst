@@ -9,7 +9,7 @@
 
 .. _Hysteretic Damping:
 
-**2.2** | Hysteretic Damping
+**0.5** | Hysteretic Damping
 ================================================================================
  
  

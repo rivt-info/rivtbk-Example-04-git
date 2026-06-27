@@ -1,15 +1,10 @@
- 
-.. raw:: pdf
 
-   PageBreak
-
-      
+--------------------------------------------------------------------------------
+| rivt | 301 System Period | R Holland | v-1.0.0a12 | 2026-06-27 - 01:37AM
+--------------------------------------------------------------------------------
 
 
-
-.. _section 1:
-
-**3.1** | section 1
+0.6 | section 1
 ================================================================================
  
 This example illustrates arrays and plotting.  [1]_ 
@@ -45,18 +40,11 @@ evect = PL.array(eigen[1])                                 [8]
 [-0.246  0.502  0.666]]
  
 [py] for i in range(len(nat_freq)):
-[py]     evectt = PL.transpose(evect)     
+[py]     evectt = PL.transpose(evect)
 [py]     evectt[i] = evectt[i]/evectt[i][0]
  
 
-
---------------
-
-
-
-.. _section-2:
-
-**3.1 - 2** | section-2
+0.6 - 2 | section-2
 --------------------------------------------------------------------------------
  
 normalized eigenvectors
@@ -86,9 +74,9 @@ dynamic matrix
 0.001 0.002 0.001
 0.001 0.001 0.001
  
-xx = NP.concatenate((evals,evect),1)                          
-yy = ["freq","level 3","level 2","level 1"]                   
-tt = NP.vstack((yy,xx))                                       
+xx = NP.concatenate((evals,evect),1)
+yy = ["freq","level 3","level 2","level 1"]
+tt = NP.vstack((yy,xx))
 .  tt = [['freq' 'level 3' 'level 2' 'level
 ['14.52482' '1.0' '1.0' '1.0']
 ['31.00868' '0.648' '-0.608' '-2.542']
@@ -102,14 +90,7 @@ freq level 3 level 2 level 1
  
  
 
-
---------------
-
-
-
-.. _Plot Mode Shapes:
-
-**3.1 - 3** | Plot Mode Shapes
+0.6 - 3 | Plot Mode Shapes
 --------------------------------------------------------------------------------
  
  
@@ -185,6 +166,6 @@ PL.savefig(_cpypath+"/figs/p178a.png")
 
 --------------------------------------------------------------------------------
 
-.. [1] R.W. Clough and J. Penzien, *Dynamics of Structures*. New York, NY, USA:McGraw-Hill, 1975.
-
+[1] R.W. Clough and J. Penzien, *Dynamics of Structures*. New York, NY,
+USA:McGraw-Hill, 1975.
 

@@ -8,3 +8,4 @@
 >> rst << generated from: C:\git\rivtbk-example-04-git\bk201-Bearing-Viscous-Damping\rv201-bearing-viscous.py
 >> rst << generated from: C:\git\rivtbk-example-04-git\bk201-Bearing-Viscous-Damping\rv201-bearing-viscous.py
 >> rst << generated from: C:\git\rivtbk-example-04-git\bk201-Bearing-Viscous-Damping\rv201-bearing-viscous.py
+>> rst << generated from: C:\git\rivtbk-example-04-git\bk201-Bearing-Viscous-Damping\rv201-bearing-viscous.py
