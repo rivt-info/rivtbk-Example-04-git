@@ -16,3 +16,4 @@
 >> txt << generated from: C:\git\rivtbk-example-04-git\bk6-System Period\rv006-system-period.py
 >> txt << generated from: C:\git\rivtbk-example-04-git\bk6-System Period\rv006-system-period.py
 >> pdf << generated from: C:\git\rivtbk-example-04-git\bk6-System Period\rv006-system-period.py
+>> pdf << generated from: C:\git\rivtbk-example-04-git\bk6-System Period\rv006-system-period.py

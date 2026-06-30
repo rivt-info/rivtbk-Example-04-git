@@ -1,15 +1,15 @@
-06-27 01:37  rv003-shear-stiffness   INFO     Doc start
-06-27 01:37  rv003-shear-stiffness   INFO     rivtlib version: 1.0.0a5
-06-27 01:37  rv003-shear-stiffness   INFO     rivt backup : C:\git\rivtbk-example-04-git\_rvstor\logs\rv003-shear-stiffness.bak
-06-27 01:37  rv003-shear-stiffness   INFO     Rubber Elastic Properties
-06-27 01:37  rv003-shear-stiffness   INFO     SECTION 0.3 - type I
-06-27 01:37  rv003-shear-stiffness   INFO     tag : _[T]
-06-27 01:37  rv003-shear-stiffness   INFO     tag : _[T]
-06-27 01:37  rv003-shear-stiffness   INFO     tag : _[[TEXT]]
-06-27 01:37  rv003-shear-stiffness   INFO     Shear Stiffness Example
-06-27 01:37  rv003-shear-stiffness   INFO     SECTION 0.3 - 2 - type V
-06-27 01:37  rv003-shear-stiffness   INFO     tag : _[T]
-06-27 01:37  rv003-shear-stiffness   INFO     tag : _[B]
-06-27 01:37  rv003-shear-stiffness   INFO     tag : _[B]
-06-27 01:37  rv003-shear-stiffness   INFO     SECTION : Publish Doc 
-06-27 01:37  rv003-shear-stiffness   INFO     block tag : METADATA]]
+06-29 19:19  rv003-shear-stiffness   INFO     Doc start
+06-29 19:19  rv003-shear-stiffness   INFO     rivtlib version: 1.0.0a5
+06-29 19:19  rv003-shear-stiffness   INFO     rivt backup : C:\git\rivtbk-example-04-git\_rvstor\logs\rv003-shear-stiffness.bak
+06-29 19:19  rv003-shear-stiffness   INFO     Rubber Elastic Properties
+06-29 19:19  rv003-shear-stiffness   INFO     SECTION 0.3 - type I
+06-29 19:19  rv003-shear-stiffness   INFO     tag : _[T]
+06-29 19:19  rv003-shear-stiffness   INFO     tag : _[T]
+06-29 19:19  rv003-shear-stiffness   INFO     tag : _[[TEXT]]
+06-29 19:19  rv003-shear-stiffness   INFO     Shear Stiffness Example
+06-29 19:19  rv003-shear-stiffness   INFO     SECTION 0.3 - 2 - type V
+06-29 19:19  rv003-shear-stiffness   INFO     tag : _[T]
+06-29 19:19  rv003-shear-stiffness   INFO     tag : _[B]
+06-29 19:19  rv003-shear-stiffness   INFO     tag : _[B]
+06-29 19:19  rv003-shear-stiffness   INFO     SECTION : Publish Doc 
+06-29 19:19  rv003-shear-stiffness   INFO     block tag : METADATA]]

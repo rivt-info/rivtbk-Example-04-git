@@ -1,6 +1,6 @@
 
 --------------------------------------------------------------------------------
-| rivt | 103 Shear Stiffness | R Holland | v-1.0.0a12 | 2026-06-27 - 01:37AM
+| rivt | 103 Shear Stiffness | R Holland | v-1.0.0a12 | 2026-06-29 - 07:19PM
 --------------------------------------------------------------------------------
 
 
@@ -80,14 +80,14 @@ Bearing Stiffness for Circular Bearing
 
 rht = 20.40 inch    [rht] = 51.82 cm  | rubber height
 
-================  ===============
-rnl               rthk
-================  ===============
-51                0.40 inch
-—————             —————
-number of rubber  layer thickness
-layers            -
-================  ===============
+===============  ================
+rthk             rnl
+===============  ================
+0.40 inch        51
+—————            —————
+layer thickness  number of rubber
+-                layers
+===============  ================
 
 ┌  Eq-2 | bearing height
 │
@@ -97,12 +97,12 @@ layers            -
 bht = 24.95 inch    [bht] = 63.37 cm  | bearing height
 
 =============  ================  =============
-sthk           rnl               rht
+rht            rnl               sthk
 =============  ================  =============
-0.09 inch      51                20.40 inch
+20.40 inch     51                0.09 inch
 —————          —————             —————
-11 guage shim  number of rubber  rubber height
-thickness      layers            -
+rubber height  number of rubber  11 guage shim
+-              layers            thickness
 =============  ================  =============
 
 ┌  Eq-3 | shear stiffness
@@ -115,13 +115,13 @@ thickness      layers            -
 
 Ks₁ = 3.48 k_in    [Ks₁] = 6.10 kN_cm  | shear stiffness
 
-=============  =============  ==========  ================
-rht            G₁             cpi         rdia
-=============  =============  ==========  ================
-20.40 inch     58.00 p_si     3.1418      39.50 inch
-—————          —————          —————       —————
-rubber height  shear modulus  contant pi  bearing diameter
-=============  =============  ==========  ================
+================  ==========  =============  =============
+rdia              cpi         rht            G₁
+================  ==========  =============  =============
+39.50 inch        3.1418      20.40 inch     58.00 p_si
+—————             —————       —————          —————
+bearing diameter  contant pi  rubber height  shear modulus
+================  ==========  =============  =============
  
 Shape Factor for Circular Bearing
 
@@ -153,12 +153,12 @@ layer thickness  shim diameter
 
 sh₂ ₁ = 1    [sh₂ ₁] = 1  | shape factor 2
 
-==============  ================
-bht             rdia
-==============  ================
-25 inch         40 inch
-—————           —————
-bearing height  bearing diameter
-==============  ================
+================  ==============
+rdia              bht
+================  ==============
+40 inch           25 inch
+—————             —————
+bearing diameter  bearing height
+================  ==============
  
  

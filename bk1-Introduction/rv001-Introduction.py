@@ -1,25 +1,31 @@
 import rivtlib.rvapi as rv
 
-rv.I("""Introduction 
+# %% rv.I("""Introduction 
+rv.I("""rivtbook Example 
 
-    This is an example of a rivtbook. rivtbooks are collections of rivt files
-    organized around a common subject. Each rivt file (subdivision) and its
-    associated resources are contained in a unique folder to faciliate direct
-    selection and insertion into rivt docs and reports.
+    A rivtbook is a collection of rivt files with a common subject and organized
+    for selective addition to rivt docs and reports. A rivtbook may be published as
+    a PDF or text report to facilitate review and selection of chapters.
+    
+    rivtbooks do not need to be organized into divisions. A sequence of chapters
+    is sufficient as chapters will be renumbered in the target report. The folder
+    structure for rivtbooks faciliates copy-paste of chapters. 
+    
+    The rivt file and its source files are contained within the same folder
+    (orange). A rivtbook chapter can be imported into a rivt report by copying
+    the *rivt file* (blue) to the *rivt-report* folder and its source folders
+    (green) to the *rvsrc* folder.
+    
+    
+    | IMAGE | img/rvbk-rivt.jpg | How to copy a rivtbook chapter to a rivt report, 100, num, not 
 
     """)
 
+# %% rv.D("""Publish Doc 
 rv.D("""Publish Doc 
     
-    A rivt file may be published as a text, PDF or HTML doc by specifying the
-    PUBLISH type parameter as txt, pdf or html. 
     
-    Published files are found in sub-folders of the _published folder. A text
-    version of the doc or report is is always written to the rivt and
-    _rivt-public folders as a README.txt file which is displayed on the
-    first page of a GitHub repo. 
-    
-    | PUBLISH | 101 Introduction | pdf
+    | PUBLISH | rivtbook Example - Introduction | pdf
     
     _[[METADATA]] 
     [doc]

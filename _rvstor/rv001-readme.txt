@@ -1,15 +1,29 @@
 
 --------------------------------------------------------------------------------
-| rivt | 101 Introduction | R Holland | v-1.0.0a12 | 2026-06-27 - 01:37AM
+| rivt | rivtbook Example - Introduction | R Holland | v-1.0.0a12 | 2026-06-29 - 11:56PM
 --------------------------------------------------------------------------------
 
 
-0.1 | Introduction
+0.1 | rivtbook Example
 ================================================================================
  
-This is an example of a rivtbook. rivtbooks are collections of rivt files
-organized around a common subject. Each rivt file (subdivision) and its
-associated resources are contained in a unique folder to faciliate direct
-selection and insertion into rivt docs and reports.
+A rivtbook is a collection of rivt files with a common subject and organized
+for selective addition to rivt docs and reports. A rivtbook may be published as
+a PDF or text report to facilitate review and selection of chapters.
+ 
+rivtbooks do not need to be organized into divisions. A sequence of chapters
+is sufficient as chapters will be renumbered in the target report. The folder
+structure for rivtbooks faciliates copy-paste of chapters.
+ 
+The rivt file and its source files are contained within the same folder
+(orange). A rivtbook chapter can be imported into a rivt report by copying
+the rivt file (blue) to the rivt-report folder and its source folders
+(green) to the rvsrc folder.
+ 
+ 
+          ----------------------------------------
+Fig. 1 - Relation Between rivtbook and rivt Folders [file: img/rvbk-rivt.jpg  ]
+          ----------------------------------------
+
  
  

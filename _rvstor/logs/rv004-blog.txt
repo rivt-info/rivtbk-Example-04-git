@@ -17,3 +17,4 @@
 >> txt << generated from: C:\git\rivtbk-example-04-git\bk4-Bearing-Viscous-Damping\rv004-bearing-viscous.py
 >> txt << generated from: C:\git\rivtbk-example-04-git\bk4-Bearing-Viscous-Damping\rv004-bearing-viscous.py
 >> pdf << generated from: C:\git\rivtbk-example-04-git\bk4-Bearing-Viscous-Damping\rv004-bearing-viscous.py
+>> pdf << generated from: C:\git\rivtbk-example-04-git\bk4-Bearing-Viscous-Damping\rv004-bearing-viscous.py

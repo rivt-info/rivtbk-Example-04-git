@@ -1,12 +1,12 @@
-06-27 01:37  rv006-system-period   INFO     Doc start
-06-27 01:37  rv006-system-period   INFO     rivtlib version: 1.0.0a5
-06-27 01:37  rv006-system-period   INFO     rivt backup : C:\git\rivtbk-example-04-git\_rvstor\logs\rv006-system-period.bak
-06-27 01:37  rv006-system-period   INFO     section 1
-06-27 01:37  rv006-system-period   INFO     SECTION 0.6 - type I
-06-27 01:37  rv006-system-period   INFO     section-2 
-06-27 01:37  rv006-system-period   INFO     SECTION 0.6 - 2 - type I
-06-27 01:37  rv006-system-period   INFO     Plot Mode Shapes | python
-06-27 01:37  rv006-system-period   INFO     SECTION 0.6 - 3 - type I
-06-27 01:37  rv006-system-period   INFO     Bibliography | endnotes
-06-27 01:37  rv006-system-period   INFO     SECTION : Publish Doc 
-06-27 01:37  rv006-system-period   INFO     block tag : METADATA]]
+06-29 19:19  rv006-system-period   INFO     Doc start
+06-29 19:19  rv006-system-period   INFO     rivtlib version: 1.0.0a5
+06-29 19:19  rv006-system-period   INFO     rivt backup : C:\git\rivtbk-example-04-git\_rvstor\logs\rv006-system-period.bak
+06-29 19:19  rv006-system-period   INFO     section 1
+06-29 19:19  rv006-system-period   INFO     SECTION 0.6 - type I
+06-29 19:19  rv006-system-period   INFO     section-2 
+06-29 19:19  rv006-system-period   INFO     SECTION 0.6 - 2 - type I
+06-29 19:19  rv006-system-period   INFO     Plot Mode Shapes | python
+06-29 19:19  rv006-system-period   INFO     SECTION 0.6 - 3 - type I
+06-29 19:19  rv006-system-period   INFO     Bibliography | endnotes
+06-29 19:19  rv006-system-period   INFO     SECTION : Publish Doc 
+06-29 19:19  rv006-system-period   INFO     block tag : METADATA]]
