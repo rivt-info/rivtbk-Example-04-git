@@ -157,15 +157,7 @@ rv.R("""Footnotes | endnotes
 
 rv.D("""Publish Doc 
     
-    A rivt file may be published as a text, PDF or HTML doc by specifying the
-    PUBLISH type parameter as txt, pdf or html. 
-    
-    Published files are found in sub-folders of the _published folder. A text
-    version of the doc or report is is always written to the rivt and
-    _rivt-public folders as a README.txt file which is displayed on the
-    first page of a GitHub repo. 
-    
-    | PUBLISH | 102 Compression Stiffness | pdf
+    | PUBLISH | 002 Compression Stiffness | pdf
     
     _[[METADATA]] 
     [doc]
@@ -180,7 +172,7 @@ rv.D("""Publish Doc
     fork1_license = https://opensource.org/license/mit/
     
     [layout]
-    subtitle = Isolation Bearing Design
+    subtitle = Seismic Isolation Bearing Design
     copyright = --
     client = Example 04 - rivtbook
     coverpage = true

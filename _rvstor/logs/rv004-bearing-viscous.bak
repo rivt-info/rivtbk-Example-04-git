@@ -1,19 +1,16 @@
 import rivtlib.rvapi as rv
 
-rv.I("""Equivalent Viscous Damping 
+rv.I("""Equivalent Viscous Damping
 
-    | IMAGE | img/fig201-1.png | Viscous Damping Model, 80, num, not 
+    Equivalent viscous damping is the simplest form of damping for analysis
+    since the governing differential equation of motion is linear and hence
+    amenable to analytical solution. This section determines the damping
+    coefficient for viscous damping so that it is equivalent in some sense to
+    the combined effect of all damping mechanisms present in the actual
+    structure. _[#]
+
+    | IMAGE | img/fig201-1.png | Viscous Damping Model, 50, num, not 
     
-    Damping in actual structures is usually represented by equivalent viscous
-    damping. It is the simplest form of damping to use since the governing
-    differential equation of motion is linear and hence amenable to analytical
-    solution. The advantage of using _[#] a linear equation of motion usually
-    outweighs whatever compromises are necessary in the viscous damping
-    approximation. In this section we determine the damping coefficient for
-    viscous damping so that it is equivalent in some sense to the combined
-    effect of all damping mechanisms present in the actual structure; these
-    were mentioned in Section 1.4.
-
     The simplest definition of equivalent viscous damping is based on the
     measured response of a system to harmonic force at exciting frequency omega
     equal to the natural frequency omega_n of the system. The damping ratio
@@ -21,19 +18,13 @@ rv.I("""Equivalent Viscous Damping
     (u_st)_o. This is the equivalent viscous damping since it accounts for all
     the energy-dissipating mechanisms that existed in the experiments.
 
-    Another definition of equivalent viscous damping is that it is the amount
-    of damping that provides the same bandwidth in the frequency-response curve
-    as obtained experimentally for an actual system. The damping ratio zeta_eq
-    is calculated from Eq. (3.2.24) using the excitation frequencies f_a, f_b,
-    and f_n (Fig. 3.4.1) obtained from an experimentally determined
-    frequency-response curve.
     """)
 
 
-rv.I("""section-label 
+rv.I("""New Section  | pdfpage
     
 
-    | IMAGE | img/fig201-2.png | Viscous Damping Model, 80, num, not 
+    | IMAGE | img/fig201-2.png | Viscous Damping Model, 50, num, not 
 
     [Figure 3.9.1 -- image file: figures/fig_3_9_1.png -- Plot of Resisting
     force (vertical axis) versus Deformation (horizontal axis), showing an
@@ -51,9 +42,11 @@ rv.I("""section-label
     is given by the area E_D enclosed by the hysteresis loop. Equating this to
     the energy dissipated in viscous damping given by Eq. (3.8.1) leads to
 
-    4*pi*zeta_eq*(omega/omega_n)*E_So = E_D 
+    4 \\pi \\zeta_{\\mathrm{eq}} \\frac{\\omega}{\\omega_n} E_{S o}=E_D \\quad _[L]
+
+    or, equivalently,
     
-    zeta_eq = (1/(4*pi)) * (1/(omega/omega_n)) * (E_D/E_So)                              ... (3.9.1)
+    zeta_eq = (1/(4*pi)) * (1/(omega/omega_n)) * (E_D/E_So) _[M]
 
     where the strain energy, E_So = k*u_o**2/2, is calculated from the
     stiffness k determined by experiment.
@@ -84,18 +77,20 @@ rv.I("""section-label
     earthquakes. We shall account for these inelastic deformations and the
     associated energy dissipation by nonlinear force-deformation relations,
     such as those shown in Fig. 1.3.4 (see Chapters 5 and 7).
+    
     """)
 
-rv.R("""Bibliography | endnotes
 
-    Anil K.Anil K. Chopra, Dynamics of Structures: Theory and Applications to
+rv.R("""Footnotes | endnotes
+
+    Anil K. Chopra, Dynamics of Structures: Theory and Applications to
     Earthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
 
     """)
 
 rv.D("""Publish Doc 
     
-    | PUBLISH | 201 Bearing Viscous Damping | pdf
+    | PUBLISH | 004 Viscous Damping | pdf
     
     _[[METADATA]] 
     [doc]
@@ -110,7 +105,7 @@ rv.D("""Publish Doc
     fork1_license = https://opensource.org/license/mit/
     
     [layout]
-    subtitle =  Isolation Bearing Design
+    subtitle =  Seismic Isolation Bearing Design
     copyright = --
     client = Example 04 - rivtbook
     coverpage = true

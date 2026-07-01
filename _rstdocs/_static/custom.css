@@ -151,3 +151,7 @@ hr {
 .admonition .admonition-title {
     border: none !important;
 }
+
+.math {
+    text-align: center !important;
+}

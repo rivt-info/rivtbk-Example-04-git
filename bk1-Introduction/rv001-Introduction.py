@@ -24,7 +24,6 @@ rv.I("""rivtbook Example
 # %% rv.D("""Publish Doc 
 rv.D("""Publish Doc 
     
-    
     | PUBLISH | rivtbook Example - Introduction | pdf
     
     _[[METADATA]] 
@@ -40,7 +39,7 @@ rv.D("""Publish Doc
     fork1_license = https://opensource.org/license/mit/
     
     [layout]
-    subtitle =  Isolation Bearing Design
+    subtitle =  Seismic Isolation Bearing Design
     copyright = --
     client = Example 04 - rivtbook
     coverpage = true

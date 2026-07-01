@@ -1,18 +1,21 @@
-06-29 19:19  rv004-bearing-viscous   INFO     Doc start
-06-29 19:19  rv004-bearing-viscous   INFO     rivtlib version: 1.0.0a5
-06-29 19:19  rv004-bearing-viscous   INFO     rivt backup : C:\git\rivtbk-example-04-git\_rvstor\logs\rv004-bearing-viscous.bak
-06-29 19:19  rv004-bearing-viscous   INFO     Equivalent Viscous Damping 
-06-29 19:19  rv004-bearing-viscous   INFO     SECTION 0.4 - type I
-06-29 19:19  rv004-bearing-viscous   INFO     command : IMAGE
-06-29 19:19  rv004-bearing-viscous   DEBUG    STREAM b'IHDR' 16 13
-06-29 19:19  rv004-bearing-viscous   DEBUG    STREAM b'tRNS' 41 6
-06-29 19:19  rv004-bearing-viscous   DEBUG    STREAM b'IDAT' 59 8192
-06-29 19:19  rv004-bearing-viscous   INFO     section-label 
-06-29 19:19  rv004-bearing-viscous   INFO     SECTION 0.4 - 2 - type I
-06-29 19:19  rv004-bearing-viscous   INFO     command : IMAGE
-06-29 19:19  rv004-bearing-viscous   DEBUG    STREAM b'IHDR' 16 13
-06-29 19:19  rv004-bearing-viscous   DEBUG    STREAM b'tRNS' 41 6
-06-29 19:19  rv004-bearing-viscous   DEBUG    STREAM b'IDAT' 59 8192
-06-29 19:19  rv004-bearing-viscous   INFO     Bibliography | endnotes
-06-29 19:19  rv004-bearing-viscous   INFO     SECTION : Publish Doc 
-06-29 19:19  rv004-bearing-viscous   INFO     block tag : METADATA]]
+06-30 21:52  rv004-bearing-viscous   INFO     Doc start
+06-30 21:52  rv004-bearing-viscous   INFO     rivtlib version: 1.0.0a5
+06-30 21:52  rv004-bearing-viscous   INFO     rivt backup : c:\git\rivtbk-example-04-git\_rvstor\logs\rv004-bearing-viscous.bak
+06-30 21:52  rv004-bearing-viscous   INFO     Equivalent Viscous Damping
+06-30 21:52  rv004-bearing-viscous   INFO     SECTION 0.4i - type I
+06-30 21:52  rv004-bearing-viscous   INFO     command : IMAGE
+06-30 21:52  rv004-bearing-viscous   DEBUG    STREAM b'IHDR' 16 13
+06-30 21:52  rv004-bearing-viscous   DEBUG    STREAM b'tRNS' 41 6
+06-30 21:52  rv004-bearing-viscous   DEBUG    STREAM b'IDAT' 59 8192
+06-30 21:52  rv004-bearing-viscous   INFO     New Section  | pdfpage
+06-30 21:52  rv004-bearing-viscous   INFO     SECTION 0.4 - 2i - type I
+06-30 21:52  rv004-bearing-viscous   INFO     command : IMAGE
+06-30 21:52  rv004-bearing-viscous   DEBUG    STREAM b'IHDR' 16 13
+06-30 21:52  rv004-bearing-viscous   DEBUG    STREAM b'tRNS' 41 6
+06-30 21:52  rv004-bearing-viscous   DEBUG    STREAM b'IDAT' 59 8192
+06-30 21:52  rv004-bearing-viscous   INFO     tag : _[L]
+06-30 21:52  rv004-bearing-viscous   INFO     tag : _[M]
+06-30 21:52  rv004-bearing-viscous   INFO     Footnotes | endnotes
+06-30 21:52  rv004-bearing-viscous   INFO     SECTION 0.4 - 3r - type R
+06-30 21:52  rv004-bearing-viscous   INFO     SECTION : Publish Doc 
+06-30 21:52  rv004-bearing-viscous   INFO     block tag : METADATA]]

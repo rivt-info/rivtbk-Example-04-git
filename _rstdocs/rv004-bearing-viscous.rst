@@ -1,10 +1,119 @@
-
---------------------------------------------------------------------------------
-| rivt | 004 Viscous Damping | R Holland | v-1.0.0a12 | 2026-06-30 - 09:52PM
---------------------------------------------------------------------------------
+.. |s| unicode:: 0xA0 
 
 
-0.4i | Equivalent Viscous Damping
+
+.. |blklogo| image:: ./_static/logo1.png
+   :height: 100px
+   :alt: logo
+
+
+    
+.. header::
+    .. list-table::
+        :class: header-box
+        :align: left
+        :widths: 90 10
+        
+        * - **004 Viscous Damping** - v1.0.0a12 |s| |s| |s| |s|  **###Section###**
+          - p. **###Page###**   
+
+          
+
+.. footer:: 
+    .. list-table::
+        :class: footer-box
+        :align: left
+        :widths: 84 22 16
+        
+        * - 2026-06-30 |s| |s| |s| **|** |s| |s| |s| R Holland        
+          - **rivt**        
+          - |blklogo|
+
+
+                  
+
+.. role:: btext
+   :class: big-text
+
+.. role:: mtext
+    :class: medium-text
+
+.. role:: stext
+    :class: small-text
+
+|
+|
+|
+|
+        
+.. image:: _static/bearing1.png
+   :width: 30%
+   :align: center
+
+|
+|
+|
+|
+|
+
+.. rst-class:: center
+
+    :mtext:`Seismic Isolation Bearing Design`
+
+|
+
+.. rst-class:: center
+
+    :btext:`004 Viscous Damping`
+    
+|
+|
+|
+|
+|
+
+
+.. rst-class:: center
+
+    :mtext:`Example 04 - rivtbook`
+
+|
+
+.. rst-class:: center
+
+    :stext:`proj. 0004`
+
+   
+.. raw:: pdf
+
+   PageBreak noHead
+      
+**004 Viscous Damping** - v1.0.0a12
+
+--------------------
+
+|
+
+.. contents:: Table of Contents
+  :depth: 2
+
+  
+.. raw:: pdf
+ 
+   PageBreak mainPage
+   SetPageCounter 1
+
+ 
+.. raw:: pdf
+
+   PageBreak
+
+      
+
+
+.. _Equivalent Viscous Damping:
+
+**0.4i** | Equivalent Viscous Damping
 ================================================================================
  
 Equivalent viscous damping is the simplest form of damping for analysis
@@ -14,9 +123,14 @@ coefficient for viscous damping so that it is equivalent in some sense to
 the combined effect of all damping mechanisms present in the actual
 structure.  [1]_ 
  
-          ----------------------------------------
-Fig. 1 - Viscous Damping Model [file: img/fig201-1.png  ]
-          ----------------------------------------
+
+.. figure:: c:/git/rivtbk-example-04-git/bk4-Bearing-Viscous-Damping/img/fig201-1.png
+   :width: 50%
+   :align: center
+
+   **Fig. 1** - Viscous Damping Model   
+    
+
 
  
 The simplest definition of equivalent viscous damping is based on the
@@ -28,13 +142,31 @@ the energy-dissipating mechanisms that existed in the experiments.
  
  
 
-0.4 - 2i | New Section
+
+-------------------------
+
+
+
+.. raw:: pdf
+
+   PageBreak
+
+
+
+.. _New Section:
+
+**0.4 - 2i** | New Section
 --------------------------------------------------------------------------------
  
  
-          ----------------------------------------
-Fig. 2 - Viscous Damping Model [file: img/fig201-2.png  ]
-          ----------------------------------------
+
+.. figure:: c:/git/rivtbk-example-04-git/bk4-Bearing-Viscous-Damping/img/fig201-2.png
+   :width: 50%
+   :align: center
+
+   **Fig. 2** - Viscous Damping Model   
+    
+
 
  
 [Figure 3.9.1 -- image file: figures/fig_3_9_1.png -- Plot of Resisting
@@ -54,31 +186,43 @@ is given by the area E_D enclosed by the hysteresis loop. Equating this to
 the energy dissipated in viscous damping given by Eq. (3.8.1) leads to
  
 
-Eq.1
-[LaTeX] 4 \pi \zeta_{\mathrm{eq}} \frac{\omega}{\omega_n} E_{S o}=E_D \quad
+**Eq.1**
+
+
+.. container:: math-block 
+
+    .. math:: 
+         4 \pi \zeta_{\mathrm{eq}} \frac{\omega}{\omega_n} E_{S o}=E_D \quad
+
 
  
 or, equivalently,
  
-┌  Eq-2 | 
-│
-│               1     1        1  
-│     ζ_eq = 1⋅───⋅1⋅────⋅E_D⋅────
-│              4⋅π   ⎛ω ⎞     E_So
-│                    ⎜──⎟         
-│                    ⎝ωₙ⎠         
-└
+
+|
+
+**Eq.2:**
+
+.. code-block:: text 
+
+                     1     1        1  
+           ζ_eq = 1⋅───⋅1⋅────⋅E_D⋅────
+                    4⋅π   ⎛ω ⎞     E_So
+                          ⎜──⎟         
+                          ⎝ωₙ⎠         
+
+
 
 
  
-where the strain energy, E_So = ku_o2/2, is calculated from the
+where the strain energy, E_So = k*u_o**2/2, is calculated from the
 stiffness k determined by experiment.
  
 The experiment leading to the force-deformation curve of Fig. 3.9.1 and
 hence E_D should be conducted at omega = omega_n, where the response of the
 system is most sensitive to damping. Thus Eq. (3.9.1) specializes to
  
-zeta_eq = (1/(4pi))  (E_D/E_So)                              ... (3.9.2)
+zeta_eq = (1/(4*pi)) * (E_D/E_So)                              ... (3.9.2)
  
 The damping ratio zeta_eq determined from a test at omega = omega_n would
 not be correct at any other exciting frequency, but it would be a
@@ -104,8 +248,6 @@ such as those shown in Fig. 1.3.4 (see Chapters 5 and 7).
  
 
 
---------------------------------------------------------------------------------
+.. [1] Anil K. Chopra, Dynamics of Structures: Theory and Applications toEarthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
 
-[1] Anil K. Chopra, Dynamics of Structures: Theory and Applications toEarthquake
-Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
 

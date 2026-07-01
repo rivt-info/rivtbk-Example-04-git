@@ -1,26 +1,23 @@
 
 --------------------------------------------------------------------------------
-| rivt | 201 Bearing Viscous Damping | R Holland | v-1.0.0a12 | 2026-06-29 - 07:19PM
+| rivt | 004 Viscous Damping | R Holland | v-1.0.0a12 | 2026-06-30 - 09:52PM
 --------------------------------------------------------------------------------
 
 
-0.4 | Equivalent Viscous Damping
+0.4i | Equivalent Viscous Damping
 ================================================================================
+ 
+Equivalent viscous damping is the simplest form of damping for analysis
+since the governing differential equation of motion is linear and hence
+amenable to analytical solution. This section determines the damping
+coefficient for viscous damping so that it is equivalent in some sense to
+the combined effect of all damping mechanisms present in the actual
+structure.  [1]_ 
  
           ----------------------------------------
 Fig. 1 - Viscous Damping Model [file: img/fig201-1.png  ]
           ----------------------------------------
 
- 
-Damping in actual structures is usually represented by equivalent viscous
-damping. It is the simplest form of damping to use since the governing
-differential equation of motion is linear and hence amenable to analytical
-solution. The advantage of using  [1]_  a linear equation of motion usually
-outweighs whatever compromises are necessary in the viscous damping
-approximation. In this section we determine the damping coefficient for
-viscous damping so that it is equivalent in some sense to the combined
-effect of all damping mechanisms present in the actual structure; these
-were mentioned in Section 1.4.
  
 The simplest definition of equivalent viscous damping is based on the
 measured response of a system to harmonic force at exciting frequency omega
@@ -29,15 +26,9 @@ zeta_eq is calculated from Eq. (3.4.1) using measured values of u_o and
 (u_st)_o. This is the equivalent viscous damping since it accounts for all
 the energy-dissipating mechanisms that existed in the experiments.
  
-Another definition of equivalent viscous damping is that it is the amount
-of damping that provides the same bandwidth in the frequency-response curve
-as obtained experimentally for an actual system. The damping ratio zeta_eq
-is calculated from Eq. (3.2.24) using the excitation frequencies f_a, f_b,
-and f_n (Fig. 3.4.1) obtained from an experimentally determined
-frequency-response curve.
  
 
-0.4 - 2 | section-label
+0.4 - 2i | New Section
 --------------------------------------------------------------------------------
  
  
@@ -62,10 +53,23 @@ schematically in Fig. 3.9.1. The energy dissipated in the actual structure
 is given by the area E_D enclosed by the hysteresis loop. Equating this to
 the energy dissipated in viscous damping given by Eq. (3.8.1) leads to
  
-4pizeta_eq(omega/omega_n)E_So = E_D
+
+Eq.1
+[LaTeX] 4 \pi \zeta_{\mathrm{eq}} \frac{\omega}{\omega_n} E_{S o}=E_D \quad
+
  
-zeta_eq = (1/(4pi)) * (1/(omega/omega_n)) * (E_D/E_So)
-... (3.9.1)
+or, equivalently,
+ 
+┌  Eq-2 | 
+│
+│               1     1        1  
+│     ζ_eq = 1⋅───⋅1⋅────⋅E_D⋅────
+│              4⋅π   ⎛ω ⎞     E_So
+│                    ⎜──⎟         
+│                    ⎝ωₙ⎠         
+└
+
+
  
 where the strain energy, E_So = ku_o2/2, is calculated from the
 stiffness k determined by experiment.
@@ -74,7 +78,7 @@ The experiment leading to the force-deformation curve of Fig. 3.9.1 and
 hence E_D should be conducted at omega = omega_n, where the response of the
 system is most sensitive to damping. Thus Eq. (3.9.1) specializes to
  
-zeta_eq = (1/(4pi)) * (E_D/E_So)                              ... (3.9.2)
+zeta_eq = (1/(4pi))  (E_D/E_So)                              ... (3.9.2)
  
 The damping ratio zeta_eq determined from a test at omega = omega_n would
 not be correct at any other exciting frequency, but it would be a
@@ -97,9 +101,11 @@ earthquakes. We shall account for these inelastic deformations and the
 associated energy dissipation by nonlinear force-deformation relations,
 such as those shown in Fig. 1.3.4 (see Chapters 5 and 7).
  
+ 
+
 
 --------------------------------------------------------------------------------
 
-[1] Anil K.Anil K. Chopra, Dynamics of Structures: Theory and Applications
-toEarthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
+[1] Anil K. Chopra, Dynamics of Structures: Theory and Applications toEarthquake
+Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
 
