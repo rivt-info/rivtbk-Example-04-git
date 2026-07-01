@@ -1,17 +1,26 @@
+ 
+.. raw:: pdf
 
---------------------------------------------------------------------------------
-| rivt | 002 Compression Stiffness | R Holland | v-1.0.0a12 | 2026-07-01 - 11:54AM
---------------------------------------------------------------------------------
+   PageBreak
+
+      
 
 
-0.2 | Shape Factor
+.. _Shape Factor:
+
+**0.2** | Shape Factor
 ================================================================================
  
 **COMPRESSION BLOCK**  `[1]`_ 
  
-          ----------------------------------------
-Fig. 1 - Shape Factor [file: img/fig27.jpg  ]
-          ----------------------------------------
+
+.. figure:: C:/git/rivtbk-example-04-git/bk2-Bearing-Compression-Stiffness/img/fig27.jpg
+   :width: 80%
+   :align: center
+
+   **Fig. 1** - Shape Factor   
+    
+
 
  
 Effect of shape factor: Experimental stress-strain curves for 6.3 mm thick
@@ -23,9 +32,14 @@ prevented from slipping (by bonding or by mechanical location), depends
 upon the shape factor S (see Fig. 1), defined as the ratio of one loaded
 area to the total force-free area, as shown in Fig. 2.
  
-          ----------------------------------------
-Fig. 2 - Compression Modulus [file: img/fig28.png  ]
-          ----------------------------------------
+
+.. figure:: C:/git/rivtbk-example-04-git/bk2-Bearing-Compression-Stiffness/img/fig28.png
+   :width: 60%
+   :align: center
+
+   **Fig. 2** - Compression Modulus   
+    
+
 
  
 Variation of compression modulus Ec with shape factor S for natural rubbers
@@ -47,7 +61,14 @@ footnote to Table 2) then the E∞ value in Table 3 should be doubled.
  
  
 
-0.2 - 2 | Modulus
+
+-------------------------
+
+
+
+.. _Modulus:
+
+**0.2 - 2** | Modulus
 --------------------------------------------------------------------------------
  
 S = (LB) / (2t*(L+B))
@@ -79,9 +100,14 @@ Ec ≈ 5GS2
  
 where G is the shear modulus (from Table 3).
  
-          ----------------------------------------
-Fig. 3 - Compression Stiffness Kc [file: img/fig29.png  ]
-          ----------------------------------------
+
+.. figure:: C:/git/rivtbk-example-04-git/bk2-Bearing-Compression-Stiffness/img/fig29.png
+   :width: 80%
+   :align: center
+
+   **Fig. 3** - Compression Stiffness Kc   
+    
+
 
  
 Rubber block in compression. Diagram shows a rectangular rubber block of
@@ -94,8 +120,7 @@ Kc = F/x = Ec*A/t
  
 where
 F = compressive load
-Ec = compression modulus (corrected, if necessary, for the effect of bulk
-compression)
+Ec = compression modulus (corrected, if necessary, for the effect of bulk compression)
 A = cross-sectional area
 t = thickness
 x = deflexion
@@ -118,7 +143,14 @@ of the least plan dimension there should be no instability.
  
  
 
-0.2 - 3 | Strip Analysis
+
+-------------------------
+
+
+
+.. _Strip Analysis:
+
+**0.2 - 3** | Strip Analysis
 --------------------------------------------------------------------------------
  
 COMPRESSION STRIP
@@ -130,7 +162,7 @@ Shape factor
  
 S = b / (2*t)
  
- IMAGE | img/fig30.png | Compression Strip, 80, num, not
+ IMAGE | img/fig30.png | Compression Strip, 80, num, not 
  
 Diagram shows a long rectangular strip of rubber of width b, thickness t,
 and unit length, compressed by a load F applied per unit length.
@@ -145,8 +177,7 @@ Kc = F/x = Ec*b/t = (4*b*E0*(1 + k*S**2)) / (3*t)
  
 where
 F = load per unit length
-Ec = compression modulus (corrected, if necessary, for the effect of bulk
-compression)
+Ec = compression modulus (corrected, if necessary, for the effect of bulk compression)
 E0 = Young's modulus (from Table 3)
 b = width of strip
 t = thickness of strip
@@ -165,8 +196,12 @@ non-linearity is usually ignored for strains up to about 10%.
  
 
 
---------------------------------------------------------------------------------
+--------------------
 
-[1] P.B. Lindley, Engineering Design with Natural Rubber, NR Technical
-Bulletin.Malaysian Rubber Producers' Research Association, Brickendonbury, U.K.
+
+.. _[1]: 
+
+[1]   P.B. Lindley, Engineering Design with Natural Rubber, NR Technical Bulletin.Malaysian Rubber Producers' Research Association, Brickendonbury, U.K.
+
+
 

@@ -1,17 +1,18 @@
 import rivtlib.rvapi as rv
 
-rv.I("""section 1
+rv.I("""System Period
 
-    This example illustrates arrays and plotting. _[#]
+     
 
     CLOUGH, PENZIEN - Dynamics of Structures, page 178
 
-    Use flexibility formulation (see page 182)
+    Use flexibility formulation _[#] (see page 182)
+
+    Also see _[#]
 
     calioPY Procedure Output - Example 6
     This example illustrates arrays and plotting.
-    =CLOUGH, PENZIEN - Dynamics of Structures, page 178
-    Use flexibility formulation (see page 182)
+
 
     1. set up mass and stiffness arrays
     m = PL.array([[1.0,0,0],[0,1.5,0],[0,0,2.0]],float)        [1]
@@ -39,7 +40,7 @@ rv.I("""section 1
     [py]     evectt[i] = evectt[i]/evectt[i][0]
     """)
 
-rv.I("""section-2 
+rv.I("""Eigenvectors and Eigenvalues 
     
     normalized eigenvectors
 . 
@@ -84,45 +85,45 @@ rv.I("""section-2
 
     """)
 
-rv.I("""Plot Mode Shapes | python
+rv.I("""Plot Mode Shapes 
     
-   .
+    _[[TEXT]] text
     1. set up mass and stiffness arrays
     [1] m = PL.array([[1.0,0,0],[0,1.5,0],[0,0,2.0]],float
     [2] k1 = 600*PL.array([[1,-1,0.0],[-1,3,-2],[0,-2,5]
-   .
+   
     2. flexibility and dynamic matrix
     [3] f = PL.inv(k1)
     [4] d = PL.inner(f,m)
-   .
+   
     3. eigenvalues
     [5] eigen = PL.eig(d)
     [6] evalu = eigen[0] ?5
     [7] nat_freq = 1/(evalu**.5) ?5
-   .
+   
     4. normalize and scale eigenvectors
     [8] evect = PL.array(eigen[1]) ?
-   .
-   .
+   
+   
     -pycode-
     for i in range(len(nat_freq)):
     evectt = PL.transpose(evect)
     evectt[i] = evectt[i]/evectt[i][0]
     -insert-
-   .
+   
     normalized eigenvectors
     {] evectt ?3
-   .
+   
      SUMMARY TABLES
      
     -table-02 m ?4; mass matrix;
-   .
+   
     -table-02 k1 ?4; stiffness matrix;
 
     -table-02 f ?4; flexibility matrix ;
-   .
+   
     -table-02 d ?3; dynamic matrix ;
-   .
+   
     -k-
     # use reshape to transpose 1d array (list)
 
@@ -153,6 +154,7 @@ rv.I("""Plot Mode Shapes | python
     PL.title("Mode Shapes\nClough\Penzien (page 178)")
     PL.grid()
     PL.savefig(_cpypath+"/figs/p178a.png")
+    _[[END]]
 
     """)
 
@@ -161,11 +163,14 @@ rv.R("""Bibliography | endnotes
     R.W. Clough and J. Penzien, *Dynamics of Structures*. New York, NY, USA:
     McGraw-Hill, 1975.
 
+    Anil K.Anil K. Chopra, Dynamics of Structures: Theory and Applications to 
+    Earthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
+
     """)
 
 rv.D("""Publish Doc 
 
-    | PUBLISH | 301 System Period | pdf
+    | PUBLISH | 006 System Period | pdf
     
     _[[METADATA]] 
     [doc]

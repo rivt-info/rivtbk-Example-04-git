@@ -155,3 +155,19 @@ hr {
 .math {
     text-align: center !important;
 }
+
+/* Reset superscript behavior and restore standard font sizing */
+a.footnote-reference {
+    vertical-align: baseline !important;
+    font-size: inherit !important;
+    line-height: normal !important;
+}
+
+/* Ensure the brackets remain visible or add them via CSS pseudo-elements if hidden */
+a.footnote-reference::before {
+    content: "[";
+}
+
+a.footnote-reference::after {
+    content: "]";
+}

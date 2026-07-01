@@ -1,22 +1,23 @@
 
 --------------------------------------------------------------------------------
-| rivt | 301 System Period | R Holland | v-1.0.0a12 | 2026-06-29 - 07:19PM
+| rivt | 006 System Period | R Holland | v-1.0.0a12 | 2026-07-01 - 11:54AM
 --------------------------------------------------------------------------------
 
 
-0.6 | section 1
+0.6 | System Period
 ================================================================================
  
-This example illustrates arrays and plotting.  [1]_ 
+ 
  
 CLOUGH, PENZIEN - Dynamics of Structures, page 178
  
-Use flexibility formulation (see page 182)
+Use flexibility formulation  `[1]`_  (see page 182)
+ 
+Also see  `[2]`_ 
  
 calioPY Procedure Output - Example 6
 This example illustrates arrays and plotting.
-=CLOUGH, PENZIEN - Dynamics of Structures, page 178
-Use flexibility formulation (see page 182)
+ 
  
 1. set up mass and stiffness arrays
 m = PL.array([[1.0,0,0],[0,1.5,0],[0,0,2.0]],float)        [1]
@@ -44,7 +45,7 @@ evect = PL.array(eigen[1])                                 [8]
 [py]     evectt[i] = evectt[i]/evectt[i][0]
  
 
-0.6 - 2 | section-2
+0.6 - 2 | Eigenvectors and Eigenvalues
 --------------------------------------------------------------------------------
  
 normalized eigenvectors
@@ -93,46 +94,45 @@ freq level 3 level 2 level 1
 0.6 - 3 | Plot Mode Shapes
 --------------------------------------------------------------------------------
  
- 
 1. set up mass and stiffness arrays
 [1] m = PL.array([[1.0,0,0],[0,1.5,0],[0,0,2.0]],float
-[2] k1 = 600PL.array([[1,-1,0.0],[-1,3,-2],[0,-2,5]
- 
+[2] k1 = 600*PL.array([[1,-1,0.0],[-1,3,-2],[0,-2,5]
+
 2. flexibility and dynamic matrix
 [3] f = PL.inv(k1)
 [4] d = PL.inner(f,m)
- 
+
 3. eigenvalues
 [5] eigen = PL.eig(d)
 [6] evalu = eigen[0] ?5
-[7] nat_freq = 1/(evalu.5) ?5
- 
+[7] nat_freq = 1/(evalu**.5) ?5
+
 4. normalize and scale eigenvectors
 [8] evect = PL.array(eigen[1]) ?
- 
- 
+
+
 -pycode-
 for i in range(len(nat_freq)):
 evectt = PL.transpose(evect)
 evectt[i] = evectt[i]/evectt[i][0]
 -insert-
- 
+
 normalized eigenvectors
 {] evectt ?3
- 
+
  SUMMARY TABLES
- 
+
 -table-02 m ?4; mass matrix;
- 
+
 -table-02 k1 ?4; stiffness matrix;
- 
+
 -table-02 f ?4; flexibility matrix ;
- 
+
 -table-02 d ?3; dynamic matrix ;
- 
+
 -k-
 # use reshape to transpose 1d array (list)
- 
+
 evals=PL.reshape(nat_freq, (len(nat_freq),1))
 xx = NP.concatenate((evals,evect),1)
 yy = ["freq","level 3","level 2","level 1"]
@@ -146,9 +146,9 @@ x1=PL.concatenate((evect,zz),1)
 -pycode-
 #plot mode shapes using pylab
 y=PL.array([0,1,2,3])
-m3=x1[2].35+3
-m2=x1[1].35+2
-m1=x1[0].35+1
+m3=x1[2]*.35+3
+m2=x1[1]*.35+2
+m1=x1[0]*.35+1
 m=PL.concatenate((m1,m2,m3))
 PL.clf()
 PL.plot(m1,y)
@@ -161,11 +161,16 @@ PL.title("Mode Shapes
 gh\Penzien (page 178)")
 PL.grid()
 PL.savefig(_cpypath+"/figs/p178a.png")
+
  
  
+
 
 --------------------------------------------------------------------------------
 
 [1] R.W. Clough and J. Penzien, *Dynamics of Structures*. New York, NY,
 USA:McGraw-Hill, 1975.
+
+[2] Anil K.Anil K. Chopra, Dynamics of Structures: Theory and Applications
+toEarthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
 

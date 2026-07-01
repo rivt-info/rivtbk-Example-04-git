@@ -17,13 +17,12 @@ rv.I("""rivtbook Example
     (green) to the *rvsrc* folder.
     
     
-    | IMAGE | img/rvbk-rivt.jpg | Relation Between rivtbook and rivt Folders, 100, num, not 
+    | IMAGE | img/rvbk-rivt.jpg | How to copy a rivtbook chapter to a rivt report, 100, num, not 
 
     """)
 
 # %% rv.D("""Publish Doc 
 rv.D("""Publish Doc 
-    
     
     | PUBLISH | rivtbook Example - Introduction | pdf
     
@@ -40,7 +39,7 @@ rv.D("""Publish Doc
     fork1_license = https://opensource.org/license/mit/
     
     [layout]
-    subtitle =  Isolation Bearing Design
+    subtitle =  Seismic Isolation Bearing Design
     copyright = --
     client = Example 04 - rivtbook
     coverpage = true

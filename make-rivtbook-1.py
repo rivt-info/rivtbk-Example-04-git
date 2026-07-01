@@ -15,7 +15,7 @@ import importlib
 # ========= Modify report settings between the double lines ==============
 bookset = f"""
 [settings]
-;------- rivt book file name including the txt or pdf extension
+;------- rivtbook file name including the txt or pdf extension
 ;----------------------------------------------------------------
 ;
 rept_filename = rivtbk-Isolation Bearing Design.pdf

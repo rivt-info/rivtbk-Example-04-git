@@ -1,13 +1,13 @@
-06-29 19:19  make-rivtbook-1   INFO     >> pdf << generated from: C:\git\rivtbk-example-04-git\bk1-Introduction\rv001-Introduction.py
+07-01 11:54  make-rivtbook-1   INFO     >> pdf << generated from: c:\git\rivtbk-example-04-git\bk1-Introduction\rv001-Introduction.py
 
-06-29 19:19  make-rivtbook-1   INFO     >> pdf << generated from: C:\git\rivtbk-example-04-git\bk2-Bearing-Compression-Stiffness\rv002-compression-stiffness.py
+07-01 11:54  make-rivtbook-1   INFO     >> pdf << generated from: c:\git\rivtbk-example-04-git\bk2-Bearing-Compression-Stiffness\rv002-compression-stiffness.py
 
-06-29 19:19  make-rivtbook-1   INFO     >> pdf << generated from: C:\git\rivtbk-example-04-git\bk3-Bearing-Shear-Stiffness\rv003-shear-stiffness.py
+07-01 11:54  make-rivtbook-1   INFO     >> pdf << generated from: c:\git\rivtbk-example-04-git\bk3-Bearing-Shear-Stiffness\rv003-shear-stiffness.py
 
-06-29 19:19  make-rivtbook-1   INFO     >> pdf << generated from: C:\git\rivtbk-example-04-git\bk4-Bearing-Viscous-Damping\rv004-bearing-viscous.py
+07-01 11:54  make-rivtbook-1   INFO     >> pdf << generated from: c:\git\rivtbk-example-04-git\bk4-Bearing-Viscous-Damping\rv004-bearing-viscous.py
 
-06-29 19:19  make-rivtbook-1   INFO     >> pdf << generated from: C:\git\rivtbk-example-04-git\bk5-Bearing-Hysteretic-Damping\rv005-bearing-hysteretic.py
+07-01 11:54  make-rivtbook-1   INFO     >> pdf << generated from: c:\git\rivtbk-example-04-git\bk5-Bearing-Hysteretic-Damping\rv005-bearing-hysteretic.py
 
-06-29 19:19  make-rivtbook-1   INFO     >> pdf << generated from: C:\git\rivtbk-example-04-git\bk6-System Period\rv006-system-period.py
+07-01 11:54  make-rivtbook-1   INFO     >> pdf << generated from: c:\git\rivtbk-example-04-git\bk6-System Period\rv006-system-period.py
 
-06-29 19:19  make-rivtbook-1   INFO     |||||||||| README book : Seismic Isolation Bearing Design
+07-01 11:54  make-rivtbook-1   INFO     |||||||||| README book : Seismic Isolation Bearing Design

@@ -35,6 +35,7 @@ rv.I("""Shape Factor
     footnote to Table 2) then the E∞ value in Table 3 should be doubled.
 
     """)
+    
 
 rv.I("""Modulus
 

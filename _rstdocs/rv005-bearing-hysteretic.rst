@@ -1,10 +1,14 @@
+ 
+.. raw:: pdf
 
---------------------------------------------------------------------------------
-| rivt | 202 Rate Independent Damping | R Holland | v-1.0.0a12 | 2026-07-01 - 11:54AM
---------------------------------------------------------------------------------
+   PageBreak
+
+      
 
 
-0.5 | Hysteretic Damping
+.. _Hysteretic Damping:
+
+**0.5** | Hysteretic Damping
 ================================================================================
  
  
@@ -219,8 +223,12 @@ approximations. Image file: images/fig_3.11.2_coulomb_response.png]
  
 
 
---------------------------------------------------------------------------------
+--------------------
 
-[1] Anil K.Anil K. Chopra, Dynamics of Structures: Theory and Applications
-toEarthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
+
+.. _[1]: 
+
+[1]   Anil K.Anil K. Chopra, Dynamics of Structures: Theory and Applications toEarthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
+
+
 

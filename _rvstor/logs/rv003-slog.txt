@@ -19,3 +19,5 @@
 >> txt << generated from: C:\git\rivtbk-example-04-git\bk3-Bearing-Shear-Stiffness\rv003-shear-stiffness.py
 >> pdf << generated from: C:\git\rivtbk-example-04-git\bk3-Bearing-Shear-Stiffness\rv003-shear-stiffness.py
 >> pdf << generated from: C:\git\rivtbk-example-04-git\bk3-Bearing-Shear-Stiffness\rv003-shear-stiffness.py
+>> pdf << generated from: c:\git\rivtbk-example-04-git\bk3-Bearing-Shear-Stiffness\rv003-shear-stiffness.py
+>> pdf << generated from: c:\git\rivtbk-example-04-git\bk3-Bearing-Shear-Stiffness\rv003-shear-stiffness.py

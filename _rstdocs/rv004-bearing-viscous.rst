@@ -1,10 +1,14 @@
+ 
+.. raw:: pdf
 
---------------------------------------------------------------------------------
-| rivt | 004 Viscous Damping | R Holland | v-1.0.0a12 | 2026-07-01 - 11:54AM
---------------------------------------------------------------------------------
+   PageBreak
+
+      
 
 
-0.4 | Equivalent Viscous Damping
+.. _Equivalent Viscous Damping:
+
+**0.4** | Equivalent Viscous Damping
 ================================================================================
  
 Equivalent viscous damping is the simplest form of damping for analysis
@@ -14,9 +18,14 @@ coefficient for viscous damping so that it is equivalent in some sense to
 the combined effect of all damping mechanisms present in the actual
 structure.  `[1]`_ 
  
-          ----------------------------------------
-Fig. 1 - Viscous Damping Model [file: img/fig201-1.png  ]
-          ----------------------------------------
+
+.. figure:: C:/git/rivtbk-example-04-git/bk4-Bearing-Viscous-Damping/img/fig201-1.png
+   :width: 50%
+   :align: center
+
+   **Fig. 1** - Viscous Damping Model   
+    
+
 
  
 The simplest definition of equivalent viscous damping is based on the
@@ -28,13 +37,31 @@ the energy-dissipating mechanisms that existed in the experiments.
  
  
 
-0.4 - 2 | New Section
+
+-------------------------
+
+
+
+.. raw:: pdf
+
+   PageBreak
+
+
+
+.. _New Section:
+
+**0.4 - 2** | New Section
 --------------------------------------------------------------------------------
  
  
-          ----------------------------------------
-Fig. 2 - Viscous Damping Model [file: img/fig201-2.png  ]
-          ----------------------------------------
+
+.. figure:: C:/git/rivtbk-example-04-git/bk4-Bearing-Viscous-Damping/img/fig201-2.png
+   :width: 50%
+   :align: center
+
+   **Fig. 2** - Viscous Damping Model   
+    
+
 
  
 [Figure 3.9.1 -- image file: figures/fig_3_9_1.png -- Plot of Resisting
@@ -54,20 +81,33 @@ is given by the area E_D enclosed by the hysteresis loop. Equating this to
 the energy dissipated in viscous damping given by Eq. (3.8.1) leads to
  
 
-Eq.1
-[LaTeX] 4 \pi \zeta_{\mathrm{eq}} \frac{\omega}{\omega_n} E_{S o}=E_D \quad
+**Eq.1**
+
+
+.. container:: math-block 
+
+    .. math:: 
+
+         4 \pi \zeta_{\mathrm{eq}} \frac{\omega}{\omega_n} E_{S o}=E_D \quad
+
 
  
 or, equivalently,
  
-┌  Eq-2 | 
-│
-│               1     1        1  
-│     ζ_eq = 1⋅───⋅1⋅────⋅E_D⋅────
-│              4⋅π   ⎛ω ⎞     E_So
-│                    ⎜──⎟         
-│                    ⎝ωₙ⎠         
-└
+
+|
+
+**Eq.2:**
+
+.. code-block:: text 
+
+                     1     1        1  
+           ζ_eq = 1⋅───⋅1⋅────⋅E_D⋅────
+                    4⋅π   ⎛ω ⎞     E_So
+                          ⎜──⎟         
+                          ⎝ωₙ⎠         
+
+
 
 
  
@@ -104,8 +144,12 @@ such as those shown in Fig. 1.3.4 (see Chapters 5 and 7).
  
 
 
---------------------------------------------------------------------------------
+--------------------
 
-[1] Anil K. Chopra, Dynamics of Structures: Theory and Applications toEarthquake
-Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
+
+.. _[1]: 
+
+[1]   Anil K. Chopra, Dynamics of Structures: Theory and Applications toEarthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
+
+
 
