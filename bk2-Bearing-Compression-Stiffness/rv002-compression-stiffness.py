@@ -1,10 +1,10 @@
 import rivtlib.rvapi as rv
 
-rv.I("""Compression Shape Factor 
+rv.I("""Shape Factor 
 
-    COMPRESSION BLOCK _[#]
+    **COMPRESSION BLOCK** _[#]
 
-    | IMAGE | img/fig27.png | Shape Factor, 80, num, not 
+    | IMAGE | img/fig27.jpg | Shape Factor, 80, num, not 
 
     Effect of shape factor: Experimental stress-strain curves for 6.3 mm thick
     disks of rubber (47 IRHD) in compression. The shape factor is shown
@@ -15,7 +15,7 @@ rv.I("""Compression Shape Factor
     upon the shape factor S (see Fig. 1), defined as the ratio of one loaded
     area to the total force-free area, as shown in Fig. 2.
 
-    | IMAGE | img/fig28.png | Compression Modulus, 80, num, not 
+    | IMAGE | img/fig28.png | Compression Modulus, 60, num, not 
 
     Variation of compression modulus Ec with shape factor S for natural rubbers
     of differing hardnesses (SRF black filler used for 55 IRHD and above).
@@ -35,8 +35,9 @@ rv.I("""Compression Shape Factor
     footnote to Table 2) then the E∞ value in Table 3 should be doubled.
 
     """)
+    
 
-rv.I("""Compression Modulus
+rv.I("""Modulus
 
     S = (L*B) / (2*t*(L+B))
 

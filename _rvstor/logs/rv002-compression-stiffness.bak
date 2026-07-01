@@ -1,10 +1,10 @@
 import rivtlib.rvapi as rv
 
-rv.I("""Compression Shape Factor 
+rv.I("""Shape Factor 
 
-    COMPRESSION BLOCK _[#]
+    **COMPRESSION BLOCK** _[#]
 
-    | IMAGE | img/fig27.png | Shape Factor, 80, num, not 
+    | IMAGE | img/fig27.jpg | Shape Factor, 80, num, not 
 
     Effect of shape factor: Experimental stress-strain curves for 6.3 mm thick
     disks of rubber (47 IRHD) in compression. The shape factor is shown
@@ -15,7 +15,7 @@ rv.I("""Compression Shape Factor
     upon the shape factor S (see Fig. 1), defined as the ratio of one loaded
     area to the total force-free area, as shown in Fig. 2.
 
-    | IMAGE | img/fig28.png | Compression Modulus, 80, num, not 
+    | IMAGE | img/fig28.png | Compression Modulus, 60, num, not 
 
     Variation of compression modulus Ec with shape factor S for natural rubbers
     of differing hardnesses (SRF black filler used for 55 IRHD and above).
@@ -36,7 +36,7 @@ rv.I("""Compression Shape Factor
 
     """)
 
-rv.I("""Compression Modulus
+rv.I("""Modulus
 
     S = (L*B) / (2*t*(L+B))
 
@@ -157,15 +157,7 @@ rv.R("""Footnotes | endnotes
 
 rv.D("""Publish Doc 
     
-    A rivt file may be published as a text, PDF or HTML doc by specifying the
-    PUBLISH type parameter as txt, pdf or html. 
-    
-    Published files are found in sub-folders of the _published folder. A text
-    version of the doc or report is is always written to the rivt and
-    _rivt-public folders as a README.txt file which is displayed on the
-    first page of a GitHub repo. 
-    
-    | PUBLISH | 102 Compression Stiffness | pdf
+    | PUBLISH | 002 Compression Stiffness | pdf
     
     _[[METADATA]] 
     [doc]
@@ -180,7 +172,7 @@ rv.D("""Publish Doc
     fork1_license = https://opensource.org/license/mit/
     
     [layout]
-    subtitle = Isolation Bearing Design
+    subtitle = Seismic Isolation Bearing Design
     copyright = --
     client = Example 04 - rivtbook
     coverpage = true

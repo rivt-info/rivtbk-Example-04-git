@@ -75,7 +75,7 @@ rv.V("""Shear Stiffness Example
 rv.D("""Publish Doc 
 
     
-    | PUBLISH | 103 Shear Stiffness | pdf
+    | PUBLISH | 003 Shear Stiffness | pdf
     
     _[[METADATA]] 
     [doc]
@@ -90,7 +90,7 @@ rv.D("""Publish Doc
     fork1_license = https://opensource.org/license/mit/
     
     [layout]
-    subtitle =  Isolation Bearing Design
+    subtitle =  Seismic Isolation Bearing Design
     copyright = --
     client = Example 04 - rivtbook
     coverpage = true

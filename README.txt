@@ -1,111 +1,164 @@
 
 --------------------------------------------------------------------------------
-| rivt | 004 Viscous Damping | R Holland | v-1.0.0a12 | 2026-06-30 - 09:52PM
+| rivt | 003 Shear Stiffness | R Holland | v-1.0.0a12 | 2026-06-30 - 10:45PM
 --------------------------------------------------------------------------------
 
 
-0.4i | Equivalent Viscous Damping
+0.3i | Rubber Elastic Properties
 ================================================================================
  
-Equivalent viscous damping is the simplest form of damping for analysis
-since the governing differential equation of motion is linear and hence
-amenable to analytical solution. This section determines the damping
-coefficient for viscous damping so that it is equivalent in some sense to
-the combined effect of all damping mechanisms present in the actual
-structure.  [1]_ 
- 
-          ----------------------------------------
-Fig. 1 - Viscous Damping Model [file: img/fig201-1.png  ]
-          ----------------------------------------
-
- 
-The simplest definition of equivalent viscous damping is based on the
-measured response of a system to harmonic force at exciting frequency omega
-equal to the natural frequency omega_n of the system. The damping ratio
-zeta_eq is calculated from Eq. (3.4.1) using measured values of u_o and
-(u_st)_o. This is the equivalent viscous damping since it accounts for all
-the energy-dissipating mechanisms that existed in the experiments.
- 
  
 
-0.4 - 2i | New Section
+Table 1: IRHD hardness scale (MN/m2)
+ 
+==========  ===============  ==============  ====  ===============
+Hardness    Young's modulus  Shear modulus    k    Bulk modulus
+IRHD +/-2   E, MN/m2         G, MN/m2              B(inf), MN/m2
+==========  ===============  ==============  ====  ===============
+30          0.92             0.30            0.93  1000
+35          1.18             0.37            0.89  1000
+40          1.50             0.45            0.85  1000
+45          1.80             0.54            0.80  1000
+50          2.20             0.64            0.73  1030
+55          3.25             0.81            0.64  1090
+60          4.45             1.06            0.57  1150
+65          5.85             1.37            0.54  1210
+70          7.35             1.73            0.53  1270
+75          9.40             2.22            0.52  1330
+==========  ===============  ==============  ====  ===============
+ 
+ 
+
+Table 2: Shore A hardness scale (lbf/in2)
+ 
+============  ===============  ==============  ====  ===============
+Shore A       Young's modulus  Shear modulus     k    Bulk modulus
+(approx.)     lbf/in2          lbf/in2               lbf/in2
+============  ===============  ==============  ====  ===============
+35            168              53              0.89  142 000
+45            256              76              0.80  142 000
+55            460              115             0.64  154 000
+65            830              195             0.54  171 000
+75            1340             317             0.52  189 000
+============  ===============  ==============  ====  ===============
+ 
+#. The majority of springs are in the hardness range 40-60 IRHD. #.
+Theoretically, with a Poisson's ratio of 1/2, B should equal 3G. This is    true
+for soft gum rubbers. For harder rubbers containing a fair proportion    of non-
+rubber constituents, thixotropic and other effects increase 3G to    about 4G.
+
+
+ 
+ 
+
+0.3 - 2v | Shear Stiffness Example
 --------------------------------------------------------------------------------
  
- 
-          ----------------------------------------
-Fig. 2 - Viscous Damping Model [file: img/fig201-2.png  ]
-          ----------------------------------------
 
+Table 3: Bearing Specifications
+==========  ==============  ===========  =======================
+variable    value           [value]      description
+==========  ==============  ===========  =======================
+G_1         58.00 p_si      0.40 MPA     shear modulus
+K_1         200000.00 p_si  1378.95 MPA  bulk modulus
+rnl         51              51           number of rubber layers
+rdia        39.50 inch      100.33 cm    bearing diameter
+rthk        0.40 inch       1.02 cm      layer thickness
+sdia        38.00 inch      96.52 cm     shim diameter
+sthk        0.09 inch       0.23 cm      11 guage shim thickness
+cpi         3.1418          3.1418       contant pi
+==========  ==============  ===========  =======================
  
-[Figure 3.9.1 -- image file: figures/fig_3_9_1.png -- Plot of Resisting
-force (vertical axis) versus Deformation (horizontal axis), showing an
-irregularly shaped hysteresis loop determined from experiment. The area E_D
-is the energy dissipated in a cycle of harmonic vibration, the area E_So is
-the maximum strain energy, and u_o marks the deformation amplitude on the
-horizontal axis.]
- 
-The most common method for defining equivalent viscous damping is to equate
-the energy dissipated in a vibration cycle of the actual structure and an
-equivalent viscous system. For an actual structure the force-displacement
-relation obtained from an experiment under cyclic loading with displacement
-amplitude u_o is determined; such a relation of arbitrary shape is shown
-schematically in Fig. 3.9.1. The energy dissipated in the actual structure
-is given by the area E_D enclosed by the hysteresis loop. Equating this to
-the energy dissipated in viscous damping given by Eq. (3.8.1) leads to
- 
+Bearing Stiffness for Circular Bearing
 
-Eq.1
-[LaTeX] 4 \pi \zeta_{\mathrm{eq}} \frac{\omega}{\omega_n} E_{S o}=E_D \quad
 
- 
-or, equivalently,
- 
-┌  Eq-2 | 
+
+┌  Eq-1 | rubber height
 │
-│               1     1        1  
-│     ζ_eq = 1⋅───⋅1⋅────⋅E_D⋅────
-│              4⋅π   ⎛ω ⎞     E_So
-│                    ⎜──⎟         
-│                    ⎝ωₙ⎠         
+│     rht = rnl⋅rthk
 └
 
+rht = 20.40 inch    [rht] = 51.82 cm  | rubber height
 
+===============  ================
+rthk             rnl
+===============  ================
+0.40 inch        51
+—————            —————
+layer thickness  number of rubber
+-                layers
+===============  ================
+
+┌  Eq-2 | bearing height
+│
+│     bht = rht + sthk⋅(rnl - 1)
+└
+
+bht = 24.95 inch    [bht] = 63.37 cm  | bearing height
+
+================  =============  =============
+rnl               sthk           rht
+================  =============  =============
+51                0.09 inch      20.40 inch
+—————             —————          —————
+number of rubber  11 guage shim  rubber height
+layers            thickness      -
+================  =============  =============
+
+┌  Eq-3 | shear stiffness
+│
+│                      2
+│           G₁⋅cpi⋅rdia 
+│     Ks₁ = ────────────
+│              4⋅rht    
+└
+
+Ks₁ = 3.48 k_in    [Ks₁] = 6.10 kN_cm  | shear stiffness
+
+=============  ================  ==========  =============
+rht            rdia              cpi         G₁
+=============  ================  ==========  =============
+20.40 inch     39.50 inch        3.1418      58.00 p_si
+—————          —————             —————       —————
+rubber height  bearing diameter  contant pi  shear modulus
+=============  ================  ==========  =============
  
-where the strain energy, E_So = ku_o2/2, is calculated from the
-stiffness k determined by experiment.
- 
-The experiment leading to the force-deformation curve of Fig. 3.9.1 and
-hence E_D should be conducted at omega = omega_n, where the response of the
-system is most sensitive to damping. Thus Eq. (3.9.1) specializes to
- 
-zeta_eq = (1/(4pi))  (E_D/E_So)                              ... (3.9.2)
- 
-The damping ratio zeta_eq determined from a test at omega = omega_n would
-not be correct at any other exciting frequency, but it would be a
-satisfactory approximation (Section 3.10.2).
- 
-It is widely accepted that this procedure can be extended to model the
-damping in systems with many degrees of freedom. An equivalent viscous
-damping ratio is assigned to each natural vibration mode of the system
-(defined in Chapter 10) in such a way that the energy dissipated in viscous
-damping matches the actual energy dissipated in the system when the system
-vibrates in that mode at its natural frequency.
- 
-In this book the concept of equivalent viscous damping is restricted to
-systems vibrating at amplitudes within the linearly elastic limit of the
-overall structure. The energy dissipated in inelastic deformations of the
-structure have also been modeled as equivalent viscous damping in some
-research studies. This idealization is generally not satisfactory, however,
-for the large inelastic deformations of structures expected during strong
-earthquakes. We shall account for these inelastic deformations and the
-associated energy dissipation by nonlinear force-deformation relations,
-such as those shown in Fig. 1.3.4 (see Chapters 5 and 7).
- 
- 
+Shape Factor for Circular Bearing
 
 
---------------------------------------------------------------------------------
 
-[1] Anil K. Chopra, Dynamics of Structures: Theory and Applications toEarthquake
-Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
+┌  Eq-4 | shape factor 1
+│
+│              sdia 
+│     sh₁ ₁ = ──────
+│             4⋅rthk
+└
 
+sh₁ ₁ = 24    [sh₁ ₁] = 24  | shape factor 1
+
+===============  =============
+rthk             sdia
+===============  =============
+0 inch           38 inch
+—————            —————
+layer thickness  shim diameter
+===============  =============
+
+┌  Eq-5 | shape factor 2
+│
+│             bht 
+│     sh₂ ₁ = ────
+│             rdia
+└
+
+sh₂ ₁ = 1    [sh₂ ₁] = 1  | shape factor 2
+
+================  ==============
+rdia              bht
+================  ==============
+40 inch           25 inch
+—————             —————
+bearing diameter  bearing height
+================  ==============
+ 
+ 

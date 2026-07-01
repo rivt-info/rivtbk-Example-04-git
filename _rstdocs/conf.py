@@ -6,7 +6,7 @@ from pathlib import Path
 font_folder_path = os.path.join(os.path.dirname(__file__), '_static',  'fonts')
 # sys.path.append(str(Path(".").resolve()))
 
-project = "004 Viscous Damping"
+project = "003 Shear Stiffness"
 copyright = "-"
 author = "self.R Holland"
 release = "1.0.0a12"
@@ -72,7 +72,7 @@ favicons = [
 # source start file, target name, title, author, options
 # options: ('index', 'MyProject', 'My Project', 'Author Name', {"pdf_compressed": True})
 # More than one author : \r'Guido van Rossum\Fred L. Drake, Jr., editor'
-pdf_documents = [("rv004-bearing-viscous", "rv004-bearing-viscous", "004 Viscous Damping", 
+pdf_documents = [("rv003-shear-stiffness", "rv003-shear-stiffness", "003 Shear Stiffness", 
             "R Holland")]
 # A colon-separated list of folders to search for fonts.
 pdf_font_path = ["_rstdocs/_static/fonts","../_rstdocs/_static/fonts/" ]

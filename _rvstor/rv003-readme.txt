@@ -1,10 +1,10 @@
 
 --------------------------------------------------------------------------------
-| rivt | 103 Shear Stiffness | R Holland | v-1.0.0a12 | 2026-06-29 - 07:19PM
+| rivt | 003 Shear Stiffness | R Holland | v-1.0.0a12 | 2026-06-30 - 10:45PM
 --------------------------------------------------------------------------------
 
 
-0.3 | Rubber Elastic Properties
+0.3i | Rubber Elastic Properties
 ================================================================================
  
  
@@ -51,7 +51,7 @@ rubber constituents, thixotropic and other effects increase 3G to    about 4G.
  
  
 
-0.3 - 2 | Shear Stiffness Example
+0.3 - 2v | Shear Stiffness Example
 --------------------------------------------------------------------------------
  
 
@@ -96,14 +96,14 @@ layer thickness  number of rubber
 
 bht = 24.95 inch    [bht] = 63.37 cm  | bearing height
 
-=============  ================  =============
-rht            rnl               sthk
-=============  ================  =============
-20.40 inch     51                0.09 inch
-—————          —————             —————
-rubber height  number of rubber  11 guage shim
--              layers            thickness
-=============  ================  =============
+================  =============  =============
+rnl               sthk           rht
+================  =============  =============
+51                0.09 inch      20.40 inch
+—————             —————          —————
+number of rubber  11 guage shim  rubber height
+layers            thickness      -
+================  =============  =============
 
 ┌  Eq-3 | shear stiffness
 │
@@ -115,13 +115,13 @@ rubber height  number of rubber  11 guage shim
 
 Ks₁ = 3.48 k_in    [Ks₁] = 6.10 kN_cm  | shear stiffness
 
-================  ==========  =============  =============
-rdia              cpi         rht            G₁
-================  ==========  =============  =============
-39.50 inch        3.1418      20.40 inch     58.00 p_si
-—————             —————       —————          —————
-bearing diameter  contant pi  rubber height  shear modulus
-================  ==========  =============  =============
+=============  ================  ==========  =============
+rht            rdia              cpi         G₁
+=============  ================  ==========  =============
+20.40 inch     39.50 inch        3.1418      58.00 p_si
+—————          —————             —————       —————
+rubber height  bearing diameter  contant pi  shear modulus
+=============  ================  ==========  =============
  
 Shape Factor for Circular Bearing
 

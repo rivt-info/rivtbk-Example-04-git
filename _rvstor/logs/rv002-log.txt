@@ -1,21 +1,20 @@
-06-29 19:19  rv002-compression-stiffness   INFO     Doc start
-06-29 19:19  rv002-compression-stiffness   INFO     rivtlib version: 1.0.0a5
-06-29 19:19  rv002-compression-stiffness   INFO     rivt backup : C:\git\rivtbk-example-04-git\_rvstor\logs\rv002-compression-stiffness.bak
-06-29 19:19  rv002-compression-stiffness   INFO     Compression Shape Factor 
-06-29 19:19  rv002-compression-stiffness   INFO     SECTION 0.2 - type I
-06-29 19:19  rv002-compression-stiffness   INFO     command : IMAGE
-06-29 19:19  rv002-compression-stiffness   DEBUG    STREAM b'IHDR' 16 13
-06-29 19:19  rv002-compression-stiffness   DEBUG    STREAM b'IDAT' 41 18168
-06-29 19:19  rv002-compression-stiffness   INFO     command : IMAGE
-06-29 19:19  rv002-compression-stiffness   DEBUG    STREAM b'IHDR' 16 13
-06-29 19:19  rv002-compression-stiffness   DEBUG    STREAM b'IDAT' 41 65536
-06-29 19:19  rv002-compression-stiffness   INFO     Compression Modulus
-06-29 19:19  rv002-compression-stiffness   INFO     SECTION 0.2 - 2 - type I
-06-29 19:19  rv002-compression-stiffness   INFO     command : IMAGE
-06-29 19:19  rv002-compression-stiffness   DEBUG    STREAM b'IHDR' 16 13
-06-29 19:19  rv002-compression-stiffness   DEBUG    STREAM b'IDAT' 41 10500
-06-29 19:19  rv002-compression-stiffness   INFO     Strip Analysis
-06-29 19:19  rv002-compression-stiffness   INFO     SECTION 0.2 - 3 - type V
-06-29 19:19  rv002-compression-stiffness   INFO     Footnotes | endnotes
-06-29 19:19  rv002-compression-stiffness   INFO     SECTION : Publish Doc 
-06-29 19:19  rv002-compression-stiffness   INFO     block tag : METADATA]]
+06-30 22:43  rv002-compression-stiffness   INFO     Doc start
+06-30 22:43  rv002-compression-stiffness   INFO     rivtlib version: 1.0.0a5
+06-30 22:43  rv002-compression-stiffness   INFO     rivt backup : c:\git\rivtbk-example-04-git\_rvstor\logs\rv002-compression-stiffness.bak
+06-30 22:43  rv002-compression-stiffness   INFO     Shape Factor 
+06-30 22:43  rv002-compression-stiffness   INFO     SECTION 0.2i - type I
+06-30 22:43  rv002-compression-stiffness   INFO     command : IMAGE
+06-30 22:43  rv002-compression-stiffness   INFO     command : IMAGE
+06-30 22:43  rv002-compression-stiffness   DEBUG    STREAM b'IHDR' 16 13
+06-30 22:43  rv002-compression-stiffness   DEBUG    STREAM b'IDAT' 41 65536
+06-30 22:43  rv002-compression-stiffness   INFO     Modulus
+06-30 22:43  rv002-compression-stiffness   INFO     SECTION 0.2 - 2i - type I
+06-30 22:43  rv002-compression-stiffness   INFO     command : IMAGE
+06-30 22:43  rv002-compression-stiffness   DEBUG    STREAM b'IHDR' 16 13
+06-30 22:43  rv002-compression-stiffness   DEBUG    STREAM b'IDAT' 41 10500
+06-30 22:43  rv002-compression-stiffness   INFO     Strip Analysis
+06-30 22:43  rv002-compression-stiffness   INFO     SECTION 0.2 - 3v - type V
+06-30 22:43  rv002-compression-stiffness   INFO     Footnotes | endnotes
+06-30 22:43  rv002-compression-stiffness   INFO     SECTION 0.2 - 4r - type R
+06-30 22:43  rv002-compression-stiffness   INFO     SECTION : Publish Doc 
+06-30 22:43  rv002-compression-stiffness   INFO     block tag : METADATA]]

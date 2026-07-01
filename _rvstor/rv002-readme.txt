@@ -1,16 +1,16 @@
 
 --------------------------------------------------------------------------------
-| rivt | 102 Compression Stiffness | R Holland | v-1.0.0a12 | 2026-06-29 - 07:19PM
+| rivt | 002 Compression Stiffness | R Holland | v-1.0.0a12 | 2026-06-30 - 10:43PM
 --------------------------------------------------------------------------------
 
 
-0.2 | Compression Shape Factor
+0.2i | Shape Factor
 ================================================================================
  
-COMPRESSION BLOCK  [1]_ 
+**COMPRESSION BLOCK**  [1]_ 
  
           ----------------------------------------
-Fig. 1 - Shape Factor [file: img/fig27.png  ]
+Fig. 1 - Shape Factor [file: img/fig27.jpg  ]
           ----------------------------------------
 
  
@@ -36,7 +36,7 @@ scale, 1 to 1000) versus shape factor S on the horizontal axis (log scale,
 65, and 75 IRHD, and a line labeled "10x shear modulus G". An inset diagram
 illustrates a rubber block showing the "loaded area" (top and bottom faces)
 versus "force free areas" (side faces), with shape factor = loaded area /
-force free area, i.e. S = (LB) / (2t(L+B)).
+force free area, i.e. S = (LB) / (2t*(L+B)).
  
 Although deformation due to bulk compression can normally be ignored, it
 can cause a noticeable reduction in Ec when the ratio Ec/E∞ exceeds about
@@ -47,10 +47,10 @@ footnote to Table 2) then the E∞ value in Table 3 should be doubled.
  
  
 
-0.2 - 2 | Compression Modulus
+0.2 - 2i | Modulus
 --------------------------------------------------------------------------------
  
-S = (LB) / (2t(L+B))
+S = (LB) / (2t*(L+B))
  
 S = shape factor
 t = thickness
@@ -59,7 +59,7 @@ B = breadth
  
 For a block of square section (i.e. L = B) or circular section (diameter = L):
  
-S = L / (4t)
+S = L / (4*t)
  
 The compression modulus Ec depends upon the shape factor S (for derivation
 see Appendix).
@@ -90,7 +90,7 @@ cylindrical rubber sample.
  
 The compression stiffness, Kc, is given by
  
-Kc = F/x = EcA/t
+Kc = F/x = Ec*A/t
  
 where
 F = compressive load
@@ -107,7 +107,7 @@ if S > μ/2, where S is the shape factor and μ the coefficient of friction.
 The load (F)—deflexion (x) curve of rubber in compression is non-linear.
 With no slip it has the approximate form
  
-F = EcAe(1+e)
+F = EcAe*(1+e)
  
 where e, the compressive strain, equals x/t. The non-linearity is usually
 ignored for strains up to about 10%.
@@ -118,7 +118,7 @@ of the least plan dimension there should be no instability.
  
  
 
-0.2 - 3 | Strip Analysis
+0.2 - 3v | Strip Analysis
 --------------------------------------------------------------------------------
  
 COMPRESSION STRIP
@@ -163,6 +163,7 @@ where e, the compressive strain, equals x/t. As in the case of blocks, the
 non-linearity is usually ignored for strains up to about 10%.
  
  
+
 
 --------------------------------------------------------------------------------
 
