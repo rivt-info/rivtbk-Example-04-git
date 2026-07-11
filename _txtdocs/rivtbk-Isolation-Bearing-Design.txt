@@ -1,23 +1,16 @@
 
 ================================================================================
-| rivtbook | Isolation Bearing Design v-1.0.0a13 | R Holland | 2026-07-11
+Isolation Bearing Design | R Holland | 1.0.0a13 | 2026-07-11 - 12:49AM
 ================================================================================
 
 
-rivtbook Table of Contents
-===================================
-
-001 - rivtbook Example - Introduction
-002 - Compression Stiffness
-003 - Shear Stiffness
-004 - Viscous Damping
-005 - Rate Independent Damping
-006 - System Period
+Table of Contents
+==================
 
 
 
 --------------------------------------------------------------------------------
-| rivt | rivtbook Example - Introduction | R Holland | v-1.0.0a13 | 2026-07-11 - 02:15AM
+rivtbook Example - Introduction | R Holland | v-1.0.0a13 | 2026-07-11 - 12:48AM
 --------------------------------------------------------------------------------
 
 
@@ -39,15 +32,14 @@ the rivt file (blue) to the rivt-report folder and its source folders
  
  
           ----------------------------------------
-Fig. 1 - How to copy a rivtbook chapter to a rivt report [file: img/rvbk-rivt.jpg  ]
+Fig. 1 - How to copy a rivtbook chapter to a rivt report 
           ----------------------------------------
 
  
  
 
-
 --------------------------------------------------------------------------------
-| rivt | Compression Stiffness | R Holland | v-1.0.0a13 | 2026-07-11 - 02:15AM
+002 Compression Stiffness | R Holland | v-1.0.0a13 | 2026-07-11 - 12:48AM
 --------------------------------------------------------------------------------
 
 
@@ -57,7 +49,7 @@ Fig. 1 - How to copy a rivtbook chapter to a rivt report [file: img/rvbk-rivt.jp
 **COMPRESSION BLOCK** [0.2.1]
  
           ----------------------------------------
-Fig. 1 - Shape Factor [file: img/fig27.jpg  ]
+Fig. 1 - Shape Factor 
           ----------------------------------------
 
  
@@ -71,7 +63,7 @@ upon the shape factor S (see Fig. 1), defined as the ratio of one loaded
 area to the total force-free area, as shown in Fig. 2.
  
           ----------------------------------------
-Fig. 2 - Compression Modulus [file: img/fig28.png  ]
+Fig. 2 - Compression Modulus 
           ----------------------------------------
 
  
@@ -127,7 +119,7 @@ Ec ≈ 5GS2
 where G is the shear modulus (from Table 3).
  
           ----------------------------------------
-Fig. 3 - Compression Stiffness Kc [file: img/fig29.png  ]
+Fig. 3 - Compression Stiffness Kc 
           ----------------------------------------
 
  
@@ -218,9 +210,8 @@ non-linearity is usually ignored for strains up to about 10%.
 Bulletin.Malaysian Rubber Producers' Research Association, Brickendonbury, U.K.
 
 
-
 --------------------------------------------------------------------------------
-| rivt | Shear Stiffness | R Holland | v-1.0.0a13 | 2026-07-11 - 02:15AM
+003 Shear Stiffness | R Holland | v-1.0.0a13 | 2026-07-11 - 12:48AM
 --------------------------------------------------------------------------------
 
 
@@ -336,11 +327,11 @@ layers            -              thickness
 Ks₁ = 3.48 k_in    [Ks₁] = 6.10 kN_cm  | shear stiffness
 
 =============  ================  =============  ==========
-G₁             rdia              rht            cpi
+rht            rdia              G₁             cpi
 =============  ================  =============  ==========
-58.00 p_si     39.50 inch        20.40 inch     3.1418
+20.40 inch     39.50 inch        58.00 p_si     3.1418
 —————          —————             —————          —————
-shear modulus  bearing diameter  rubber height  contant pi
+rubber height  bearing diameter  shear modulus  contant pi
 =============  ================  =============  ==========
  
 Shape Factor for Circular Bearing
@@ -396,7 +387,7 @@ where x is the effective deflexion of the spring in centimetres. The
 effective deflexion is affected (and usually decreases) by the amplitude
 effect and by non-linear springs (Fig. 16).
  
-[Figure: fig16 _static_load_deformation_curve.png] Fig. 16.--OAB is a
+[Figure: fig16_static_load_deformation_curve.png] Fig. 16.--OAB is a
 'static' load deformation curve. Its exact position and shape will depend
 on the amount of structure breakdown. The static stiffness at A is the
 slope of the tangent AC. When a dynamic, small amplitude deformation ED is
@@ -460,10 +451,11 @@ SHEAR MOUNTING
 [Figure: fig18_shear_mounting.png]
 Fig. 18. Shear mounting.
  
-
+ 
+ 
 
 --------------------------------------------------------------------------------
-| rivt | Viscous Damping | R Holland | v-1.0.0a13 | 2026-07-11 - 02:15AM
+004 Viscous Damping | R Holland | v-1.0.0a13 | 2026-07-11 - 12:48AM
 --------------------------------------------------------------------------------
 
 
@@ -478,7 +470,7 @@ the combined effect of all damping mechanisms present in the actual
 structure. [0.4.1]
  
           ----------------------------------------
-Fig. 1 - Viscous Damping Model [file: img/fig201-1.png  ]
+Fig. 1 - Viscous Damping Model 
           ----------------------------------------
 
  
@@ -496,7 +488,7 @@ the energy-dissipating mechanisms that existed in the experiments.
  
  
           ----------------------------------------
-Fig. 2 - Viscous Damping Model [file: img/fig201-2.png  ]
+Fig. 2 - Viscous Damping Model 
           ----------------------------------------
 
  
@@ -573,9 +565,8 @@ such as those shown in Fig. 1.3.4 (see Chapters 5 and 7).
 toEarthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
 
 
-
 --------------------------------------------------------------------------------
-| rivt | Rate Independent Damping | R Holland | v-1.0.0a13 | 2026-07-11 - 02:15AM
+202 Rate Independent Damping | R Holland | v-1.0.0a13 | 2026-07-11 - 12:48AM
 --------------------------------------------------------------------------------
 
 
@@ -800,9 +791,8 @@ approximations. Image file: images/fig_3.11.2_coulomb_response.png]
 toEarthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
 
 
-
 --------------------------------------------------------------------------------
-| rivt | System Period | R Holland | v-1.0.0a13 | 2026-07-11 - 02:15AM
+006 System Period | R Holland | v-1.0.0a13 | 2026-07-11 - 12:48AM
 --------------------------------------------------------------------------------
 
 
@@ -975,5 +965,4 @@ USA:McGraw-Hill, 1975.
 
 [0.6.2] Anil K.Anil K. Chopra, Dynamics of Structures: Theory and Applications
 toEarthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
-
 

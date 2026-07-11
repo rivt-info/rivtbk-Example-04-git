@@ -1,10 +1,10 @@
 
 --------------------------------------------------------------------------------
-| rivt | 003 Shear Stiffness | R Holland | v-1.0.0a12 | 2026-07-01 - 11:54AM
+| rivt | Shear Stiffness | R Holland | v-1.0.0a13 | 2026-07-11 - 02:15AM
 --------------------------------------------------------------------------------
 
 
-0.3 | Rubber Elastic Properties
+0.3-1 | Rubber Elastic Properties
 ================================================================================
  
  
@@ -51,7 +51,7 @@ rubber constituents, thixotropic and other effects increase 3G to    about 4G.
  
  
 
-0.3 - 2 | Shear Stiffness Example
+0.3 - 2-2 | Shear Stiffness Example
 --------------------------------------------------------------------------------
  
 
@@ -80,14 +80,14 @@ Bearing Stiffness for Circular Bearing
 
 rht = 20.40 inch    [rht] = 51.82 cm  | rubber height
 
-===============  ================
-rthk             rnl
-===============  ================
-0.40 inch        51
-—————            —————
-layer thickness  number of rubber
--                layers
-===============  ================
+================  ===============
+rnl               rthk
+================  ===============
+51                0.40 inch
+—————             —————
+number of rubber  layer thickness
+layers            -
+================  ===============
 
 ┌  Eq-2 | bearing height
 │
@@ -96,14 +96,14 @@ layer thickness  number of rubber
 
 bht = 24.95 inch    [bht] = 63.37 cm  | bearing height
 
-=============  =============  ================
-sthk           rht            rnl
-=============  =============  ================
-0.09 inch      20.40 inch     51
-—————          —————          —————
-11 guage shim  rubber height  number of rubber
-thickness      -              layers
-=============  =============  ================
+================  =============  =============
+rnl               rht            sthk
+================  =============  =============
+51                20.40 inch     0.09 inch
+—————             —————          —————
+number of rubber  rubber height  11 guage shim
+layers            -              thickness
+================  =============  =============
 
 ┌  Eq-3 | shear stiffness
 │
@@ -115,13 +115,13 @@ thickness      -              layers
 
 Ks₁ = 3.48 k_in    [Ks₁] = 6.10 kN_cm  | shear stiffness
 
-=============  ==========  =============  ================
-G₁             cpi         rht            rdia
-=============  ==========  =============  ================
-58.00 p_si     3.1418      20.40 inch     39.50 inch
-—————          —————       —————          —————
-shear modulus  contant pi  rubber height  bearing diameter
-=============  ==========  =============  ================
+=============  ================  =============  ==========
+G₁             rdia              rht            cpi
+=============  ================  =============  ==========
+58.00 p_si     39.50 inch        20.40 inch     3.1418
+—————          —————             —————          —————
+shear modulus  bearing diameter  rubber height  contant pi
+=============  ================  =============  ==========
  
 Shape Factor for Circular Bearing
 
@@ -163,7 +163,7 @@ bearing diameter  bearing height
  
  
 
-0.3 - 3 | shear
+0.3 - 3-3 | shear
 --------------------------------------------------------------------------------
  
     Natural Frequency
@@ -176,7 +176,7 @@ where x is the effective deflexion of the spring in centimetres. The
 effective deflexion is affected (and usually decreases) by the amplitude
 effect and by non-linear springs (Fig. 16).
  
-[Figure: fig16_static_load_deformation_curve.png] Fig. 16.--OAB is a
+[Figure: fig16 _static_load_deformation_curve.png] Fig. 16.--OAB is a
 'static' load deformation curve. Its exact position and shape will depend
 on the amount of structure breakdown. The static stiffness at A is the
 slope of the tangent AC. When a dynamic, small amplitude deformation ED is
@@ -239,6 +239,4 @@ SHEAR MOUNTING
  
 [Figure: fig18_shear_mounting.png]
 Fig. 18. Shear mounting.
- 
- 
  

@@ -8,7 +8,7 @@
 
 .. _rivtbook Example:
 
-**0.1** | rivtbook Example
+**0.11** | rivtbook Example
 ================================================================================
  
 A rivtbook is a collection of rivt files with a common subject and organized

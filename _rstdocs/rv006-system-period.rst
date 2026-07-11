@@ -8,16 +8,16 @@
 
 .. _System Period:
 
-**0.6** | System Period
+**0.61** | System Period
 ================================================================================
  
  
  
 CLOUGH, PENZIEN - Dynamics of Structures, page 178
  
-Use flexibility formulation  `[1]`_  (see page 182)
+Use flexibility formulation  `[0.6.1]`_  (see page 182)
  
-Also see  `[2]`_ 
+Also see  `[0.6.2]`_ 
  
 calioPY Procedure Output - Example 6
 This example illustrates arrays and plotting.
@@ -56,7 +56,7 @@ evect = PL.array(eigen[1])                                 [8]
 
 .. _Eigenvectors and Eigenvalues:
 
-**0.6 - 2** | Eigenvectors and Eigenvalues
+**0.6 - 22** | Eigenvectors and Eigenvalues
 --------------------------------------------------------------------------------
  
 normalized eigenvectors
@@ -109,7 +109,7 @@ freq level 3 level 2 level 1
 
 .. _Plot Mode Shapes:
 
-**0.6 - 3** | Plot Mode Shapes
+**0.6 - 33** | Plot Mode Shapes
 --------------------------------------------------------------------------------
  
 
@@ -193,17 +193,19 @@ freq level 3 level 2 level 1
 --------------------
 
 
-.. _[1]: 
+.. _[0.6.1]:
 
-[1]   R.W. Clough and J. Penzien, *Dynamics of Structures*. New York, NY, USA:McGraw-Hill, 1975.
-
-
-
+**[0.6.1]** 
+    R.W. Clough and J. Penzien, Dynamics of Structures. New York, NY, USA:McGraw-Hill, 1975.
 
 
-.. _[2]: 
 
-[2]   Anil K.Anil K. Chopra, Dynamics of Structures: Theory and Applications toEarthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
+
+
+.. _[0.6.2]:
+
+**[0.6.2]** 
+    Anil K.Anil K. Chopra, Dynamics of Structures: Theory and Applications toEarthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
 
 
 

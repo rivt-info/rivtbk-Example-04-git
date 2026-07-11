@@ -8,10 +8,10 @@
 
 .. _Shape Factor:
 
-**0.2** | Shape Factor
+**0.21** | Shape Factor
 ================================================================================
  
-**COMPRESSION BLOCK**  `[1]`_ 
+**COMPRESSION BLOCK**  `[0.2.1]`_ 
  
 
 .. figure:: C:/git/rivtbk-example-04-git/bk2-Bearing-Compression-Stiffness/img/fig27.jpg
@@ -68,7 +68,7 @@ footnote to Table 2) then the E∞ value in Table 3 should be doubled.
 
 .. _Modulus:
 
-**0.2 - 2** | Modulus
+**0.2 - 22** | Modulus
 --------------------------------------------------------------------------------
  
 S = (LB) / (2t*(L+B))
@@ -150,7 +150,7 @@ of the least plan dimension there should be no instability.
 
 .. _Strip Analysis:
 
-**0.2 - 3** | Strip Analysis
+**0.2 - 33** | Strip Analysis
 --------------------------------------------------------------------------------
  
 COMPRESSION STRIP
@@ -199,9 +199,10 @@ non-linearity is usually ignored for strains up to about 10%.
 --------------------
 
 
-.. _[1]: 
+.. _[0.2.1]:
 
-[1]   P.B. Lindley, Engineering Design with Natural Rubber, NR Technical Bulletin.Malaysian Rubber Producers' Research Association, Brickendonbury, U.K.
+**[0.2.1]** 
+    P.B. Lindley, Engineering Design with Natural Rubber, NR Technical Bulletin.Malaysian Rubber Producers' Research Association, Brickendonbury, U.K.
 
 
 

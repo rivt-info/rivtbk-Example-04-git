@@ -8,11 +8,11 @@
 
 .. _Hysteretic Damping:
 
-**0.5** | Hysteretic Damping
+**0.51** | Hysteretic Damping
 ================================================================================
  
  
-3.10 HARMONIC VIBRATION WITH RATE-INDEPENDENT DAMPING  `[1]`_ 
+3.10 HARMONIC VIBRATION WITH RATE-INDEPENDENT DAMPING  `[0.5.1]`_ 
  
 3.10.1 Rate-Independent Damping
  
@@ -226,9 +226,10 @@ approximations. Image file: images/fig_3.11.2_coulomb_response.png]
 --------------------
 
 
-.. _[1]: 
+.. _[0.5.1]:
 
-[1]   Anil K.Anil K. Chopra, Dynamics of Structures: Theory and Applications toEarthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
+**[0.5.1]** 
+    Anil K.Anil K. Chopra, Dynamics of Structures: Theory and Applications toEarthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
 
 
 

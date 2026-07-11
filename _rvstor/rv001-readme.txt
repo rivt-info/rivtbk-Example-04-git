@@ -1,10 +1,10 @@
 
 --------------------------------------------------------------------------------
-| rivt | rivtbook Example - Introduction | R Holland | v-1.0.0a12 | 2026-07-01 - 11:54AM
+| rivt | rivtbook Example - Introduction | R Holland | v-1.0.0a13 | 2026-07-11 - 02:15AM
 --------------------------------------------------------------------------------
 
 
-0.1 | rivtbook Example
+0.1-1 | rivtbook Example
 ================================================================================
  
 A rivtbook is a collection of rivt files with a common subject and organized

@@ -158,38 +158,45 @@ rv.R("""Footnotes | endnotes
 
 rv.D("""Publish Doc 
     
-    | PUBLISH | 002 Compression Stiffness | pdf
+    | PUBLISH | Compression Stiffness | pdf
     
     _[[METADATA]] 
+    [process]
+    ;-----------------------------------------
+    doc_verbose = true; if false minmize output during doc processing
+    auto_cfg = true ; if false, config files are not updated from rivt file
     [doc]
+    ;-----------------------------------------
     authors = R Holland
-    version = 1.0.0a12
-    repo = https://github.com/rivt-info/rivt-single-doc
+    version = 1.0.0a13
+    repo = https://github.com/rivt-info/rivt-example-04
     license = https://opensource.org/license/mit/
-    copyright = -
-    fork1_authors = -
-    fork1_version = -
-    fork1_repo = -
+    copyright = --
+    fork1_authors = --
+    fork1_version = --
+    fork1_repo = --
     fork1_license = https://opensource.org/license/mit/
-    
     [layout]
-    subtitle = Seismic Isolation Bearing Design
+    ;----------------------- cover page and runner settings
+    ;--- put logo files in /img folder of first chapter, size is % page width
+    subtitle =  Seismic Isolation Bearing Design
     copyright = --
     client = Example 04 - rivtbook
-    coverpage = true
+    coverpage = false
     coverlogo_size = 30
     coverlogo = bearing1.png
     runninglogo = logo2.png
     runninglabel = rivt
     project_ref = proj. 0004
+    ;------------------------ PDF settings
+    ;--- colors: red, blue, green, black, gray, brown, maroon, gray, olive, cyan
+    ;--- margins: top, right, bottom, left    page size: letter, legal, A4    
+    pdf_link_color = brown
+    pdf_link_underline = false
     pdf_pagesize = letter
     pdf_margins = 1in, 1in, 1in, 1in 
-    pdf_link_underline = false
-    ; table of contents levels: =1 includes subdivisions, =2 includes sections
-    toc_level = 2
-
-    [process]
-    doc_verbose = true; if false minmize output during doc processing
-    auto_cfg = true ; if false, config files are not updated from rivt file
+    ;----------------------- TOC levels
+    ;--- 1: include subdivisions   2: include subdivisions and sections
+    toc_level = 1
     _[[END]]    
     """)

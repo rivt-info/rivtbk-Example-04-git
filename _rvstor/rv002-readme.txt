@@ -1,13 +1,13 @@
 
 --------------------------------------------------------------------------------
-| rivt | 002 Compression Stiffness | R Holland | v-1.0.0a12 | 2026-07-01 - 11:54AM
+| rivt | Compression Stiffness | R Holland | v-1.0.0a13 | 2026-07-11 - 02:15AM
 --------------------------------------------------------------------------------
 
 
-0.2 | Shape Factor
+0.2-1 | Shape Factor
 ================================================================================
  
-**COMPRESSION BLOCK**  `[1]`_ 
+**COMPRESSION BLOCK** [0.2.1]
  
           ----------------------------------------
 Fig. 1 - Shape Factor [file: img/fig27.jpg  ]
@@ -47,7 +47,7 @@ footnote to Table 2) then the E∞ value in Table 3 should be doubled.
  
  
 
-0.2 - 2 | Modulus
+0.2 - 2-2 | Modulus
 --------------------------------------------------------------------------------
  
 S = (LB) / (2t*(L+B))
@@ -118,7 +118,7 @@ of the least plan dimension there should be no instability.
  
  
 
-0.2 - 3 | Strip Analysis
+0.2 - 3-3 | Strip Analysis
 --------------------------------------------------------------------------------
  
 COMPRESSION STRIP
@@ -167,6 +167,6 @@ non-linearity is usually ignored for strains up to about 10%.
 
 --------------------------------------------------------------------------------
 
-[1] P.B. Lindley, Engineering Design with Natural Rubber, NR Technical
+[0.2.1] P.B. Lindley, Engineering Design with Natural Rubber, NR Technical
 Bulletin.Malaysian Rubber Producers' Research Association, Brickendonbury, U.K.
 

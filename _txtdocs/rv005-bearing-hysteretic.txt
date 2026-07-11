@@ -1,14 +1,14 @@
 
 --------------------------------------------------------------------------------
-202 Rate Independent Damping | R Holland | v-1.0.0a12 | 2026-06-27 - 01:36AM
+202 Rate Independent Damping | R Holland | v-1.0.0a13 | 2026-07-11 - 12:48AM
 --------------------------------------------------------------------------------
 
 
-0.5 | Hysteretic Damping
+0.5-1 | Hysteretic Damping
 ================================================================================
  
  
-3.10 HARMONIC VIBRATION WITH RATE-INDEPENDENT DAMPING  [1]_ 
+3.10 HARMONIC VIBRATION WITH RATE-INDEPENDENT DAMPING [0.5.1]
  
 3.10.1 Rate-Independent Damping
  
@@ -39,14 +39,14 @@ The simplest device that can be used to represent rate-independent linear
 damping is to assume that the damping force is proportional to velocity and
 inversely proportional to frequency:
  
-fD = (ηk/ω) * u̇       ... (3.10.1)
+fD = (ηk/ω)  u̇       ... (3.10.1)
  
 where k is the stiffness of the structure and η is a damping coefficient.
 The energy dissipated by this type of damping in a cycle of vibration at
 frequency ω is independent of ω (Fig. 3.10.1). It is given by Eq. (3.8.1)
-with c replaced by ηk/ω:
+with c replaced by η*k/ω:
  
-ED = πηku02 = 2πηE_So       ... (3.10.2)
+ED = πηku02 = 2πη*E_So       ... (3.10.2)
  
 In contrast, the energy dissipated in viscous damping increases linearly
 with the forcing frequency, as shown in Fig. 3.10.1.
@@ -55,7 +55,7 @@ Rate-independent damping is easily described if the excitation is harmonic
 and we are interested only in the steady-state response of this system.
 Difficulties arise in translating this damping mechanism back to the time
 domain. Thus it is most useful in the frequency-domain method of analysis
-(Section 1.10.3). The complex term k(1 + iη)u represents both the
+(Section 1.10.3). The complex term k(1 + iη)*u represents both the
 elastic and damping forces at the same time; k(1 + iη) is the complex
 stiffness of the system. There are advantages in this terminology if the
 reader is familiar with complex-variable notation. The complex stiffness
@@ -82,11 +82,11 @@ The mathematical solution of this equation is quite complex for arbitrary
 p(t). Here we consider only the steady-state motion due to a sinusoidal
 forcing function, p(t) = p0sin(ωt), which is described by
  
-u(t) = u0 * sin(ωt - φ)       ... (3.10.4)
+u(t) = u0  sin(ωt - φ)       ... (3.10.4)
  
 The amplitude u0 and phase angle φ are
  
-u0 = (u_st)0 * 1 / sqrt( (1 - (ω/ωn)2)2 + η2 )       ... (3.10.5)
+u0 = (u_st)0  1 / sqrt( (1 - (ω/ωn)2)2 + η2 )       ... (3.10.5)
  
 φ = arctan( η / (1 - (ω/ωn)2) )       ... (3.10.6)
  
@@ -164,7 +164,7 @@ viscous damping.
 3.11.1 Equation of Motion
  
 Shown in Fig. 3.11.1 is a mass-spring system with Coulomb friction force F
-= μN that opposes sliding of the mass. As defined in Section 2.4, the
+= μ*N that opposes sliding of the mass. As defined in Section 2.4, the
 coefficients of static and kinetic friction are assumed to be equal to μ,
 and N is the normal force across the sliding surfaces. The equation of
 motion is obtained by including the exciting force in Eqs. (2.4.1) and
@@ -218,8 +218,9 @@ approximations. Image file: images/fig_3.11.2_coulomb_response.png]
  
  
 
+
 --------------------------------------------------------------------------------
 
-[1] Anil K.Anil K. Chopra, Dynamics of Structures: Theory and Applications
+[0.5.1] Anil K.Anil K. Chopra, Dynamics of Structures: Theory and Applications
 toEarthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
 

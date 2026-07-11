@@ -8,7 +8,7 @@
 
 .. _Rubber Elastic Properties:
 
-**0.3** | Rubber Elastic Properties
+**0.31** | Rubber Elastic Properties
 ================================================================================
  
  
@@ -71,7 +71,7 @@ Shore A       Young's modulus  Shear modulus     k    Bulk modulus
 
 .. _Shear Stiffness Example:
 
-**0.3 - 2** | Shear Stiffness Example
+**0.3 - 22** | Shear Stiffness Example
 --------------------------------------------------------------------------------
  
 
@@ -107,13 +107,13 @@ cpi         3.1418          3.1418       contant pi
 
            rht = 20.40 inch     [rht] = 51.82 cm   | rubber height
 
-           rthk             rnl
-           ———————————————  ————————————————
-           0.40 inch        51
-           —————            —————
-           layer thickness  number of rubber
-           -                layers
-           ———————————————  ————————————————
+           rnl               rthk
+           ————————————————  ———————————————
+           51                0.40 inch
+           —————             —————
+           number of rubber  layer thickness
+           layers            -
+           ————————————————  ———————————————
 
 
 
@@ -129,13 +129,13 @@ cpi         3.1418          3.1418       contant pi
 
            bht = 24.95 inch     [bht] = 63.37 cm   | bearing height
 
-           sthk           rht            rnl
-           —————————————  —————————————  ————————————————
-           0.09 inch      20.40 inch     51
-           —————          —————          —————
-           11 guage shim  rubber height  number of rubber
-           thickness      -              layers
-           —————————————  —————————————  ————————————————
+           rnl               rht            sthk
+           ————————————————  —————————————  —————————————
+           51                20.40 inch     0.09 inch
+           —————             —————          —————
+           number of rubber  rubber height  11 guage shim
+           layers            -              thickness
+           ————————————————  —————————————  —————————————
 
 
 
@@ -154,12 +154,12 @@ cpi         3.1418          3.1418       contant pi
 
            Ks₁ = 3.48 k_in     [Ks₁] = 6.10 kN_cm   | shear stiffness
 
-           G₁             cpi         rht            rdia
-           —————————————  ——————————  —————————————  ————————————————
-           58.00 p_si     3.1418      20.40 inch     39.50 inch
-           —————          —————       —————          —————
-           shear modulus  contant pi  rubber height  bearing diameter
-           —————————————  ——————————  —————————————  ————————————————
+           G₁             rdia              rht            cpi
+           —————————————  ————————————————  —————————————  ——————————
+           58.00 p_si     39.50 inch        20.40 inch     3.1418
+           —————          —————             —————          —————
+           shear modulus  bearing diameter  rubber height  contant pi
+           —————————————  ————————————————  —————————————  ——————————
 
 
  
@@ -222,7 +222,7 @@ cpi         3.1418          3.1418       contant pi
 
 .. _shear:
 
-**0.3 - 3** | shear
+**0.3 - 33** | shear
 --------------------------------------------------------------------------------
  
     Natural Frequency
@@ -235,7 +235,7 @@ where x is the effective deflexion of the spring in centimetres. The
 effective deflexion is affected (and usually decreases) by the amplitude
 effect and by non-linear springs (Fig. 16).
  
-[Figure: fig16_static_load_deformation_curve.png] Fig. 16.--OAB is a
+[Figure: fig16 _static_load_deformation_curve.png] Fig. 16.--OAB is a
 'static' load deformation curve. Its exact position and shape will depend
 on the amount of structure breakdown. The static stiffness at A is the
 slope of the tangent AC. When a dynamic, small amplitude deformation ED is
@@ -298,6 +298,4 @@ SHEAR MOUNTING
  
 [Figure: fig18_shear_mounting.png]
 Fig. 18. Shear mounting.
- 
- 
  

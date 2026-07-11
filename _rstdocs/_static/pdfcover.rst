@@ -22,13 +22,13 @@
 
 .. class:: center
 
-    :mtext:`Structural Design`
+    :mtext:`Property Calculations and Design Examples`
   
 |
 
 .. class:: center  
 
-    :btext:`Seismic Isolation Bearing Design`
+    :btext:`Isolation Bearing Design`
 
 |
 |
@@ -38,7 +38,7 @@
 
 .. class:: center  
 
-   :mtext:`rivt Book Example`
+   :mtext:`rivtbook Example`
 
 |
 

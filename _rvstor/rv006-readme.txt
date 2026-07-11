@@ -1,19 +1,19 @@
 
 --------------------------------------------------------------------------------
-| rivt | 006 System Period | R Holland | v-1.0.0a12 | 2026-07-01 - 11:54AM
+| rivt | System Period | R Holland | v-1.0.0a13 | 2026-07-11 - 02:15AM
 --------------------------------------------------------------------------------
 
 
-0.6 | System Period
+0.6-1 | System Period
 ================================================================================
  
  
  
 CLOUGH, PENZIEN - Dynamics of Structures, page 178
  
-Use flexibility formulation  `[1]`_  (see page 182)
+Use flexibility formulation [0.6.1] (see page 182)
  
-Also see  `[2]`_ 
+Also see [0.6.2]
  
 calioPY Procedure Output - Example 6
 This example illustrates arrays and plotting.
@@ -45,7 +45,7 @@ evect = PL.array(eigen[1])                                 [8]
 [py]     evectt[i] = evectt[i]/evectt[i][0]
  
 
-0.6 - 2 | Eigenvectors and Eigenvalues
+0.6 - 2-2 | Eigenvectors and Eigenvalues
 --------------------------------------------------------------------------------
  
 normalized eigenvectors
@@ -91,7 +91,7 @@ freq level 3 level 2 level 1
  
  
 
-0.6 - 3 | Plot Mode Shapes
+0.6 - 3-3 | Plot Mode Shapes
 --------------------------------------------------------------------------------
  
 1. set up mass and stiffness arrays
@@ -168,9 +168,9 @@ PL.savefig(_cpypath+"/figs/p178a.png")
 
 --------------------------------------------------------------------------------
 
-[1] R.W. Clough and J. Penzien, *Dynamics of Structures*. New York, NY,
+[0.6.1] R.W. Clough and J. Penzien, Dynamics of Structures. New York, NY,
 USA:McGraw-Hill, 1975.
 
-[2] Anil K.Anil K. Chopra, Dynamics of Structures: Theory and Applications
+[0.6.2] Anil K.Anil K. Chopra, Dynamics of Structures: Theory and Applications
 toEarthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
 

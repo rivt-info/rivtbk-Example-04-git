@@ -1,14 +1,14 @@
 
 --------------------------------------------------------------------------------
-| rivt | 202 Rate Independent Damping | R Holland | v-1.0.0a12 | 2026-07-01 - 11:54AM
+| rivt | Rate Independent Damping | R Holland | v-1.0.0a13 | 2026-07-11 - 02:15AM
 --------------------------------------------------------------------------------
 
 
-0.5 | Hysteretic Damping
+0.5-1 | Hysteretic Damping
 ================================================================================
  
  
-3.10 HARMONIC VIBRATION WITH RATE-INDEPENDENT DAMPING  `[1]`_ 
+3.10 HARMONIC VIBRATION WITH RATE-INDEPENDENT DAMPING [0.5.1]
  
 3.10.1 Rate-Independent Damping
  
@@ -221,6 +221,6 @@ approximations. Image file: images/fig_3.11.2_coulomb_response.png]
 
 --------------------------------------------------------------------------------
 
-[1] Anil K.Anil K. Chopra, Dynamics of Structures: Theory and Applications
+[0.5.1] Anil K.Anil K. Chopra, Dynamics of Structures: Theory and Applications
 toEarthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
 

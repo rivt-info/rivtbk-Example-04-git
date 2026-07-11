@@ -1,14 +1,14 @@
-07-01 11:54  rv006-system-period   INFO     Doc start
-07-01 11:54  rv006-system-period   INFO     rivtlib version: 1.0.0a5
-07-01 11:54  rv006-system-period   INFO     rivt backup : C:\git\rivtbk-example-04-git\_rvstor\logs\rv006-system-period.bak
-07-01 11:54  rv006-system-period   INFO     System Period
-07-01 11:54  rv006-system-period   INFO     SECTION 0.6 - type I
-07-01 11:54  rv006-system-period   INFO     Eigenvectors and Eigenvalues 
-07-01 11:54  rv006-system-period   INFO     SECTION 0.6 - 2 - type I
-07-01 11:54  rv006-system-period   INFO     Plot Mode Shapes 
-07-01 11:54  rv006-system-period   INFO     SECTION 0.6 - 3 - type I
-07-01 11:54  rv006-system-period   INFO     tag : _[[TEXT]]
-07-01 11:54  rv006-system-period   INFO     Bibliography | endnotes
-07-01 11:54  rv006-system-period   INFO     SECTION 0.6 - 4 - type R
-07-01 11:54  rv006-system-period   INFO     SECTION : Publish Doc 
-07-01 11:54  rv006-system-period   INFO     block tag : METADATA]]
+07-11 02:15  rv006-system-period   INFO     Doc start
+07-11 02:15  rv006-system-period   INFO     rivtlib version: 1.0.0a5
+07-11 02:15  rv006-system-period   INFO     rivt backup : C:\git\rivtbk-example-04-git\_rvstor\logs\rv006-system-period.bak
+07-11 02:15  rv006-system-period   INFO     System Period
+07-11 02:15  rv006-system-period   INFO     SECTION 0.6-1 - type I
+07-11 02:15  rv006-system-period   INFO     Eigenvectors and Eigenvalues 
+07-11 02:15  rv006-system-period   INFO     SECTION 0.6 - 2-2 - type I
+07-11 02:15  rv006-system-period   INFO     Plot Mode Shapes 
+07-11 02:15  rv006-system-period   INFO     SECTION 0.6 - 3-3 - type I
+07-11 02:15  rv006-system-period   INFO     tag : _[[TEXT]]
+07-11 02:15  rv006-system-period   INFO     Bibliography | endnotes
+07-11 02:15  rv006-system-period   INFO     SECTION 0.6 - 4-4 - type R
+07-11 02:15  rv006-system-period   INFO     SECTION : Publish Doc 
+07-11 02:15  rv006-system-period   INFO     block tag : METADATA]]

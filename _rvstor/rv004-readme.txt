@@ -1,10 +1,10 @@
 
 --------------------------------------------------------------------------------
-| rivt | 004 Viscous Damping | R Holland | v-1.0.0a12 | 2026-07-01 - 11:54AM
+| rivt | Viscous Damping | R Holland | v-1.0.0a13 | 2026-07-11 - 02:15AM
 --------------------------------------------------------------------------------
 
 
-0.4 | Equivalent Viscous Damping
+0.4-1 | Equivalent Viscous Damping
 ================================================================================
  
 Equivalent viscous damping is the simplest form of damping for analysis
@@ -12,7 +12,7 @@ since the governing differential equation of motion is linear and hence
 amenable to analytical solution. This section determines the damping
 coefficient for viscous damping so that it is equivalent in some sense to
 the combined effect of all damping mechanisms present in the actual
-structure.  `[1]`_ 
+structure. [0.4.1]
  
           ----------------------------------------
 Fig. 1 - Viscous Damping Model [file: img/fig201-1.png  ]
@@ -28,7 +28,7 @@ the energy-dissipating mechanisms that existed in the experiments.
  
  
 
-0.4 - 2 | New Section
+0.4 - 2-2 | New Section
 --------------------------------------------------------------------------------
  
  
@@ -106,6 +106,6 @@ such as those shown in Fig. 1.3.4 (see Chapters 5 and 7).
 
 --------------------------------------------------------------------------------
 
-[1] Anil K. Chopra, Dynamics of Structures: Theory and Applications toEarthquake
-Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
+[0.4.1] Anil K. Chopra, Dynamics of Structures: Theory and Applications
+toEarthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
 
