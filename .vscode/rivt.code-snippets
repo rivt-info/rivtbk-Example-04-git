@@ -7,17 +7,6 @@
             "import rivtlib.rvapi as rv"
         ]
     },
-    "Meta API (rvm)": {
-        "prefix": "rvm",
-        "description": "Meta API method",
-        "scope": "python",
-        "body": [
-            "rv.M(\"\"\"${1:section-label} | ${2|private,public|}, ${3|hide,show|}, ${4|merge,section|} ",
-            "",
-            "    ${0:text}",
-            "    \"\"\")"
-        ]
-    },
     "Run API (rvr)": {
         "prefix": "rvr",
         "description": "Run API method",
@@ -30,7 +19,7 @@
             "    \"\"\")"
         ]
     },
-    "Run API (rvr)x": {
+    "Run API (rvrx)": {
         "prefix": "rvrx",
         "description": "Run API method",
         "scope": "python",
@@ -53,7 +42,7 @@
             "    \"\"\")"
         ]
     },
-    "Insert API (rvi) -": {
+    "Insert API (rvix)": {
         "prefix": "rvix",
         "description": "API method",
         "scope": "python",
@@ -65,7 +54,7 @@
             "    \"\"\")"
         ]
     },
-    "Values API (rv.I)": {
+    "Values API (rvv)": {
         "prefix": "rvv",
         "description": "Values API method",
         "scope": "python",
@@ -77,7 +66,7 @@
             "    \"\"\")"
         ]
     },
-    "Values API (rv.v) -": {
+    "Values API (rvvx)": {
         "prefix": "rvvx",
         "description": "Values API method",
         "scope": "python",
@@ -109,6 +98,14 @@
             "",
             "    ${0:text}",
             "    \"\"\")"
+        ]
+    },
+    "exit file (rvx)": {
+        "prefix": "rvx",
+        "description": "exit rivt file ",
+        "scope": "python",
+        "body": [
+            "rv.X()"
         ]
     },
     "cmd attach ( |at )": {

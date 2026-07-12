@@ -3,23 +3,26 @@ import rivtlib.rvapi as rv
 # %% rv.I("""Introduction 
 rv.I("""rivtbook Example 
 
-    A rivtbook is a collection of rivt files with a common subject and organized
-    for selective addition to rivt docs and reports. A rivtbook may be published as
-    a PDF or text report to facilitate review and selection of chapters.
-    
-    rivtbooks do not need to be organized into divisions. A sequence of chapters
-    is sufficient as chapters will be renumbered in the target report. The folder
-    structure for rivtbooks faciliates copy-paste of chapters. 
-    
-    The rivt file and its source files are contained within the same folder
-    (orange). A rivtbook chapter can be imported into a rivt report by copying
-    the *rivt file* (blue) to the *rivt-report* folder and its source folders
-    (green) to the *rvsrc* folder.
-    
-    
-    | IMAGE | img/rvbk-rivt.jpg | How to copy a rivtbook chapter to a rivt report, 100, num, not 
+    A rivtbook is a collection of rivt files with common subject matter that
+    may be published as a PDF or text report. Files are organized for selective
+    addition to rivt reports. Each chapter is contained within a folder
+    with an identifying name.
+     
+    _[[TEXT]] text       
+       bk1-chapter title            
+        ├── data/                    
+        ├── img/                        
+        ├── scripts/
+        └── rv001-book-chapter.py
+    _[[END]]
 
-    """)
+    A rivtbook chapter can be copied to a rivt report by copying the data, img
+    and scripts folders to the rvsrc report folder and the rivt file to the
+    rivt-report folder. 
+    
+    | IMAGE | img/rvbk-rivt.jpg rivtbook chapter copied to a report, 100, num, not 
+
+""")
 
 # %% rv.D("""Publish Doc 
 rv.D("""Publish Doc 
@@ -65,4 +68,4 @@ rv.D("""Publish Doc
     ;--- 1: include subdivisions   2: include subdivisions and sections
     toc_level = 1
     _[[END]]    
-    """)
+""")

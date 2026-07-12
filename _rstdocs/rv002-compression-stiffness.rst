@@ -1,3 +1,56 @@
+.. |s| unicode:: 0xA0 
+
+
+
+.. |blklogo| image:: ./_static/logo2.png
+   :height: 100px
+   :alt: logo
+
+
+    
+.. header::
+    .. list-table::
+        :class: header-box
+        :align: left
+        :widths: 90 10
+        
+        * - **Compression Stiffness** - v1.0.0a13 |s| |s| |s| |s|  **###Section###**
+          - p. **###Page###**   
+
+          
+
+.. footer:: 
+    .. list-table::
+        :class: footer-box
+        :align: left
+        :widths: 84 22 16
+        
+        * - 2026-07-12 |s| |s| |s| **|** |s| |s| |s| R Holland        
+          - **rivt**        
+          - |blklogo|
+
+
+                  
+
+.. raw:: pdf
+
+   PageBreak noHead
+      
+**Compression Stiffness** - v1.0.0a13
+
+--------------------
+
+|
+
+.. contents:: Table of Contents
+  :depth: 2
+
+  
+.. raw:: pdf
+ 
+   PageBreak mainPage
+   SetPageCounter 1
+
  
 .. raw:: pdf
 
@@ -6,15 +59,20 @@
       
 
 
-.. _Shape Factor:
+.. _Calculate Bearing Shape Factor:
 
-**0.21** | Shape Factor
+**0.21** | Calculate Bearing Shape Factor
 ================================================================================
  
-**COMPRESSION BLOCK**  `[0.2.1]`_ 
+ 
+ 
+The stiffness of rubber in compression, when the loaded surfaces are
+prevented from slipping (by bonding or by mechanical location), depends
+upon the shape factor S (see Fig. 1), defined as the ratio of one loaded
+area to the total force-free area.  `[0.2.1]`_ 
  
 
-.. figure:: C:/git/rivtbk-example-04-git/bk2-Bearing-Compression-Stiffness/img/fig27.jpg
+.. figure:: c:/git/rivtbk-example-04-git/bk2-Bearing-Compression-Stiffness/img/fig27.jpg
    :width: 80%
    :align: center
 
@@ -27,13 +85,8 @@ Effect of shape factor: Experimental stress-strain curves for 6.3 mm thick
 disks of rubber (47 IRHD) in compression. The shape factor is shown
 alongside each curve; the diameter in mm is 25.4 times the shape factor.
  
-The stiffness of rubber in compression, when the loaded surfaces are
-prevented from slipping (by bonding or by mechanical location), depends
-upon the shape factor S (see Fig. 1), defined as the ratio of one loaded
-area to the total force-free area, as shown in Fig. 2.
- 
 
-.. figure:: C:/git/rivtbk-example-04-git/bk2-Bearing-Compression-Stiffness/img/fig28.png
+.. figure:: c:/git/rivtbk-example-04-git/bk2-Bearing-Compression-Stiffness/img/fig28.png
    :width: 60%
    :align: center
 
@@ -101,7 +154,7 @@ Ec ≈ 5GS2
 where G is the shear modulus (from Table 3).
  
 
-.. figure:: C:/git/rivtbk-example-04-git/bk2-Bearing-Compression-Stiffness/img/fig29.png
+.. figure:: c:/git/rivtbk-example-04-git/bk2-Bearing-Compression-Stiffness/img/fig29.png
    :width: 80%
    :align: center
 

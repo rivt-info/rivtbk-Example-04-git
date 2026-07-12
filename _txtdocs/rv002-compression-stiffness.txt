@@ -1,10 +1,10 @@
 
 --------------------------------------------------------------------------------
-002 Compression Stiffness | R Holland | v-1.0.0a13 | 2026-07-11 - 12:48AM
+Compression Stiffness | R Holland | v-1.0.0a13 | 2026-07-11 - 11:05PM
 --------------------------------------------------------------------------------
 
 
-0.2-1 | Shape Factor
+0.2 | Shape Factor
 ================================================================================
  
 **COMPRESSION BLOCK** [0.2.1]
@@ -47,7 +47,7 @@ footnote to Table 2) then the E∞ value in Table 3 should be doubled.
  
  
 
-0.2 - 2-2 | Modulus
+0.2 - 2 | Modulus
 --------------------------------------------------------------------------------
  
 S = (LB) / (2t*(L+B))
@@ -118,7 +118,7 @@ of the least plan dimension there should be no instability.
  
  
 
-0.2 - 3-3 | Strip Analysis
+0.2 - 3 | Strip Analysis
 --------------------------------------------------------------------------------
  
 COMPRESSION STRIP

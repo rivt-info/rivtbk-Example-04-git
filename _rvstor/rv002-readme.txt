@@ -1,13 +1,18 @@
 
 --------------------------------------------------------------------------------
-| rivt | Compression Stiffness | R Holland | v-1.0.0a13 | 2026-07-11 - 02:15AM
+| rivt | Compression Stiffness | R Holland | v-1.0.0a13 | 2026-07-12 - 12:48AM
 --------------------------------------------------------------------------------
 
 
-0.2-1 | Shape Factor
+0.2 | Calculate Bearing Shape Factor
 ================================================================================
  
-**COMPRESSION BLOCK** [0.2.1]
+ 
+ 
+The stiffness of rubber in compression, when the loaded surfaces are
+prevented from slipping (by bonding or by mechanical location), depends
+upon the shape factor S (see Fig. 1), defined as the ratio of one loaded
+area to the total force-free area. [0.2.1]
  
           ----------------------------------------
 Fig. 1 - Shape Factor [file: img/fig27.jpg  ]
@@ -17,11 +22,6 @@ Fig. 1 - Shape Factor [file: img/fig27.jpg  ]
 Effect of shape factor: Experimental stress-strain curves for 6.3 mm thick
 disks of rubber (47 IRHD) in compression. The shape factor is shown
 alongside each curve; the diameter in mm is 25.4 times the shape factor.
- 
-The stiffness of rubber in compression, when the loaded surfaces are
-prevented from slipping (by bonding or by mechanical location), depends
-upon the shape factor S (see Fig. 1), defined as the ratio of one loaded
-area to the total force-free area, as shown in Fig. 2.
  
           ----------------------------------------
 Fig. 2 - Compression Modulus [file: img/fig28.png  ]
@@ -47,7 +47,7 @@ footnote to Table 2) then the E∞ value in Table 3 should be doubled.
  
  
 
-0.2 - 2-2 | Modulus
+0.2 - 2 | Modulus
 --------------------------------------------------------------------------------
  
 S = (LB) / (2t*(L+B))
@@ -118,7 +118,7 @@ of the least plan dimension there should be no instability.
  
  
 
-0.2 - 3-3 | Strip Analysis
+0.2 - 3 | Strip Analysis
 --------------------------------------------------------------------------------
  
 COMPRESSION STRIP

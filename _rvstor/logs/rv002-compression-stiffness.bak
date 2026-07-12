@@ -1,19 +1,20 @@
 import rivtlib.rvapi as rv
 
-rv.I("""Shape Factor 
+# %% rv.I("""Shape Factor 
+rv.I("""Calculate Bearing Shape Factor 
 
-    **COMPRESSION BLOCK** _[#]
+
+
+    The stiffness of rubber in compression, when the loaded surfaces are
+    prevented from slipping (by bonding or by mechanical location), depends
+    upon the shape factor S (see Fig. 1), defined as the ratio of one loaded
+    area to the total force-free area. _[#]
 
     | IMAGE | img/fig27.jpg | Shape Factor, 80, num, not 
 
     Effect of shape factor: Experimental stress-strain curves for 6.3 mm thick
     disks of rubber (47 IRHD) in compression. The shape factor is shown
     alongside each curve; the diameter in mm is 25.4 times the shape factor.
-
-    The stiffness of rubber in compression, when the loaded surfaces are
-    prevented from slipping (by bonding or by mechanical location), depends
-    upon the shape factor S (see Fig. 1), defined as the ratio of one loaded
-    area to the total force-free area, as shown in Fig. 2.
 
     | IMAGE | img/fig28.png | Compression Modulus, 60, num, not 
 
@@ -34,9 +35,10 @@ rv.I("""Shape Factor
     by 1+(Ec/E∞). If Wood and Martin's value for bulk modulus is preferred (see
     footnote to Table 2) then the E∞ value in Table 3 should be doubled.
 
-    """)
+""")
     
 
+# %% rv.I("""Modulus
 rv.I("""Modulus
 
     S = (L*B) / (2*t*(L+B))
@@ -101,9 +103,10 @@ rv.I("""Modulus
     experience has shown that provided the thickness is less than one-quarter
     of the least plan dimension there should be no instability.
 
-    """)
+""")
 
 
+# %% rv.V("""Strip Analysis
 rv.V("""Strip Analysis
 
     COMPRESSION STRIP
@@ -146,16 +149,18 @@ rv.V("""Strip Analysis
     where e, the compressive strain, equals x/t. As in the case of blocks, the
     non-linearity is usually ignored for strains up to about 10%.
 
-    """)
+""")
 
 
+# %% rv.R("""Footnotes | endnotes
 rv.R("""Footnotes | endnotes
 
     P.B. Lindley, Engineering Design with Natural Rubber, NR Technical Bulletin.
     Malaysian Rubber Producers' Research Association, Brickendonbury, U.K. 
     
-    """)
+""")
 
+# %% rv.D("""Publish Doc 
 rv.D("""Publish Doc 
     
     | PUBLISH | Compression Stiffness | pdf
@@ -197,6 +202,6 @@ rv.D("""Publish Doc
     pdf_margins = 1in, 1in, 1in, 1in 
     ;----------------------- TOC levels
     ;--- 1: include subdivisions   2: include subdivisions and sections
-    toc_level = 1
+    toc_level = 2
     _[[END]]    
-    """)
+""")

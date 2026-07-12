@@ -1,4 +1,6 @@
 
+linkColor: brown
+linkFontName: DejaVuSansBold
 fontsAlias:
   fontSerif: DejaVuSans
   fontSerifBold: DejaVuSans-Bold
@@ -12,8 +14,9 @@ fontsAlias:
   fontSansBold: DejaVuSans-Bold
   fontSansBoldItalic: DejaVuSans-BoldOblique
   fontSansItalic: DejaVuSans-Oblique
+  stdBold: DejaVuSans-Bold
 pageSetup:
-  firstTemplate: coverPage
+  firstTemplate: noHead
   height: null
   margin-bottom: 4mm
   margin-gutter: 1mm
@@ -53,12 +56,11 @@ styles:
     bulletFontName: fontMono
     bulletFontSize: 10
     bulletIndent: 0
-    commands: []
     firstLineIndent: 0
     fontName: fontSans
-    fontSize: 9
+    fontSize: 10
+    leading: 14
     hyphenation: false
-    leading: 12
     leftIndent: 0
     parent: null
     rightIndent: 0
@@ -67,29 +69,14 @@ styles:
     strike: false
     textColor: black
     wordWrap: null
-  ref:
-    fontName: fontSansBold
-    textColor: blue
-  url:
-    parent: bodytext
-    textColor: blue
-  internal_link:
-    parent: bodytext
-    textColor: blue
-    linkColor: blue
-    fontName: fontSansBold
-  link:
     linkUnderline: false
-    linkColor: blue
-    textColor: blue
-  tableofcontents:
-    parent: normal
+    commands: []
   big-text:
     fontSize: 175%
     parent: base
     fontName: fontSans
   medium-text:
-    fontSize: 125%
+    fontSize: 130%
     parent: base
     fontName: fontSans
   small-text:
@@ -111,8 +98,8 @@ styles:
     alignment: TA_RIGHT
     parent: bodytext
   code:
-    spaceBefore: 6
-    spaceAfter: 6
+    spaceBefore: 3
+    spaceAfter: 3
     backColor: "#d1dede"
     borderColor: darkgray
     borderPadding: 6
@@ -120,11 +107,11 @@ styles:
     leftIndent: 0
     parent: literal
     fontName: fontMonoBold
-  rolgreen:
+  compgreen:
     textColor: green
     alignment: TA_RIGHT
     fontName: fontSansBold
-  rolred:
+  compred:
     textColor: red
     alignment: TA_RIGHT
     fontName: fontSansBold
@@ -156,9 +143,19 @@ styles:
     parent: bodytext
   figure-legend:
     parent: bodytext
+  footer:
+    parent: normal
+    fontName: fontSans
+    fontSize: 9
+  header:
+    parent: normal
+    fontName: fontSans
+    fontSize: 9
   footer-box:
+    parent: normal
     alignment: TA_CENTER
     fontName: fontSans
+    fontSize: 9
     commands:
       - - BOX
         - - 0
@@ -166,10 +163,12 @@ styles:
         - - -1
           - -1
         - 0.25
-        - white
+        - transparent
   header-box:
+    parent: normal
     alignment: TA_RIGHT
     fontName: fontSans
+    fontSize: 9
     commands:
       - - BOX
         - - 0
@@ -177,11 +176,12 @@ styles:
         - - -1
           - -1
         - 0.25
-        - white
+        - transparent
+  admonition:
   heading:
     keepWithNext: true
     parent: normal
-    spaceAfter: 1
+    spaceAfter: 4
     spaceBefore: 10
     fontName: fontSerif
     textColor: "#222222"
@@ -192,6 +192,8 @@ styles:
     underlineColor: black
     underlineWidth: 1
     underlineOffset: 5
+    spaceAfter: 18
+    spaceBefore: 5
   heading2:
     fontSize: 110%
     parent: heading
@@ -199,9 +201,13 @@ styles:
     underlineColor: black
     underlineWidth: 1
     underlineOffset: 5
+    spaceAfter: 18
+    spaceBefore: 5
   heading3:
     fontSize: 100%
     parent: heading
+    spaceAfter: 10
+    spaceBefore: 5
   heading4:
     parent: heading
   heading5:
@@ -237,12 +243,28 @@ styles:
     hyphenation: false
     parent: normal
     wordWrap: null
+    spaceBefore: 6
+    spaceAfter: 6
+    leading: 11
   normal:
     parent: base
+  math-block:
+    fontSize: 10
+    alignment: TA_CENTER
+    spaceBefore: 6
+    spaceAfter: 6
   note:
+    firstlineIndent: 0
+    leftIndent: 0
+    bulletIndent: 0
     parent: admonition
+    backColor: "#d1dede"
+    borderColor: black
+    borderPadding: 10
+    borderWidth: 0.5
   note-heading:
     parent: admonition-heading
+    fontName: fontSansBold
   option-list:
     colWidths:
       - null
@@ -284,8 +306,8 @@ styles:
     spaceBefore: 12
   table:
     alignment: TA_LEFT
-    spaceBefore: 1
-    spaceAfter: 1
+    spaceBefore: 4
+    spaceAfter: 10
     borderPadding: 5
     leftPadding: 6
     rightPadding: 6
@@ -317,7 +339,7 @@ styles:
     borderPadding: 0
     backColor: "#c5d1c5"
     borderColor: darkgray
-    fontName: fontMonoBold
+    fontName: fontSansBold
   tip-heading:
     parent: admonition-heading
   title:
@@ -333,54 +355,50 @@ styles:
   toc:
     parent: normal
     fontSize: 100%
-    leftIndent: 10
   toc1:
     fontName: fontSansBold
-    leftIndent: 0
-    parent: toc
-  toc2:
-    fontName: fontSansBold
-    leftIndent: 0
-    parent: toc
-  toc3:
-    fontName: fontSansBold
-    leftIndent: 0
-    parent: toc
-  toc4:
-    leftIndent: 0
-    parent: toc
-  toc5:
-    leftIndent: 0
-    parent: toc
-  toc6:
-    leftIndent: 0
-    parent: toc
-  toc7:
-    leftIndent: 0
-    parent: toc
-  toc8:
-    leftIndent: 0
-    parent: toc
-  toc9:
-    leftIndent: 0
     parent: toc
   toc10:
-    leftIndent: 0
+    leftIndent: 100
     parent: toc
   toc11:
-    leftIndent: 0
+    leftIndent: 100
     parent: toc
   toc12:
-    leftIndent: 0
+    leftIndent: 100
     parent: toc
   toc13:
-    leftIndent: 0
+    leftIndent: 100
     parent: toc
   toc14:
-    leftIndent: 0
+    leftIndent: 100
     parent: toc
   toc15:
-    leftIndent: 0
+    leftIndent: 100
+    parent: toc
+  toc2:
+    leftIndent: 20
+    parent: toc
+  toc3:
+    leftIndent: 40
+    parent: toc
+  toc4:
+    leftIndent: 60
+    parent: toc
+  toc5:
+    leftIndent: 80
+    parent: toc
+  toc6:
+    leftIndent: 100
+    parent: toc
+  toc7:
+    leftIndent: 100
+    parent: toc
+  toc8:
+    leftIndent: 100
+    parent: toc
+  toc9:
+    leftIndent: 100
     parent: toc
   topic-title:
     parent: heading3

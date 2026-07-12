@@ -1,28 +1,30 @@
 
 --------------------------------------------------------------------------------
-| rivt | rivtbook Example - Introduction | R Holland | v-1.0.0a13 | 2026-07-11 - 02:15AM
+| rivt | rivtbook Example - Introduction | R Holland | v-1.0.0a13 | 2026-07-12 - 12:38AM
 --------------------------------------------------------------------------------
 
 
-0.1-1 | rivtbook Example
+0.1 | rivtbook Example
 ================================================================================
  
-A rivtbook is a collection of rivt files with a common subject and organized
-for selective addition to rivt docs and reports. A rivtbook may be published as
-a PDF or text report to facilitate review and selection of chapters.
+A rivtbook is a collection of rivt files with common subject matter that
+may be published as a PDF or text report. Files are organized for selective
+addition to rivt reports. Each chapter is contained within a folder
+with an identifying name.
  
-rivtbooks do not need to be organized into divisions. A sequence of chapters
-is sufficient as chapters will be renumbered in the target report. The folder
-structure for rivtbooks faciliates copy-paste of chapters.
+   bk1-chapter title            
+    ├── data/                    
+    ├── img/                        
+    ├── scripts/
+    └── rv001-book-chapter.py
+
  
-The rivt file and its source files are contained within the same folder
-(orange). A rivtbook chapter can be imported into a rivt report by copying
-the rivt file (blue) to the rivt-report folder and its source folders
-(green) to the rvsrc folder.
- 
+A rivtbook chapter can be copied to a rivt report by copying the data, img
+and scripts folders to the rvsrc report folder and the rivt file to the
+rivt-report folder.
  
           ----------------------------------------
-Fig. 1 - How to copy a rivtbook chapter to a rivt report [file: img/rvbk-rivt.jpg  ]
+Fig. 1 - Copy a rivtbook chapter to a rivt report [file: img/rvbk-rivt.jpg  ]
           ----------------------------------------
 
  
