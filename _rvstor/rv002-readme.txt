@@ -1,10 +1,10 @@
 
 --------------------------------------------------------------------------------
-| rivt | Compression Stiffness | R Holland | v-1.0.0a13 | 2026-07-12 - 12:48AM
+| rivt | Compression Stiffness | R Holland | v-1.0.0a13 | 2026-07-12 - 10:26AM
 --------------------------------------------------------------------------------
 
 
-0.2 | Calculate Bearing Shape Factor
+0.2 | Bearing Shape Factor
 ================================================================================
  
  
@@ -22,6 +22,7 @@ Fig. 1 - Shape Factor [file: img/fig27.jpg  ]
 Effect of shape factor: Experimental stress-strain curves for 6.3 mm thick
 disks of rubber (47 IRHD) in compression. The shape factor is shown
 alongside each curve; the diameter in mm is 25.4 times the shape factor.
+
  
           ----------------------------------------
 Fig. 2 - Compression Modulus [file: img/fig28.png  ]
@@ -30,24 +31,17 @@ Fig. 2 - Compression Modulus [file: img/fig28.png  ]
  
 Variation of compression modulus Ec with shape factor S for natural rubbers
 of differing hardnesses (SRF black filler used for 55 IRHD and above).
-Chart shows compression modulus Ec (MN/m2) on the vertical axis (log
-scale, 1 to 1000) versus shape factor S on the horizontal axis (log scale,
-0.3 to 40), with separate curves for nominal hardness values of 35, 45, 55,
-65, and 75 IRHD, and a line labeled "10x shear modulus G". An inset diagram
-illustrates a rubber block showing the "loaded area" (top and bottom faces)
-versus "force free areas" (side faces), with shape factor = loaded area /
-force free area, i.e. S = (LB) / (2t*(L+B)).
- 
 Although deformation due to bulk compression can normally be ignored, it
 can cause a noticeable reduction in Ec when the ratio Ec/E∞ exceeds about
-10%. (E∞ is the modulus of bulk compression, from Table 3.) To allow for
+10%. (E∞ is the modulus of bulk compression) To allow for
 this reduction, use a modified compression modulus obtained by dividing Ec
-by 1+(Ec/E∞). If Wood and Martin's value for bulk modulus is preferred (see
-footnote to Table 2) then the E∞ value in Table 3 should be doubled.
+by 1+(Ec/E∞). If Wood and Martin's value for bulk modulus is preferred  
+then the E∞ value in Table 3 should be doubled.
+
  
  
 
-0.2 - 2 | Modulus
+0.2 - 2 | Compression Stiffness of Blocks
 --------------------------------------------------------------------------------
  
 S = (LB) / (2t*(L+B))
@@ -118,7 +112,7 @@ of the least plan dimension there should be no instability.
  
  
 
-0.2 - 3 | Strip Analysis
+0.2 - 3 | Compression Stiffness of Strips
 --------------------------------------------------------------------------------
  
 COMPRESSION STRIP

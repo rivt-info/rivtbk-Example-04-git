@@ -1,5 +1,6 @@
 {
-    "window.title": "${dirty}${activeEditorLong}${separator}${separator} profile: ${profileName}${separator} repo: ${activeRepositoryName}",
+    "terminal.integrated.environmentChangesRelaunch": true,
+    "window.title": "${dirty}${separator}${activeFolderShort}${separator}${activeEditorLong}",
     "settings.cycle": [
         {
             "id": "explorerSort2", // must be unique
@@ -17,6 +18,7 @@
             ]
         }
     ],
+    "notes.notesDefaultNoteExtension": "txt",
     "notebook.markup.fontSize": 13,
     "notebook.output.fontSize": 13,
     "python.terminal.activateEnvironment": true,
@@ -109,6 +111,12 @@
                 "useVsCodeApi": true,
                 "command": "ShortcutMenuBar.newFile"
             }
+            {
+                "name": "AllImages",
+                "color": "yellow",
+                "useVsCodeApi": true,
+                "command": "vscode-infra.webviewImageViewer"
+            },
         ]
     },
     "todohighlight.include": [
