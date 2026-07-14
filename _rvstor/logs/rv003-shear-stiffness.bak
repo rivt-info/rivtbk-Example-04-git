@@ -1,8 +1,8 @@
 #! python
-# %% import
 
 import rivtlib.rvapi as rv
 
+# %% rv.I("""Rubber Elastic Properties
 rv.I("""Rubber Elastic Properties
 
 
@@ -48,6 +48,7 @@ rv.I("""Rubber Elastic Properties
 
 """)
 
+# %% rv.V("""Shear Stiffness Example
 rv.V("""Shear Stiffness Example
 
     Bearing Specifications _[T]
@@ -71,6 +72,7 @@ rv.V("""Shear Stiffness Example
     
 """)
 
+# %% rv.I("""shear 
 rv.I("""shear 
     
         Natural Frequency
@@ -148,11 +150,11 @@ rv.I("""shear
     Fig. 18. Shear mounting.
 """)
 
+
 # %% rv.D("""Publish Doc
 rv.D("""Publish Doc 
 
-    
-    | PUBLISH | Shear Stiffness | pdf
+    | PUBLISH | Shear Stiffness | txt
     
     _[[METADATA]] 
     [process]

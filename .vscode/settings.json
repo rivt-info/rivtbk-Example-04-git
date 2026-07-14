@@ -1,4 +1,13 @@
 {
+    "search.useIgnoreFiles": false,
+    "search.exclude": {
+        "**/.help": false
+    },
+    "files.exclude": {
+        "**/.help": false
+    },
+    "terminal.integrated.hideOnStartup": "always",
+    "terminal.integrated.focusAfterRun": "none",
     "terminal.integrated.environmentChangesRelaunch": true,
     "window.title": "${dirty}${separator}${activeFolderShort}${separator}${activeEditorLong}",
     "settings.cycle": [
@@ -18,7 +27,6 @@
             ]
         }
     ],
-    "notes.notesDefaultNoteExtension": "txt",
     "notebook.markup.fontSize": 13,
     "notebook.output.fontSize": 13,
     "python.terminal.activateEnvironment": true,
@@ -30,6 +38,7 @@
     "projectManager.git.baseFolders": [
         "c:\\git"
     ],
+    "workbench.editor.enablePreviewFromQuickOpen": true,
     "workbench.editor.tabSizing": "shrink",
     "workbench.editor.pinnedTabSizing": "shrink",
     "explorer.confirmDelete": false,
@@ -40,10 +49,13 @@
         "loadNpmCommands": false,
         "commands": [
             {
-                "name": "Note",
+                "name": "Help",
                 "color": "green",
-                "useVsCodeApi": false,
-                "command": "code note.txt && exit",
+                "useVsCodeApi": true,
+                "command": "workbench.action.quickOpen",
+                "args": [
+                    ".help/helptoc.md",
+                ]
             },
             {
                 "name": "Setting",
@@ -68,12 +80,6 @@
                 "color": "red",
                 "useVsCodeApi": true,
                 "command": "workbench.action.gotoLine",
-            },
-            {
-                "name": "RunCell",
-                "color": "red",
-                "useVsCodeApi": true,
-                "command": "jupyter.runcurrentcell",
             },
             {
                 "name": "FoldAll",
@@ -110,7 +116,7 @@
                 "color": "yellow",
                 "useVsCodeApi": true,
                 "command": "ShortcutMenuBar.newFile"
-            }
+            },
             {
                 "name": "AllImages",
                 "color": "yellow",
@@ -127,14 +133,25 @@
     "todohighlight.maxFilesForSearch": 5120,
     "todohighlight.toggleURI": false,
     "todohighlight.defaultStyle": {
-        "color": "grey",
+        "color": "#4989a2",
         "backgroundColor": "editor.background",
         "border": "none",
         "isWholeLine": false,
     },
+    "todohighlight.keywordsPattern": "",
     "todohighlight.keywords": [
         {
+            "text": "new_unit(",
+            "color": "#4989a2",
+            "isWholeLine": false,
+        },
+        {
             "text": "# %%",
+            "color": "#a19e6d",
+            "isWholeLine": true,
+        },
+        {
+            "text": "-----------",
             "color": "#a19e6d",
             "isWholeLine": true,
         },
@@ -252,7 +269,15 @@
             "color": "#0f8f69",
         },
         {
-            "text": "| MARKUP |",
+            "text": "| FUNCTION |",
+            "color": "#0f8f69",
+        },
+        {
+            "text": "| COPY |",
+            "color": "#0f8f69",
+        },
+        {
+            "text": "| SHELL |",
             "color": "#0f8f69",
         },
         {
@@ -318,17 +343,12 @@
             "isWholeLine": true,
         },
         {
-            "text": "_[[TOPIC]]",
+            "text": "_[[WRITE]]",
             "color": "#4989a2",
             "isWholeLine": true,
         },
         {
-            "text": "_[[INDENT]]",
-            "color": "#4989a2",
-            "isWholeLine": true,
-        },
-        {
-            "text": "_[[ITALLIC]]",
+            "text": "_[[ARGS]]",
             "color": "#4989a2",
             "isWholeLine": true,
         },
@@ -343,27 +363,12 @@
             "isWholeLine": true,
         },
         {
-            "text": "_[[LAYOUT]]",
-            "color": "#4989a2",
-            "isWholeLine": true,
-        },
-        {
             "text": "_[[METADATA]]",
             "color": "#4989a2",
             "isWholeLine": true,
         },
         {
-            "text": "_[[ENDNOTES]]",
-            "color": "#4989a2",
-            "isWholeLine": true,
-        },
-        {
             "text": "_[[END]]",
-            "color": "#4989a2",
-            "isWholeLine": true,
-        },
-        {
-            "text": "_[[NEWPAGE]]",
             "color": "#4989a2",
             "isWholeLine": true,
         },

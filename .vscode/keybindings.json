@@ -1,6 +1,11 @@
 // rivt key bindings - copy to VSCode keybinding JSON file
 [
     {
+        "key": "ctrl+alt+h",
+        "command": "revealInExplorer",
+        "args": "file:///${workspaceFolder}/_help"
+    },
+    {
         "key": "ctrl+alt+c",
         "command": "runCommands",
         "args": {

@@ -1,77 +1,32 @@
-# units
 
-# temperature - relative degree, not offset
-K = new_unit("K", 0, "kelvin")
-CELSIUS = new_unit("deg C", K, "degree Celsius")
-FAHR = new_unit("degF", K * 9.0 / 5, "degree Fahrenheit")
-# time
-sec = S = new_unit("sec", 0, "second")
-HZ = new_unit("Hz", 1 / S, "hertz")
-# length
-m = M = new_unit("m", 0, "meter")
-nm = new_unit("nm", 10**-9 * M, "nanometer")
-um = new_unit("um", 10**-6 * M, "micrometer")
-mm = new_unit("mm", 10**-3 * M, "millimeter")
-cm = new_unit("cm", 10**-2 * M, "centimeter")
-dm = new_unit("dm", 10**-1 * M, "decimeter")
-# mass
-kg = KG = new_unit("kg", 0, "kilogram")
-gram = new_unit("gram", 10**-3 * KG, "gram")
-rad = new_unit("rad", M / M, "radian")
-sr = new_unit("sr", M**2 / M**2, "steradian")
-mol = new_unit("mol", 0, "mole")
-# force
-N = new_unit("N", M * KG / S**2, "newton")
-cd = new_unit("cd", 0, "candela")
-lm = new_unit("lm", cd * sr, "lumen")
-lx = new_unit("lx", lm / M**2, "lux")
-# charge
-J = new_unit("J", N * M, "joule")
-W = new_unit("W", J / S, "watt")
-A = new_unit("A", 0, "ampere")
-mA = new_unit("mA", 10**-3 * A, "milliampere")
-C = new_unit("C", S * A, "coulomb")
-VO = new_unit("V", W / A, "volt")
-F = new_unit("F", C / VO, "farad")
-OHM = new_unit("ohm", VO / A, "ohm")
-SIEMENS = new_unit("siemens", A / VO, "siemens")
-WB = new_unit("Wb", VO * SIEMENS, "weber")
-TS = new_unit("TS", WB / M**2, "tesla")
-HENRY = new_unit("H", WB / A, "henry")
-#
-#
-# ============  DO NOT MODIFY FILE ABOVE THIS LINE  ===========================
-#
 # --------------------------------------------------- metric
-#
 g = new_unit("G", 9.80665 * M / S**2, "gravity acceleration")
-# pressure
+# ----------- pressure
 PA = new_unit("PA", N / M**2, "pascal")
 MPA = new_unit("MPA", PA * (10**6), "megapascals")
 kPA = new_unit("kPA", PA * (10**3), "kilopascals")
-# force
+# ----------- force
 kN = new_unit("kN", N * (10**3), "kilonewton")
 MN = new_unit("mN", N * (10**6), "meganewton")
 km = new_unit("kM", M * (10**3), "kilometer")
 kN_m3 = new_unit("kN_m3", kN / (M**3), "kilonewton per cubic meter")
 kN_m = new_unit("kN_m", kN / M, "kilonewton per meter")
 kN_cm = new_unit("kN_cm", kN / cm, "kilonewton per centimeter")
+kN_cm2 = new_unit("kN_cm2", kN / (cm**2), "kilonewton per square centimeter")
 mkN = new_unit("mkN", (kN * M), "meter-kilonewton")
-# area
+# ----------- area
 sqm = new_unit("sqm", (M**2), "square meter")
 cm2 = new_unit("cm2", (cm**2), "square centimeter")
 cm3 = new_unit("cm3", (cm**3), "cubic centimeter")
 cm4 = new_unit("cm4", (cm**4), "cm to fourth power")
-#
 # ------------------------------------------------- imperial
-#
-# length
+# ----------- length
 inch = new_unit("inch", M / 39.370079, "inch")
 ft = new_unit("ft", M / 3.2808399, "foot")
 miles = new_unit("miles", ft * 5280, "miles")
-# mass
+# ----------- mass
 lbm = new_unit("lbm", KG / 2.2046226, "pound-mass")
-# force
+# ----------- force
 lbf = new_unit("lbf", 4.4482216 * N, "pound-force")
 kips = new_unit("kips", lbf * 1000.0, "kilopound")
 ftkips = new_unit("ft-kip", ft * lbf * 1000.0, "foot-kips")
@@ -80,21 +35,21 @@ k_in = new_unit("k_in", kips / inch, "kips per inch")
 k_ft = new_unit("k_ft", kips / ft, "kips per foot")
 p_in = new_unit("lb_in", lbf / inch, "pounds per inch")
 p_ft = new_unit("lb_ft", lbf / ft, "pounds per foot")
-# area
+# ----------- area
 sf = new_unit("sf", ft**2, "square feet")
 in2 = new_unit("in2", inch**2, "square inches")
 in3 = new_unit("in3", inch**3, "cubic inches")
 in4 = new_unit("in4", inch**4, "inches to fourth")
-# pressure
+# ----------- pressure
 p_sf = new_unit("p_sf", lbf / ft**2, "pounds per square foot")
 p_si = new_unit("p_si", lbf / inch**2, "pounds per square inch")
 k_sf = new_unit("k_sf", kips / ft**2, "kips per square foot")
 k_si = new_unit("k_si", kips / inch**2, "kips per square inch")
-# density
+# ----------- density
 p_ci = new_unit("p_ci", lbf / inch**3, "pounds per cubic inch")
 p_cf = new_unit("p_cf", lbf / ft**3, "pounds per cubic ft")
-# time
+# ----------- time
 hr = new_unit("hr", 60 * 60 * sec, "hours")
-# velocity
+# ----------- velocity
 mph = new_unit("mph", miles / hr, "miles per hour")
 fps = new_unit("fps", ft / sec, "feet per second")

@@ -1,4 +1,4 @@
-Hardness (IRHD +/-2),Young's modulus E0 (MN/m^2),Shear modulus G (MN/m^2),k,Bulk modulus E_inf (MN/m^2)
+Hardness,Young's mod E0,Shear mod G,k,Bulk mod
 30,0.92,0.30,0.93,1000
 35,1.18,0.37,0.89,1000
 40,1.50,0.45,0.85,1000
@@ -7,5 +7,4 @@ Hardness (IRHD +/-2),Young's modulus E0 (MN/m^2),Shear modulus G (MN/m^2),k,Bulk
 55,3.25,0.81,0.64,1090
 60,4.45,1.06,0.57,1150
 65,5.85,1.37,0.54,1210
-70,7.35,1.73,0.53,1270
-75,9.40,2.22,0.52,1330
+70,9.40,2.22,0.52,1330

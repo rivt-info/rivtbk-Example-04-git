@@ -1,4 +1,4 @@
-Shore A (approx.),Young's modulus (lbf/in^2),Shear modulus (lbf/in^2),k,Bulk modulus (lbf/in^2)
+Hardness,Young's mod E0,Shear mod G,k,Bulk mod
 35,168,53,0.89,142 000
 45,256,76,0.80,142 000
 55,460,115,0.64,154 000

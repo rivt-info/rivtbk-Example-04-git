@@ -3,8 +3,6 @@ import rivtlib.rvapi as rv
 # %% rv.I("""System Period
 rv.I("""System Period
 
-     
-
     CLOUGH, PENZIEN - Dynamics of Structures, page 178
 
     Use flexibility formulation _[#] (see page 182)
@@ -162,13 +160,10 @@ rv.I("""Plot Mode Shapes
     """)
 
 # %% rv.R("""Bibliography | endnotes
-rv.R("""Bibliography | endnotes
+rv.T("""Bibliography | endnotes
 
     R.W. Clough and J. Penzien, Dynamics of Structures. New York, NY, USA:
     McGraw-Hill, 1975.
-
-    Anil K.Anil K. Chopra, Dynamics of Structures: Theory and Applications to 
-    Earthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
 
     """)
 

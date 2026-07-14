@@ -1,10 +1,10 @@
 
 --------------------------------------------------------------------------------
-| rivt | Shear Stiffness | R Holland | v-1.0.0a13 | 2026-07-11 - 02:15AM
+| rivt | Shear Stiffness | R Holland | v-1.0.0a13 | 2026-07-13 - 09:18PM
 --------------------------------------------------------------------------------
 
 
-0.3-1 | Rubber Elastic Properties
+0.3 | Rubber Elastic Properties
 ================================================================================
  
  
@@ -51,7 +51,7 @@ rubber constituents, thixotropic and other effects increase 3G to    about 4G.
  
  
 
-0.3 - 2-2 | Shear Stiffness Example
+0.3 - 2 | Shear Stiffness Example
 --------------------------------------------------------------------------------
  
 
@@ -115,13 +115,13 @@ layers            -              thickness
 
 Ks₁ = 3.48 k_in    [Ks₁] = 6.10 kN_cm  | shear stiffness
 
-=============  ================  =============  ==========
-G₁             rdia              rht            cpi
-=============  ================  =============  ==========
-58.00 p_si     39.50 inch        20.40 inch     3.1418
-—————          —————             —————          —————
-shear modulus  bearing diameter  rubber height  contant pi
-=============  ================  =============  ==========
+=============  ================  ==========  =============
+rht            rdia              cpi         G₁
+=============  ================  ==========  =============
+20.40 inch     39.50 inch        3.1418      58.00 p_si
+—————          —————             —————       —————
+rubber height  bearing diameter  contant pi  shear modulus
+=============  ================  ==========  =============
  
 Shape Factor for Circular Bearing
 
@@ -136,13 +136,13 @@ Shape Factor for Circular Bearing
 
 sh₁ ₁ = 24    [sh₁ ₁] = 24  | shape factor 1
 
-=============  ===============
-sdia           rthk
-=============  ===============
-38 inch        0 inch
-—————          —————
-shim diameter  layer thickness
-=============  ===============
+===============  =============
+rthk             sdia
+===============  =============
+0 inch           38 inch
+—————            —————
+layer thickness  shim diameter
+===============  =============
 
 ┌  Eq-5 | shape factor 2
 │
@@ -163,7 +163,7 @@ bearing diameter  bearing height
  
  
 
-0.3 - 3-3 | shear
+0.3 - 3 | shear
 --------------------------------------------------------------------------------
  
     Natural Frequency

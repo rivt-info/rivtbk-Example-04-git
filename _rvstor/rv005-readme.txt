@@ -1,16 +1,11 @@
 
 --------------------------------------------------------------------------------
-| rivt | Rate Independent Damping | R Holland | v-1.0.0a13 | 2026-07-11 - 02:15AM
+| rivt | Rate Independent Damping | R Holland | v-1.0.0a13 | 2026-07-14 - 12:15AM
 --------------------------------------------------------------------------------
 
 
-0.5-1 | Hysteretic Damping
+0.5 | Rate Independent Damping
 ================================================================================
- 
- 
-3.10 HARMONIC VIBRATION WITH RATE-INDEPENDENT DAMPING [0.5.1]
- 
-3.10.1 Rate-Independent Damping
  
 Experiments on structural metals indicate that the energy dissipated
 internally in cyclic straining of the material is essentially independent
@@ -22,7 +17,7 @@ internal damping are structural damping, solid damping, and hysteretic
 damping. We prefer not to use these terms because the first two are not
 especially meaningful and the third is ambiguous because hysteresis is a
 characteristic of all materials or structural systems that dissipate
-energy.
+energy. [0.5.1]
  
 Rate-independent damping is associated with static hysteresis due to
 plastic strain, localized plastic deformation, crystal plasticity, and
@@ -39,17 +34,35 @@ The simplest device that can be used to represent rate-independent linear
 damping is to assume that the damping force is proportional to velocity and
 inversely proportional to frequency:
  
-fD = (ηk/ω)  u̇       ... (3.10.1)
+┌  Eq-1 | 
+│
+│          k⋅u̇⋅η
+│     fD = ─────
+│            ω  
+└
+
+
  
 where k is the stiffness of the structure and η is a damping coefficient.
 The energy dissipated by this type of damping in a cycle of vibration at
 frequency ω is independent of ω (Fig. 3.10.1). It is given by Eq. (3.8.1)
 with c replaced by η*k/ω:
  
-ED = πηku02 = 2πη*E_So       ... (3.10.2)
+┌  Eq-2 | 
+│
+│              2    
+│     ED = k⋅u₀ ⋅η⋅π
+└
+
+
  
 In contrast, the energy dissipated in viscous damping increases linearly
-with the forcing frequency, as shown in Fig. 3.10.1.
+with the forcing frequency, as shown in Fig. 1.
+ 
+          ----------------------------------------
+Fig. 1 - Viscous and Rate Independent Damping [file: img/fig3-10-1.jpg  ]
+          ----------------------------------------
+
  
 Rate-independent damping is easily described if the excitation is harmonic
 and we are interested only in the steady-state response of this system.
@@ -62,41 +75,97 @@ reader is familiar with complex-variable notation. The complex stiffness
 has no physical meaning, however, in the same engineering sense as the
 elastic stiffness.
  
-[Figure 3.10.1 - Energy dissipated in viscous damping and rate-independent
-damping. Plot of energy dissipated ED (vertical axis) versus forcing
-frequency ω (horizontal axis). A straight line through the origin, labeled
-"Viscous damping," rises linearly with ω. A horizontal line, labeled
-"Rate-independent damping," stays constant with ω. The two lines cross at ω
-= ωn. Image file: images/fig_3.10.1_energy_dissipated.png]
  
- 
-3.10.2 Steady-State Response to Harmonic Force
+
+0.5 - 2 | Steady-State Response to Harmonic Force
+--------------------------------------------------------------------------------
  
 The equation for an SDF system with rate-independent linear damping,
 denoted by a crossed box in Fig. 3.10.2, is Eq. (3.2.1) with the damping
 term replaced by Eq. (3.10.1):
  
-mü + (ηk/ω)u̇ + ku = p(t)       ... (3.10.3)
+┌  Eq-3 | 
+│
+│           k⋅u̇⋅η             
+│     k⋅u + ───── + m⋅ü = p(t)
+│             ω               
+└
+
+
  
 The mathematical solution of this equation is quite complex for arbitrary
 p(t). Here we consider only the steady-state motion due to a sinusoidal
 forcing function, p(t) = p0sin(ωt), which is described by
  
-u(t) = u0  sin(ωt - φ)       ... (3.10.4)
+┌  Eq-4 | 
+│
+│     u(t) = u₀⋅sin(t⋅ω - φ)
+└
+
+
  
 The amplitude u0 and phase angle φ are
  
-u0 = (u_st)0  1 / sqrt( (1 - (ω/ωn)2)2 + η2 )       ... (3.10.5)
+┌  Eq-5 | 
+│
+│                            1            
+│     u₀ = uₛₜ⋅1⋅─────────────────────────
+│                      ___________________
+│                     ╱                 2 
+│                    ╱       ⎛        2⎞  
+│                   ╱    2   ⎜    ⎛ω ⎞ ⎟  
+│                  ╱    η  + ⎜1 - ⎜──⎟ ⎟  
+│                ╲╱          ⎝    ⎝ωn⎠ ⎠  
+└
+
+
  
-φ = arctan( η / (1 - (ω/ωn)2) )       ... (3.10.6)
+┌  Eq-6 | 
+│
+│               ⎛    η    ⎞
+│     φ = arctan⎜─────────⎟
+│               ⎜        2⎟
+│               ⎜    ⎛ω ⎞ ⎟
+│               ⎜1 - ⎜──⎟ ⎟
+│               ⎝    ⎝ωn⎠ ⎠
+└
+
+
  
 These results are obtained by modifying the viscous damping ratio in Eqs.
 (3.2.11) and (3.2.12) to reflect the damping force associated with
 rate-independent damping, Eq. (3.10.1). In particular, ζ was replaced by
  
-ζ = c/c_c = (ηk/ω) / (2mωn) = η / (2(ω/ωn))       ... (3.10.7)
+┌  Eq-7 | 
+│
+│          c 
+│     ζ = ───
+│         c_c
+└
+
+
  
-Shown in Fig. 3.10.3 by solid lines are plots of u0/(u_st)0 and φ as a
+┌  Eq-8 | 
+│
+│           k⋅η   
+│     ζ = ────────
+│         ω⋅2⋅m⋅ωn
+└
+
+
+ 
+┌  Eq-9 | 
+│
+│           η  
+│     ζ = ─────
+│         ⎛2⋅ω⎞
+│         ⎜───⎟
+│         ⎝ωn ⎠
+└
+
+
+ 
+Shown in Fig 3 by solid lines are plots of u0/(u_st)0 and φ as a
 function of the frequency ratio ω/ωn for damping coefficient η = 0, 0.2,
 and 0.4; the dashed lines are described in the next section. Comparing
 these results with those in Fig. 3.2.6 for viscous damping, two differences
@@ -104,6 +173,11 @@ are apparent: First, resonance (maximum amplitude) occurs at ω = ωn, not at
 ω < ωn. Second, the phase angle for ω = 0 is φ = arctan(η) instead of zero
 for viscous damping; this implies that motion with rate-independent damping
 can never be in phase with the forcing function.
+ 
+          ----------------------------------------
+Fig. 2 - SDF Rate Independent Linear Damping [file: img/fig_3.10.2.jpg  ]
+          ----------------------------------------
+
  
 These differences between forced vibration with rate-independent damping
 and forced vibration with viscous damping are not significant, but they are
@@ -113,29 +187,15 @@ its real physical characteristics is an assumption of some error. In the
 next section this error is shown to be small when the real damping is rate
 independent.
  
-[Figure 3.10.2 - SDF system with rate-independent linear damping.
-Schematic: a mass m rests on a friction-free surface (shown with rollers),
-connected to a fixed wall by a spring of stiffness k and, in parallel, a
-crossed-box symbol labeled η (representing the rate-independent damping
-element). The mass displaces by u (arrow pointing right, labeled "u") under
-applied force p(t) (arrow pointing right, labeled "p(t)"). Image file:
-images/fig_3.10.2_sdf_system.png]
+          ----------------------------------------
+Fig. 3 - Rate Independent Damping [file: img/fig_3.10.3.png  ]
+          ----------------------------------------
+
  
-[Figure 3.10.3 - Response of system with rate-independent damping: exact
-solution and approximate solution using equivalent viscous damping. Top
-plot: Deformation response factor Rd = u0/(u_st)0 (vertical axis, 0 to 5)
-versus frequency ratio ω/ωn (horizontal axis, 0 to 3). Solid curves show
-rate-independent damping for η = ζ = 0 (sharp peak at Rd = 5 at ω/ωn = 1),
-ζ = 0.1 with η = 0.2 (lower peak), and ζ = 0.2 with η = 0.4 (peak near Rd =
-2.5). Dashed curves show the equivalent-viscous-damping approximation
-overlaid on each case. Bottom plot: Phase angle φ (vertical axis, 0° to
-180°) versus the same frequency ratio ω/ωn. Curves rise from a small angle
-at ω/ωn = 0, pass through 90° at ω/ωn = 1, and approach 180° for large
-ω/ωn, again with solid (rate-independent) and dashed (equivalent viscous)
-curves for η = ζ = 0, η = 0.2/ζ = 0.1, and η = 0.4/ζ = 0.2. Image file:
-images/fig_3.10.3_response_factor.png]
  
-3.10.3 Solution Using Equivalent Viscous Damping
+
+0.5 - 3 | Solution Using Equivalent Viscous Damping
+--------------------------------------------------------------------------------
  
 In this section an approximate solution for the steady-state harmonic
 response of a system with rate-independent damping is obtained by modeling
@@ -145,7 +205,14 @@ Matching dissipated energies at ω = ωn (Fig. 3.10.1) led to Eq. (3.9.2),
 where ED is given by Eq. (3.10.2), leading to the equivalent viscous
 damping ratio:
  
-ζ_eq = η/2       ... (3.10.8)
+┌  Eq-10 | 
+│
+│            η
+│     ζ_eq = ─
+│            2
+└
+
+
  
 Substituting this ζ_eq for ζ in Eqs. (3.2.10) to (3.2.12) gives the system
 response. The resulting amplitude u0 and phase angle φ are shown by the
@@ -159,9 +226,13 @@ replaced by the simpler Eq. (3.2.1) for a system with equivalent viscous
 damping defined by Eq. (3.10.8). This is the basic advantage of equivalent
 viscous damping.
  
-3.11 HARMONIC VIBRATION WITH COULOMB FRICTION
+
+0.5 - 4 | Harmonic Vibration with Coulomb Friction
+--------------------------------------------------------------------------------
  
-3.11.1 Equation of Motion
+Equation of Motion
+
+
  
 Shown in Fig. 3.11.1 is a mass-spring system with Coulomb friction force F
 = μ*N that opposes sliding of the mass. As defined in Section 2.4, the
@@ -170,7 +241,9 @@ and N is the normal force across the sliding surfaces. The equation of
 motion is obtained by including the exciting force in Eqs. (2.4.1) and
 (2.4.2) governing the free vibration of the system:
  
-mü + ku ± F = p(t)       ... (3.11.1)
+m*ü + k*u ± F = p(t)
+
+
  
 The sign of the friction force changes with the direction of motion; the
 positive sign applies if the motion is from left to right (u̇ > 0) and the
@@ -180,41 +253,36 @@ because the governing equation changes every half-cycle of motion.
 Therefore, exact analytical solutions would not be possible except in
 special cases.
  
-[Figure 3.11.1 - SDF system with Coulomb friction. Schematic: a mass m,
-connected to a fixed wall by a spring of stiffness k, rests on a surface
-exerting friction force ±F. The mass is subjected to applied force p(t)
-(arrow pointing right, labeled "p(t)"). Image file:
-images/fig_3.11.1_coulomb_friction_sdf.png]
- 
-3.11.2 Steady-State Response to Harmonic Force
+Steady-State Response to Harmonic Force
+
+
  
 An exact analytical solution for the steady-state response of the system of
-Fig. 3.11.1 subjected to harmonic force was developed by J. P. Den Hartog
-in 1933. The analysis is not included here, but his results are shown by
-solid lines in Fig. 3.11.2; the
+Fig. 4 subjected to harmonic force was developed by J. P. Den Hartog in
+1933.
  
-dashed lines are described in the next section. The displacement amplitude
-u0, normalized relative to (u_st)0 = p0/k, and the phase angle φ are
-plotted as a function of the frequency ratio ω/ωn for three values of F/p0.
-If there is no friction, F = 0 and u0/(u_st)0 = (Rd)_ζ=0, the same as in
-Eq. (3.1.11) for an undamped system. The friction force reduces the
-displacement amplitude u0, with the reduction depending on the frequency
-ratio ω/ωn.
+          ----------------------------------------
+Fig. 4 - SDF Coulomb Damping [file: img/fig_3.11.1.jpg  ]
+          ----------------------------------------
+
  
-[Figure 3.11.2 - Deformation response factor and phase angle of a system
+The analysis is not included here, but his results are shown by solid
+lines in Fig. 5. The displacement amplitude u0, normalized relative to
+(u_st)0 = p0/k, and the phase angle φ are plotted as a function of the
+frequency ratio ω/ωn for three values of F/p0. If there is no friction, F =
+0 and u0/(u_st)0 = (Rd)_ζ=0, the same as in Eq. (3.1.11) for an undamped
+system. The friction force reduces the displacement amplitude u0, with the
+reduction depending on the frequency ratio ω/ωn.
+ 
+          ----------------------------------------
+Fig. 5 - Damping with Coulomb Friction [file: img/fig_3.11.2.png  ]
+          ----------------------------------------
+
+ 
+Deformation response factor and phase angle of a system
 with Coulomb friction excited by harmonic force. Exact solution from J. P.
-Den Hartog; approximate solution is based on equivalent viscous damping.
-Top plot: Deformation response factor Rd = u0/(u_st)0 (vertical axis, 0 to
-3.5) versus frequency ratio ω/ωn (horizontal axis, 0 to 2.0). Solid curves
-(Coulomb friction) are shown for F/p0 = 0, 0.5, 0.7, π/4, and 0.8, each
-rising to a peak near ω/ωn = 1 and diverging to infinity at ω/ωn = 1 for
-the lower friction values; the F/p0 = 0.8 curve shows a rounded peak around
-Rd ≈ 1.6 near ω/ωn ≈ 0.85 and then drops off. Dashed curves (equivalent
-viscous damping) approximate each solid curve. Bottom plot: Phase angle φ
-(vertical axis, 0° to 180°) versus the same frequency ratio. Curves for
-F/p0 = 0 (φ = 0 for ω/ωn < 1, jumping to ~180° above resonance), and for
-F/p0 = 0.5, 0.7, 0.8, with corresponding dashed equivalent-viscous-damping
-approximations. Image file: images/fig_3.11.2_coulomb_response.png]
+Den Hartog; approximate solution is based on equivalent viscous damping.    
+
  
  
 
