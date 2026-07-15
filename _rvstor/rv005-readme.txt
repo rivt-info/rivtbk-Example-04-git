@@ -1,10 +1,10 @@
 
 --------------------------------------------------------------------------------
-| rivt | Rate Independent Damping | R Holland | v-1.0.0a13 | 2026-07-14 - 12:15AM
+| rivt | Rate Independent Damping | R Holland | v-1.0.0a13 | 2026-07-15 - 01:04AM
 --------------------------------------------------------------------------------
 
 
-0.5 | Rate Independent Damping
+0.5-1 | Rate Independent Damping
 ================================================================================
  
 Experiments on structural metals indicate that the energy dissipated
@@ -77,7 +77,7 @@ elastic stiffness.
  
  
 
-0.5 - 2 | Steady-State Response to Harmonic Force
+0.5-2 | Steady-State Response to Harmonic Force
 --------------------------------------------------------------------------------
  
 The equation for an SDF system with rate-independent linear damping,
@@ -194,7 +194,7 @@ Fig. 3 - Rate Independent Damping [file: img/fig_3.10.3.png  ]
  
  
 
-0.5 - 3 | Solution Using Equivalent Viscous Damping
+0.5-3 | Solution Using Equivalent Viscous Damping
 --------------------------------------------------------------------------------
  
 In this section an approximate solution for the steady-state harmonic
@@ -227,7 +227,7 @@ damping defined by Eq. (3.10.8). This is the basic advantage of equivalent
 viscous damping.
  
 
-0.5 - 4 | Harmonic Vibration with Coulomb Friction
+0.5-4 | Harmonic Vibration with Coulomb Friction
 --------------------------------------------------------------------------------
  
 Equation of Motion

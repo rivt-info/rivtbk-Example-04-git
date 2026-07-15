@@ -1,6 +1,7 @@
 
-Help Files
-(ctrl+click on links)
+rivt Help Files 
+===============
+                    (ctrl+click links)
 
 [ Assignments    ](/.help/assignments.md)
 
@@ -12,6 +13,6 @@ Help Files
 
 [ Units          ](/.help/units.md)
 
-[ Report Folders ](/.help/units.md)
+[ Report Folders ](/.help/bkfolders.md)
 
-[ Book Folders   ](/.help/units.md)
+[ Book Folders   ](/.help/repfolders.md)

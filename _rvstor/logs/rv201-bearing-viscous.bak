@@ -1,6 +1,6 @@
 import rivtlib.rvapi as rv
 
-rv.I("""Equivalent Viscous Damping 
+rv.I(r"""Equivalent Viscous Damping 
 
     | IMAGE | img/fig201-1.png | Viscous Damping Model, 80, num, not 
     
@@ -30,7 +30,7 @@ rv.I("""Equivalent Viscous Damping
     """)
 
 
-rv.I("""section-label 
+rv.I(r"""section-label 
     
 
     | IMAGE | img/fig201-2.png | Viscous Damping Model, 80, num, not 
@@ -86,14 +86,14 @@ rv.I("""section-label
     such as those shown in Fig. 1.3.4 (see Chapters 5 and 7).
     """)
 
-rv.R("""Bibliography | endnotes
+rv.R(r"""Bibliography | endnotes
 
     Anil K.Anil K. Chopra, Dynamics of Structures: Theory and Applications to
     Earthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
 
     """)
 
-rv.D("""Publish Doc 
+rv.D(r"""Publish Doc 
     
     | PUBLISH | 201 Bearing Viscous Damping | pdf
     

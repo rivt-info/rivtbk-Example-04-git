@@ -253,7 +253,17 @@
             "---------------"
         ]
     },
-    "block text ( [ta )": {
+    "block python ( [py )": {
+        "prefix": "[py",
+        "description": "block python",
+        "scope": "python",
+        "body": [
+            "_[[PYTHON]] ${1:params}",
+            "${0:text}",
+            "_[[END]]"
+        ]
+    },
+    "block text ( [ta )1": {
         "prefix": "[ta",
         "description": "block tag text",
         "scope": "python",

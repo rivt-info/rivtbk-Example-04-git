@@ -1,7 +1,7 @@
 import rivtlib.rvapi as rv
 
-# %% rv.I("""Shape Factor 
-rv.I("""Bearing Shape Factor 
+# %% rv.I(r"""Shape Factor 
+rv.I(r"""Bearing Shape Factor 
 
     The stiffness of rubber in compression, when the loaded surfaces are
     prevented from slipping by bonding or by mechanical location, depends
@@ -80,8 +80,8 @@ rv.I("""Bearing Shape Factor
 """)
     
 
-# %% rv.V("""Block Compression Stiffness
-rv.V("""Block Compression Stiffness
+# %% rv.V(r"""Block Compression Stiffness
+rv.V(r"""Block Compression Stiffness
 
     Shape Factor Parameters _[T]
     t1 ==: .25 | inch, mm, 2 | thickness
@@ -146,8 +146,8 @@ rv.V("""Block Compression Stiffness
 """)
 
 
-# %% rv.V("""Strip Analysis
-rv.I("""Strip Compression Stiffness
+# %% rv.V(r"""Strip Analysis
+rv.I(r"""Strip Compression Stiffness
 
     ## The following equations still need conversion to rivt. 
 
@@ -196,8 +196,8 @@ rv.I("""Strip Compression Stiffness
 
 """)
 
-# %% rv.I("""Derivation of Compression Characteristics 
-rv.I("""Derivation of Compression Characteristics 
+# %% rv.I(r"""Derivation of Compression Characteristics 
+rv.I(r"""Derivation of Compression Characteristics 
 
     Approximate load-deformation relations are derived below for small
     compressions of rubber blocks, between rigid plates to which they adhere or
@@ -342,8 +342,8 @@ rv.I("""Derivation of Compression Characteristics
 
 """)
 
-# %% rv.R("""Footnotes | endnotes
-rv.R("""Footnotes | endnotes
+# %% rv.R(r"""Footnotes | endnotes
+rv.R(r"""Footnotes | endnotes
 
     P.B. Lindley, Engineering Design with Natural Rubber, NR Technical Bulletin.
     Malaysian Rubber Producers' Research Association, Brickendonbury, U.K. 
@@ -366,8 +366,8 @@ rv.R("""Footnotes | endnotes
 
 """)
 
-# %% rv.D("""Publish Doc 
-rv.D("""Publish Doc 
+# %% rv.D(r"""Publish Doc 
+rv.D(r"""Publish Doc 
     
     | PUBLISH | Compression Stiffness | pdf
     

@@ -2,8 +2,8 @@
 
 import rivtlib.rvapi as rv
 
-# %% rv.I("""Rubber Elastic Properties
-rv.I("""Rubber Elastic Properties
+# %% rv.I(r"""Rubber Elastic Properties
+rv.I(r"""Rubber Elastic Properties
 
 
     IRHD hardness scale (MN/m2) _[T]
@@ -48,8 +48,8 @@ rv.I("""Rubber Elastic Properties
 
 """)
 
-# %% rv.V("""Shear Stiffness Example
-rv.V("""Shear Stiffness Example
+# %% rv.V(r"""Shear Stiffness Example
+rv.V(r"""Shear Stiffness Example
 
     Bearing Specifications _[T]
     G_1 ==: 58 * p_si | p_si, MPA, 2 | shear modulus                                                    
@@ -72,8 +72,8 @@ rv.V("""Shear Stiffness Example
     
 """)
 
-# %% rv.I("""shear 
-rv.I("""shear 
+# %% rv.I(r"""shear 
+rv.I(r"""shear 
     
         Natural Frequency
 
@@ -151,8 +151,8 @@ rv.I("""shear
 """)
 
 
-# %% rv.D("""Publish Doc
-rv.D("""Publish Doc 
+# %% rv.D(r"""Publish Doc
+rv.D(r"""Publish Doc 
 
     | PUBLISH | Shear Stiffness | txt
     

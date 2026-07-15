@@ -141,6 +141,11 @@
     "todohighlight.keywordsPattern": "",
     "todohighlight.keywords": [
         {
+            "text": "\n",
+            "color": "#e8c468",
+            "isWholeLine": false,
+        },
+        {
             "text": "new_unit(",
             "color": "#4989a2",
             "isWholeLine": false,
@@ -433,6 +438,19 @@
                         "meta.function-call.python",
                         "meta.member.access.python",
                         "source.python"
+                    ],
+                    "settings": {
+                        "foreground": "#127612"
+                    }
+                },
+                {
+                    "name": "Python Triple Quoted Raw Strings",
+                    "scope": [
+                        "string.regexp.unquoted.triple.python",
+                        "string.regexp.unquoted.raw.python",
+                        "string.regexp.unquoted",
+                        "string.regexp",
+                        "constant.character.escape.regexp"
                     ],
                     "settings": {
                         "foreground": "#bfc0c0"

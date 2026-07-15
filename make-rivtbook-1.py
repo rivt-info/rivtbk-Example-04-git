@@ -18,7 +18,7 @@ import importlib
 booksetS = f"""
 [book]
 ;-----------------------------------------
-book_filename = rivtbk-Isolation-Bearing-Design.pdf
+book_filename = rivtbk-Isolation-Bearing-Design.txt
 version = 1.0.0a13
 exclude = -- ; comma separated doc numbers to exclude eg. rv102, rv204
 [process]

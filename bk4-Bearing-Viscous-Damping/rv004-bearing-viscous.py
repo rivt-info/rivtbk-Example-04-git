@@ -1,6 +1,6 @@
 import rivtlib.rvapi as rv
 
-rv.I("""Equivalent Viscous Damping
+rv.I(r"""Equivalent Viscous Damping
 
     Equivalent viscous damping is the simplest form of damping for analysis
     since the governing differential equation of motion is linear and hence
@@ -21,7 +21,7 @@ rv.I("""Equivalent Viscous Damping
     """)
 
 
-rv.I("""Measured Viscous Damping  | pdfpage
+rv.I(r"""Measured Viscous Damping  | pdfpage
     
 
     | IMAGE | img/fig201-2.png | Measured Viscous Damping Model, 50, num, not 
@@ -73,14 +73,14 @@ rv.I("""Measured Viscous Damping  | pdfpage
     """)
 
 
-rv.R("""Footnotes | endnotes
+rv.T(r"""Footnotes | endnotes
 
     Anil K. Chopra, Dynamics of Structures: Theory and Applications to
     Earthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
 
     """)
 
-rv.D("""Publish Doc 
+rv.D(r"""Publish Doc 
     
     | PUBLISH | Viscous Damping | pdf
     

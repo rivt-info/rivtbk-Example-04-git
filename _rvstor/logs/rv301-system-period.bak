@@ -1,6 +1,6 @@
 import rivtlib.rvapi as rv
 
-rv.I("""section 1
+rv.I(r"""section 1
 
     This example illustrates arrays and plotting. _[#]
 
@@ -39,7 +39,7 @@ rv.I("""section 1
     [py]     evectt[i] = evectt[i]/evectt[i][0]
     """)
 
-rv.I("""section-2 
+rv.I(r"""section-2 
     
     normalized eigenvectors
 . 
@@ -84,7 +84,7 @@ rv.I("""section-2
 
     """)
 
-rv.I("""Plot Mode Shapes | python
+rv.I(r"""Plot Mode Shapes | python
     
    .
     1. set up mass and stiffness arrays
@@ -156,14 +156,14 @@ rv.I("""Plot Mode Shapes | python
 
     """)
 
-rv.R("""Bibliography | endnotes
+rv.R(r"""Bibliography | endnotes
 
     R.W. Clough and J. Penzien, *Dynamics of Structures*. New York, NY, USA:
     McGraw-Hill, 1975.
 
     """)
 
-rv.D("""Publish Doc 
+rv.D(r"""Publish Doc 
 
     | PUBLISH | 301 System Period | pdf
     

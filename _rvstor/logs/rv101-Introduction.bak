@@ -1,6 +1,6 @@
 import rivtlib.rvapi as rv
 
-rv.I("""Introductionv| endnotes
+rv.I(r"""Introductionv| endnotes
 
     This is an example of a rivtbook. rivtbooks are collections of rivt files
     organized around a common subject. Each rivt file (subdivision) and its
@@ -9,7 +9,7 @@ rv.I("""Introductionv| endnotes
 
     """)
 
-rv.D("""Publish Doc 
+rv.D(r"""Publish Doc 
     
     A rivt file may be published as a text, PDF or HTML doc by specifying the
     PUBLISH type parameter as txt, pdf or html. 

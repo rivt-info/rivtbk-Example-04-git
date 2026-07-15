@@ -1,0 +1,13 @@
+G_1 = 58 * p_si,p_si,MPA,2,shear modulus
+K_1 = 200000 * p_si,p_si,MPA,2,bulk modulus
+rnl = 51,--,--,0,number of rubber layers
+rdia = 39.5 * inch,inch,cm,2,bearing diameter
+rthk = .4 * inch,inch,cm,2,layer thickness
+sdia = 38 * inch,inch,cm,2,shim diameter
+sthk = .091 * inch,inch,cm,2,11 guage shim thickness
+cpi = 3.1418,--,--,0,contant pi
+rht = 20.40 inch,inch,cm,2,rubber height
+bht = 24.95 inch,inch,cm,2,bearing height
+Ks_1 = 3.48 k_in,k_in,kN_cm,2,shear stiffness
+sh1_1 = 24,m/m,m/m,0,shape factor 1
+sh2_1 = 1,m/m,m/m,0,shape factor 2

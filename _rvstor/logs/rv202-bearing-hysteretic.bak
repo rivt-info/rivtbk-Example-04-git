@@ -1,6 +1,6 @@
 import rivtlib.rvapi as rv
 
-rv.I("""Hysteretic Damping
+rv.I(r"""Hysteretic Damping
 
 
     3.10 HARMONIC VIBRATION WITH RATE-INDEPENDENT DAMPING _[#]
@@ -214,14 +214,14 @@ rv.I("""Hysteretic Damping
     """)
 
 
-rv.R("""Bibliography | endnotes
+rv.R(r"""Bibliography | endnotes
 
     Anil K.Anil K. Chopra, Dynamics of Structures: Theory and Applications to
     Earthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
 
     """)
 
-rv.D("""Publish Doc 
+rv.D(r"""Publish Doc 
 
     | PUBLISH | 202 Rate Independent Damping | pdf
     

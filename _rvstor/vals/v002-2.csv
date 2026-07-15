@@ -1,0 +1,14 @@
+t1 = .25,inch,mm,2,thickness
+L1 = 24.0,inch,mm,2,length
+B1 = 12.0,inch,mm,2,breadth
+S1 = 16.0,m/m,m/m,2,shape factor
+S2 = 24.0,m/m,m/m,2,shape factor
+E0 = 100*p_si,p_si,MPA,2,compresssion modulus
+k1 = .7,--,--,2,adjustment factor
+G1 = 0.5*k_si,k_si,MPA,2,shear modulus
+Ec = 35.94 k_si,k_si,MPA,2,compression modulus
+E1c = 640.00 k_si,k_si,MPA,2,compression stiffness - modified
+A1 = 20*in2,in2,mm2,2,cross-sectional area
+t1 = 0.25*inch,inch,mm,2,thickness
+x1 = 1*inch,inch,mm,2,deflection
+Kc = 2875.20 k_in,k_in,kN_cm,2,compression stiffness

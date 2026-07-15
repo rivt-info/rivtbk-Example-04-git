@@ -1,7 +1,7 @@
 import rivtlib.rvapi as rv
 
-# %% rv.I("""Introduction 
-rv.I("""rivtbook Example 
+# %% rv.I(r"""Introduction 
+rv.I(r"""rivtbook Example 
 
     A rivtbook is a collection of rivt files with common subject matter that
     may be published as a PDF or text report. Files are organized for selective
@@ -20,12 +20,12 @@ rv.I("""rivtbook Example
     and scripts folders to the rvsrc report folder and the rivt file to the
     rivt-report folder. 
     
-    | IMAGE | img/rvbk-rivt.jpg rivtbook chapter copied to a report, 100, num, not 
+    | IMAGE | img/rvbk-rivt.jpg | rivtbook chapter copied to a report, 100, num, not 
 
 """)
 
-# %% rv.D("""Publish Doc 
-rv.D("""Publish Doc 
+# %% rv.D(r"""Publish Doc 
+rv.D(r"""Publish Doc 
     
     | PUBLISH | rivtbook Example - Introduction | pdf
     

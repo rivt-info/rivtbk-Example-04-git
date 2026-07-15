@@ -7,7 +7,7 @@
 endobj
 2 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 7 0 R /XYZ 51.35433 707.478 0 ] /Rect [ 48.51969 627.5685 182.3136 639.5685 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 7 0 R /XYZ 51.35433 707.478 0 ] /Rect [ 48.51969 627.5685 186.464 639.5685 ] /Subtype /Link /Type /Annot
 >>
 endobj
 3 0 obj
@@ -2073,7 +2073,7 @@ endobj
 endobj
 25 0 obj
 <<
-/Author () /CreationDate (D:20260712003856-07'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260712003856-07'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+/Author () /CreationDate (D:20260715004242-07'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260715004242-07'00') /Producer (ReportLab PDF Library - \(opensource\)) 
   /Subject (\(unspecified\)) /Title () /Trapped /False
 >>
 endobj
@@ -2084,7 +2084,7 @@ endobj
 endobj
 27 0 obj
 <<
-/Dest [ 7 0 R /XYZ 51.35433 707.478 0 ] /Parent 26 0 R /Title (0.11 | rivtbook Example)
+/Dest [ 7 0 R /XYZ 51.35433 707.478 0 ] /Parent 26 0 R /Title (0.1-1 | rivtbook Example)
 >>
 endobj
 28 0 obj
@@ -2094,7 +2094,7 @@ endobj
 endobj
 29 0 obj
 <<
-/Length 1570
+/Length 1571
 >>
 stream
 1 0 0 1 0 0 cm 
@@ -2135,7 +2135,7 @@ q
 q
 1 0 0 1 0 3 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL .647059 .164706 .164706 rg /F1+0 10 Tf 12 TL (0.11 | rivtbook Example) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL .647059 .164706 .164706 rg /F1+0 10 Tf 12 TL (0.1-1 | rivtbook Example) Tj T* ET
 Q
 Q
 q
@@ -2162,7 +2162,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-12       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-15       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -2203,14 +2203,14 @@ endstream
 endobj
 30 0 obj
 <<
-/Length 3037
+/Length 3034
 >>
 stream
 1 0 0 1 0 0 cm 
 q
 1 0 0 1 51.35433 693.078 cm
 q
-BT 1 0 0 1 0 2.4 Tm 14.4 TL .133333 .133333 .133333 rg /F1+0 12 Tf 14.4 TL (0.11 | rivtbook Example) Tj T* ET
+BT 1 0 0 1 0 2.4 Tm 14.4 TL .133333 .133333 .133333 rg /F1+0 12 Tf 14.4 TL (0.1-1 | rivtbook Example) Tj T* ET
 Q
 Q
 q
@@ -2265,7 +2265,7 @@ Q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 130.7515 0 Td 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Fig. 1) Tj /F2+0 10 Tf 14 TL ( - Copy a rivtbook chapter to a rivt report) Tj T* -130.7515 0 Td ET
+BT 1 0 0 1 0 4 Tm 141.4204 0 Td 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Fig. 1) Tj /F2+0 10 Tf 14 TL ( - rivtbook chapter copied to a report) Tj T* -141.4204 0 Td ET
 Q
 Q
 q
@@ -2285,7 +2285,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (rivtbook Example - Introduction) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.11 | rivtbook Example) Tj T* ET
+BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (rivtbook Example - Introduction) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.1-1 | rivtbook Example) Tj T* ET
 Q
 Q
 q
@@ -2345,7 +2345,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-12       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-15       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -2404,41 +2404,41 @@ xref
 0000000000 65535 f 
 0000000061 00000 n 
 0000000134 00000 n 
-0000000300 00000 n 
-0000000466 00000 n 
-0000006121 00000 n 
-0000006439 00000 n 
-0000423928 00000 n 
-0000424270 00000 n 
-0000426218 00000 n 
-0000461413 00000 n 
-0000461682 00000 n 
-0000463035 00000 n 
-0000464969 00000 n 
-0000500501 00000 n 
-0000500760 00000 n 
-0000502099 00000 n 
-0000504060 00000 n 
-0000529160 00000 n 
-0000529432 00000 n 
-0000530806 00000 n 
-0000532752 00000 n 
-0000558716 00000 n 
-0000558979 00000 n 
-0000560348 00000 n 
-0000560454 00000 n 
-0000560709 00000 n 
-0000560783 00000 n 
+0000000299 00000 n 
+0000000465 00000 n 
+0000006120 00000 n 
+0000006438 00000 n 
+0000423927 00000 n 
+0000424269 00000 n 
+0000426217 00000 n 
+0000461412 00000 n 
+0000461681 00000 n 
+0000463034 00000 n 
+0000464968 00000 n 
+0000500500 00000 n 
+0000500759 00000 n 
+0000502098 00000 n 
+0000504059 00000 n 
+0000529159 00000 n 
+0000529431 00000 n 
+0000530805 00000 n 
+0000532751 00000 n 
+0000558715 00000 n 
+0000558978 00000 n 
+0000560347 00000 n 
+0000560453 00000 n 
+0000560708 00000 n 
+0000560782 00000 n 
 0000560893 00000 n 
 0000560959 00000 n 
-0000562581 00000 n 
-0000565670 00000 n 
-0000565720 00000 n 
-0000565754 00000 n 
+0000562582 00000 n 
+0000565668 00000 n 
+0000565718 00000 n 
+0000565752 00000 n 
 trailer
 <<
 /ID 
-[<b9fa872c8d04584f05a2c044366df311><b9fa872c8d04584f05a2c044366df311>]
+[<c66bed8789a65dda57332c6c6233370d><c66bed8789a65dda57332c6c6233370d>]
 % ReportLab generated PDF document -- digest (opensource)
 
 /Info 25 0 R
@@ -2446,5 +2446,5 @@ trailer
 /Size 34
 >>
 startxref
-565788
+565786
 %%EOF

@@ -1,166 +1,111 @@
 
 --------------------------------------------------------------------------------
-| rivt | System Period | R Holland | v-1.0.0a13 | 2026-07-11 - 02:15AM
+| rivt | Three Story Vibration | R Holland | v-1.0.0a13 | 2026-07-15 - 01:04AM
 --------------------------------------------------------------------------------
 
 
-0.6-1 | System Period
+0.6-1 | Eigenvalues and Vectors
 ================================================================================
  
+Analyze a 3-story shear frame using the flexibility method to determine
+natural frequencies and mode shapes (fter Clough and Penzien [0.6.1])
  
+          ----------------------------------------
+Fig. 1 - Structural Model [file: img/frames.jpg  ]
+          ----------------------------------------
+
  
-CLOUGH, PENZIEN - Dynamics of Structures, page 178
+import numpy as np
+import numpy.linalg as la
+import textwrap as tw
+# set up mass and stiffness arrays
+m = np.array([[1.0,0,0],[0,1.5,0],[0,0,2.0]],float)        
+k1 = 600*np.array([[1,-1,0.0],[-1,3,-2],[0,-2,5]],float)   
+# flexibility and dynamic matrix
+f = la.inv(k1)                                            
+d = np.inner(f,m)                                         
+eigen = la.eig(d)                                         
+evalus = eigen[0]
+print("\neigenvalues:\n"," "*8,evalus)
+
+eigenvalues:
+          [0.00474206 0.00103739 0.00047055]
+#
+nat_freq = 1/(np.sqrt(evalus))
+print("\nnatural frequencies:\n"," "*8,nat_freq)                                           
+
+natural frequencies:
+          [14.52166783 31.04769646 46.09947622]
+#
+evect = np.array(eigen[1])                                
+print("\neigenvectors:\n",tw.indent(str(evect), " "*8))
+
+eigenvectors:
+         [[-0.81332769 -0.73942881  0.27304451]
+         [-0.52747169  0.44853685 -0.69406171]
+         [-0.24550292  0.50205551  0.66612689]]
  
-Use flexibility formulation [0.6.1] (see page 182)
- 
-Also see [0.6.2]
- 
-calioPY Procedure Output - Example 6
-This example illustrates arrays and plotting.
- 
- 
-1. set up mass and stiffness arrays
-m = PL.array([[1.0,0,0],[0,1.5,0],[0,0,2.0]],float)        [1]
-k1 = 600·PL.array([[1,-1,0.0],[-1,3,-2],[0,-2,5]],float)   [2]
- 
-2. flexibility and dynamic matrix
-f = PL.inv(k1)                                             [3]
-d = PL.inner(f,m)                                          [4]
- 
-3. eigenvalues
-eigen = PL.eig(d)                                          [5]
-evalu = eigen[0]                                           [6]
-.  evalu = [ 0.00474  0.00104  0.00047]
-nat_freq = 1/(evalu^.5)                                    [7]
-.  nat_freq = [ 14.52482  31.00868  46.12656]
- 
-4. normalize and scale eigenvectors
-evect = PL.array(eigen[1])                                 [8]
-.  evect = [[-0.813 -0.739  0.273]
-[-0.527  0.449 -0.694]
-[-0.246  0.502  0.666]]
- 
-[py] for i in range(len(nat_freq)):
-[py]     evectt = PL.transpose(evect)
-[py]     evectt[i] = evectt[i]/evectt[i][0]
  
 
-0.6 - 2-2 | Eigenvectors and Eigenvalues
+0.6-2 | Plot Mode Shapes
 --------------------------------------------------------------------------------
  
-normalized eigenvectors
+          ----------------------------------------
+Fig. 2 - Structural Model [file: img/modes.jpg  ]
+          ----------------------------------------
+
  
-[[ 1.     0.648  0.303]
-[ 1.    -0.608 -0.679]
-[ 1.    -2.542  2.44 ]]
-SUMMARY TABLES
+Plot normalized mode shapes and compare to Penzien and Clough. [0.6.2]
  
-mass matrix
-1.0 0.0 0.0
-0.0 1.5 0.0
-0.0 0.0 2.0
- 
-stiffness matrix
-600.0 -600.0 0.0
--600.0 1800.0 -1200.0
-0.0 -1200.0 3000.0
- 
-flexibility matrix
-0.0031 0.0014 0.0006
-0.0014 0.0014 0.0006
-0.0006 0.0006 0.0006
- 
-dynamic matrix
-0.003 0.002 0.001
-0.001 0.002 0.001
-0.001 0.001 0.001
- 
-xx = NP.concatenate((evals,evect),1)
-yy = ["freq","level 3","level 2","level 1"]
-tt = NP.vstack((yy,xx))
-.  tt = [['freq' 'level 3' 'level 2' 'level
-['14.52482' '1.0' '1.0' '1.0']
-['31.00868' '0.648' '-0.608' '-2.542']
-['46.12656' '0.303' '-0.679' '2.44']]
- 
-eigenvectors and eigenvalues
-freq level 3 level 2 level 1
-14.52482 1.0 1.0 1.0
-31.00868 0.648 -0.608 -2.542
-46.12656 0.303 -0.679 2.44
- 
- 
-
-0.6 - 3-3 | Plot Mode Shapes
---------------------------------------------------------------------------------
- 
-1. set up mass and stiffness arrays
-[1] m = PL.array([[1.0,0,0],[0,1.5,0],[0,0,2.0]],float
-[2] k1 = 600*PL.array([[1,-1,0.0],[-1,3,-2],[0,-2,5]
-
-2. flexibility and dynamic matrix
-[3] f = PL.inv(k1)
-[4] d = PL.inner(f,m)
-
-3. eigenvalues
-[5] eigen = PL.eig(d)
-[6] evalu = eigen[0] ?5
-[7] nat_freq = 1/(evalu**.5) ?5
-
-4. normalize and scale eigenvectors
-[8] evect = PL.array(eigen[1]) ?
-
-
--pycode-
-for i in range(len(nat_freq)):
-evectt = PL.transpose(evect)
-evectt[i] = evectt[i]/evectt[i][0]
--insert-
-
-normalized eigenvectors
-{] evectt ?3
-
- SUMMARY TABLES
-
--table-02 m ?4; mass matrix;
-
--table-02 k1 ?4; stiffness matrix;
-
--table-02 f ?4; flexibility matrix ;
-
--table-02 d ?3; dynamic matrix ;
-
--k-
-# use reshape to transpose 1d array (list)
-
-evals=PL.reshape(nat_freq, (len(nat_freq),1))
-xx = NP.concatenate((evals,evect),1)
-yy = ["freq","level 3","level 2","level 1"]
-tt = NP.vstack((yy,xx)) ?
--table-01 tt ?3; eigenvectors and eigenvalues;
-.
+import numpy as np
+import matplotlib.pyplot as plt
+import os
+from tabulate import tabulate as tb
 # initialize eigenvector array (need (x,1) shapes for plotting
-ms = PL.shape(evect)
-zz = PL.zeros((ms[0],1))
-x1=PL.concatenate((evect,zz),1)
--pycode-
-#plot mode shapes using pylab
-y=PL.array([0,1,2,3])
-m3=x1[2]*.35+3
-m2=x1[1]*.35+2
+ms = np.shape(evect)
+zz = np.zeros((ms[0],1))
+x1=np.concatenate((evect,zz),1)
+#plot mode shapes using matplotlib
+y=np.array([0,1,2,3])
+m3=x1[2]*.35+5
+m2=x1[1]*.35+3
 m1=x1[0]*.35+1
-m=PL.concatenate((m1,m2,m3))
-PL.clf()
-PL.plot(m1,y)
-PL.plot(m2,y)
-PL.plot(m3,y)
-PL.xlim(.5,4.)
-PL.xlabel('mode')
-PL.ylabel('levels')
-PL.title("Mode Shapes
-gh\Penzien (page 178)")
-PL.grid()
-PL.savefig(_cpypath+"/figs/p178a.png")
+m=np.concatenate((m1,m2,m3))
+plt.clf()
+plt.plot(m1,y)
+plt.plot(m2,y)
+plt.plot(m3,y)
+plt.xlim(.5,6.)
+plt.xlabel('mode')
+plt.ylabel('levels')
+plt.title("Mode Shapes")
+plt.grid()
+curdir=os.getcwd()
+imgdir=os.path.join(curdir,"img","mode_shapes.png")
+plt.savefig(imgdir)
+# table of eigenvalues and normalized eigenvectors
+evectt = np.transpose(evect)     
+for i in range(len(nat_freq)):
+     evectt[i] = evectt[i]/evectt[i][0] 
+xx = np.concatenate((nat_freq[:, np.newaxis],evect),1)                          
+xx = np.round(xx, 4)
+yy = ["freq","level 3","level 2","level 1"]                   
+tt = np.vstack((yy,xx))
+print("\nTable of eigenvalues and normalized eigenvectors\n",
+tb(tt, headers="firstrow", tablefmt="rst"))    
+
+Table of eigenvalues and normalized eigenvectors
+ =======  =========  =========  =========
+   freq    level 3    level 2    level 1
+=======  =========  =========  =========
+14.5217     1          1          1
+31.0477     0.6485    -0.6066    -2.5419
+46.0995     0.3018    -0.679      2.4396
+=======  =========  =========  =========
+ 
+          ----------------------------------------
+Fig. 3 - Calculated Normalized Modes [file: img/mode_shapes.png  ]
+          ----------------------------------------
 
  
  
@@ -169,8 +114,7 @@ PL.savefig(_cpypath+"/figs/p178a.png")
 --------------------------------------------------------------------------------
 
 [0.6.1] R.W. Clough and J. Penzien, Dynamics of Structures. New York, NY,
-USA:McGraw-Hill, 1975.
+USA:McGraw-Hill, 1975. pg. 178-180
 
-[0.6.2] Anil K.Anil K. Chopra, Dynamics of Structures: Theory and Applications
-toEarthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
+[0.6.2] ibid. pg. 180-182
 

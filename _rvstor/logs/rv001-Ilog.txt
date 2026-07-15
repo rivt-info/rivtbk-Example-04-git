@@ -47,3 +47,13 @@
 [33m>> pdf << generated from: C:\git\rivtbk-example-04-git\bk1-Introduction\rv001-Introduction.py[0m
 [33m>> pdf << generated from: C:\git\rivtbk-example-04-git\bk1-Introduction\rv001-Introduction.py[0m
 [33m>> pdf << generated from: C:\git\rivtbk-example-04-git\bk1-Introduction\rv001-Introduction.py[0m
+[33m>> pdf << generated from: c:\git\rivtbk-example-04-git\bk1-Introduction\rv001-Introduction.py[0m
+[33m>> pdf << generated from: C:\git\rivtbk-example-04-git\bk1-Introduction\rv001-Introduction.py[0m
+[33m>> pdf << generated from: C:\git\rivtbk-example-04-git\bk1-Introduction\rv001-Introduction.py[0m
+[33m>> pdf << generated from: C:\git\rivtbk-example-04-git\bk1-Introduction\rv001-Introduction.py[0m
+[33m>> pdf << generated from: C:\git\rivtbk-example-04-git\bk1-Introduction\rv001-Introduction.py[0m
+[33m>> txt << generated from: C:\git\rivtbk-example-04-git\bk1-Introduction\rv001-Introduction.py[0m
+[33m>> txt << generated from: c:\git\rivtbk-example-04-git\bk1-Introduction\rv001-Introduction.py[0m
+[33m>> txt << generated from: c:\git\rivtbk-example-04-git\bk1-Introduction\rv001-Introduction.py[0m
+[33m>> txt << generated from: c:\git\rivtbk-example-04-git\bk1-Introduction\rv001-Introduction.py[0m
+[33m>> txt << generated from: c:\git\rivtbk-example-04-git\bk1-Introduction\rv001-Introduction.py[0m

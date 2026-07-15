@@ -1,6 +1,8 @@
 
 **Format or run blocks of text or scripts**
 
+(ctrl+click on #links)
+
 =========== ==================================================
 API Scope         Block Tag                    
 =========== ==================================================
@@ -22,7 +24,7 @@ _[[TEXT]] type
 
     Inserts formatted text into doc. 
 
-    - literal
+    - text
     - python
     - topic
     - bold

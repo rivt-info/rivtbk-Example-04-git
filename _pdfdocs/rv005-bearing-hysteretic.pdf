@@ -7,7 +7,7 @@
 endobj
 2 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 13 0 R /XYZ 51.35433 707.478 0 ] /Rect [ 48.51969 627.5685 231.8351 639.5685 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 13 0 R /XYZ 51.35433 707.478 0 ] /Rect [ 48.51969 627.5685 242.9435 639.5685 ] /Subtype /Link /Type /Annot
 >>
 endobj
 3 0 obj
@@ -17,7 +17,7 @@ endobj
 endobj
 4 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 16 0 R /XYZ 51.35433 707.478 0 ] /Rect [ 68.51969 609.5685 326.0197 621.5685 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 16 0 R /XYZ 51.35433 707.478 0 ] /Rect [ 68.51969 609.5685 319.0568 621.5685 ] /Subtype /Link /Type /Annot
 >>
 endobj
 5 0 obj
@@ -27,7 +27,7 @@ endobj
 endobj
 6 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 21 0 R /XYZ 48.51969 707.478 0 ] /Rect [ 68.51969 591.5685 331.8693 603.5685 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 21 0 R /XYZ 48.51969 707.478 0 ] /Rect [ 68.51969 591.5685 324.9064 603.5685 ] /Subtype /Link /Type /Annot
 >>
 endobj
 7 0 obj
@@ -37,7 +37,7 @@ endobj
 endobj
 8 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 23 0 R /XYZ 51.35433 707.478 0 ] /Rect [ 68.51969 573.5685 323.2755 585.5685 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 23 0 R /XYZ 51.35433 707.478 0 ] /Rect [ 68.51969 573.5685 316.3127 585.5685 ] /Subtype /Link /Type /Annot
 >>
 endobj
 9 0 obj
@@ -2928,7 +2928,7 @@ endobj
 endobj
 47 0 obj
 <<
-/Author () /CreationDate (D:20260714001543-07'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260714001543-07'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+/Author () /CreationDate (D:20260714191706-07'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260714191706-07'00') /Producer (ReportLab PDF Library - \(opensource\)) 
   /Subject (\(unspecified\)) /Title () /Trapped /False
 >>
 endobj
@@ -2939,22 +2939,22 @@ endobj
 endobj
 49 0 obj
 <<
-/Count 3 /Dest [ 13 0 R /XYZ 51.35433 707.478 0 ] /First 50 0 R /Last 52 0 R /Parent 48 0 R /Title (0.5 | Rate Independent Damping)
+/Count 3 /Dest [ 13 0 R /XYZ 51.35433 707.478 0 ] /First 50 0 R /Last 52 0 R /Parent 48 0 R /Title (0.5-1 | Rate Independent Damping)
 >>
 endobj
 50 0 obj
 <<
-/Dest [ 16 0 R /XYZ 51.35433 707.478 0 ] /Next 51 0 R /Parent 49 0 R /Title (0.5 - 2 | Steady-State Response to Harmonic Force)
+/Dest [ 16 0 R /XYZ 51.35433 707.478 0 ] /Next 51 0 R /Parent 49 0 R /Title (0.5-2 | Steady-State Response to Harmonic Force)
 >>
 endobj
 51 0 obj
 <<
-/Dest [ 21 0 R /XYZ 48.51969 707.478 0 ] /Next 52 0 R /Parent 49 0 R /Prev 50 0 R /Title (0.5 - 3 | Solution Using Equivalent Viscous Damping)
+/Dest [ 21 0 R /XYZ 48.51969 707.478 0 ] /Next 52 0 R /Parent 49 0 R /Prev 50 0 R /Title (0.5-3 | Solution Using Equivalent Viscous Damping)
 >>
 endobj
 52 0 obj
 <<
-/Dest [ 23 0 R /XYZ 51.35433 707.478 0 ] /Parent 49 0 R /Prev 51 0 R /Title (0.5 - 4 | Harmonic Vibration with Coulomb Friction)
+/Dest [ 23 0 R /XYZ 51.35433 707.478 0 ] /Parent 49 0 R /Prev 51 0 R /Title (0.5-4 | Harmonic Vibration with Coulomb Friction)
 >>
 endobj
 53 0 obj
@@ -2964,7 +2964,7 @@ endobj
 endobj
 54 0 obj
 <<
-/Length 2509
+/Length 2505
 >>
 stream
 1 0 0 1 0 0 cm 
@@ -3005,7 +3005,7 @@ q
 q
 1 0 0 1 0 57 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL .647059 .164706 .164706 rg /F1+0 10 Tf 12 TL (0.5 | Rate Independent Damping) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL .647059 .164706 .164706 rg /F1+0 10 Tf 12 TL (0.5-1 | Rate Independent Damping) Tj T* ET
 Q
 Q
 q
@@ -3018,7 +3018,7 @@ Q
 q
 1 0 0 1 0 39 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL .647059 .164706 .164706 rg /F1+0 10 Tf 12 TL (0.5 - 2) Tj /F2+0 10 Tf 12 TL ( | Steady-State Response to Harmonic Force) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL .647059 .164706 .164706 rg /F1+0 10 Tf 12 TL (0.5-2) Tj /F2+0 10 Tf 12 TL ( | Steady-State Response to Harmonic Force) Tj T* ET
 Q
 Q
 q
@@ -3031,7 +3031,7 @@ Q
 q
 1 0 0 1 0 21 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL .647059 .164706 .164706 rg /F1+0 10 Tf 12 TL (0.5 - 3) Tj /F2+0 10 Tf 12 TL ( | Solution Using Equivalent Viscous Damping) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL .647059 .164706 .164706 rg /F1+0 10 Tf 12 TL (0.5-3) Tj /F2+0 10 Tf 12 TL ( | Solution Using Equivalent Viscous Damping) Tj T* ET
 Q
 Q
 q
@@ -3044,7 +3044,7 @@ Q
 q
 1 0 0 1 0 3 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL .647059 .164706 .164706 rg /F1+0 10 Tf 12 TL (0.5 - 4) Tj /F2+0 10 Tf 12 TL ( | Harmonic Vibration with Coulomb Friction) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL .647059 .164706 .164706 rg /F1+0 10 Tf 12 TL (0.5-4) Tj /F2+0 10 Tf 12 TL ( | Harmonic Vibration with Coulomb Friction) Tj T* ET
 Q
 Q
 q
@@ -3112,14 +3112,14 @@ endstream
 endobj
 55 0 obj
 <<
-/Length 5660
+/Length 5664
 >>
 stream
 1 0 0 1 0 0 cm 
 q
 1 0 0 1 51.35433 693.078 cm
 q
-BT 1 0 0 1 0 2.4 Tm 14.4 TL .133333 .133333 .133333 rg /F1+0 12 Tf 14.4 TL (0.5 | Rate Independent Damping) Tj T* ET
+BT 1 0 0 1 0 2.4 Tm 14.4 TL .133333 .133333 .133333 rg /F1+0 12 Tf 14.4 TL (0.5-1 | Rate Independent Damping) Tj T* ET
 Q
 Q
 q
@@ -3251,7 +3251,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.5 | Rate Independent Damping) Tj T* ET
+BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.5-1 | Rate Independent Damping) Tj T* ET
 Q
 Q
 q
@@ -3352,7 +3352,7 @@ endstream
 endobj
 56 0 obj
 <<
-/Length 2856
+/Length 2858
 >>
 stream
 1 0 0 1 0 0 cm 
@@ -3404,7 +3404,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.5 | Rate Independent Damping) Tj T* ET
+BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.5-1 | Rate Independent Damping) Tj T* ET
 Q
 Q
 q
@@ -3505,14 +3505,14 @@ endstream
 endobj
 57 0 obj
 <<
-/Length 5779
+/Length 5775
 >>
 stream
 1 0 0 1 0 0 cm 
 q
 1 0 0 1 51.35433 694.278 cm
 q
-BT 1 0 0 1 0 2.2 Tm 13.2 TL .133333 .133333 .133333 rg /F1+0 11 Tf 13.2 TL (0.5 - 2 | Steady-State Response to Harmonic Force) Tj T* ET
+BT 1 0 0 1 0 2.2 Tm 13.2 TL .133333 .133333 .133333 rg /F1+0 11 Tf 13.2 TL (0.5-2 | Steady-State Response to Harmonic Force) Tj T* ET
 Q
 Q
 q
@@ -3730,7 +3730,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 18 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.5 - 2 | Steady-State Response to) Tj T* (Harmonic Force) Tj T* ET
+BT 1 0 0 1 0 18 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.5-2 | Steady-State Response to) Tj T* (Harmonic Force) Tj T* ET
 Q
 Q
 q
@@ -3831,7 +3831,7 @@ endstream
 endobj
 58 0 obj
 <<
-/Length 4969
+/Length 4967
 >>
 stream
 1 0 0 1 0 0 cm 
@@ -3997,7 +3997,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 18 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.5 - 2 | Steady-State Response to) Tj T* (Harmonic Force) Tj T* ET
+BT 1 0 0 1 0 18 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.5-2 | Steady-State Response to) Tj T* (Harmonic Force) Tj T* ET
 Q
 Q
 q
@@ -4098,7 +4098,7 @@ endstream
 endobj
 59 0 obj
 <<
-/Length 1946
+/Length 1944
 >>
 stream
 1 0 0 1 0 0 cm 
@@ -4144,7 +4144,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 18 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.5 - 2 | Steady-State Response to) Tj T* (Harmonic Force) Tj T* ET
+BT 1 0 0 1 0 18 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.5-2 | Steady-State Response to) Tj T* (Harmonic Force) Tj T* ET
 Q
 Q
 q
@@ -4245,14 +4245,14 @@ endstream
 endobj
 60 0 obj
 <<
-/Length 3965
+/Length 3961
 >>
 stream
 1 0 0 1 0 0 cm 
 q
 1 0 0 1 48.51969 694.278 cm
 q
-BT 1 0 0 1 0 2.2 Tm 13.2 TL .133333 .133333 .133333 rg /F1+0 11 Tf 13.2 TL (0.5 - 3 | Solution Using Equivalent Viscous Damping) Tj T* ET
+BT 1 0 0 1 0 2.2 Tm 13.2 TL .133333 .133333 .133333 rg /F1+0 11 Tf 13.2 TL (0.5-3 | Solution Using Equivalent Viscous Damping) Tj T* ET
 Q
 Q
 q
@@ -4335,7 +4335,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 18 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.5 - 3 | Solution Using Equivalent) Tj T* (Viscous Damping) Tj T* ET
+BT 1 0 0 1 0 18 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.5-3 | Solution Using Equivalent) Tj T* (Viscous Damping) Tj T* ET
 Q
 Q
 q
@@ -4436,14 +4436,14 @@ endstream
 endobj
 61 0 obj
 <<
-/Length 4653
+/Length 4649
 >>
 stream
 1 0 0 1 0 0 cm 
 q
 1 0 0 1 51.35433 694.278 cm
 q
-BT 1 0 0 1 0 2.2 Tm 13.2 TL .133333 .133333 .133333 rg /F1+0 11 Tf 13.2 TL (0.5 - 4 | Harmonic Vibration with Coulomb Friction) Tj T* ET
+BT 1 0 0 1 0 2.2 Tm 13.2 TL .133333 .133333 .133333 rg /F1+0 11 Tf 13.2 TL (0.5-4 | Harmonic Vibration with Coulomb Friction) Tj T* ET
 Q
 Q
 q
@@ -4533,7 +4533,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 18 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.5 - 4 | Harmonic Vibration with) Tj T* (Coulomb Friction) Tj T* ET
+BT 1 0 0 1 0 18 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.5-4 | Harmonic Vibration with) Tj T* (Coulomb Friction) Tj T* ET
 Q
 Q
 q
@@ -4634,7 +4634,7 @@ endstream
 endobj
 62 0 obj
 <<
-/Length 2803
+/Length 2801
 >>
 stream
 1 0 0 1 0 0 cm 
@@ -4720,7 +4720,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 18 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.5 - 4 | Harmonic Vibration with) Tj T* (Coulomb Friction) Tj T* ET
+BT 1 0 0 1 0 18 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.5-4 | Harmonic Vibration with) Tj T* (Coulomb Friction) Tj T* ET
 Q
 Q
 q
@@ -4922,33 +4922,33 @@ xref
 0000730173 00000 n 
 0000730428 00000 n 
 0000730502 00000 n 
-0000730656 00000 n 
+0000730658 00000 n 
 0000730806 00000 n 
-0000730971 00000 n 
-0000731122 00000 n 
-0000731239 00000 n 
-0000733800 00000 n 
-0000739512 00000 n 
-0000742420 00000 n 
-0000748251 00000 n 
-0000753272 00000 n 
-0000755270 00000 n 
-0000759287 00000 n 
-0000763992 00000 n 
-0000766847 00000 n 
-0000766963 00000 n 
-0000766997 00000 n 
-0000767031 00000 n 
-0000767065 00000 n 
-0000767099 00000 n 
-0000767133 00000 n 
-0000767167 00000 n 
-0000767201 00000 n 
-0000767235 00000 n 
+0000730969 00000 n 
+0000731118 00000 n 
+0000731235 00000 n 
+0000733792 00000 n 
+0000739508 00000 n 
+0000742418 00000 n 
+0000748245 00000 n 
+0000753264 00000 n 
+0000755260 00000 n 
+0000759273 00000 n 
+0000763974 00000 n 
+0000766827 00000 n 
+0000766943 00000 n 
+0000766977 00000 n 
+0000767011 00000 n 
+0000767045 00000 n 
+0000767079 00000 n 
+0000767113 00000 n 
+0000767147 00000 n 
+0000767181 00000 n 
+0000767215 00000 n 
 trailer
 <<
 /ID 
-[<ae5ef43c3207187eef7417925d6004a3><ae5ef43c3207187eef7417925d6004a3>]
+[<2aa1b68e610533c30bca5252c263887c><2aa1b68e610533c30bca5252c263887c>]
 % ReportLab generated PDF document -- digest (opensource)
 
 /Info 47 0 R
@@ -4956,5 +4956,5 @@ trailer
 /Size 73
 >>
 startxref
-767269
+767249
 %%EOF

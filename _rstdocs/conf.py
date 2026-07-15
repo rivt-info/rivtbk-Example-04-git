@@ -6,7 +6,7 @@ from pathlib import Path
 font_folder_path = os.path.join(os.path.dirname(__file__), '_static',  'fonts')
 # sys.path.append(str(Path(".").resolve()))
 
-project = "Rate Independent Damping"
+project = "rivtbook Example - Introduction"
 copyright = "--"
 author = "self.R Holland"
 release = "1.0.0a13"
@@ -72,7 +72,7 @@ favicons = [
 # source start file, target name, title, author, options
 # options: ('index', 'MyProject', 'My Project', 'Author Name', {"pdf_compressed": True})
 # More than one author : \r'Guido van Rossum\Fred L. Drake, Jr., editor'
-pdf_documents = [("rv005-bearing-hysteretic", "rv005-bearing-hysteretic", "Rate Independent Damping", 
+pdf_documents = [("rv001-Introduction", "rv001-Introduction", "rivtbook Example - Introduction", 
             "R Holland")]
 # A colon-separated list of folders to search for fonts.
 pdf_font_path = ["_rstdocs/_static/fonts","../_rstdocs/_static/fonts/" ]
@@ -89,7 +89,7 @@ pdf_cover_template = ""
 # Show Table Of Contents at the beginning?
 pdf_use_toc = False
 # How many levels deep should the table of contents be?
-pdf_toc_depth = 2
+pdf_toc_depth = 1
 # Page template name for "regular" pages
 pdf_page_template = 'mainPage'
 # Example: compressed=True

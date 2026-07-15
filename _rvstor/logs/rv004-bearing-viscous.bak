@@ -1,6 +1,6 @@
 import rivtlib.rvapi as rv
 
-rv.I("""Equivalent Viscous Damping
+rv.I(r"""Equivalent Viscous Damping
 
     Equivalent viscous damping is the simplest form of damping for analysis
     since the governing differential equation of motion is linear and hence
@@ -21,7 +21,7 @@ rv.I("""Equivalent Viscous Damping
     """)
 
 
-rv.I("""Measured Viscous Damping  | pdfpage
+rv.I(r"""Measured Viscous Damping  | pdfpage
     
 
     | IMAGE | img/fig201-2.png | Measured Viscous Damping Model, 50, num, not 
@@ -52,14 +52,14 @@ rv.I("""Measured Viscous Damping  | pdfpage
 
     The damping ratio zeta_eq determined from a test at omega = omega_n would
     not be correct at any other exciting frequency, but it would be a
-    satisfactory approximation (Section 3.10.2).
+    satisfactory approximation.
 
     It is widely accepted that this procedure can be extended to model the
     damping in systems with many degrees of freedom. An equivalent viscous
-    damping ratio is assigned to each natural vibration mode of the system
-    (defined in Chapter 10) in such a way that the energy dissipated in viscous
-    damping matches the actual energy dissipated in the system when the system
-    vibrates in that mode at its natural frequency.
+    damping ratio is assigned to each natural vibration mode of the system in
+    such a way that the energy dissipated in viscous damping matches the actual
+    energy dissipated in the system when the system vibrates in that mode at
+    its natural frequency.
 
     In this book the concept of equivalent viscous damping is restricted to
     systems vibrating at amplitudes within the linearly elastic limit of the
@@ -68,20 +68,19 @@ rv.I("""Measured Viscous Damping  | pdfpage
     research studies. This idealization is generally not satisfactory, however,
     for the large inelastic deformations of structures expected during strong
     earthquakes. We shall account for these inelastic deformations and the
-    associated energy dissipation by nonlinear force-deformation relations,
-    such as those shown in Fig. 1.3.4 (see Chapters 5 and 7).
+    associated energy dissipation by nonlinear force-deformation relations.
     
     """)
 
 
-rv.R("""Footnotes | endnotes
+rv.T(r"""Footnotes | endnotes
 
     Anil K. Chopra, Dynamics of Structures: Theory and Applications to
     Earthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
 
     """)
 
-rv.D("""Publish Doc 
+rv.D(r"""Publish Doc 
     
     | PUBLISH | Viscous Damping | pdf
     

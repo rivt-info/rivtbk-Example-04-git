@@ -1,10 +1,10 @@
 
 --------------------------------------------------------------------------------
-| rivt | Viscous Damping | R Holland | v-1.0.0a13 | 2026-07-13 - 09:26PM
+| rivt | Viscous Damping | R Holland | v-1.0.0a13 | 2026-07-15 - 01:04AM
 --------------------------------------------------------------------------------
 
 
-0.4 | Equivalent Viscous Damping
+0.4-1 | Equivalent Viscous Damping
 ================================================================================
  
 Equivalent viscous damping is the simplest form of damping for analysis
@@ -28,7 +28,7 @@ the energy-dissipating mechanisms that existed in the experiments.
  
  
 
-0.4 - 2 | Measured Viscous Damping
+0.4-2 | Measured Viscous Damping
 --------------------------------------------------------------------------------
  
  
@@ -48,7 +48,7 @@ the energy dissipated in viscous damping given by Eq.1 leads to
  
 
 Eq.1
-[LaTeX] 4 \pi \zeta_{\mathrm{eq}} \frac{\omega}{\omega_n} E_{S o}=E_D \quad
+[LaTeX] 4 \\pi \\zeta_{\\mathrm{eq}} \\frac{\\omega}{\\omega_n} E_{S o}=E_D \\quad
 
  
 or, equivalently,
@@ -82,14 +82,14 @@ system is most sensitive to damping. Thus Eq.  specializes to
  
 The damping ratio zeta_eq determined from a test at omega = omega_n would
 not be correct at any other exciting frequency, but it would be a
-satisfactory approximation (Section 3.10.2).
+satisfactory approximation.
  
 It is widely accepted that this procedure can be extended to model the
 damping in systems with many degrees of freedom. An equivalent viscous
-damping ratio is assigned to each natural vibration mode of the system
-(defined in Chapter 10) in such a way that the energy dissipated in viscous
-damping matches the actual energy dissipated in the system when the system
-vibrates in that mode at its natural frequency.
+damping ratio is assigned to each natural vibration mode of the system in
+such a way that the energy dissipated in viscous damping matches the actual
+energy dissipated in the system when the system vibrates in that mode at
+its natural frequency.
  
 In this book the concept of equivalent viscous damping is restricted to
 systems vibrating at amplitudes within the linearly elastic limit of the
@@ -98,8 +98,7 @@ structure have also been modeled as equivalent viscous damping in some
 research studies. This idealization is generally not satisfactory, however,
 for the large inelastic deformations of structures expected during strong
 earthquakes. We shall account for these inelastic deformations and the
-associated energy dissipation by nonlinear force-deformation relations,
-such as those shown in Fig. 1.3.4 (see Chapters 5 and 7).
+associated energy dissipation by nonlinear force-deformation relations.
  
  
 

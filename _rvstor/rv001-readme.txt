@@ -1,10 +1,10 @@
 
 --------------------------------------------------------------------------------
-| rivt | rivtbook Example - Introduction | R Holland | v-1.0.0a13 | 2026-07-12 - 12:38AM
+| rivt | rivtbook Example - Introduction | R Holland | v-1.0.0a13 | 2026-07-15 - 01:04AM
 --------------------------------------------------------------------------------
 
 
-0.1 | rivtbook Example
+0.1-1 | rivtbook Example
 ================================================================================
  
 A rivtbook is a collection of rivt files with common subject matter that
@@ -24,7 +24,7 @@ and scripts folders to the rvsrc report folder and the rivt file to the
 rivt-report folder.
  
           ----------------------------------------
-Fig. 1 - Copy a rivtbook chapter to a rivt report [file: img/rvbk-rivt.jpg  ]
+Fig. 1 - rivtbook chapter copied to a report [file: img/rvbk-rivt.jpg  ]
           ----------------------------------------
 
  

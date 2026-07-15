@@ -1,10 +1,10 @@
 
 --------------------------------------------------------------------------------
-| rivt | Shear Stiffness | R Holland | v-1.0.0a13 | 2026-07-13 - 09:18PM
+| rivt | Shear Stiffness | R Holland | v-1.0.0a13 | 2026-07-15 - 01:04AM
 --------------------------------------------------------------------------------
 
 
-0.3 | Rubber Elastic Properties
+0.3-1 | Rubber Elastic Properties
 ================================================================================
  
  
@@ -51,7 +51,7 @@ rubber constituents, thixotropic and other effects increase 3G to    about 4G.
  
  
 
-0.3 - 2 | Shear Stiffness Example
+0.3-2 | Shear Stiffness Example
 --------------------------------------------------------------------------------
  
 
@@ -80,14 +80,14 @@ Bearing Stiffness for Circular Bearing
 
 rht = 20.40 inch    [rht] = 51.82 cm  | rubber height
 
-================  ===============
-rnl               rthk
-================  ===============
-51                0.40 inch
-—————             —————
-number of rubber  layer thickness
-layers            -
-================  ===============
+===============  ================
+rthk             rnl
+===============  ================
+0.40 inch        51
+—————            —————
+layer thickness  number of rubber
+-                layers
+===============  ================
 
 ┌  Eq-2 | bearing height
 │
@@ -96,14 +96,14 @@ layers            -
 
 bht = 24.95 inch    [bht] = 63.37 cm  | bearing height
 
-================  =============  =============
-rnl               rht            sthk
-================  =============  =============
-51                20.40 inch     0.09 inch
-—————             —————          —————
-number of rubber  rubber height  11 guage shim
-layers            -              thickness
-================  =============  =============
+=============  ================  =============
+sthk           rnl               rht
+=============  ================  =============
+0.09 inch      51                20.40 inch
+—————          —————             —————
+11 guage shim  number of rubber  rubber height
+thickness      layers            -
+=============  ================  =============
 
 ┌  Eq-3 | shear stiffness
 │
@@ -115,13 +115,13 @@ layers            -              thickness
 
 Ks₁ = 3.48 k_in    [Ks₁] = 6.10 kN_cm  | shear stiffness
 
-=============  ================  ==========  =============
-rht            rdia              cpi         G₁
-=============  ================  ==========  =============
-20.40 inch     39.50 inch        3.1418      58.00 p_si
-—————          —————             —————       —————
-rubber height  bearing diameter  contant pi  shear modulus
-=============  ================  ==========  =============
+==========  ================  =============  =============
+cpi         rdia              G₁             rht
+==========  ================  =============  =============
+3.1418      39.50 inch        58.00 p_si     20.40 inch
+—————       —————             —————          —————
+contant pi  bearing diameter  shear modulus  rubber height
+==========  ================  =============  =============
  
 Shape Factor for Circular Bearing
 
@@ -163,7 +163,7 @@ bearing diameter  bearing height
  
  
 
-0.3 - 3 | shear
+0.3-3 | shear
 --------------------------------------------------------------------------------
  
     Natural Frequency

@@ -1,10 +1,10 @@
 
 --------------------------------------------------------------------------------
-| rivt | Compression Stiffness | R Holland | v-1.0.0a13 | 2026-07-13 - 09:57PM
+| rivt | Compression Stiffness | R Holland | v-1.0.0a13 | 2026-07-15 - 01:04AM
 --------------------------------------------------------------------------------
 
 
-0.2 | Bearing Shape Factor
+0.2-1 | Bearing Shape Factor
 ================================================================================
  
 The stiffness of rubber in compression, when the loaded surfaces are
@@ -85,7 +85,7 @@ Hardness    Young's mod E0       Shear mod G     k       Bulk mod
  
  
 
-0.2 - 2 | Block Compression Stiffness
+0.2-2 | Block Compression Stiffness
 --------------------------------------------------------------------------------
  
 
@@ -110,13 +110,13 @@ For a rectangualar section (length = L and breadth = B):
 
 S₁ = 16.0    [S₁] = 16.0  | shape factor
 
-=======  =========  ======
-B₁       t₁         L₁
-=======  =========  ======
-12.0     0.25       24.0
-—————    —————      —————
-breadth  thickness  length
-=======  =========  ======
+=======  ======  =========
+B₁       L₁      t₁
+=======  ======  =========
+12.0     24.0    0.25
+—————    —————   —————
+breadth  length  thickness
+=======  ======  =========
  
 For a block of square section (i.e. L = B) or circular section (diameter =
 L):
@@ -131,13 +131,13 @@ L):
 
 S₂ = 24.0    [S₂] = 24.0  | shape factor
 
-=========  ======
-t₁         L₁
-=========  ======
-0.25       24.0
-—————      —————
-thickness  length
-=========  ======
+======  =========
+L₁      t₁
+======  =========
+24.0    0.25
+—————   —————
+length  thickness
+======  =========
  
 The compression modulus Ec depends upon the shape factor S (for derivation
 see Section 5).
@@ -161,13 +161,13 @@ G1          0.50 k_si    3.45 MPA   shear modulus
 
 Ec = 35.94 k_si    [Ec] = 247.80 MPA  | compression modulus
 
-============  ====================  =================
-S₁            E₀                    k₁
-============  ====================  =================
-16.0          100.00 p_si           0.7
-—————         —————                 —————
-shape factor  compresssion modulus  adjustment factor
-============  ====================  =================
+=================  ====================  ============
+k₁                 E₀                    S₁
+=================  ====================  ============
+0.7                100.00 p_si           16.0
+—————              —————                 —————
+adjustment factor  compresssion modulus  shape factor
+=================  ====================  ============
  
 When S > 3 it may be more convenient to use:
 
@@ -226,13 +226,13 @@ x1          1.00 inch  25.40 mm      deflection
 
 Kc = 2875.20 k_in    [Kc] = 5035.25 kN_cm  | compression stiffness
 
-=========  ===================  ====================
-t₁         Ec                   A₁
-=========  ===================  ====================
-0.25 inch  35940.00 p_si        20.00 in2
-—————      —————                —————
-thickness  compression modulus  cross-sectional area
-=========  ===================  ====================
+====================  ===================  =========
+A₁                    Ec                   t₁
+====================  ===================  =========
+20.00 in2             35940.00 p_si        0.25 inch
+—————                 —————                —————
+cross-sectional area  compression modulus  thickness
+====================  ===================  =========
  
 If S > μ/2, where S is the shape factor and μ the coefficient of friction,
 slip may occur. In such cases, the rubber should be bonded to the rigid
@@ -256,7 +256,7 @@ of the least plan dimension there should be no instability.
  
  
 
-0.2 - 3 | Strip Compression Stiffness
+0.2-3 | Strip Compression Stiffness
 --------------------------------------------------------------------------------
  
  
@@ -353,7 +353,7 @@ non-linearity is usually ignored for strains up to about 10%.
  
  
 
-0.2 - 4 | Derivation of Compression Characteristics
+0.2-4 | Derivation of Compression Characteristics
 --------------------------------------------------------------------------------
  
 Approximate load-deformation relations are derived below for small
@@ -609,25 +609,3 @@ NOTE: In practice it is necessary to multiply the S2 term by the factor
 k, given in Table 1. [0.2.5]
  
  
-
-
---------------------------------------------------------------------------------
-
-[0.2.1] P.B. Lindley, Engineering Design with Natural Rubber, NR Technical
-Bulletin.Malaysian Rubber Producers' Research Association, Brickendonbury,
-U.K.pages 26-28, 1959.
-
-[0.2.2] P.B. Lindley, Engineering Design with Natural Rubber, NR Technical
-Bulletin.Malaysian Rubber Producers' Research Association, Brickendonbury,
-U.K.pages 45-46, 1959.
-
-[0.2.3] From Appendix I of The Compression of Bonded Rubber Blocks, by A. N.
-Gentand P. B. Lindley, Proceedings of the Institution of Mechanical
-Engineers,1959, Vol. 173, No. 3, pages 111-122.
-
-[0.2.4] SOUTHWELL, R. V. 1941 'An Introduction to the Theory of Elasticity', p.
-126(Clarendon Press Oxford). ADKINS, J. E. 1954 Proc. Camb. phil. Soc., vol.50,
-p. 334.
-
-[0.2.5] DIENES, G. J. and KLEMM, H. F. 1946 J. Appl. Phys., vol. 17, p. 458.
-

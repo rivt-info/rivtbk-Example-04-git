@@ -1,40 +1,40 @@
-07-14 00:15  rv005-bearing-hysteretic   INFO     Doc start
-07-14 00:15  rv005-bearing-hysteretic   INFO     rivtlib version: 1.0.0a5
-07-14 00:15  rv005-bearing-hysteretic   INFO     rivt backup : c:\git\rivtbk-example-04-git\_rvstor\logs\rv005-bearing-hysteretic.bak
-07-14 00:15  rv005-bearing-hysteretic   INFO     Rate Independent Damping
-07-14 00:15  rv005-bearing-hysteretic   INFO     SECTION 0.5 - type I
-07-14 00:15  rv005-bearing-hysteretic   INFO     tag : _[M]
-07-14 00:15  rv005-bearing-hysteretic   INFO     tag : _[M]
-07-14 00:15  rv005-bearing-hysteretic   INFO     command : IMAGE
-07-14 00:15  rv005-bearing-hysteretic   INFO     Steady-State Response to Harmonic Force | pdfpage
-07-14 00:15  rv005-bearing-hysteretic   INFO     SECTION 0.5 - 2 - type I
-07-14 00:15  rv005-bearing-hysteretic   INFO     tag : _[M]
-07-14 00:15  rv005-bearing-hysteretic   INFO     tag : _[M]
-07-14 00:15  rv005-bearing-hysteretic   INFO     tag : _[M]
-07-14 00:15  rv005-bearing-hysteretic   INFO     tag : _[M]
-07-14 00:15  rv005-bearing-hysteretic   INFO     tag : _[M]
-07-14 00:15  rv005-bearing-hysteretic   INFO     tag : _[M]
-07-14 00:15  rv005-bearing-hysteretic   INFO     tag : _[M]
-07-14 00:15  rv005-bearing-hysteretic   INFO     command : IMAGE
-07-14 00:15  rv005-bearing-hysteretic   INFO     command : IMAGE
-07-14 00:15  rv005-bearing-hysteretic   DEBUG    STREAM b'IHDR' 16 13
-07-14 00:15  rv005-bearing-hysteretic   DEBUG    STREAM b'tRNS' 41 6
-07-14 00:15  rv005-bearing-hysteretic   DEBUG    STREAM b'IDAT' 59 8192
-07-14 00:15  rv005-bearing-hysteretic   INFO     Solution Using Equivalent Viscous Damping | pdfpage
-07-14 00:15  rv005-bearing-hysteretic   INFO     SECTION 0.5 - 3 - type I
-07-14 00:15  rv005-bearing-hysteretic   INFO     tag : _[M]
-07-14 00:15  rv005-bearing-hysteretic   INFO     Harmonic Vibration with Coulomb Friction | pdfpage
-07-14 00:15  rv005-bearing-hysteretic   INFO     SECTION 0.5 - 4 - type I
-07-14 00:15  rv005-bearing-hysteretic   INFO     tag : _[B]
-07-14 00:15  rv005-bearing-hysteretic   INFO     tag : _[B]
-07-14 00:15  rv005-bearing-hysteretic   INFO     tag : _[B]
-07-14 00:15  rv005-bearing-hysteretic   INFO     command : IMAGE
-07-14 00:15  rv005-bearing-hysteretic   INFO     command : IMAGE
-07-14 00:15  rv005-bearing-hysteretic   DEBUG    STREAM b'IHDR' 16 13
-07-14 00:15  rv005-bearing-hysteretic   DEBUG    STREAM b'tRNS' 41 6
-07-14 00:15  rv005-bearing-hysteretic   DEBUG    STREAM b'IDAT' 59 8192
-07-14 00:15  rv005-bearing-hysteretic   INFO     tag : _[[TEXT]]
-07-14 00:15  rv005-bearing-hysteretic   INFO     Bibliography | endnotes
-07-14 00:15  rv005-bearing-hysteretic   INFO     SECTION 0.5 - 5 - type R
-07-14 00:15  rv005-bearing-hysteretic   INFO     SECTION : Publish Doc 
-07-14 00:15  rv005-bearing-hysteretic   INFO     block tag : METADATA]]
+07-15 01:04  rv005-bearing-hysteretic   INFO     Doc start
+07-15 01:04  rv005-bearing-hysteretic   INFO     rivtlib version: 1.0.0a5
+07-15 01:04  rv005-bearing-hysteretic   INFO     rivt backup : C:\git\rivtbk-example-04-git\_rvstor\logs\rv005-bearing-hysteretic.bak
+07-15 01:04  rv005-bearing-hysteretic   INFO     Rate Independent Damping
+07-15 01:04  rv005-bearing-hysteretic   INFO     SECTION 0.5-1 - type I
+07-15 01:04  rv005-bearing-hysteretic   INFO     tag : _[M]
+07-15 01:04  rv005-bearing-hysteretic   INFO     tag : _[M]
+07-15 01:04  rv005-bearing-hysteretic   INFO     command : IMAGE
+07-15 01:04  rv005-bearing-hysteretic   INFO     Steady-State Response to Harmonic Force | pdfpage
+07-15 01:04  rv005-bearing-hysteretic   INFO     SECTION 0.5-2 - type I
+07-15 01:04  rv005-bearing-hysteretic   INFO     tag : _[M]
+07-15 01:04  rv005-bearing-hysteretic   INFO     tag : _[M]
+07-15 01:04  rv005-bearing-hysteretic   INFO     tag : _[M]
+07-15 01:04  rv005-bearing-hysteretic   INFO     tag : _[M]
+07-15 01:04  rv005-bearing-hysteretic   INFO     tag : _[M]
+07-15 01:04  rv005-bearing-hysteretic   INFO     tag : _[M]
+07-15 01:04  rv005-bearing-hysteretic   INFO     tag : _[M]
+07-15 01:04  rv005-bearing-hysteretic   INFO     command : IMAGE
+07-15 01:04  rv005-bearing-hysteretic   INFO     command : IMAGE
+07-15 01:04  rv005-bearing-hysteretic   DEBUG    STREAM b'IHDR' 16 13
+07-15 01:04  rv005-bearing-hysteretic   DEBUG    STREAM b'tRNS' 41 6
+07-15 01:04  rv005-bearing-hysteretic   DEBUG    STREAM b'IDAT' 59 8192
+07-15 01:04  rv005-bearing-hysteretic   INFO     Solution Using Equivalent Viscous Damping | pdfpage
+07-15 01:04  rv005-bearing-hysteretic   INFO     SECTION 0.5-3 - type I
+07-15 01:04  rv005-bearing-hysteretic   INFO     tag : _[M]
+07-15 01:04  rv005-bearing-hysteretic   INFO     Harmonic Vibration with Coulomb Friction | pdfpage
+07-15 01:04  rv005-bearing-hysteretic   INFO     SECTION 0.5-4 - type I
+07-15 01:04  rv005-bearing-hysteretic   INFO     tag : _[B]
+07-15 01:04  rv005-bearing-hysteretic   INFO     tag : _[B]
+07-15 01:04  rv005-bearing-hysteretic   INFO     tag : _[B]
+07-15 01:04  rv005-bearing-hysteretic   INFO     command : IMAGE
+07-15 01:04  rv005-bearing-hysteretic   INFO     command : IMAGE
+07-15 01:04  rv005-bearing-hysteretic   DEBUG    STREAM b'IHDR' 16 13
+07-15 01:04  rv005-bearing-hysteretic   DEBUG    STREAM b'tRNS' 41 6
+07-15 01:04  rv005-bearing-hysteretic   DEBUG    STREAM b'IDAT' 59 8192
+07-15 01:04  rv005-bearing-hysteretic   INFO     tag : _[[TEXT]]
+07-15 01:04  rv005-bearing-hysteretic   INFO     Bibliography | endnotes
+07-15 01:04  rv005-bearing-hysteretic   INFO     SECTION 0.5-5 - type R
+07-15 01:04  rv005-bearing-hysteretic   INFO     SECTION : Publish Doc 
+07-15 01:04  rv005-bearing-hysteretic   INFO     block tag : METADATA]]

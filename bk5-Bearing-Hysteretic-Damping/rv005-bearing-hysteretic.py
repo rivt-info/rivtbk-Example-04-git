@@ -1,7 +1,7 @@
 import rivtlib.rvapi as rv
 
-# %% rv.I("""Rate Independent Damping
-rv.I("""Rate Independent Damping
+# %% rv.I(r"""Rate Independent Damping
+rv.I(r"""Rate Independent Damping
 
     Experiments on structural metals indicate that the energy dissipated
     internally in cyclic straining of the material is essentially independent
@@ -57,8 +57,8 @@ rv.I("""Rate Independent Damping
 
 """)
 
-# %% rv.I("""Steady-State Response to Harmonic Force
-rv.I("""Steady-State Response to Harmonic Force | pdfpage
+# %% rv.I(r"""Steady-State Response to Harmonic Force
+rv.I(r"""Steady-State Response to Harmonic Force | pdfpage
 
     The equation for an SDF system with rate-independent linear damping,
     denoted by a crossed box in Fig. 3.10.2, is Eq. (3.2.1) with the damping
@@ -111,7 +111,7 @@ rv.I("""Steady-State Response to Harmonic Force | pdfpage
 
 """)
 
-rv.I("""Solution Using Equivalent Viscous Damping | pdfpage
+rv.I(r"""Solution Using Equivalent Viscous Damping | pdfpage
 
     In this section an approximate solution for the steady-state harmonic
     response of a system with rate-independent damping is obtained by modeling
@@ -136,7 +136,7 @@ rv.I("""Solution Using Equivalent Viscous Damping | pdfpage
     viscous damping.
 """)
 
-rv.I("""Harmonic Vibration with Coulomb Friction | pdfpage
+rv.I(r"""Harmonic Vibration with Coulomb Friction | pdfpage
 
     Equation of Motion  _[B]
 
@@ -183,14 +183,14 @@ rv.I("""Harmonic Vibration with Coulomb Friction | pdfpage
 
 """)
 
-rv.T("""Bibliography | endnotes
+rv.T(r"""Bibliography | endnotes
 
     Anil K.Anil K. Chopra, Dynamics of Structures: Theory and Applications to
     Earthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
 
 """)
 
-rv.D("""Publish Doc 
+rv.D(r"""Publish Doc 
 
     | PUBLISH | Rate Independent Damping | pdf
     
