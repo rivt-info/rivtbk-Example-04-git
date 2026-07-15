@@ -379,7 +379,7 @@ rv.D(r"""Publish Doc
     [doc]
     ;-----------------------------------------
     authors = R Holland
-    version = 1.0.0a13
+    version = 1.0.0a14
     repo = https://github.com/rivt-info/rivt-example-04
     license = https://opensource.org/license/mit/
     copyright = --

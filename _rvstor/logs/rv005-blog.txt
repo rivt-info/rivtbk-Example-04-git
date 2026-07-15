@@ -54,3 +54,4 @@
 [33m>> txt << generated from: c:\git\rivtbk-example-04-git\bk5-Bearing-Hysteretic-Damping\rv005-bearing-hysteretic.py[0m
 [33m>> txt << generated from: c:\git\rivtbk-example-04-git\bk5-Bearing-Hysteretic-Damping\rv005-bearing-hysteretic.py[0m
 [33m>> txt << generated from: c:\git\rivtbk-example-04-git\bk5-Bearing-Hysteretic-Damping\rv005-bearing-hysteretic.py[0m
+[33m>> txt << generated from: C:\git\rivtbk-example-04-git\bk5-Bearing-Hysteretic-Damping\rv005-bearing-hysteretic.py[0m

@@ -2,6 +2,8 @@
 
 **Assign values to expressions**
 
+(ctrl+click (#links))
+
 ========== ===================================================================== 
 API Scope           Command                                                
 ========== ===================================================================== 
@@ -23,8 +25,6 @@ Defines a value and writes it to the file *vdocnum-s.csv* where *num* is the
 
 The stored values can read and defined in other rivt files using the VALUES
 command.
-
-.. code-block:: text
 
     Syntax:
         c ==: 5*unit | unit1, unit2, decimals | label, *num,nonum*

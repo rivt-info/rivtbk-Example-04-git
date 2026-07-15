@@ -1,9 +1,9 @@
-07-15 01:04  rv001-Introduction   INFO     Doc start
-07-15 01:04  rv001-Introduction   INFO     rivtlib version: 1.0.0a5
-07-15 01:04  rv001-Introduction   INFO     rivt backup : C:\git\rivtbk-example-04-git\_rvstor\logs\rv001-Introduction.bak
-07-15 01:04  rv001-Introduction   INFO     rivtbook Example 
-07-15 01:04  rv001-Introduction   INFO     SECTION 0.1-1 - type I
-07-15 01:04  rv001-Introduction   INFO     tag : _[[TEXT]]
-07-15 01:04  rv001-Introduction   INFO     command : IMAGE
-07-15 01:04  rv001-Introduction   INFO     SECTION : Publish Doc 
-07-15 01:04  rv001-Introduction   INFO     block tag : METADATA]]
+07-15 11:19  rv001-Introduction   INFO     Doc start
+07-15 11:19  rv001-Introduction   INFO     rivtlib version: 1.0.0a5
+07-15 11:19  rv001-Introduction   INFO     rivt backup : C:\git\rivtbk-example-04-git\_rvstor\logs\rv001-Introduction.bak
+07-15 11:19  rv001-Introduction   INFO     rivtbook Example 
+07-15 11:19  rv001-Introduction   INFO     SECTION 0.1-1 - type I
+07-15 11:19  rv001-Introduction   INFO     tag : _[[TEXT]]
+07-15 11:19  rv001-Introduction   INFO     command : IMAGE
+07-15 11:19  rv001-Introduction   INFO     SECTION : Publish Doc 
+07-15 11:19  rv001-Introduction   INFO     block tag : METADATA]]

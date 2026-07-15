@@ -1,7 +1,7 @@
 
 rivt Help Files 
 ===============
-                    (ctrl+click links)
+                    (ctrl+click #links)
 
 [ Assignments    ](/.help/assignments.md)
 
@@ -13,6 +13,7 @@ rivt Help Files
 
 [ Units          ](/.help/units.md)
 
-[ Report Folders ](/.help/bkfolders.md)
+[ Report Folders ](/.help/repfolders.md)
 
-[ Book Folders   ](/.help/repfolders.md)
+[ Book Folders   ](/.help/bkfolders.md)
+

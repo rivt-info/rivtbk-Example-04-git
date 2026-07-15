@@ -1,15 +1,15 @@
 
 **Format or run blocks of text or scripts**
 
-(ctrl+click on #links)
+(ctrl+click (#links))
 
 =========== ==================================================
 API Scope         Block Tag                    
 =========== ==================================================
-rv.I,V       _[[TEXT]] type] [](#Text-Block)                   
-rv.I,V       _[[TABLE]] label [](#Table-Block)                    
+rv.I,V       _[[TEXT]] type]         [](#Text-Block)                   
+rv.I,V       _[[TABLE]] label        [](#Table-Block)                    
 rv.V         _[[ARGS]] arg dict name [](#Argument-Block)           
-rv.V         _[[PYTHON]] label                  
+rv.V         _[[PYTHON]] label       [](#Python-Block)              
 rv.T         _[[WRITE]] var name                
 rv.T         _[[SHELL]] os, wait;nowait
 rv.D         _[[METADATA]] label                

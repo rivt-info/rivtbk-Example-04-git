@@ -19,7 +19,7 @@ booksetS = f"""
 [book]
 ;-----------------------------------------
 book_filename = rivtbk-Isolation-Bearing-Design.txt
-version = 1.0.0a13
+version = 1.0.0a14
 exclude = -- ; comma separated doc numbers to exclude eg. rv102, rv204
 [process]
 ;-----------------------------------------

@@ -1,17 +1,17 @@
-07-15 01:04  rv003-shear-stiffness   INFO     Doc start
-07-15 01:04  rv003-shear-stiffness   INFO     rivtlib version: 1.0.0a5
-07-15 01:04  rv003-shear-stiffness   INFO     rivt backup : C:\git\rivtbk-example-04-git\_rvstor\logs\rv003-shear-stiffness.bak
-07-15 01:04  rv003-shear-stiffness   INFO     Rubber Elastic Properties
-07-15 01:04  rv003-shear-stiffness   INFO     SECTION 0.3-1 - type I
-07-15 01:04  rv003-shear-stiffness   INFO     tag : _[T]
-07-15 01:04  rv003-shear-stiffness   INFO     tag : _[T]
-07-15 01:04  rv003-shear-stiffness   INFO     tag : _[[TEXT]]
-07-15 01:04  rv003-shear-stiffness   INFO     Shear Stiffness Example
-07-15 01:04  rv003-shear-stiffness   INFO     SECTION 0.3-2 - type V
-07-15 01:04  rv003-shear-stiffness   INFO     tag : _[T]
-07-15 01:04  rv003-shear-stiffness   INFO     tag : _[B]
-07-15 01:04  rv003-shear-stiffness   INFO     tag : _[B]
-07-15 01:04  rv003-shear-stiffness   INFO     shear 
-07-15 01:04  rv003-shear-stiffness   INFO     SECTION 0.3-3 - type I
-07-15 01:04  rv003-shear-stiffness   INFO     SECTION : Publish Doc 
-07-15 01:04  rv003-shear-stiffness   INFO     block tag : METADATA]]
+07-15 11:19  rv003-shear-stiffness   INFO     Doc start
+07-15 11:19  rv003-shear-stiffness   INFO     rivtlib version: 1.0.0a5
+07-15 11:19  rv003-shear-stiffness   INFO     rivt backup : C:\git\rivtbk-example-04-git\_rvstor\logs\rv003-shear-stiffness.bak
+07-15 11:19  rv003-shear-stiffness   INFO     Rubber Elastic Properties
+07-15 11:19  rv003-shear-stiffness   INFO     SECTION 0.3-1 - type I
+07-15 11:19  rv003-shear-stiffness   INFO     tag : _[T]
+07-15 11:19  rv003-shear-stiffness   INFO     tag : _[T]
+07-15 11:19  rv003-shear-stiffness   INFO     tag : _[[TEXT]]
+07-15 11:19  rv003-shear-stiffness   INFO     Shear Stiffness Example
+07-15 11:19  rv003-shear-stiffness   INFO     SECTION 0.3-2 - type V
+07-15 11:19  rv003-shear-stiffness   INFO     tag : _[T]
+07-15 11:19  rv003-shear-stiffness   INFO     tag : _[B]
+07-15 11:19  rv003-shear-stiffness   INFO     tag : _[B]
+07-15 11:19  rv003-shear-stiffness   INFO     shear 
+07-15 11:19  rv003-shear-stiffness   INFO     SECTION 0.3-3 - type I
+07-15 11:19  rv003-shear-stiffness   INFO     SECTION : Publish Doc 
+07-15 11:19  rv003-shear-stiffness   INFO     block tag : METADATA]]

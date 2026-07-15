@@ -55,3 +55,4 @@
 [33m>> txt << generated from: c:\git\rivtbk-example-04-git\bk4-Bearing-Viscous-Damping\rv004-bearing-viscous.py[0m
 [33m>> txt << generated from: c:\git\rivtbk-example-04-git\bk4-Bearing-Viscous-Damping\rv004-bearing-viscous.py[0m
 [33m>> txt << generated from: c:\git\rivtbk-example-04-git\bk4-Bearing-Viscous-Damping\rv004-bearing-viscous.py[0m
+[33m>> txt << generated from: C:\git\rivtbk-example-04-git\bk4-Bearing-Viscous-Damping\rv004-bearing-viscous.py[0m

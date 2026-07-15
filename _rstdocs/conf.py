@@ -9,7 +9,7 @@ font_folder_path = os.path.join(os.path.dirname(__file__), '_static',  'fonts')
 project = "rivtbook Example - Introduction"
 copyright = "--"
 author = "self.R Holland"
-release = "1.0.0a13"
+release = "1.0.0a14"
 
 extensions = [
     "sphinx.ext.githubpages",

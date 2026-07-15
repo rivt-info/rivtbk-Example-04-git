@@ -1,22 +1,22 @@
-07-15 01:04  rv004-bearing-viscous   INFO     Doc start
-07-15 01:04  rv004-bearing-viscous   INFO     rivtlib version: 1.0.0a5
-07-15 01:04  rv004-bearing-viscous   INFO     rivt backup : C:\git\rivtbk-example-04-git\_rvstor\logs\rv004-bearing-viscous.bak
-07-15 01:04  rv004-bearing-viscous   INFO     Equivalent Viscous Damping
-07-15 01:04  rv004-bearing-viscous   INFO     SECTION 0.4-1 - type I
-07-15 01:04  rv004-bearing-viscous   INFO     command : IMAGE
-07-15 01:04  rv004-bearing-viscous   DEBUG    STREAM b'IHDR' 16 13
-07-15 01:04  rv004-bearing-viscous   DEBUG    STREAM b'tRNS' 41 6
-07-15 01:04  rv004-bearing-viscous   DEBUG    STREAM b'IDAT' 59 8192
-07-15 01:04  rv004-bearing-viscous   INFO     Measured Viscous Damping  | pdfpage
-07-15 01:04  rv004-bearing-viscous   INFO     SECTION 0.4-2 - type I
-07-15 01:04  rv004-bearing-viscous   INFO     command : IMAGE
-07-15 01:04  rv004-bearing-viscous   DEBUG    STREAM b'IHDR' 16 13
-07-15 01:04  rv004-bearing-viscous   DEBUG    STREAM b'tRNS' 41 6
-07-15 01:04  rv004-bearing-viscous   DEBUG    STREAM b'IDAT' 59 8192
-07-15 01:04  rv004-bearing-viscous   INFO     tag : _[L]
-07-15 01:04  rv004-bearing-viscous   INFO     tag : _[M]
-07-15 01:04  rv004-bearing-viscous   INFO     tag : _[M]
-07-15 01:04  rv004-bearing-viscous   INFO     Footnotes | endnotes
-07-15 01:04  rv004-bearing-viscous   INFO     SECTION 0.4-3 - type R
-07-15 01:04  rv004-bearing-viscous   INFO     SECTION : Publish Doc 
-07-15 01:04  rv004-bearing-viscous   INFO     block tag : METADATA]]
+07-15 11:19  rv004-bearing-viscous   INFO     Doc start
+07-15 11:19  rv004-bearing-viscous   INFO     rivtlib version: 1.0.0a5
+07-15 11:19  rv004-bearing-viscous   INFO     rivt backup : C:\git\rivtbk-example-04-git\_rvstor\logs\rv004-bearing-viscous.bak
+07-15 11:19  rv004-bearing-viscous   INFO     Equivalent Viscous Damping
+07-15 11:19  rv004-bearing-viscous   INFO     SECTION 0.4-1 - type I
+07-15 11:19  rv004-bearing-viscous   INFO     command : IMAGE
+07-15 11:19  rv004-bearing-viscous   DEBUG    STREAM b'IHDR' 16 13
+07-15 11:19  rv004-bearing-viscous   DEBUG    STREAM b'tRNS' 41 6
+07-15 11:19  rv004-bearing-viscous   DEBUG    STREAM b'IDAT' 59 8192
+07-15 11:19  rv004-bearing-viscous   INFO     Measured Viscous Damping  | pdfpage
+07-15 11:19  rv004-bearing-viscous   INFO     SECTION 0.4-2 - type I
+07-15 11:19  rv004-bearing-viscous   INFO     command : IMAGE
+07-15 11:19  rv004-bearing-viscous   DEBUG    STREAM b'IHDR' 16 13
+07-15 11:19  rv004-bearing-viscous   DEBUG    STREAM b'tRNS' 41 6
+07-15 11:19  rv004-bearing-viscous   DEBUG    STREAM b'IDAT' 59 8192
+07-15 11:19  rv004-bearing-viscous   INFO     tag : _[L]
+07-15 11:19  rv004-bearing-viscous   INFO     tag : _[M]
+07-15 11:19  rv004-bearing-viscous   INFO     tag : _[M]
+07-15 11:19  rv004-bearing-viscous   INFO     Footnotes | endnotes
+07-15 11:19  rv004-bearing-viscous   INFO     SECTION 0.4-3 - type R
+07-15 11:19  rv004-bearing-viscous   INFO     SECTION : Publish Doc 
+07-15 11:19  rv004-bearing-viscous   INFO     block tag : METADATA]]

@@ -1,6 +1,6 @@
 
 --------------------------------------------------------------------------------
-| rivt | Compression Stiffness | R Holland | v-1.0.0a13 | 2026-07-15 - 01:04AM
+| rivt | Compression Stiffness | R Holland | v-1.0.0a14 | 2026-07-15 - 11:19AM
 --------------------------------------------------------------------------------
 
 
@@ -110,13 +110,13 @@ For a rectangualar section (length = L and breadth = B):
 
 S₁ = 16.0    [S₁] = 16.0  | shape factor
 
-=======  ======  =========
-B₁       L₁      t₁
-=======  ======  =========
-12.0     24.0    0.25
-—————    —————   —————
-breadth  length  thickness
-=======  ======  =========
+=======  =========  ======
+B₁       t₁         L₁
+=======  =========  ======
+12.0     0.25       24.0
+—————    —————      —————
+breadth  thickness  length
+=======  =========  ======
  
 For a block of square section (i.e. L = B) or circular section (diameter =
 L):
@@ -131,13 +131,13 @@ L):
 
 S₂ = 24.0    [S₂] = 24.0  | shape factor
 
-======  =========
-L₁      t₁
-======  =========
-24.0    0.25
-—————   —————
-length  thickness
-======  =========
+=========  ======
+t₁         L₁
+=========  ======
+0.25       24.0
+—————      —————
+thickness  length
+=========  ======
  
 The compression modulus Ec depends upon the shape factor S (for derivation
 see Section 5).
@@ -161,13 +161,13 @@ G1          0.50 k_si    3.45 MPA   shear modulus
 
 Ec = 35.94 k_si    [Ec] = 247.80 MPA  | compression modulus
 
-=================  ====================  ============
-k₁                 E₀                    S₁
-=================  ====================  ============
-0.7                100.00 p_si           16.0
-—————              —————                 —————
-adjustment factor  compresssion modulus  shape factor
-=================  ====================  ============
+=================  ============  ====================
+k₁                 S₁            E₀
+=================  ============  ====================
+0.7                16.0          100.00 p_si
+—————              —————         —————
+adjustment factor  shape factor  compresssion modulus
+=================  ============  ====================
  
 When S > 3 it may be more convenient to use:
 
@@ -226,13 +226,13 @@ x1          1.00 inch  25.40 mm      deflection
 
 Kc = 2875.20 k_in    [Kc] = 5035.25 kN_cm  | compression stiffness
 
-====================  ===================  =========
-A₁                    Ec                   t₁
-====================  ===================  =========
-20.00 in2             35940.00 p_si        0.25 inch
-—————                 —————                —————
-cross-sectional area  compression modulus  thickness
-====================  ===================  =========
+=========  ====================  ===================
+t₁         A₁                    Ec
+=========  ====================  ===================
+0.25 inch  20.00 in2             35940.00 p_si
+—————      —————                 —————
+thickness  cross-sectional area  compression modulus
+=========  ====================  ===================
  
 If S > μ/2, where S is the shape factor and μ the coefficient of friction,
 slip may occur. In such cases, the rubber should be bonded to the rigid

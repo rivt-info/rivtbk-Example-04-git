@@ -1,11 +1,11 @@
 
 ================================================================================
-Isolation Bearing Design | R Holland | 1.0.0a13 | 2026-07-15 - 01:04AM
+Isolation Bearing Design | R Holland | 1.0.0a14 | 2026-07-15 - 11:19AM
 ================================================================================
 
 
 Table of Contents
-==================
+==================================
 001 - rivtbook Example - Introduction
 002 - Compression Stiffness
 003 - Shear Stiffness
@@ -16,7 +16,7 @@ Table of Contents
 
 
 --------------------------------------------------------------------------------
-rivtbook Example - Introduction | R Holland | v-1.0.0a13 | 2026-07-15 - 01:04AM
+rivtbook Example - Introduction | R Holland | v-1.0.0a14 | 2026-07-15 - 11:19AM
 --------------------------------------------------------------------------------
 
 
@@ -47,7 +47,7 @@ Fig. 1 - rivtbook chapter copied to a report
  
 
 --------------------------------------------------------------------------------
-Compression Stiffness | R Holland | v-1.0.0a13 | 2026-07-15 - 01:04AM
+Compression Stiffness | R Holland | v-1.0.0a14 | 2026-07-15 - 11:19AM
 --------------------------------------------------------------------------------
 
 
@@ -157,13 +157,13 @@ For a rectangualar section (length = L and breadth = B):
 
 S₁ = 16.0    [S₁] = 16.0  | shape factor
 
-=======  ======  =========
-B₁       L₁      t₁
-=======  ======  =========
-12.0     24.0    0.25
-—————    —————   —————
-breadth  length  thickness
-=======  ======  =========
+=======  =========  ======
+B₁       t₁         L₁
+=======  =========  ======
+12.0     0.25       24.0
+—————    —————      —————
+breadth  thickness  length
+=======  =========  ======
  
 For a block of square section (i.e. L = B) or circular section (diameter =
 L):
@@ -178,13 +178,13 @@ L):
 
 S₂ = 24.0    [S₂] = 24.0  | shape factor
 
-======  =========
-L₁      t₁
-======  =========
-24.0    0.25
-—————   —————
-length  thickness
-======  =========
+=========  ======
+t₁         L₁
+=========  ======
+0.25       24.0
+—————      —————
+thickness  length
+=========  ======
  
 The compression modulus Ec depends upon the shape factor S (for derivation
 see Section 5).
@@ -208,13 +208,13 @@ G1          0.50 k_si    3.45 MPA   shear modulus
 
 Ec = 35.94 k_si    [Ec] = 247.80 MPA  | compression modulus
 
-=================  ====================  ============
-k₁                 E₀                    S₁
-=================  ====================  ============
-0.7                100.00 p_si           16.0
-—————              —————                 —————
-adjustment factor  compresssion modulus  shape factor
-=================  ====================  ============
+=================  ============  ====================
+k₁                 S₁            E₀
+=================  ============  ====================
+0.7                16.0          100.00 p_si
+—————              —————         —————
+adjustment factor  shape factor  compresssion modulus
+=================  ============  ====================
  
 When S > 3 it may be more convenient to use:
 
@@ -273,13 +273,13 @@ x1          1.00 inch  25.40 mm      deflection
 
 Kc = 2875.20 k_in    [Kc] = 5035.25 kN_cm  | compression stiffness
 
-====================  ===================  =========
-A₁                    Ec                   t₁
-====================  ===================  =========
-20.00 in2             35940.00 p_si        0.25 inch
-—————                 —————                —————
-cross-sectional area  compression modulus  thickness
-====================  ===================  =========
+=========  ====================  ===================
+t₁         A₁                    Ec
+=========  ====================  ===================
+0.25 inch  20.00 in2             35940.00 p_si
+—————      —————                 —————
+thickness  cross-sectional area  compression modulus
+=========  ====================  ===================
  
 If S > μ/2, where S is the shape factor and μ the coefficient of friction,
 slip may occur. In such cases, the rubber should be bonded to the rigid
@@ -658,7 +658,7 @@ k, given in Table 1. [0.2.5]
  
 
 --------------------------------------------------------------------------------
-Shear Stiffness | R Holland | v-1.0.0a13 | 2026-07-15 - 01:04AM
+Shear Stiffness | R Holland | v-1.0.0a14 | 2026-07-15 - 11:19AM
 --------------------------------------------------------------------------------
 
 
@@ -754,14 +754,14 @@ layer thickness  number of rubber
 
 bht = 24.95 inch    [bht] = 63.37 cm  | bearing height
 
-=============  ================  =============
-sthk           rnl               rht
-=============  ================  =============
-0.09 inch      51                20.40 inch
-—————          —————             —————
-11 guage shim  number of rubber  rubber height
-thickness      layers            -
-=============  ================  =============
+=============  =============  ================
+sthk           rht            rnl
+=============  =============  ================
+0.09 inch      20.40 inch     51
+—————          —————          —————
+11 guage shim  rubber height  number of rubber
+thickness      -              layers
+=============  =============  ================
 
 ┌  Eq-3 | shear stiffness
 │
@@ -773,13 +773,13 @@ thickness      layers            -
 
 Ks₁ = 3.48 k_in    [Ks₁] = 6.10 kN_cm  | shear stiffness
 
-==========  ================  =============  =============
-cpi         rdia              G₁             rht
-==========  ================  =============  =============
-3.1418      39.50 inch        58.00 p_si     20.40 inch
-—————       —————             —————          —————
-contant pi  bearing diameter  shear modulus  rubber height
-==========  ================  =============  =============
+==========  =============  =============  ================
+cpi         G₁             rht            rdia
+==========  =============  =============  ================
+3.1418      58.00 p_si     20.40 inch     39.50 inch
+—————       —————          —————          —————
+contant pi  shear modulus  rubber height  bearing diameter
+==========  =============  =============  ================
  
 Shape Factor for Circular Bearing
 
@@ -811,13 +811,13 @@ layer thickness  shim diameter
 
 sh₂ ₁ = 1    [sh₂ ₁] = 1  | shape factor 2
 
-================  ==============
-rdia              bht
-================  ==============
-40 inch           25 inch
-—————             —————
-bearing diameter  bearing height
-================  ==============
+==============  ================
+bht             rdia
+==============  ================
+25 inch         40 inch
+—————           —————
+bearing height  bearing diameter
+==============  ================
  
  
 
@@ -900,7 +900,7 @@ Fig. 18. Shear mounting.
  
 
 --------------------------------------------------------------------------------
-Viscous Damping | R Holland | v-1.0.0a13 | 2026-07-15 - 01:04AM
+Viscous Damping | R Holland | v-1.0.0a14 | 2026-07-15 - 11:19AM
 --------------------------------------------------------------------------------
 
 
@@ -1010,7 +1010,7 @@ toEarthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
 
 
 --------------------------------------------------------------------------------
-Rate Independent Damping | R Holland | v-1.0.0a13 | 2026-07-15 - 01:04AM
+Rate Independent Damping | R Holland | v-1.0.0a14 | 2026-07-15 - 11:19AM
 --------------------------------------------------------------------------------
 
 
@@ -1304,7 +1304,7 @@ toEarthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
 
 
 --------------------------------------------------------------------------------
-Three Story Vibration | R Holland | v-1.0.0a13 | 2026-07-15 - 01:04AM
+Three Story Vibration | R Holland | v-1.0.0a14 | 2026-07-15 - 11:19AM
 --------------------------------------------------------------------------------
 
 

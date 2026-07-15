@@ -1,6 +1,6 @@
 
 --------------------------------------------------------------------------------
-Shear Stiffness | R Holland | v-1.0.0a13 | 2026-07-15 - 01:04AM
+Shear Stiffness | R Holland | v-1.0.0a14 | 2026-07-15 - 11:19AM
 --------------------------------------------------------------------------------
 
 
@@ -96,14 +96,14 @@ layer thickness  number of rubber
 
 bht = 24.95 inch    [bht] = 63.37 cm  | bearing height
 
-=============  ================  =============
-sthk           rnl               rht
-=============  ================  =============
-0.09 inch      51                20.40 inch
-—————          —————             —————
-11 guage shim  number of rubber  rubber height
-thickness      layers            -
-=============  ================  =============
+=============  =============  ================
+sthk           rht            rnl
+=============  =============  ================
+0.09 inch      20.40 inch     51
+—————          —————          —————
+11 guage shim  rubber height  number of rubber
+thickness      -              layers
+=============  =============  ================
 
 ┌  Eq-3 | shear stiffness
 │
@@ -115,13 +115,13 @@ thickness      layers            -
 
 Ks₁ = 3.48 k_in    [Ks₁] = 6.10 kN_cm  | shear stiffness
 
-==========  ================  =============  =============
-cpi         rdia              G₁             rht
-==========  ================  =============  =============
-3.1418      39.50 inch        58.00 p_si     20.40 inch
-—————       —————             —————          —————
-contant pi  bearing diameter  shear modulus  rubber height
-==========  ================  =============  =============
+==========  =============  =============  ================
+cpi         G₁             rht            rdia
+==========  =============  =============  ================
+3.1418      58.00 p_si     20.40 inch     39.50 inch
+—————       —————          —————          —————
+contant pi  shear modulus  rubber height  bearing diameter
+==========  =============  =============  ================
  
 Shape Factor for Circular Bearing
 
@@ -153,13 +153,13 @@ layer thickness  shim diameter
 
 sh₂ ₁ = 1    [sh₂ ₁] = 1  | shape factor 2
 
-================  ==============
-rdia              bht
-================  ==============
-40 inch           25 inch
-—————             —————
-bearing diameter  bearing height
-================  ==============
+==============  ================
+bht             rdia
+==============  ================
+25 inch         40 inch
+—————           —————
+bearing height  bearing diameter
+==============  ================
  
  
 
