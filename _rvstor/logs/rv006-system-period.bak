@@ -8,7 +8,7 @@ rv.V(r"""Eigenvalues and Vectors
 
     | IMAGE | img/frames.jpg | Structural Model, 60, num, not 
 
-    _[[PYTHON]] echo
+    _[[PYTHON]] code
     import numpy as np
     import numpy.linalg as la
     import textwrap as tw
@@ -38,7 +38,7 @@ rv.V(r"""Plot Mode Shapes | pdfpage
 
     Plot normalized mode shapes and compare to Penzien and Clough. _[#]
 
-    _[[PYTHON]] echo 
+    _[[PYTHON]] code
     import numpy as np
     import matplotlib.pyplot as plt
     import os
@@ -58,8 +58,8 @@ rv.V(r"""Plot Mode Shapes | pdfpage
     plt.plot(m2,y)
     plt.plot(m3,y)
     plt.xlim(.5,6.)
-    plt.xlabel('mode')
-    plt.ylabel('levels')
+    plt.xlabel("mode")
+    plt.ylabel("levels")
     plt.title("Mode Shapes")
     plt.grid()
     curdir=os.getcwd()
@@ -81,7 +81,7 @@ rv.V(r"""Plot Mode Shapes | pdfpage
 
     """)
 
-# %% rv.R(r"""Bibliography | endnotes
+# %% rv.T(r"""Bibliography | endnotes
 rv.T(r"""Bibliography | endnotes
 
     R.W. Clough and J. Penzien, Dynamics of Structures. New York, NY, USA:

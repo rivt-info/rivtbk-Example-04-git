@@ -1,7 +1,7 @@
 
 rivt Help Files 
 ===============
-                    (ctrl+click #links)
+                    (ctrl+click /.links)
 
 [ Assignments    ](/.help/assignments.md)
 

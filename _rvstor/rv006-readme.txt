@@ -1,6 +1,6 @@
 
 --------------------------------------------------------------------------------
-| rivt | Three Story Vibration | R Holland | v-1.0.0a14 | 2026-07-15 - 11:19AM
+| rivt | Three Story Vibration | R Holland | v-1.0.0a14 | 2026-07-16 - 11:31PM
 --------------------------------------------------------------------------------
 
 
@@ -27,23 +27,13 @@ d = np.inner(f,m)
 eigen = la.eig(d)                                         
 evalus = eigen[0]
 print("\neigenvalues:\n"," "*8,evalus)
-
-eigenvalues:
-          [0.00474206 0.00103739 0.00047055]
 #
 nat_freq = 1/(np.sqrt(evalus))
 print("\nnatural frequencies:\n"," "*8,nat_freq)                                           
-
-natural frequencies:
-          [14.52166783 31.04769646 46.09947622]
 #
 evect = np.array(eigen[1])                                
 print("\neigenvectors:\n",tw.indent(str(evect), " "*8))
 
-eigenvectors:
-         [[-0.81332769 -0.73942881  0.27304451]
-         [-0.52747169  0.44853685 -0.69406171]
-         [-0.24550292  0.50205551  0.66612689]]
  
  
 
@@ -76,8 +66,8 @@ plt.plot(m1,y)
 plt.plot(m2,y)
 plt.plot(m3,y)
 plt.xlim(.5,6.)
-plt.xlabel('mode')
-plt.ylabel('levels')
+plt.xlabel("mode")
+plt.ylabel("levels")
 plt.title("Mode Shapes")
 plt.grid()
 curdir=os.getcwd()
@@ -94,14 +84,6 @@ tt = np.vstack((yy,xx))
 print("\nTable of eigenvalues and normalized eigenvectors\n",
 tb(tt, headers="firstrow", tablefmt="rst"))    
 
-Table of eigenvalues and normalized eigenvectors
- =======  =========  =========  =========
-   freq    level 3    level 2    level 1
-=======  =========  =========  =========
-14.5217     1          1          1
-31.0477     0.6485    -0.6066    -2.5419
-46.0995     0.3018    -0.679      2.4396
-=======  =========  =========  =========
  
           ----------------------------------------
 Fig. 3 - Calculated Normalized Modes [file: img/mode_shapes.png  ]

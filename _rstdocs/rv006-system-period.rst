@@ -1,0 +1,209 @@
+.. |s| unicode:: 0xA0 
+
+
+
+.. |blklogo| image:: ./_static/logo2.png
+   :height: 100px
+   :alt: logo
+
+
+    
+.. header::
+    .. list-table::
+        :class: header-box
+        :align: left
+        :widths: 90 10
+        
+        * - **Three Story Vibration** - v1.0.0a14 |s| |s| |s| |s|  **###Section###**
+          - p. **###Page###**   
+
+          
+
+.. footer:: 
+    .. list-table::
+        :class: footer-box
+        :align: left
+        :widths: 84 22 16
+        
+        * - 2026-07-16 |s| |s| |s| **|** |s| |s| |s| R Holland        
+          - **rivt**        
+          - |blklogo|
+
+
+                  
+
+.. raw:: pdf
+
+   PageBreak noHead
+      
+**Three Story Vibration** - v1.0.0a14
+
+--------------------
+
+|
+
+.. contents:: Table of Contents
+  :depth: 2
+
+  
+.. raw:: pdf
+ 
+   PageBreak mainPage
+   SetPageCounter 1
+
+ 
+.. raw:: pdf
+
+   PageBreak
+
+      
+
+
+.. _Eigenvalues and Vectors:
+
+**0.6-1** | Eigenvalues and Vectors
+================================================================================
+ 
+Analyze a 3-story shear frame using the flexibility method to determine
+natural frequencies and mode shapes (fter Clough and Penzien  `[0.6.1]`_ )
+ 
+
+.. figure:: c:/git/rivtbk-example-04-git/bk6-System-Period/img/frames.jpg
+   :width: 60%
+   :align: center
+
+   **Fig. 1** - Structural Model   
+    
+
+
+ 
+
+.. code-block:: python
+
+   import numpy as np
+   import numpy.linalg as la
+   import textwrap as tw
+   # set up mass and stiffness arrays
+   m = np.array([[1.0,0,0],[0,1.5,0],[0,0,2.0]],float)        
+   k1 = 600*np.array([[1,-1,0.0],[-1,3,-2],[0,-2,5]],float)   
+   # flexibility and dynamic matrix
+   f = la.inv(k1)                                            
+   d = np.inner(f,m)                                         
+   eigen = la.eig(d)                                         
+   evalus = eigen[0]
+   print("\neigenvalues:\n"," "*8,evalus)
+   #
+   nat_freq = 1/(np.sqrt(evalus))
+   print("\nnatural frequencies:\n"," "*8,nat_freq)                                           
+   #
+   evect = np.array(eigen[1])                                
+   print("\neigenvectors:\n",tw.indent(str(evect), " "*8))
+
+
+
+ 
+ 
+
+
+-------------------------
+
+
+
+.. raw:: pdf
+
+   PageBreak
+
+
+
+.. _Plot Mode Shapes:
+
+**0.6-2** | Plot Mode Shapes
+--------------------------------------------------------------------------------
+ 
+
+.. figure:: c:/git/rivtbk-example-04-git/bk6-System-Period/img/modes.jpg
+   :width: 70%
+   :align: center
+
+   **Fig. 2** - Structural Model   
+    
+
+
+ 
+Plot normalized mode shapes and compare to Penzien and Clough.  `[0.6.2]`_ 
+ 
+
+.. code-block:: python
+
+   import numpy as np
+   import matplotlib.pyplot as plt
+   import os
+   from tabulate import tabulate as tb
+   # initialize eigenvector array (need (x,1) shapes for plotting
+   ms = np.shape(evect)
+   zz = np.zeros((ms[0],1))
+   x1=np.concatenate((evect,zz),1)
+   #plot mode shapes using matplotlib
+   y=np.array([0,1,2,3])
+   m3=x1[2]*.35+5
+   m2=x1[1]*.35+3
+   m1=x1[0]*.35+1
+   m=np.concatenate((m1,m2,m3))
+   plt.clf()
+   plt.plot(m1,y)
+   plt.plot(m2,y)
+   plt.plot(m3,y)
+   plt.xlim(.5,6.)
+   plt.xlabel("mode")
+   plt.ylabel("levels")
+   plt.title("Mode Shapes")
+   plt.grid()
+   curdir=os.getcwd()
+   imgdir=os.path.join(curdir,"img","mode_shapes.png")
+   plt.savefig(imgdir)
+   # table of eigenvalues and normalized eigenvectors
+   evectt = np.transpose(evect)     
+   for i in range(len(nat_freq)):
+        evectt[i] = evectt[i]/evectt[i][0] 
+   xx = np.concatenate((nat_freq[:, np.newaxis],evect),1)                          
+   xx = np.round(xx, 4)
+   yy = ["freq","level 3","level 2","level 1"]                   
+   tt = np.vstack((yy,xx))
+   print("\nTable of eigenvalues and normalized eigenvectors\n",
+   tb(tt, headers="firstrow", tablefmt="rst"))    
+
+
+
+ 
+
+.. figure:: c:/git/rivtbk-example-04-git/bk6-System-Period/img/mode_shapes.png
+   :width: 60%
+   :align: center
+
+   **Fig. 3** - Calculated Normalized Modes   
+    
+
+
+ 
+ 
+
+
+--------------------
+
+
+.. _[0.6.1]:
+
+**[0.6.1]** 
+    R.W. Clough and J. Penzien, Dynamics of Structures. New York, NY, USA:McGraw-Hill, 1975. pg. 178-180
+
+
+
+
+
+.. _[0.6.2]:
+
+**[0.6.2]** 
+    ibid. pg. 180-182
+
+
+

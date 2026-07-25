@@ -406,4 +406,10 @@ styles:
     parent: admonition
   warning-heading:
     parent: admonition-heading
-
+  pygments-s:
+    textColor: "#0000FF"
+  pygments-s1:
+    textColor: "#0000FF"
+  pygments-s2:
+    textColor: "#0000FF"
+  

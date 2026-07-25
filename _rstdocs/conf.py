@@ -6,7 +6,7 @@ from pathlib import Path
 font_folder_path = os.path.join(os.path.dirname(__file__), '_static',  'fonts')
 # sys.path.append(str(Path(".").resolve()))
 
-project = "rivtbook Example - Introduction"
+project = "Three Story Vibration"
 copyright = "--"
 author = "self.R Holland"
 release = "1.0.0a14"
@@ -25,6 +25,7 @@ extensions = [
     "rst2pdf.pdfbuilder",
     "sphinxcontrib.mermaid"
 ]
+pygments_style = "borland"
 root_doc = "index"
 duration_write_json = ""
 html_show_sourcelink = False
@@ -72,7 +73,7 @@ favicons = [
 # source start file, target name, title, author, options
 # options: ('index', 'MyProject', 'My Project', 'Author Name', {"pdf_compressed": True})
 # More than one author : \r'Guido van Rossum\Fred L. Drake, Jr., editor'
-pdf_documents = [("rv001-Introduction", "rv001-Introduction", "rivtbook Example - Introduction", 
+pdf_documents = [("rv006-system-period", "rv006-system-period", "Three Story Vibration", 
             "R Holland")]
 # A colon-separated list of folders to search for fonts.
 pdf_font_path = ["_rstdocs/_static/fonts","../_rstdocs/_static/fonts/" ]
@@ -89,7 +90,7 @@ pdf_cover_template = ""
 # Show Table Of Contents at the beginning?
 pdf_use_toc = False
 # How many levels deep should the table of contents be?
-pdf_toc_depth = 1
+pdf_toc_depth = 2
 # Page template name for "regular" pages
 pdf_page_template = 'mainPage'
 # Example: compressed=True
