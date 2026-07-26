@@ -1,30 +1,44 @@
+ 
+.. raw:: pdf
 
---------------------------------------------------------------------------------
-Compression Stiffness | R Holland | v-1.0.0a14 | 2026-07-26 - 12:37AM
---------------------------------------------------------------------------------
+   PageBreak
+
+      
 
 
-................................................................................]
+.. _Bearing Shape Factor:
 
-0.2-1 | Bearing Shape Factor
+**0.2-1** | Bearing Shape Factor
 ================================================================================]
  
 The stiffness of rubber in compression, when the loaded surfaces are
 prevented from slipping by bonding or by mechanical location, depends
 upon the shape factor S defined as the ratio of one loaded
-area to the total force-free area (see Fig. 1). [0.2.1]
+area to the total force-free area (see Fig. 1).  `[0.2.1]`_ 
  
-          ----------------------------------------
-Fig. 1.1 - Shape Factor 
-          ----------------------------------------
+
+.. figure:: C:/git/rivtbk-example-04-git/bk2-Bearing-Compression-Stiffness/image/fig27.jpg
+   :width: 80%
+   :align: center
+
+   **Fig. 1.1** - Shape Factor   
+    
+
 
  
-          ----------------------------------------
-Fig. 1.2 - Compression Modulus 
-          ----------------------------------------
+
+.. figure:: C:/git/rivtbk-example-04-git/bk2-Bearing-Compression-Stiffness/image/fig28.png
+   :width: 60%
+   :align: center
+
+   **Fig. 1.2** - Compression Modulus   
+    
+
 
  
  
+
+
 
     *Shape factor: Experimental stress-strain curves for 6.3 mm thick
     disks of rubber (47 IRHD) in compression. The shape factor is shown
@@ -39,12 +53,23 @@ Fig. 1.2 - Compression Modulus
     by 1+(Ec/E\∞). If Wood and Martin's value for bulk modulus is preferred  
     then the E\∞ value in Table 3 should be doubled.*
 
-................................................................................]
 
-0.2-2 | Rubber Property Tables
-================================================================================]
+
+
+-------------------------
+
+
+
+.. _Rubber Property Tables:
+
+**0.2-2** | Rubber Property Tables
+--------------------------------------------------------------------------------
  
-Table 2.1: IRHD hardness scale (MN/m^2) (stored: t002-1.csv)
+
+|
+
+**Table 2.1:** IRHD hardness scale (MN/m^2) (stored: t002-1.csv) 
+
 =========  ==================  ===============  ======  =====================
 Hardness    Young's mod E0       Shear mod G     k       Bulk mod 
 =========  ==================  ===============  ======  =====================
@@ -61,7 +86,11 @@ Hardness    Young's mod E0       Shear mod G     k       Bulk mod
 
  
  
-Table 2.2: Shore A hardness scale (lbf/in^2) (stored: t002-2.csv)
+
+|
+
+**Table 2.2:** Shore A hardness scale (lbf/in^2) (stored: t002-2.csv) 
+
 =========  ==================  =============== =======  =====================
 Hardness    Young's mod E0        Shear mod G     k       Bulk mod 
 =========  ==================  =============== =======  =====================
@@ -75,7 +104,10 @@ Hardness    Young's mod E0        Shear mod G     k       Bulk mod
  
  
 
-    Notes:
+
+
+.. note::  
+
 
     - k is used in the calculation of compression characteristics.
 
@@ -92,13 +124,21 @@ Hardness    Young's mod E0        Shear mod G     k       Bulk mod
       containing (above 48 IRHD) SRF black as filler. Note that
       hardness is subject to an uncertainty of about +/-2 degrees.
 
-................................................................................]
 
-0.2-3 | Block Compression Stiffness
-================================================================================]
+
+-------------------------
+
+
+
+.. _Block Compression Stiffness:
+
+**0.2-3** | Block Compression Stiffness
+--------------------------------------------------------------------------------
  
 
-Table 3.1: Shape Factor Parameters
+**Table 3.1**: Shape Factor Parameters
+
+
 ==========  =======  =========  =============
 variable    value    [value]    description
 ==========  =======  =========  =============
@@ -110,49 +150,63 @@ B1          12       12         breadth
 For a rectangualar section (length = L and breadth = B):
  
 
-┌  Eq-3.1 | shape factor
-│
-│              B₁⋅L₁     
-│     S₁ = ──────────────
-│          2⋅t₁⋅(B₁ + L₁)
-└
 
-S₁ = 16.0    [S₁] = 16.0  | shape factor
+|
 
-=======  =========  ======
-B₁       t₁         L₁
-=======  =========  ======
-12.0     0.25       24.0
-—————    —————      —————
-breadth  thickness  length
-=======  =========  ======
+
+**Eq. 3.1:**  shape factor
+
+.. code-block:: text 
+
+                    B₁⋅L₁     
+           S₁ = ──────────────
+                2⋅t₁⋅(B₁ + L₁)
+
+           S₁ = 16.0     [S₁] = 16.0   | shape factor
+
+           t₁         B₁       L₁
+           —————————  ———————  ——————
+           0.25       12.0     24.0
+           —————      —————    —————
+           thickness  breadth  length
+           —————————  ———————  ——————
+
+
  
 For a block of square section (i.e. L = B) or circular section (diameter =
 L):
  
 
-┌  Eq-3.2 | shape factor
-│
-│           L₁ 
-│     S₂ = ────
-│          4⋅t₁
-└
 
-S₂ = 24.0    [S₂] = 24.0  | shape factor
+|
 
-=========  ======
-t₁         L₁
-=========  ======
-0.25       24.0
-—————      —————
-thickness  length
-=========  ======
+
+**Eq. 3.2:**  shape factor
+
+.. code-block:: text 
+
+                 L₁ 
+           S₂ = ────
+                4⋅t₁
+
+           S₂ = 24.0     [S₂] = 24.0   | shape factor
+
+           t₁         L₁
+           —————————  ——————
+           0.25       24.0
+           —————      —————
+           thickness  length
+           —————————  ——————
+
+
  
 The compression modulus Ec depends upon the shape factor S (for derivation
 see Section 5).
  
 
-Table 3.2: Ec parameters
+**Table 3.2**: Ec parameters
+
+
 ==========  ===========  =========  ====================
 variable    value        [value]    description
 ==========  ===========  =========  ====================
@@ -162,60 +216,85 @@ G1          0.50 k_si    3.45 MPA   shear modulus
 ==========  ===========  =========  ====================
  
 
-┌  Eq-3.3 | compression modulus
-│
-│             ⎛    2       ⎞
-│     Ec = E₀⋅⎝2⋅S₁ ⋅k₁ + 1⎠
-└
 
-Ec = 35.94 k_si    [Ec] = 247.80 MPA  | compression modulus
+|
 
-=================  ============  ====================
-k₁                 S₁            E₀
-=================  ============  ====================
-0.7                16.0          100.00 p_si
-—————              —————         —————
-adjustment factor  shape factor  compresssion modulus
-=================  ============  ====================
+
+**Eq. 3.3:**  compression modulus
+
+.. code-block:: text 
+
+                   ⎛    2       ⎞
+           Ec = E₀⋅⎝2⋅S₁ ⋅k₁ + 1⎠
+
+           Ec = 35.94 k_si     [Ec] = 247.80 MPA   | compression modulus
+
+           k₁                 S₁            E₀
+           —————————————————  ————————————  ————————————————————
+           0.7                16.0          100.00 p_si
+           —————              —————         —————
+           adjustment factor  shape factor  compresssion modulus
+           —————————————————  ————————————  ————————————————————
+
+
  
 When S > 3 it may be more convenient to use:
 
-┌  Eq-3.4 | compression stiffness - modified
-│
-│                  2
-│     E1c = 5⋅G₁⋅S₁ 
-└
 
-E1c = 640.00 k_si    [E1c] = 4412.64 MPA  | compression stiffness - modified
+|
 
-============  =============
-S₁            G₁
-============  =============
-16.0          0.50 k_si
-—————         —————
-shape factor  shear modulus
-============  =============
+
+**Eq. 3.4:**  compression stiffness - modified
+
+.. code-block:: text 
+
+                        2
+           E1c = 5⋅G₁⋅S₁ 
+
+           E1c = 640.00 k_si     [E1c] = 4412.64 MPA   | compression stiffness - modified
+
+           S₁            G₁
+           ————————————  —————————————
+           16.0          0.50 k_si
+           —————         —————
+           shape factor  shear modulus
+           ————————————  —————————————
+
+
  
-          ----------------------------------------
-Fig. 3.1 - Compression Stiffness Kc 
-          ----------------------------------------
+
+.. figure:: C:/git/rivtbk-example-04-git/bk2-Bearing-Compression-Stiffness/image/fig29.png
+   :width: 80%
+   :align: center
+
+   **Fig. 3.1** - Compression Stiffness Kc   
+    
+
 
  
 *The diagram shows a rectangular rubber block of thickness t, deflecting by x
 under a compressive load F applied to a cylindrical rubber sample.*
  
 The compression stiffness Kc is given by:
-┌  Eq-3.6 | 
-│
-│          F
-│     Kc = ─
-│          x
-└
+
+|
+
+**Eq.3.6:**
+
+.. code-block:: text 
+
+                F
+           Kc = ─
+                x
+
+
 
 
  
 
-Table 3.3: Stiffness parameters
+**Table 3.3**: Stiffness parameters
+
+
 ==========  =========  ============  ====================
 variable    value      [value]       description
 ==========  =========  ============  ====================
@@ -225,22 +304,28 @@ x1          1.00 inch  25.40 mm      deflection
 ==========  =========  ============  ====================
  
 
-┌  Eq-3.6 | compression stiffness
-│
-│          A₁⋅Ec
-│     Kc = ─────
-│           t₁  
-└
 
-Kc = 2875.20 k_in    [Kc] = 5035.25 kN_cm  | compression stiffness
+|
 
-====================  ===================  =========
-A₁                    Ec                   t₁
-====================  ===================  =========
-20.00 in2             35940.00 p_si        0.25 inch
-—————                 —————                —————
-cross-sectional area  compression modulus  thickness
-====================  ===================  =========
+
+**Eq. 3.6:**  compression stiffness
+
+.. code-block:: text 
+
+                A₁⋅Ec
+           Kc = ─────
+                 t₁  
+
+           Kc = 2875.20 k_in     [Kc] = 5035.25 kN_cm   | compression stiffness
+
+           Ec                   t₁         A₁
+           ———————————————————  —————————  ————————————————————
+           35940.00 p_si        0.25 inch  20.00 in2
+           —————                —————      —————
+           compression modulus  thickness  cross-sectional area
+           ———————————————————  —————————  ————————————————————
+
+
  
 If S > μ/2, where S is the shape factor and μ the coefficient of friction,
 slip may occur. In such cases, the rubber should be bonded to the rigid
@@ -248,10 +333,16 @@ slip may occur. In such cases, the rubber should be bonded to the rigid
 The load (F)—deflexion (x) curve of rubber in compression is non-linear.
 With no slip it has the approximate form
  
-┌  Eq-3.8 | 
-│
-│     F = A⋅Ec⋅e⋅(e + 1)
-└
+
+|
+
+**Eq.3.8:**
+
+.. code-block:: text 
+
+           F = A⋅Ec⋅e⋅(e + 1)
+
+
 
 
  
@@ -264,98 +355,156 @@ of the least plan dimension there should be no instability.
  
  
 
-................................................................................]
 
-0.2-4 | Strip Compression Stiffness
-================================================================================]
+-------------------------
+
+
+
+.. _Strip Compression Stiffness:
+
+**0.2-4** | Strip Compression Stiffness
+--------------------------------------------------------------------------------
  
  
 When a long strip of rubber is compressed the strain in the direction of
 its length will be negligible.
  
-                                  Shape factor                                  
+
+.. rst-class:: align-center
+
+**Shape factor**
 
  
-┌  Eq-4.2 | 
-│
-│           b 
-│     SF = ───
-│          2⋅t
-└
+
+|
+
+**Eq.4.2:**
+
+.. code-block:: text 
+
+                 b 
+           SF = ───
+                2⋅t
+
+
 
 
  
-          ----------------------------------------
-Fig. 4.1 - Compression Strip 
-          ----------------------------------------
+
+.. figure:: C:/git/rivtbk-example-04-git/bk2-Bearing-Compression-Stiffness/image/fig30.png
+   :width: 80%
+   :align: center
+
+   **Fig. 4.1** - Compression Strip   
+    
+
 
  
 Diagram shows a long rectangular strip of rubber of width b, thickness t,
 and unit length, compressed by a load F applied per unit length.
  
-                             Compression modulus Ec                             
+
+.. rst-class:: align-center
+
+**Compression modulus Ec**
 
  
-┌  Eq-4.3 | 
-│
-│               ⎛  2      ⎞
-│          4⋅E₀⋅⎝SF ⋅k + 1⎠
-│     Ec = ────────────────
-│                 3        
-└
+
+|
+
+**Eq.4.3:**
+
+.. code-block:: text 
+
+                     ⎛  2      ⎞
+                4⋅E₀⋅⎝SF ⋅k + 1⎠
+           Ec = ────────────────
+                       3        
+
+
 
 
  
 The compression stiffness per unit length, Kc, is given by
  
-┌  Eq-4.4 | 
-│
-│          F
-│     Kc = ─
-│          x
-└
+
+|
+
+**Eq.4.4:**
+
+.. code-block:: text 
+
+                F
+           Kc = ─
+                x
+
+
 
 
  
-┌  Eq-4.5 | 
-│
-│          Ec⋅b
-│     Kc = ────
-│           t  
-└
+
+|
+
+**Eq.4.5:**
+
+.. code-block:: text 
+
+                Ec⋅b
+           Kc = ────
+                 t  
+
+
 
 
  
-┌  Eq-4.6 | 
-│
-│                 ⎛  2      ⎞
-│          4⋅E₀⋅b⋅⎝SF ⋅k + 1⎠
-│     Kc = ──────────────────
-│                 3⋅t        
-└
+
+|
+
+**Eq.4.6:**
+
+.. code-block:: text 
+
+                       ⎛  2      ⎞
+                4⋅E₀⋅b⋅⎝SF ⋅k + 1⎠
+           Kc = ──────────────────
+                       3⋅t        
+
+
 
 
  
  
 
-    F = load per unit length
-    Ec = compression modulus (corrected, if necessary, for the effect of bulk compression)
-    E0 = Young's modulus (from Table 3)
-    b = width of strip
-    t = thickness of strip
-    x = deflexion
-    k = a numerical factor (from Table 3)
-    SF = shape factor 
+
+
+.. code-block:: text 
+
+            F = load per unit length
+            Ec = compression modulus (corrected, if necessary, for the effect of bulk compression)
+            E0 = Young's modulus (from Table 3)
+            b = width of strip
+            t = thickness of strip
+            x = deflexion
+            k = a numerical factor (from Table 3)
+            SF = shape factor 
     
+
+
 The load (F) per unit length deflexion (x) curve for a compressed strip is
 non-linear. It has the approximate form
  
-┌  Eq-4.2 | 
-│
-│                ⎛3⋅e    ⎞
-│     F = Ec⋅b⋅e⋅⎜─── + 1⎟
-│                ⎝ 2     ⎠
-└
+
+|
+
+**Eq.4.2:**
+
+.. code-block:: text 
+
+                      ⎛3⋅e    ⎞
+           F = Ec⋅b⋅e⋅⎜─── + 1⎟
+                      ⎝ 2     ⎠
+
+
 
 
  
@@ -363,10 +512,15 @@ where e, the compressive strain, equals x/t. As in the case of blocks, the
 non-linearity is usually ignored for strains up to about 10%.
  
 
-................................................................................]
 
-0.2-5 | Derive Compression Characteristics
-================================================================================]
+-------------------------
+
+
+
+.. _Derive Compression Characteristics:
+
+**0.2-5** | Derive Compression Characteristics
+--------------------------------------------------------------------------------
  
 Approximate load-deformation relations are derived below for small
 compressions of rubber blocks, between rigid plates to which they adhere or
@@ -375,13 +529,13 @@ superposition of simple displacements, namely, (14) the pure homogeneous
 deformation defined by the displacement of one rigid bonding plate towards
 the other, and (2) the subsequent displacements necessary to cause points
 in the planes of the bonded surfaces to be restored to their original
-positions in these planes. [0.2.2]
+positions in these planes.  `[0.2.2]`_ 
  
 Two extreme cases are considered, infinitely long rectangular blocks, the
 infinite dimension being at right angles to the direction of compression,
 and circular disks, loaded axially.
  
-Rectangular Blocks of Infinite Length _bold
+**Rectangular Blocks of Infinite Length _bold**
 
 
  
@@ -392,12 +546,18 @@ in volume, by e also. The rubber is placed in a state of pure shear and the
 force F_1 which has to be applied to the bonded surfaces to maintain such a
 deformation is given by
  
-┌  Eq-5.2 | 
-│
-│          4⋅E₀⋅b⋅e
-│     F₁ = ────────
-│             3    
-└
+
+|
+
+**Eq.5.2:**
+
+.. code-block:: text 
+
+                4⋅E₀⋅b⋅e
+           F₁ = ────────
+                   3    
+
+
 
 
  
@@ -417,17 +577,23 @@ The maximum outward displacement of any originally vertical section is
 dictated by the requirement that the volume contained between it and the
 central plane in the undeformed state shall equal the volume contained
 between it and the central plane when it takes up the parabolic form and
-the bonded surfaces approach by an amount delta( = e*t). [0.2.3]
+the bonded surfaces approach by an amount delta( = e*t).  `[0.2.3]`_ 
  
 For a plane at a distance x from the central vertical plane, considering
 unit length, we have
  
-┌  Eq-5.3 | 
-│
-│           2⋅t⋅u             
-│     t⋅x = ───── + x⋅(-δ + t)
-│             3               
-└
+
+|
+
+**Eq.5.3:**
+
+.. code-block:: text 
+
+                 2⋅t⋅u             
+           t⋅x = ───── + x⋅(-δ + t)
+                   3               
+
+
 
 
  
@@ -435,12 +601,18 @@ where 2ut/3 is the approximate volume contained between the parabolic
 front of maximum displacement u and the vertical plane at x, when the
 compression delta is small. Hence,
  
-┌  Eq-5.4 | 
-│
-│         3⋅δ⋅x
-│     u = ─────
-│          2⋅t 
-└
+
+|
+
+**Eq.5.4:**
+
+.. code-block:: text 
+
+               3⋅δ⋅x
+           u = ─────
+                2⋅t 
+
+
 
 
  
@@ -449,13 +621,19 @@ maintained by the action of an excess hydrostatic pressure dp acting on one
 curved face, where dp is given by the classical theory of elasticity in the
 form
  
-┌  Eq-5.5 | 
-│
-│             -8⋅E₀⋅u 
-│     dp = dx⋅────────
-│                  2  
-│               3⋅t   
-└
+
+|
+
+**Eq.5.5:**
+
+.. code-block:: text 
+
+                   -8⋅E₀⋅u 
+           dp = dx⋅────────
+                        2  
+                     3⋅t   
+
+
 
 
  
@@ -463,16 +641,22 @@ Since the curved surface at x = b/2 is force free, p may be obtained by
 integrating both sides of equation (2) between the limits x = x and x =
 b/2, yielding
  
-┌  Eq-5.6 | 
-│
-│                ⎛ 2     ⎞
-│                ⎜b     2⎟
-│         2⋅E₀⋅δ⋅⎜── - x ⎟
-│                ⎝4      ⎠
-│     p = ────────────────
-│                 3       
-│                t        
-└
+
+|
+
+**Eq.5.6:**
+
+.. code-block:: text 
+
+                      ⎛ 2     ⎞
+                      ⎜b     2⎟
+               2⋅E₀⋅δ⋅⎜── - x ⎟
+                      ⎝4      ⎠
+           p = ────────────────
+                       3       
+                      t        
+
+
 
 
  
@@ -480,25 +664,37 @@ The pressure p acts on the rigid bonded plates also. The corresponding
 force F_2 acting on each of these surfaces may be obtained by integrating
 such terms as p*dx between the limits x = b/2 and x = -b/2, to give
  
-┌  Eq-5.7 | 
-│
-│              3  
-│          E₀⋅b ⋅δ
-│     F₂ = ───────
-│              3  
-│           3⋅t   
-└
+
+|
+
+**Eq.5.7:**
+
+.. code-block:: text 
+
+                    3  
+                E₀⋅b ⋅δ
+           F₂ = ───────
+                    3  
+                 3⋅t   
+
+
 
 
  
 The apparent value of Young's modulus for the rubber block is given by
  
-┌  Eq-5.8 | 
-│
-│           1   1
-│     ℯ = F⋅─⋅1⋅─
-│           b   e
-└
+
+|
+
+**Eq.5.8:**
+
+.. code-block:: text 
+
+                 1   1
+           ℯ = F⋅─⋅1⋅─
+                 b   e
+
+
 
 
  
@@ -506,23 +702,34 @@ where F is the total force which has to be applied to the bonded surfaces
 per unit length to maintain the deformation, and is given by F_1 + F_2
 where F_1 and F_2 are given by the equations. Hence,
  
-┌  Eq-5.9 | 
-│
-│             2       
-│         E₀⋅b    4⋅E₀
-│     ℯ = ───── + ────
-│            2     3  
-│         3⋅t         
-└
+
+|
+
+**Eq.5.9:**
+
+.. code-block:: text 
+
+                   2       
+               E₀⋅b    4⋅E₀
+           ℯ = ───── + ────
+                  2     3  
+               3⋅t         
+
+
 
 
  
 where the shape factor S, the ratio of one loaded surface to the force-free
 surface, is equal to b/(2*t)
  
-          ----------------------------------------
-Fig. 5.1 - Initial and Deformed States 
-          ----------------------------------------
+
+.. figure:: C:/git/rivtbk-example-04-git/bk2-Bearing-Compression-Stiffness/image/fig41.png
+   :width: 80%
+   :align: center
+
+   **Fig. 5.1** - Initial and Deformed States   
+    
+
 
  
  
@@ -530,19 +737,25 @@ Fig. 5.1 - Initial and Deformed States
 subjected to a small compression.*
  
  
-Circular Disks
+**Circular Disks**
 
 
  
 The apparent Young's modulus may be derived similarly for a circular disk.
 The force F_1 which must be applied to maintain the first deformation, a
-simple compression of amount e, is given by [0.2.4]
+simple compression of amount e, is given by  `[0.2.4]`_ 
  
-┌  Eq-5.10 | 
-│
-│              2    
-│     F₁ = E₀⋅a ⋅e⋅π
-└
+
+|
+
+**Eq.5.10:**
+
+.. code-block:: text 
+
+                    2    
+           F₁ = E₀⋅a ⋅e⋅π
+
+
 
 
  
@@ -555,39 +768,57 @@ take up parabolic forms such that the volume contained within them is
 unchanged. When the compressive displacement delta is small, and the radius
 r is much greater than the maximum radial displacement u, then
  
-┌  Eq-5.11 | 
-│
-│         3⋅δ⋅r
-│     u = ─────
-│          4⋅t 
-└
+
+|
+
+**Eq.5.11:**
+
+.. code-block:: text 
+
+               3⋅δ⋅r
+           u = ─────
+                4⋅t 
+
+
 
 
  
 where t is the thickness of the disk. The pressure p acting at a distance r
 from the centre is found to be
  
-┌  Eq-5.12 | 
-│
-│              ⎛ 2    2⎞
-│         E₀⋅δ⋅⎝a  - r ⎠
-│     p = ──────────────
-│                3      
-│               t       
-└
+
+|
+
+**Eq.5.12:**
+
+.. code-block:: text 
+
+                    ⎛ 2    2⎞
+               E₀⋅δ⋅⎝a  - r ⎠
+           p = ──────────────
+                      3      
+                     t       
+
+
 
 
  
 and hence the force F_2 is obtained as
  
-┌  Eq-5.13 | 
-│
-│              4    
-│          E₀⋅a ⋅δ⋅π
-│     F₂ = ─────────
-│               3   
-│            2⋅t    
-└
+
+|
+
+**Eq.5.13:**
+
+.. code-block:: text 
+
+                    4    
+                E₀⋅a ⋅δ⋅π
+           F₂ = ─────────
+                     3   
+                  2⋅t    
+
+
 
 
  
@@ -597,14 +828,20 @@ approach of two parallel circular plates separated by a viscous liquid.
 The apparent Young's modulus E for a circular disc is obtained finally in
 the form
  
-┌  Eq-5.14 | 
-│
-│            ⎛  2     ⎞
-│            ⎜ a      ⎟
-│     ℯ = E₀⋅⎜──── + 1⎟
-│            ⎜   2    ⎟
-│            ⎝2⋅t     ⎠
-└
+
+|
+
+**Eq.5.14:**
+
+.. code-block:: text 
+
+                  ⎛  2     ⎞
+                  ⎜ a      ⎟
+           ℯ = E₀⋅⎜──── + 1⎟
+                  ⎜   2    ⎟
+                  ⎝2⋅t     ⎠
+
+
 
 
  
@@ -619,29 +856,55 @@ F_2 to the total force becomes relatively small. The equations may
 therefore be expected to apply over a considerable range of thicknesses.
  
 NOTE: In practice it is necessary to multiply the S2 term by the factor
-k, given in Table 1. [0.2.5]
+k, given in Table 1.  `[0.2.5]`_ 
  
  
 
---------------------------------------------------------------------------------
+--------------------
 
-[0.2.1] P.B. Lindley, Engineering Design with Natural Rubber, NR Technical
-Bulletin.Malaysian Rubber Producers' Research Association, Brickendonbury,
-U.K.pages 26-28, 1959.
 
-[0.2.2] P.B. Lindley, Engineering Design with Natural Rubber, NR Technical
-Bulletin.Malaysian Rubber Producers' Research Association, Brickendonbury,
-U.K.pages 45-46, 1959.
+.. _[0.2.1]:
 
-[0.2.3] From Appendix I of The Compression of Bonded Rubber Blocks, by A. N.
-Gentand P. B. Lindley, Proceedings of the Institution of Mechanical
-Engineers,1959, Vol. 173, No. 3, pages 111-122.
+**[0.2.1]** 
+    P.B. Lindley, Engineering Design with Natural Rubber, NR Technical Bulletin.Malaysian Rubber Producers' Research Association, Brickendonbury, U.K.pages 26-28, 1959.
 
-[0.2.4] SOUTHWELL, R. V. 1941 'An Introduction to the Theory of Elasticity', p.
-126(Clarendon Press Oxford). ADKINS, J. E. 1954 Proc. Camb. phil. Soc., vol.50,
-p. 334.
 
-[0.2.5] DIENES, G. J. and KLEMM, H. F. 1946 J. Appl. Phys., vol. 17, p. 458.
+
+
+
+.. _[0.2.2]:
+
+**[0.2.2]** 
+    P.B. Lindley, Engineering Design with Natural Rubber, NR Technical Bulletin.Malaysian Rubber Producers' Research Association, Brickendonbury, U.K.pages 45-46, 1959.
+
+
+
+
+
+.. _[0.2.3]:
+
+**[0.2.3]** 
+    From Appendix I of The Compression of Bonded Rubber Blocks, by A. N. Gentand P. B. Lindley, Proceedings of the Institution of Mechanical Engineers,1959, Vol. 173, No. 3, pages 111-122.
+
+
+
+
+
+.. _[0.2.4]:
+
+**[0.2.4]** 
+    SOUTHWELL, R. V. 1941 'An Introduction to the Theory of Elasticity', p. 126(Clarendon Press Oxford). ADKINS, J. E. 1954 Proc. Camb. phil. Soc., vol.50, p. 334.
+
+
+
+
+
+.. _[0.2.5]:
+
+**[0.2.5]** 
+    DIENES, G. J. and KLEMM, H. F. 1946 J. Appl. Phys., vol. 17, p. 458.
+
+
 
 
  

@@ -1,6 +1,6 @@
 import rivtlib.rvapi as rv
 
-rv.I(r"""Compression Shape Factor 
+rv.I("""Compression Shape Factor 
 
     COMPRESSION BLOCK _[#]
 
@@ -36,7 +36,7 @@ rv.I(r"""Compression Shape Factor
 
     """)
 
-rv.I(r"""Compression Modulus
+rv.I("""Compression Modulus
 
     S = (L*B) / (2*t*(L+B))
 
@@ -103,7 +103,7 @@ rv.I(r"""Compression Modulus
     """)
 
 
-rv.V(r"""Strip Analysis
+rv.V("""Strip Analysis
 
     COMPRESSION STRIP
 
@@ -148,14 +148,14 @@ rv.V(r"""Strip Analysis
     """)
 
 
-rv.R(r"""Footnotes | endnotes
+rv.R("""Footnotes | endnotes
 
     P.B. Lindley, Engineering Design with Natural Rubber, NR Technical Bulletin.
     Malaysian Rubber Producers' Research Association, Brickendonbury, U.K. 
     
     """)
 
-rv.D(r"""Publish Doc 
+rv.D("""Publish Doc 
     
     A rivt file may be published as a text, PDF or HTML doc by specifying the
     PUBLISH type parameter as txt, pdf or html. 

@@ -1,6 +1,6 @@
 import rivtlib.rvapi as rv
 
-rv.I(r"""Equivalent Viscous Damping
+rv.I("""Equivalent Viscous Damping
 
     Equivalent viscous damping is the simplest form of damping for analysis
     since the governing differential equation of motion is linear and hence
@@ -9,7 +9,7 @@ rv.I(r"""Equivalent Viscous Damping
     the combined effect of all damping mechanisms present in the actual
     structure. _[#]
 
-    | IMAGE | img/fig201-1.png | Ideal Viscous Damping Model, 50, num, not 
+    | IMAGE | fig201-1.png | Ideal Viscous Damping Model, 50, num, not 
     
     The simplest definition of equivalent viscous damping is based on the
     measured response of a system to harmonic force at exciting frequency omega
@@ -21,10 +21,10 @@ rv.I(r"""Equivalent Viscous Damping
     """)
 
 
-rv.I(r"""Measured Viscous Damping  | pdfpage
+rv.I("""Measured Viscous Damping  | pdfpage
     
 
-    | IMAGE | img/fig201-2.png | Measured Viscous Damping Model, 50, num, not 
+    | IMAGE | fig201-2.png | Measured Viscous Damping Model, 50, num, not 
 
     The most common method for defining equivalent viscous damping is to equate
     the energy dissipated in a vibration cycle of the actual structure and an
@@ -61,7 +61,7 @@ rv.I(r"""Measured Viscous Damping  | pdfpage
     energy dissipated in the system when the system vibrates in that mode at
     its natural frequency.
 
-    In this book the concept of equivalent viscous damping is restricted to
+    The concept of equivalent viscous damping is restricted to
     systems vibrating at amplitudes within the linearly elastic limit of the
     overall structure. The energy dissipated in inelastic deformations of the
     structure have also been modeled as equivalent viscous damping in some
@@ -70,17 +70,14 @@ rv.I(r"""Measured Viscous Damping  | pdfpage
     earthquakes. We shall account for these inelastic deformations and the
     associated energy dissipation by nonlinear force-deformation relations.
     
-    """)
-
-
-rv.T(r"""Footnotes | endnotes
-
+    _[[ENDNOTES]]
     Anil K. Chopra, Dynamics of Structures: Theory and Applications to
     Earthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
-
+    _[[END]]]
+    
     """)
 
-rv.D(r"""Publish Doc 
+rv.D("""Publish Doc 
     
     | PUBLISH | Viscous Damping | pdf
     

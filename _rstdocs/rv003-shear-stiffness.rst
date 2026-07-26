@@ -1,16 +1,20 @@
+ 
+.. raw:: pdf
 
---------------------------------------------------------------------------------
-Shear Stiffness | R Holland | v-1.0.0a14 | 2026-07-26 - 12:37AM
---------------------------------------------------------------------------------
+   PageBreak
+
+      
 
 
-................................................................................]
+.. _Shear Stiffness Example:
 
-0.3-1 | Shear Stiffness Example
+**0.3-1** | Shear Stiffness Example
 ================================================================================]
  
 
-Table 1.1: Bearing Specifications
+**Table 1.1**: Bearing Specifications
+
+
 ==========  ==============  ===========  =======================
 variable    value           [value]      description
 ==========  ==============  ===========  =======================
@@ -24,104 +28,139 @@ sthk        0.09 inch       0.23 cm      11 guage shim thickness
 cpi         3.1418          3.1418       contant pi
 ==========  ==============  ===========  =======================
  
-Bearing Stiffness for Circular Bearing
+**Bearing Stiffness for Circular Bearing**
 
 
 
-┌  Eq-1.1 | rubber height
-│
-│     rht = rnl⋅rthk
-└
 
-rht = 20.40 inch    [rht] = 51.82 cm  | rubber height
+|
 
-===============  ================
-rthk             rnl
-===============  ================
-0.40 inch        51
-—————            —————
-layer thickness  number of rubber
--                layers
-===============  ================
 
-┌  Eq-1.2 | bearing height
-│
-│     bht = rht + sthk⋅(rnl - 1)
-└
+**Eq. 1.1:**  rubber height
 
-bht = 24.95 inch    [bht] = 63.37 cm  | bearing height
+.. code-block:: text 
 
-=============  =============  ================
-rht            sthk           rnl
-=============  =============  ================
-20.40 inch     0.09 inch      51
-—————          —————          —————
-rubber height  11 guage shim  number of rubber
--              thickness      layers
-=============  =============  ================
+           rht = rnl⋅rthk
 
-┌  Eq-1.3 | shear stiffness
-│
-│                      2
-│           G₁⋅cpi⋅rdia 
-│     Ks₁ = ────────────
-│              4⋅rht    
-└
+           rht = 20.40 inch     [rht] = 51.82 cm   | rubber height
 
-Ks₁ = 3.48 k_in    [Ks₁] = 6.10 kN_cm  | shear stiffness
+           rnl               rthk
+           ————————————————  ———————————————
+           51                0.40 inch
+           —————             —————
+           number of rubber  layer thickness
+           layers            -
+           ————————————————  ———————————————
 
-================  =============  =============  ==========
-rdia              rht            G₁             cpi
-================  =============  =============  ==========
-39.50 inch        20.40 inch     58.00 p_si     3.1418
-—————             —————          —————          —————
-bearing diameter  rubber height  shear modulus  contant pi
-================  =============  =============  ==========
+
+
+
+|
+
+
+**Eq. 1.2:**  bearing height
+
+.. code-block:: text 
+
+           bht = rht + sthk⋅(rnl - 1)
+
+           bht = 24.95 inch     [bht] = 63.37 cm   | bearing height
+
+           sthk           rnl               rht
+           —————————————  ————————————————  —————————————
+           0.09 inch      51                20.40 inch
+           —————          —————             —————
+           11 guage shim  number of rubber  rubber height
+           thickness      layers            -
+           —————————————  ————————————————  —————————————
+
+
+
+
+|
+
+
+**Eq. 1.3:**  shear stiffness
+
+.. code-block:: text 
+
+                            2
+                 G₁⋅cpi⋅rdia 
+           Ks₁ = ────────────
+                    4⋅rht    
+
+           Ks₁ = 3.48 k_in     [Ks₁] = 6.10 kN_cm   | shear stiffness
+
+           rdia              G₁             rht            cpi
+           ————————————————  —————————————  —————————————  ——————————
+           39.50 inch        58.00 p_si     20.40 inch     3.1418
+           —————             —————          —————          —————
+           bearing diameter  shear modulus  rubber height  contant pi
+           ————————————————  —————————————  —————————————  ——————————
+
+
  
-Shape Factor for Circular Bearing
+**Shape Factor for Circular Bearing**
 
 
 
-┌  Eq-1.4 | shape factor 1
-│
-│              sdia 
-│     sh₁ ₁ = ──────
-│             4⋅rthk
-└
 
-sh₁ ₁ = 24    [sh₁ ₁] = 24  | shape factor 1
+|
 
-=============  ===============
-sdia           rthk
-=============  ===============
-38 inch        0 inch
-—————          —————
-shim diameter  layer thickness
-=============  ===============
 
-┌  Eq-1.5 | shape factor 2
-│
-│             bht 
-│     sh₂ ₁ = ────
-│             rdia
-└
+**Eq. 1.4:**  shape factor 1
 
-sh₂ ₁ = 1    [sh₂ ₁] = 1  | shape factor 2
+.. code-block:: text 
 
-================  ==============
-rdia              bht
-================  ==============
-40 inch           25 inch
-—————             —————
-bearing diameter  bearing height
-================  ==============
+                    sdia 
+           sh₁ ₁ = ──────
+                   4⋅rthk
+
+           sh₁ ₁ = 24     [sh₁ ₁] = 24   | shape factor 1
+
+           rthk             sdia
+           ———————————————  —————————————
+           0 inch           38 inch
+           —————            —————
+           layer thickness  shim diameter
+           ———————————————  —————————————
+
+
+
+
+|
+
+
+**Eq. 1.5:**  shape factor 2
+
+.. code-block:: text 
+
+                   bht 
+           sh₂ ₁ = ────
+                   rdia
+
+           sh₂ ₁ = 1     [sh₂ ₁] = 1   | shape factor 2
+
+           bht             rdia
+           ——————————————  ————————————————
+           25 inch         40 inch
+           —————           —————
+           bearing height  bearing diameter
+           ——————————————  ————————————————
+
+
  
  
 
-................................................................................]
 
-0.3-2 | Natural Frequency
-================================================================================]
+-------------------------
+
+
+
+.. _Natural Frequency:
+
+**0.3-2** | Natural Frequency
+--------------------------------------------------------------------------------
  
 The natural frequency (n_f) in Hz of a mounted body on a spring is
  
@@ -190,8 +229,13 @@ directions can be varied independently. The design of such springs, of
 which the inclined shear mounting is a typical example, requires only a
 knowledge of mechanics and the principal stiffnesses of the units.
  
-          ----------------------------------------
-Fig. 2.1 - Shear Mounting 
-          ----------------------------------------
+
+.. figure:: C:/git/rivtbk-example-04-git/bk3-Bearing-Shear-Stiffness/image/shear_mounting.jpg
+   :width: 70%
+   :align: center
+
+   **Fig. 2.1** - Shear Mounting   
+    
+
 
  

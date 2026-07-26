@@ -1,14 +1,25 @@
 import rivtlib.rvapi as rv
 
-# %% rv.I(r"""System Period
-rv.V(r"""Eigenvalues and Vectors
+# %% rv.I("""System Period
+rv.V("""Eigenvalues and Vectors
 
     Analyze a 3-story shear frame using the flexibility method to determine
-    natural frequencies and mode shapes (fter Clough and Penzien _[#])
+    natural frequencies and mode shapes (after Clough and Penzien _[#])
+    The model can be used to analyze a two story isolated structure
+    by modeling the first story stiffness and mass
+    as the isolated foundation system. In this example, the model
+    is calibrated to reproduce the Clough example.
 
-    | IMAGE | img/frames.jpg | Structural Model, 60, num, not 
+    | IMAGE | frames.jpg | Structural Model, 70, num, not 
 
-    _[[PYTHON]] code
+    Normalized mode shapes are calculated and compared to Penzien and 
+    Clough. _[#]
+    
+    | IMAGE | modes.jpg | Mode Shapes from Clough, 70, num, not 
+""")
+
+# %% rv.T("""Eigen Script | | | PYTHON
+rv.T("""Eigen Script | | | PYTHON
     import numpy as np
     import numpy.linalg as la
     import textwrap as tw
@@ -20,25 +31,23 @@ rv.V(r"""Eigenvalues and Vectors
     d = np.inner(f,m)                                         
     eigen = la.eig(d)                                         
     evalus = eigen[0]
-    print("\neigenvalues:\n"," "*8,evalus)
+    #
+    #                eigenvalues
+    print(" "*8,evalus)
     #
     nat_freq = 1/(np.sqrt(evalus))
-    print("\nnatural frequencies:\n"," "*8,nat_freq)                                           
+    #
+    #                natural frequencies
+    print(" "*8,nat_freq)
     #
     evect = np.array(eigen[1])                                
-    print("\neigenvectors:\n",tw.indent(str(evect), " "*8))
-    _[[END]]]
-    
+    #
+    #               eigenvectors
+    print(tw.indent(str(evect), " "*8))
     """)
 
-# %% rv.I(r"""Plot Mode Shapes 
-rv.V(r"""Plot Mode Shapes | pdfpage
-    
-    | IMAGE | img/modes.jpg | Structural Model, 70, num, not 
-
-    Plot normalized mode shapes and compare to Penzien and Clough. _[#]
-
-    _[[PYTHON]] code
+# %% rv.T("""Plot Script | | | PYTHON
+rv.T("""Plot Script | | | PYTHON
     import numpy as np
     import matplotlib.pyplot as plt
     import os
@@ -47,11 +56,11 @@ rv.V(r"""Plot Mode Shapes | pdfpage
     ms = np.shape(evect)
     zz = np.zeros((ms[0],1))
     x1=np.concatenate((evect,zz),1)
-    #plot mode shapes using matplotlib
+    # plot mode shapes using matplotlib
     y=np.array([0,1,2,3])
-    m3=x1[2]*.35+5
-    m2=x1[1]*.35+3
-    m1=x1[0]*.35+1
+    m3=x1[2]*.75+5
+    m2=x1[1]*.75+3
+    m1=x1[0]*.75+1.5
     m=np.concatenate((m1,m2,m3))
     plt.clf()
     plt.plot(m1,y)
@@ -63,35 +72,39 @@ rv.V(r"""Plot Mode Shapes | pdfpage
     plt.title("Mode Shapes")
     plt.grid()
     curdir=os.getcwd()
-    imgdir=os.path.join(curdir,"img","mode_shapes.png")
+    imgdir=os.path.join(curdir,"image","mode_shapes.png")
     plt.savefig(imgdir)
     # table of eigenvalues and normalized eigenvectors
     evectt = np.transpose(evect)     
-    for i in range(len(nat_freq)):
-         evectt[i] = evectt[i]/evectt[i][0] 
-    xx = np.concatenate((nat_freq[:, np.newaxis],evect),1)                          
-    xx = np.round(xx, 4)
-    yy = ["freq","level 3","level 2","level 1"]                   
-    tt = np.vstack((yy,xx))
-    print("\nTable of eigenvalues and normalized eigenvectors\n",
-    tb(tt, headers="firstrow", tablefmt="rst"))    
-    _[[END]]
-
-    | IMAGE | img/mode_shapes.png | Calculated Normalized Modes, 60, num, not 
-
+    for i1 in range(len(nat_freq)):
+         evectt[i1] = evectt[i1]/evectt[i1][0] 
+    v1 = np.concatenate((nat_freq[:, np.newaxis],evect),1)                          
+    v2 = np.round(v1, 4)
+    h1 = ["freq","level 3","level 2","level 1"]                   
+    tb1 = np.vstack((h1,v2))
+    #               Table of eigenvalues and normalized eigenvectors
+    print(tb(tb1, headers="firstrow", tablefmt="rst"))
     """)
+    
+rv.I("""Plot Mode Shapes | n |
 
-# %% rv.T(r"""Bibliography | endnotes
-rv.T(r"""Bibliography | endnotes
+    **blue:** mode 1 _[R]
+    **red:** mode 2 _[R]
+    **green:** mode 3 _[R] 
+    | IMAGE | mode_shapes.png | Calculated Normalized Modes, 90, num, not
 
+    
+    _[[ENDNOTES]]
     R.W. Clough and J. Penzien, Dynamics of Structures. New York, NY, USA:
     McGraw-Hill, 1975. pg. 178-180
 
     ibid. pg. 180-182
+    _[[END]]] 
 
     """)
 
-rv.D(r"""Publish Doc 
+# %% rv.D("""Publish Doc 
+rv.D("""Publish Doc 
 
     | PUBLISH |Three Story Vibration| pdf
     

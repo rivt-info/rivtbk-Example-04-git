@@ -1,31 +1,51 @@
 import rivtlib.rvapi as rv
 
-# %% rv.I(r"""Introduction 
-rv.I(r"""rivtbook Example 
+# %% rv.I("""Introduction 
+rv.I("""Introduction 
 
-    A rivtbook is a collection of rivt files with common subject matter that
-    may be published as a PDF or text report. Files are organized for selective
-    addition to rivt reports. Each chapter is contained within a folder
-    with an identifying name.
-     
-    _[[TEXT]] text       
-       bk1-chapter title            
-        ├── data/                    
-        ├── img/                        
-        ├── scripts/
-        └── rv001-book-chapter.py
-    _[[END]]
-
-    A rivtbook chapter can be copied to a rivt report by copying the data, img
-    and scripts folders to the rvsrc report folder and the rivt file to the
-    rivt-report folder. 
+    A *rivtbook* is a collection of rivt files with common subject matter that
+    may be published as a PDF or text report. The files are organized under a
+    root folder *rivtbk-* with a name that identifies the subject matter. Each
+    *rivt doc* is contained within a *chapter folder* that includes the 
+    *rivt file* its associated sources. This facilitates extracting single docs 
+    or merging a chapter into a *rivt report*. 
     
-    | IMAGE | img/rvbk-rivt.jpg | rivtbook chapter copied to a report, 100, num, not 
+    """)
 
-""")
+# %% rv.T("""rivtbook Example | m | | text
+rv.T("""rivtbook Example | m | | text
 
-# %% rv.D(r"""Publish Doc 
-rv.D(r"""Publish Doc 
+    rivtbook Folder Structure
+
+    rivtbk-subject-matter 
+    ├── bk1-chapter title            
+            ├── data/                    
+            ├── image/                        
+            ├── scripts/
+            └── rv001-book-chapter.py
+    └── bk2-chapter title            `
+                ├── data/                    
+                ├── image/                        
+                ├── scripts/
+                └── rv002-book-chapter.py
+    
+    """)
+
+# %% rv.I("""Copy Chapter | m | 
+rv.I("""Copy Chapter | m | 
+
+    A rivtbook chapter may be copied to a rivt report by:
+
+    #. merging the data, image and scripts folders into the /rvsrc folder 
+    #. copying the rivt file to the /rivt-report folder.
+    
+    | IMAGE | rvbk-rivt.jpg | rivtbook chapter copied to a report, 85, num, not 
+
+    """)
+
+
+# %% rv.D("""Publish Doc 
+rv.D("""Publish Doc 
     
     | PUBLISH | rivtbook Example - Introduction | pdf
     
@@ -68,4 +88,5 @@ rv.D(r"""Publish Doc
     ;--- 1: include subdivisions   2: include subdivisions and sections
     toc_level = 1
     _[[END]]    
-""")
+
+    """)

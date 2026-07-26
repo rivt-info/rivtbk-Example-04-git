@@ -1,10 +1,14 @@
+ 
+.. raw:: pdf
 
---------------------------------------------------------------------------------
-| rivt | Rate Independent Damping | R Holland | v-1.0.0a14 | 2026-07-26 - 12:37AM
---------------------------------------------------------------------------------
+   PageBreak
+
+      
 
 
-0.5-1 | Rate Independent Damping
+.. _Rate Independent Damping:
+
+**0.5-1** | Rate Independent Damping
 ================================================================================]
  
 Experiments on structural metals indicate that the energy dissipated
@@ -17,7 +21,7 @@ internal damping are structural damping, solid damping, and hysteretic
 damping. We prefer not to use these terms because the first two are not
 especially meaningful and the third is ambiguous because hysteresis is a
 characteristic of all materials or structural systems that dissipate
-energy. [0.5.1]
+energy.  `[0.5.1]`_ 
  
 Rate-independent damping is associated with static hysteresis due to
 plastic strain, localized plastic deformation, crystal plasticity, and
@@ -34,12 +38,18 @@ The simplest device that can be used to represent rate-independent linear
 damping is to assume that the damping force is proportional to velocity and
 inversely proportional to frequency:
  
-┌  Eq-1.2 | 
-│
-│          k⋅u̇⋅η
-│     fD = ─────
-│            ω  
-└
+
+|
+
+**Eq.1.2:**
+
+.. code-block:: text 
+
+                k⋅u̇⋅η
+           fD = ─────
+                  ω  
+
+
 
 
  
@@ -48,20 +58,31 @@ The energy dissipated by this type of damping in a cycle of vibration at
 frequency ω is independent of ω (Fig. 3.10.1). It is given by Eq. (3.8.1)
 with c replaced by η*k/ω:
  
-┌  Eq-1.3 | 
-│
-│              2    
-│     ED = k⋅u₀ ⋅η⋅π
-└
+
+|
+
+**Eq.1.3:**
+
+.. code-block:: text 
+
+                    2    
+           ED = k⋅u₀ ⋅η⋅π
+
+
 
 
  
 In contrast, the energy dissipated in viscous damping increases linearly
 with the forcing frequency, as shown in Fig. 1.
  
-          ----------------------------------------
-Fig. 1.1 - Viscous and Rate Independent Damping [file: fig3-10-1.jpg  ]
-          ----------------------------------------
+
+.. figure:: C:/git/rivtbk-example-04-git/bk5-Bearing-Hysteretic-Damping/image/fig3-10-1.jpg
+   :width: 50%
+   :align: center
+
+   **Fig. 1.1** - Viscous and Rate Independent Damping   
+    
+
 
  
 Rate-independent damping is easily described if the excitation is harmonic
@@ -77,19 +98,32 @@ elastic stiffness.
  
  
 
-0.5-2 | Steady-State Response to Harmonic Force
+
+-------------------------
+
+
+
+.. _Steady-State Response to Harmonic Force:
+
+**0.5-2** | Steady-State Response to Harmonic Force
 --------------------------------------------------------------------------------
  
 The equation for an SDF system with rate-independent linear damping,
 denoted by a crossed box in Fig. 3.10.2, is Eq. (3.2.1) with the damping
 term replaced by Eq. (3.10.1):
  
-┌  Eq-2.2 | 
-│
-│           k⋅u̇⋅η             
-│     k⋅u + ───── + m⋅ü = p(t)
-│             ω               
-└
+
+|
+
+**Eq.2.2:**
+
+.. code-block:: text 
+
+                 k⋅u̇⋅η             
+           k⋅u + ───── + m⋅ü = p(t)
+                   ω               
+
+
 
 
  
@@ -97,38 +131,56 @@ The mathematical solution of this equation is quite complex for arbitrary
 p(t). Here we consider only the steady-state motion due to a sinusoidal
 forcing function, p(t) = p0sin(ωt), which is described by
  
-┌  Eq-2.3 | 
-│
-│     u(t) = u₀⋅sin(t⋅ω - φ)
-└
+
+|
+
+**Eq.2.3:**
+
+.. code-block:: text 
+
+           u(t) = u₀⋅sin(t⋅ω - φ)
+
+
 
 
  
 The amplitude u0 and phase angle φ are
  
-┌  Eq-2.4 | 
-│
-│                            1            
-│     u₀ = uₛₜ⋅1⋅─────────────────────────
-│                      ___________________
-│                     ╱                 2 
-│                    ╱       ⎛        2⎞  
-│                   ╱    2   ⎜    ⎛ω ⎞ ⎟  
-│                  ╱    η  + ⎜1 - ⎜──⎟ ⎟  
-│                ╲╱          ⎝    ⎝ωn⎠ ⎠  
-└
+
+|
+
+**Eq.2.4:**
+
+.. code-block:: text 
+
+                                  1            
+           u₀ = uₛₜ⋅1⋅─────────────────────────
+                            ___________________
+                           ╱                 2 
+                          ╱       ⎛        2⎞  
+                         ╱    2   ⎜    ⎛ω ⎞ ⎟  
+                        ╱    η  + ⎜1 - ⎜──⎟ ⎟  
+                      ╲╱          ⎝    ⎝ωn⎠ ⎠  
+
+
 
 
  
-┌  Eq-2.5 | 
-│
-│               ⎛    η    ⎞
-│     φ = arctan⎜─────────⎟
-│               ⎜        2⎟
-│               ⎜    ⎛ω ⎞ ⎟
-│               ⎜1 - ⎜──⎟ ⎟
-│               ⎝    ⎝ωn⎠ ⎠
-└
+
+|
+
+**Eq.2.5:**
+
+.. code-block:: text 
+
+                     ⎛    η    ⎞
+           φ = arctan⎜─────────⎟
+                     ⎜        2⎟
+                     ⎜    ⎛ω ⎞ ⎟
+                     ⎜1 - ⎜──⎟ ⎟
+                     ⎝    ⎝ωn⎠ ⎠
+
+
 
 
  
@@ -136,32 +188,50 @@ These results are obtained by modifying the viscous damping ratio in Eqs.
 (3.2.11) and (3.2.12) to reflect the damping force associated with
 rate-independent damping, Eq. (3.10.1). In particular, ζ was replaced by
  
-┌  Eq-2.6 | 
-│
-│          c 
-│     ζ = ───
-│         c_c
-└
+
+|
+
+**Eq.2.6:**
+
+.. code-block:: text 
+
+                c 
+           ζ = ───
+               c_c
+
+
 
 
  
-┌  Eq-2.7 | 
-│
-│           k⋅η   
-│     ζ = ────────
-│         ω⋅2⋅m⋅ωn
-└
+
+|
+
+**Eq.2.7:**
+
+.. code-block:: text 
+
+                 k⋅η   
+           ζ = ────────
+               ω⋅2⋅m⋅ωn
+
+
 
 
  
-┌  Eq-2.8 | 
-│
-│           η  
-│     ζ = ─────
-│         ⎛2⋅ω⎞
-│         ⎜───⎟
-│         ⎝ωn ⎠
-└
+
+|
+
+**Eq.2.8:**
+
+.. code-block:: text 
+
+                 η  
+           ζ = ─────
+               ⎛2⋅ω⎞
+               ⎜───⎟
+               ⎝ωn ⎠
+
+
 
 
  
@@ -174,9 +244,14 @@ are apparent: First, resonance (maximum amplitude) occurs at ω = ωn, not at
 for viscous damping; this implies that motion with rate-independent damping
 can never be in phase with the forcing function.
  
-          ----------------------------------------
-Fig. 2.1 - SDF Rate Independent Linear Damping [file: fig_3.10.2.jpg  ]
-          ----------------------------------------
+
+.. figure:: C:/git/rivtbk-example-04-git/bk5-Bearing-Hysteretic-Damping/image/fig_3.10.2.jpg
+   :width: 70%
+   :align: center
+
+   **Fig. 2.1** - SDF Rate Independent Linear Damping   
+    
+
 
  
 These differences between forced vibration with rate-independent damping
@@ -187,14 +262,26 @@ its real physical characteristics is an assumption of some error. In the
 next section this error is shown to be small when the real damping is rate
 independent.
  
-          ----------------------------------------
-Fig. 2.2 - Rate Independent Damping [file: fig_3.10.3.png  ]
-          ----------------------------------------
+
+.. figure:: C:/git/rivtbk-example-04-git/bk5-Bearing-Hysteretic-Damping/image/fig_3.10.3.png
+   :width: 70%
+   :align: center
+
+   **Fig. 2.2** - Rate Independent Damping   
+    
+
 
  
  
 
-0.5-3 | Solution Using Equivalent Viscous Damping
+
+-------------------------
+
+
+
+.. _Solution Using Equivalent Viscous Damping:
+
+**0.5-3** | Solution Using Equivalent Viscous Damping
 --------------------------------------------------------------------------------
  
 In this section an approximate solution for the steady-state harmonic
@@ -205,12 +292,18 @@ Matching dissipated energies at ω = ωn (Fig. 3.10.1) led to Eq. (3.9.2),
 where ED is given by Eq. (3.10.2), leading to the equivalent viscous
 damping ratio:
  
-┌  Eq-3.2 | 
-│
-│            η
-│     ζ_eq = ─
-│            2
-└
+
+|
+
+**Eq.3.2:**
+
+.. code-block:: text 
+
+                  η
+           ζ_eq = ─
+                  2
+
+
 
 
  
@@ -228,10 +321,17 @@ viscous damping.
  
  
 
-0.5-4 | Harmonic Vibration with Coulomb Friction
+
+-------------------------
+
+
+
+.. _Harmonic Vibration with Coulomb Friction:
+
+**0.5-4** | Harmonic Vibration with Coulomb Friction
 --------------------------------------------------------------------------------
  
-Equation of Motion
+**Equation of Motion**
 
 
  
@@ -242,7 +342,7 @@ and N is the normal force across the sliding surfaces. The equation of
 motion is obtained by including the exciting force in Eqs. (2.4.1) and
 (2.4.2) governing the free vibration of the system:
  
-m*ü + k*u ± F = p(t)
+**m*ü + k*u ± F = p(t)**
 
 
  
@@ -254,17 +354,22 @@ because the governing equation changes every half-cycle of motion.
 Therefore, exact analytical solutions would not be possible except in
 special cases.
  
-Steady-State Response to Harmonic Force
+**Steady-State Response to Harmonic Force**
 
 
  
 An exact analytical solution for the steady-state response of the system of
 Fig. 4 subjected to harmonic force was developed by J. P. Den Hartog in
-1933.
+1933. 
  
-          ----------------------------------------
-Fig. 4.1 - SDF Coulomb Damping [file: fig_3.11.1.jpg  ]
-          ----------------------------------------
+
+.. figure:: C:/git/rivtbk-example-04-git/bk5-Bearing-Hysteretic-Damping/image/fig_3.11.1.jpg
+   :width: 70%
+   :align: center
+
+   **Fig. 4.1** - SDF Coulomb Damping   
+    
+
 
  
 The analysis is not included here, but his results are shown by solid
@@ -275,9 +380,14 @@ frequency ratio ω/ωn for three values of F/p0. If there is no friction, F =
 system. The friction force reduces the displacement amplitude u0, with the
 reduction depending on the frequency ratio ω/ωn.
  
-          ----------------------------------------
-Fig. 4.2 - Damping with Coulomb Friction [file: fig_3.11.2.png  ]
-          ----------------------------------------
+
+.. figure:: C:/git/rivtbk-example-04-git/bk5-Bearing-Hysteretic-Damping/image/fig_3.11.2.png
+   :width: 70%
+   :align: center
+
+   **Fig. 4.2** - Damping with Coulomb Friction   
+    
+
 
  
  
@@ -286,10 +396,15 @@ with Coulomb friction excited by harmonic force. Exact solution from J. P.
 Den Hartog; approximate solution is based on equivalent viscous damping.*
  
 
---------------------------------------------------------------------------------
+--------------------
 
-[0.5.1] Anil K. Chopra, Dynamics of Structures: Theory and Applications
-toEarthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
+
+.. _[0.5.1]:
+
+**[0.5.1]** 
+    Anil K. Chopra, Dynamics of Structures: Theory and Applications toEarthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
+
+
 
 
  

@@ -2,54 +2,8 @@
 
 import rivtlib.rvapi as rv
 
-# %% rv.I(r"""Rubber Elastic Properties
-rv.I(r"""Rubber Elastic Properties
-
-
-    IRHD hardness scale (MN/m2) _[T]
-
-    ==========  ===============  ==============  ====  ===============
-    Hardness    Young's modulus  Shear modulus    k    Bulk modulus
-    IRHD +/-2   E, MN/m2         G, MN/m2              B(inf), MN/m2
-    ==========  ===============  ==============  ====  ===============
-    30          0.92             0.30            0.93  1000
-    35          1.18             0.37            0.89  1000
-    40          1.50             0.45            0.85  1000
-    45          1.80             0.54            0.80  1000
-    50          2.20             0.64            0.73  1030
-    55          3.25             0.81            0.64  1090
-    60          4.45             1.06            0.57  1150
-    65          5.85             1.37            0.54  1210
-    70          7.35             1.73            0.53  1270
-    75          9.40             2.22            0.52  1330
-    ==========  ===============  ==============  ====  ===============
-
-
-    Shore A hardness scale (lbf/in2) _[T]
-
-    ============  ===============  ==============  ====  ===============
-    Shore A       Young's modulus  Shear modulus     k    Bulk modulus
-    (approx.)     lbf/in2          lbf/in2               lbf/in2
-    ============  ===============  ==============  ====  ===============
-    35            168              53              0.89  142 000
-    45            256              76              0.80  142 000
-    55            460              115             0.64  154 000
-    65            830              195             0.54  171 000
-    75            1340             317             0.52  189 000
-    ============  ===============  ==============  ====  ===============
-
-    _[[TEXT]] note
-    #. The majority of springs are in the hardness range 40-60 IRHD.
-    #. Theoretically, with a Poisson's ratio of 1/2, B should equal 3G. This is
-       true for soft gum rubbers. For harder rubbers containing a fair proportion
-       of non-rubber constituents, thixotropic and other effects increase 3G to
-       about 4G.
-    _[[END]]
-
-""")
-
-# %% rv.V(r"""Shear Stiffness Example
-rv.V(r"""Shear Stiffness Example
+# %% rv.V("""Shear Stiffness Example
+rv.V("""Shear Stiffness Example
 
     Bearing Specifications _[T]
     G_1 ==: 58 * p_si | p_si, MPA, 2 | shear modulus                                                    
@@ -72,10 +26,8 @@ rv.V(r"""Shear Stiffness Example
     
 """)
 
-# %% rv.I(r"""shear 
-rv.I(r"""shear 
-    
-        Natural Frequency
+# %% rv.I("""shear 
+rv.I(""" Natural Frequency
 
     The natural frequency (n_f) in Hz of a mounted body on a spring is
 
@@ -144,17 +96,14 @@ rv.I(r"""shear
     which the inclined shear mounting is a typical example, requires only a
     knowledge of mechanics and the principal stiffnesses of the units.
 
-    SHEAR MOUNTING
-
-    [Figure: fig18_shear_mounting.png]
-    Fig. 18. Shear mounting.
+    | IMAGE | shear_mounting.jpg | Shear Mounting, 70, num, not 
 """)
 
 
-# %% rv.D(r"""Publish Doc
-rv.D(r"""Publish Doc 
+# %% rv.D("""Publish Doc
+rv.D("""Publish Doc 
 
-    | PUBLISH | Shear Stiffness | txt
+    | PUBLISH | Shear Stiffness | pdf
     
     _[[METADATA]] 
     [process]

@@ -1,11 +1,11 @@
 
 --------------------------------------------------------------------------------
-| rivt | Viscous Damping | R Holland | v-1.0.0a14 | 2026-07-15 - 11:19AM
+| rivt | Viscous Damping | R Holland | v-1.0.0a14 | 2026-07-26 - 12:37AM
 --------------------------------------------------------------------------------
 
 
 0.4-1 | Equivalent Viscous Damping
-================================================================================
+================================================================================]
  
 Equivalent viscous damping is the simplest form of damping for analysis
 since the governing differential equation of motion is linear and hence
@@ -15,7 +15,7 @@ the combined effect of all damping mechanisms present in the actual
 structure. [0.4.1]
  
           ----------------------------------------
-Fig. 1 - Ideal Viscous Damping Model [file: img/fig201-1.png  ]
+Fig. 1.1 - Ideal Viscous Damping Model [file: fig201-1.png  ]
           ----------------------------------------
 
  
@@ -33,7 +33,7 @@ the energy-dissipating mechanisms that existed in the experiments.
  
  
           ----------------------------------------
-Fig. 2 - Measured Viscous Damping Model [file: img/fig201-2.png  ]
+Fig. 2.1 - Measured Viscous Damping Model [file: fig201-2.png  ]
           ----------------------------------------
 
  
@@ -47,13 +47,13 @@ is given by the area E_D enclosed by the hysteresis loop. Equating this to
 the energy dissipated in viscous damping given by Eq.1 leads to
  
 
-Eq.1
-[LaTeX] 4 \\pi \\zeta_{\\mathrm{eq}} \\frac{\\omega}{\\omega_n} E_{S o}=E_D \\quad
+Eq.2.2
+[LaTeX] 4 \pi \zeta_{\mathrm{eq}} \frac{\omega}{\omega_n} E_{S o}=E_D \quad
 
  
 or, equivalently,
  
-┌  Eq-2 | 
+┌  Eq-2.3 | 
 │
 │               1     1        1  
 │     ζ_eq = 1⋅───⋅1⋅────⋅E_D⋅────
@@ -71,7 +71,7 @@ The experiment leading to the force-deformation curve of Fig. 3.9.1 and
 hence E_D should be conducted at omega = omega_n, where the response of the
 system is most sensitive to damping. Thus Eq.  specializes to
  
-┌  Eq-3 |                           
+┌  Eq-2.4 |                           
 │
 │               1       1  
 │     ζ_eq = 1⋅───⋅E_D⋅────
@@ -91,7 +91,7 @@ such a way that the energy dissipated in viscous damping matches the actual
 energy dissipated in the system when the system vibrates in that mode at
 its natural frequency.
  
-In this book the concept of equivalent viscous damping is restricted to
+The concept of equivalent viscous damping is restricted to
 systems vibrating at amplitudes within the linearly elastic limit of the
 overall structure. The energy dissipated in inelastic deformations of the
 structure have also been modeled as equivalent viscous damping in some
@@ -100,11 +100,12 @@ for the large inelastic deformations of structures expected during strong
 earthquakes. We shall account for these inelastic deformations and the
 associated energy dissipation by nonlinear force-deformation relations.
  
- 
-
 
 --------------------------------------------------------------------------------
 
 [0.4.1] Anil K. Chopra, Dynamics of Structures: Theory and Applications
 toEarthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
 
+
+ 
+ 

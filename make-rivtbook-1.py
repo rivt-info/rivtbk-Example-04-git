@@ -11,14 +11,14 @@ import os
 import sys
 import importlib
 
-# ======== Modify rivtbook settings between the double lines ==============
-# ======== Update book_filename, must start with rivtbk- ==================
+# ======== Modify rivtbook settings between the double lines ==================
+# === Update book_filename, start with rivtbk- and end with .txt or .pdf ======
 
 booksetS = f"""
 [book]
 ;-----------------------------------------
-book_filename = rivtbk-Isolation-Bearing-Design.txt
-version = 1.0.0a14
+book_filename = rivtbk-Isolation-Bearing-Design.pdf
+version = 1.0.0a17
 exclude = -- ; comma separated doc numbers to exclude eg. rv102, rv204
 [process]
 ;-----------------------------------------

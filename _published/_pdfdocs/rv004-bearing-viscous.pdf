@@ -7,7 +7,7 @@
 endobj
 2 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 10 0 R /XYZ 51.35433 707.478 0 ] /Rect [ 48.51969 627.5685 237.0451 639.5685 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 10 0 R /XYZ 51.35433 707.478 0 ] /Rect [ 48.51969 627.5685 248.1535 639.5685 ] /Subtype /Link /Type /Annot
 >>
 endobj
 3 0 obj
@@ -17,12 +17,12 @@ endobj
 endobj
 4 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 12 0 R /XYZ 48.51969 707.478 0 ] /Rect [ 68.51969 609.5685 252.8312 621.5685 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 10 0 R /XYZ 51.35433 258.4695 0 ] /Rect [ 68.51969 609.5685 245.8683 621.5685 ] /Subtype /Link /Type /Annot
 >>
 endobj
 5 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 12 0 R /XYZ 48.51969 707.478 0 ] /Rect [ 554.2834 610.3185 560.6457 622.3185 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 10 0 R /XYZ 51.35433 258.4695 0 ] /Rect [ 554.2834 610.3185 560.6457 622.3185 ] /Subtype /Link /Type /Annot
 >>
 endobj
 6 0 obj
@@ -51,7 +51,7 @@ endobj
 endobj
 8 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 13 0 R /XYZ 71.35433 361.9315 0 ] /Rect [ 436.2225 621.078 469.4696 633.078 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 13 0 R /XYZ 71.35433 428.9315 0 ] /Rect [ 436.2225 621.078 469.4696 633.078 ] /Subtype /Link /Type /Annot
 >>
 endobj
 9 0 obj
@@ -2787,7 +2787,7 @@ endobj
 endobj
 35 0 obj
 <<
-/Author () /CreationDate (D:20260713212629-07'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260713212629-07'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+/Author () /CreationDate (D:20260725183101-07'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260725183101-07'00') /Producer (ReportLab PDF Library - \(opensource\)) 
   /Subject (\(unspecified\)) /Title () /Trapped /False
 >>
 endobj
@@ -2798,12 +2798,12 @@ endobj
 endobj
 37 0 obj
 <<
-/Count 1 /Dest [ 10 0 R /XYZ 51.35433 707.478 0 ] /First 38 0 R /Last 38 0 R /Parent 36 0 R /Title (0.4 | Equivalent Viscous Damping)
+/Count 1 /Dest [ 10 0 R /XYZ 51.35433 707.478 0 ] /First 38 0 R /Last 38 0 R /Parent 36 0 R /Title (0.4-1 | Equivalent Viscous Damping)
 >>
 endobj
 38 0 obj
 <<
-/Dest [ 12 0 R /XYZ 48.51969 707.478 0 ] /Parent 37 0 R /Title (0.4 - 2 | Measured Viscous Damping)
+/Dest [ 10 0 R /XYZ 51.35433 258.4695 0 ] /Parent 37 0 R /Title (0.4-2 | Measured Viscous Damping)
 >>
 endobj
 39 0 obj
@@ -2820,7 +2820,7 @@ stream
 q
 1 0 0 1 48.51969 732.315 cm
 q
-BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Viscous Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13) Tj T* ET
+BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Viscous Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a14) Tj T* ET
 Q
 Q
 q
@@ -2854,7 +2854,7 @@ q
 q
 1 0 0 1 0 21 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL .647059 .164706 .164706 rg /F1+0 10 Tf 12 TL (0.4 | Equivalent Viscous Damping) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL .647059 .164706 .164706 rg /F1+0 10 Tf 12 TL (0.4-1 | Equivalent Viscous Damping) Tj T* ET
 Q
 Q
 q
@@ -2867,14 +2867,14 @@ Q
 q
 1 0 0 1 0 3 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL .647059 .164706 .164706 rg /F1+0 10 Tf 12 TL (0.4 - 2) Tj /F2+0 10 Tf 12 TL ( | Measured Viscous Damping) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL .647059 .164706 .164706 rg /F1+0 10 Tf 12 TL (0.4-2) Tj /F2+0 10 Tf 12 TL ( | Measured Viscous Damping) Tj T* ET
 Q
 Q
 q
 1 0 0 1 440.126 3 cm
 q
 .647059 .164706 .164706 rg
-BT 1 0 0 1 0 2 Tm 65.6377 0 Td /F2+0 10 Tf 12 TL (2) Tj T* -65.6377 0 Td ET
+BT 1 0 0 1 0 2 Tm 65.6377 0 Td /F2+0 10 Tf 12 TL (1) Tj T* -65.6377 0 Td ET
 Q
 Q
 q
@@ -2894,7 +2894,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-13       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-25       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -2935,14 +2935,14 @@ endstream
 endobj
 41 0 obj
 <<
-/Length 3299
+/Length 3459
 >>
 stream
 1 0 0 1 0 0 cm 
 q
 1 0 0 1 51.35433 693.078 cm
 q
-BT 1 0 0 1 0 2.4 Tm 14.4 TL .133333 .133333 .133333 rg /F1+0 12 Tf 14.4 TL (0.4 | Equivalent Viscous Damping) Tj T* ET
+BT 1 0 0 1 0 2.4 Tm 14.4 TL .133333 .133333 .133333 rg /F1+0 12 Tf 14.4 TL (0.4-1 | Equivalent Viscous Damping) Tj T* ET
 Q
 Q
 q
@@ -2968,7 +2968,7 @@ Q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 155.6074 0 Td 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Fig. 1) Tj /F2+0 10 Tf 14 TL ( - Ideal Viscous Damping Model) Tj T* -155.6074 0 Td ET
+BT 1 0 0 1 0 4 Tm 150.229 0 Td 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Fig. 1.1) Tj /F2+0 10 Tf 14 TL ( - Ideal Viscous Damping Model) Tj T* -150.229 0 Td ET
 Q
 Q
 q
@@ -2990,7 +2990,13 @@ q
 n 0 14.17323 m 512.126 14.17323 l S
 Q
 q
-1 0 0 1 51.35433 262.4695 cm
+1 0 0 1 51.35433 245.2695 cm
+q
+BT 1 0 0 1 0 2.2 Tm 13.2 TL .133333 .133333 .133333 rg /F1+0 11 Tf 13.2 TL (0.4-2 | Measured Viscous Damping) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 209.2695 cm
 Q
 q
 1 0 0 1 45.35433 776.6614 cm
@@ -3002,7 +3008,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Viscous Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.4 | Equivalent Viscous Damping) Tj T* ET
+BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Viscous Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a14         ) Tj /F1+0 10 Tf 14 TL (0.4-1 | Equivalent Viscous Damping) Tj T* ET
 Q
 Q
 q
@@ -3062,7 +3068,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-13       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-25       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -3103,21 +3109,12 @@ endstream
 endobj
 42 0 obj
 <<
-/Length 5432
+/Length 5478
 >>
 stream
 1 0 0 1 0 0 cm 
 q
-1 0 0 1 48.51969 694.278 cm
-q
-BT 1 0 0 1 0 2.2 Tm 13.2 TL .133333 .133333 .133333 rg /F1+0 11 Tf 13.2 TL (0.4 - 2 | Measured Viscous Damping) Tj T* ET
-Q
-Q
-q
-1 0 0 1 48.51969 658.278 cm
-Q
-q
-1 0 0 1 48.51969 442.6234 cm
+1 0 0 1 48.51969 491.8234 cm
 q
 0 0 0 rg
 q
@@ -3130,7 +3127,7 @@ Q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 143.2515 0 Td 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Fig. 2) Tj /F2+0 10 Tf 14 TL ( - Measured Viscous Damping Model) Tj T* -143.2515 0 Td ET
+BT 1 0 0 1 0 4 Tm 137.8731 0 Td 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Fig. 2.1) Tj /F2+0 10 Tf 14 TL ( - Measured Viscous Damping Model) Tj T* -137.8731 0 Td ET
 Q
 Q
 q
@@ -3138,23 +3135,23 @@ Q
 Q
 Q
 q
-1 0 0 1 48.51969 430.6234 cm
+1 0 0 1 48.51969 479.8234 cm
 Q
 q
-1 0 0 1 48.51969 340.6234 cm
+1 0 0 1 48.51969 389.8234 cm
 q
 BT 1 0 0 1 0 74 Tm -0.154017 Tw 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (The most common method for defining equivalent viscous damping is to equate the energy dissipated) Tj T* 0 Tw .495423 Tw (in a vibration cycle of the actual structure and an equivalent viscous system. For an actual structure) Tj T* 0 Tw .511098 Tw (the force-displacement relation obtained from an experiment under cyclic loading with displacement) Tj T* 0 Tw .520142 Tw (amplitude u_o is determined; such a relation of arbitrary shape is shown schematically in Fig. 2. The) Tj T* 0 Tw 1.159791 Tw (energy dissipated in the actual structure is given by the area E_D enclosed by the hysteresis loop.) Tj T* 0 Tw (Equating this to the energy dissipated in viscous damping given by Eq.1 leads to) Tj T* ET
 Q
 Q
 q
-1 0 0 1 48.51969 320.6234 cm
+1 0 0 1 48.51969 369.8234 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Eq.1) Tj T* ET
+BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Eq.2.2) Tj T* ET
 Q
 Q
 q
-1 0 0 1 261.0827 301.6234 cm
+1 0 0 1 261.0827 350.8234 cm
 0 0 0 rg
 BT 1 0 0 1 0 .690625 Tm /F2+0 10 Tf 12 TL (4) Tj T* ET
 0 0 0 rg
@@ -3188,34 +3185,34 @@ BT 1 0 0 1 71.16611 -0.95 Tm /F4+0 7 Tf 8.4 TL (D) Tj T* ET
 n 26.8457 3.198437 9.158789 .625 re B*
 Q
 q
-1 0 0 1 48.51969 277.6234 cm
+1 0 0 1 48.51969 326.8234 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 4 Tm /F2+0 10 Tf 14 TL (or, equivalently,) Tj T* ET
 Q
 Q
 q
-1 0 0 1 48.51969 270.6234 cm
+1 0 0 1 48.51969 319.8234 cm
 Q
 q
-1 0 0 1 48.51969 256.6234 cm
+1 0 0 1 48.51969 305.8234 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 4 Tm /F2+0 10 Tf 14 TL ( ) Tj T* ET
 Q
 Q
 q
-1 0 0 1 48.51969 254.6234 cm
+1 0 0 1 48.51969 303.8234 cm
 Q
 q
-1 0 0 1 48.51969 234.6234 cm
+1 0 0 1 48.51969 283.8234 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Eq.2:) Tj T* ET
+BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Eq.2.3:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 48.51969 163.4234 cm
+1 0 0 1 48.51969 212.6234 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -3236,21 +3233,38 @@ Q
 Q
 Q
 q
-1 0 0 1 48.51969 129.4234 cm
+1 0 0 1 48.51969 178.6234 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 18 Tm 4.392579 Tw /F2+0 10 Tf 14 TL (where the strain energy, E_So = ku_o2/2, is calculated from the stiffness k determined by) Tj T* 0 Tw (experiment.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 48.51969 81.42344 cm
+1 0 0 1 48.51969 130.6234 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 32 Tm 3.050852 Tw /F2+0 10 Tf 14 TL (The experiment leading to the force-deformation curve of Fig. 3.9.1 and hence E_D should be) Tj T* 0 Tw 1.339974 Tw (conducted at omega = omega_n, where the response of the system is most sensitive to damping.) Tj T* 0 Tw (Thus Eq. specializes to) Tj T* ET
 Q
 Q
 q
-1 0 0 1 48.51969 79.68504 cm
+1 0 0 1 48.51969 123.6234 cm
+Q
+q
+1 0 0 1 48.51969 109.6234 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2+0 10 Tf 14 TL ( ) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 107.6234 cm
+Q
+q
+1 0 0 1 48.51969 87.62344 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Eq.2.4:) Tj T* ET
+Q
 Q
 q
 1 0 0 1 42.51969 776.6614 cm
@@ -3262,7 +3276,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Viscous Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.4 - 2 | Measured Viscous Damping) Tj T* ET
+BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Viscous Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a14         ) Tj /F1+0 10 Tf 14 TL (0.4-1 | Equivalent Viscous Damping) Tj T* ET
 Q
 Q
 q
@@ -3322,7 +3336,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-13       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-25       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -3363,29 +3377,12 @@ endstream
 endobj
 43 0 obj
 <<
-/Length 4309
+/Length 3917
 >>
 stream
 1 0 0 1 0 0 cm 
 q
-1 0 0 1 51.35433 693.478 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 4 Tm /F2+0 10 Tf 14 TL ( ) Tj T* ET
-Q
-Q
-q
-1 0 0 1 51.35433 691.478 cm
-Q
-q
-1 0 0 1 51.35433 671.478 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Eq.3:) Tj T* ET
-Q
-Q
-q
-1 0 0 1 51.35433 622.278 cm
+1 0 0 1 51.35433 661.278 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -3406,40 +3403,40 @@ Q
 Q
 Q
 q
-1 0 0 1 51.35433 588.278 cm
+1 0 0 1 51.35433 627.278 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 18 Tm .315775 Tw /F2+0 10 Tf 14 TL (The damping ratio zeta_eq determined from a test at omega = omega_n would not be correct at any) Tj T* 0 Tw (other exciting frequency, but it would be a satisfactory approximation \(Section 3.10.2\).) Tj T* ET
+BT 1 0 0 1 0 18 Tm .315775 Tw /F2+0 10 Tf 14 TL (The damping ratio zeta_eq determined from a test at omega = omega_n would not be correct at any) Tj T* 0 Tw (other exciting frequency, but it would be a satisfactory approximation.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 51.35433 512.278 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 60 Tm 1.710938 Tw /F2+0 10 Tf 14 TL (It is widely accepted that this procedure can be extended to model the damping in systems with) Tj T* 0 Tw .50307 Tw (many degrees of freedom. An equivalent viscous damping ratio is assigned to each natural vibration) Tj T* 0 Tw 1.898093 Tw (mode of the system \(defined in Chapter 10\) in such a way that the energy dissipated in viscous) Tj T* 0 Tw .292448 Tw (damping matches the actual energy dissipated in the system when the system vibrates in that mode) Tj T* 0 Tw (at its natural frequency.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 51.35433 408.278 cm
+1 0 0 1 51.35433 565.278 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 88 Tm 3.823731 Tw /F2+0 10 Tf 14 TL (In this book the concept of equivalent viscous damping is restricted to systems vibrating at) Tj T* 0 Tw .667342 Tw (amplitudes within the linearly elastic limit of the overall structure. The energy dissipated in inelastic) Tj T* 0 Tw 2.895659 Tw (deformations of the structure have also been modeled as equivalent viscous damping in some) Tj T* 0 Tw 3.091391 Tw (research studies. This idealization is generally not satisfactory, however, for the large inelastic) Tj T* 0 Tw .686605 Tw (deformations of structures expected during strong earthquakes. We shall account for these inelastic) Tj T* 0 Tw .174628 Tw (deformations and the associated energy dissipation by nonlinear force-deformation relations, such as) Tj T* 0 Tw (those shown in Fig. 1.3.4 \(see Chapters 5 and 7\).) Tj T* ET
+BT 1 0 0 1 0 46 Tm 1.710938 Tw /F2+0 10 Tf 14 TL (It is widely accepted that this procedure can be extended to model the damping in systems with) Tj T* 0 Tw .50307 Tw (many degrees of freedom. An equivalent viscous damping ratio is assigned to each natural vibration) Tj T* 0 Tw .312328 Tw (mode of the system in such a way that the energy dissipated in viscous damping matches the actual) Tj T* 0 Tw (energy dissipated in the system when the system vibrates in that mode at its natural frequency.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 51.35433 378.9315 cm
+1 0 0 1 51.35433 475.278 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm .491211 Tw /F2+0 10 Tf 14 TL (he concept of equivalent viscous damping is restricted to systems vibrating at amplitudes within the) Tj T* 0 Tw 1.37814 Tw (linearly elastic limit of the overall structure. The energy dissipated in inelastic deformations of the) Tj T* 0 Tw 2.069712 Tw (structure have also been modeled as equivalent viscous damping in some research studies. This) Tj T* 0 Tw 1.119548 Tw (idealization is generally not satisfactory, however, for the large inelastic deformations of structures) Tj T* 0 Tw 2.788656 Tw (expected during strong earthquakes. We shall account for these inelastic deformations and the) Tj T* 0 Tw (associated energy dissipation by nonlinear force-deformation relations.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 445.9315 cm
 0 0 0 RG
 n 0 14.17323 m 512.126 14.17323 l S
 Q
 q
-1 0 0 1 51.35433 360.9315 cm
+1 0 0 1 51.35433 427.9315 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL ([0.4.1]) Tj T* ET
 Q
 Q
 q
-1 0 0 1 51.35433 329.9315 cm
+1 0 0 1 51.35433 396.9315 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 18 Tm  T* ET
@@ -3463,7 +3460,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Viscous Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.4 - 2 | Measured Viscous Damping) Tj T* ET
+BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Viscous Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a14         ) Tj /F1+0 10 Tf 14 TL (0.4-1 | Equivalent Viscous Damping) Tj T* ET
 Q
 Q
 q
@@ -3523,7 +3520,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-13       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-25       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -3594,54 +3591,54 @@ xref
 0000000147 00000 n 
 0000000314 00000 n 
 0000000481 00000 n 
-0000000648 00000 n 
-0000000815 00000 n 
-0000006470 00000 n 
-0000006800 00000 n 
-0000006966 00000 n 
-0000026762 00000 n 
-0000027123 00000 n 
-0000045452 00000 n 
-0000045796 00000 n 
-0000046091 00000 n 
-0000048040 00000 n 
-0000083236 00000 n 
-0000083506 00000 n 
-0000084860 00000 n 
-0000086794 00000 n 
-0000122326 00000 n 
-0000122585 00000 n 
-0000123924 00000 n 
-0000125870 00000 n 
-0000151834 00000 n 
-0000152097 00000 n 
-0000153466 00000 n 
-0000155424 00000 n 
-0000194728 00000 n 
-0000194997 00000 n 
-0000196344 00000 n 
-0000198305 00000 n 
-0000224125 00000 n 
-0000224397 00000 n 
-0000225771 00000 n 
-0000225877 00000 n 
-0000226132 00000 n 
-0000226206 00000 n 
-0000226362 00000 n 
-0000226484 00000 n 
-0000226565 00000 n 
-0000228477 00000 n 
-0000231828 00000 n 
-0000237312 00000 n 
-0000241673 00000 n 
-0000241741 00000 n 
-0000241775 00000 n 
-0000241809 00000 n 
-0000241843 00000 n 
+0000000649 00000 n 
+0000000817 00000 n 
+0000006472 00000 n 
+0000006802 00000 n 
+0000006968 00000 n 
+0000026764 00000 n 
+0000027125 00000 n 
+0000045454 00000 n 
+0000045798 00000 n 
+0000046093 00000 n 
+0000048042 00000 n 
+0000083238 00000 n 
+0000083508 00000 n 
+0000084862 00000 n 
+0000086796 00000 n 
+0000122328 00000 n 
+0000122587 00000 n 
+0000123926 00000 n 
+0000125872 00000 n 
+0000151836 00000 n 
+0000152099 00000 n 
+0000153468 00000 n 
+0000155426 00000 n 
+0000194730 00000 n 
+0000194999 00000 n 
+0000196346 00000 n 
+0000198307 00000 n 
+0000224127 00000 n 
+0000224399 00000 n 
+0000225773 00000 n 
+0000225879 00000 n 
+0000226134 00000 n 
+0000226208 00000 n 
+0000226366 00000 n 
+0000226487 00000 n 
+0000226568 00000 n 
+0000228480 00000 n 
+0000231991 00000 n 
+0000237521 00000 n 
+0000241490 00000 n 
+0000241558 00000 n 
+0000241592 00000 n 
+0000241626 00000 n 
+0000241660 00000 n 
 trailer
 <<
 /ID 
-[<1b16dbc212c6cac98f2da0dfe49731be><1b16dbc212c6cac98f2da0dfe49731be>]
+[<d9a4e1c4101a2579a910b1a3c15d9906><d9a4e1c4101a2579a910b1a3c15d9906>]
 % ReportLab generated PDF document -- digest (opensource)
 
 /Info 35 0 R
@@ -3649,5 +3646,5 @@ trailer
 /Size 49
 >>
 startxref
-241877
+241694
 %%EOF

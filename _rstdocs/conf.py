@@ -1,15 +1,13 @@
 
 import sys
-import os
 from pathlib import Path
 
-font_folder_path = os.path.join(os.path.dirname(__file__), '_static',  'fonts')
-# sys.path.append(str(Path(".").resolve()))
+sys.path.append(str(Path(".").resolve()))
 
-project = "Three Story Vibration"
-copyright = "--"
-author = "self.R Holland"
-release = "1.0.0a14"
+project = "Isolation Bearing Design"
+copyright = "StL"
+author = "R Holland"
+release = "1.0.0a17"
 
 extensions = [
     "sphinx.ext.githubpages",
@@ -25,7 +23,6 @@ extensions = [
     "rst2pdf.pdfbuilder",
     "sphinxcontrib.mermaid"
 ]
-pygments_style = "borland"
 root_doc = "index"
 duration_write_json = ""
 html_show_sourcelink = False
@@ -33,8 +30,8 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 source_suffix = [".rst"]
 templates_path = ["_static"]
 html_static_path = ["_static"]
-html_css_files = ["_custom.css"]
-locale_dirs = ["./_static/_locale"]
+html_css_files = ["custom.css"]
+locale_dirs = ["_locale"]
 html_title = " "
 html_theme = "pydata_sphinx_theme"
 html_context = {"default_mode": "dark"}
@@ -53,8 +50,8 @@ html_theme_options = {
     "footer_end": ["rv-date"],
     "logo": {
             "text": "rivt",
-        "image_dark": "logo2.png",
-        "image_light": "logo2.png",
+        "image_dark": "rivt02.png",
+        "image_light": "rivt02.png",
     },
 }
 favicons = [
@@ -71,28 +68,24 @@ favicons = [
 ]
 # -- Options for PDF output -------------------------------------------------
 # source start file, target name, title, author, options
-# options: ('index', 'MyProject', 'My Project', 'Author Name', {"pdf_compressed": True})
+# options: ('index', 'MyProject', 'My Project', 'Author Name', 'options...')
 # More than one author : \r'Guido van Rossum\Fred L. Drake, Jr., editor'
-pdf_documents = [("rv006-system-period", "rv006-system-period", "Three Story Vibration", 
-            "R Holland")]
-# A colon-separated list of folders to search for fonts.
-pdf_font_path = ["_rstdocs/_static/fonts","../_rstdocs/_static/fonts/" ]
+pdf_documents = [("index", "rivtbk-Isolation-Bearing-Design", "Isolation Bearing Design", "R Holland")]
+suppress_warnings = ['toc.excluded']
+# Label to use as a prefix for the subtitle on the cover page
+subtitle_prefix = "User Manual"
 # A list of folders to search for stylesheets.
-pdf_style_path = ["_rstdocs","../_rstdocs"]
+pdf_style_path = ["./_rstdocs"]
 # A comma-separated list of custom stylesheets.
 pdf_stylesheets = ["rivtstyle.yaml"]
+# A colon-separated list of folders to search for fonts.
+pdf_font_path = ["./_rstdocs/_static/fonts"]
 # If false, no coverpage is generated.
-pdf_use_coverpage = False
+pdf_use_coverpage = True
 # Name of the cover page template to use
-pdf_cover_template = ""
-# Label to use as a prefix for the subtitle on the cover page
-# subtitle_prefix = "User Manual"
-# Show Table Of Contents at the beginning?
-pdf_use_toc = False
-# How many levels deep should the table of contents be?
-pdf_toc_depth = 2
-# Page template name for "regular" pages
-pdf_page_template = 'mainPage'
+pdf_cover_template = "pdfcover.rst"
+# exclude files
+exclude_patterns = []
 # Example: compressed=True
 pdf_compressed = False
 # Language to be used for hyphenation support
@@ -100,11 +93,17 @@ pdf_language = "en_US"
 # literal blocks wider than the frame overflow, shrink or truncate
 pdf_fit_mode = "shrink"
 # 1 means top-level sections start in a new page 0 disabled
-pdf_break_level = 0
+pdf_break_level = 1
 # When a section starts in a new page, force it to be 'even', 'odd', 'any
 pdf_breakside = "any"
+# Show Table Of Contents at the beginning?
+pdf_use_toc = True
+# Page template name for "regular" pages
+pdf_page_template = 'mainPage'
+# How many levels deep should the table of contents be?
+pdf_toc_depth = 1
 # Insert footnotes where they are defined 
-pdf_inline_footnotes = True
+pdf_inline_footnotes = False
 # If false, no index is generated.
 pdf_use_index = False
 # If false, no modindex is generated.
@@ -128,4 +127,5 @@ pdf_smartquotes = 0
 # pdf_default_dpi = 72
 # Enable rst2pdf extension modules
 # pdf_extensions = []
+
     

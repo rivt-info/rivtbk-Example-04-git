@@ -1,56 +1,3 @@
-.. |s| unicode:: 0xA0 
-
-
-
-.. |blklogo| image:: ./_static/logo2.png
-   :height: 100px
-   :alt: logo
-
-
-    
-.. header::
-    .. list-table::
-        :class: header-box
-        :align: left
-        :widths: 90 10
-        
-        * - **Three Story Vibration** - v1.0.0a14 |s| |s| |s| |s|  **###Section###**
-          - p. **###Page###**   
-
-          
-
-.. footer:: 
-    .. list-table::
-        :class: footer-box
-        :align: left
-        :widths: 84 22 16
-        
-        * - 2026-07-16 |s| |s| |s| **|** |s| |s| |s| R Holland        
-          - **rivt**        
-          - |blklogo|
-
-
-                  
-
-.. raw:: pdf
-
-   PageBreak noHead
-      
-**Three Story Vibration** - v1.0.0a14
-
---------------------
-
-|
-
-.. contents:: Table of Contents
-  :depth: 2
-
-  
-.. raw:: pdf
- 
-   PageBreak mainPage
-   SetPageCounter 1
-
  
 .. raw:: pdf
 
@@ -62,21 +9,48 @@
 .. _Eigenvalues and Vectors:
 
 **0.6-1** | Eigenvalues and Vectors
-================================================================================
+================================================================================]
  
 Analyze a 3-story shear frame using the flexibility method to determine
-natural frequencies and mode shapes (fter Clough and Penzien  `[0.6.1]`_ )
+natural frequencies and mode shapes (after Clough and Penzien  `[0.6.1]`_ )
+The model can be used to analyze a two story isolated structure
+by modeling the first story stiffness and mass
+as the isolated foundation system. In this example, the model
+is calibrated to reproduce the Clough example.
  
 
-.. figure:: c:/git/rivtbk-example-04-git/bk6-System-Period/img/frames.jpg
-   :width: 60%
+.. figure:: C:/git/rivtbk-example-04-git/bk6-System-Period/image/frames.jpg
+   :width: 70%
    :align: center
 
-   **Fig. 1** - Structural Model   
+   **Fig. 1.1** - Structural Model   
     
 
 
  
+Normalized mode shapes are calculated and compared to Penzien and 
+Clough.  `[0.6.2]`_ 
+ 
+
+.. figure:: C:/git/rivtbk-example-04-git/bk6-System-Period/image/modes.jpg
+   :width: 70%
+   :align: center
+
+   **Fig. 1.2** - Mode Shapes from Clough   
+    
+
+
+ 
+
+
+-------------------------
+
+
+
+.. _Eigen Script:
+
+**0.6-2** | Eigen Script
+--------------------------------------------------------------------------------
 
 .. code-block:: python
 
@@ -91,18 +65,82 @@ natural frequencies and mode shapes (fter Clough and Penzien  `[0.6.1]`_ )
    d = np.inner(f,m)                                         
    eigen = la.eig(d)                                         
    evalus = eigen[0]
-   print("\neigenvalues:\n"," "*8,evalus)
+   #
+   #                eigenvalues
+   print(" "*8,evalus)
+            [0.00474206 0.00103739 0.00047055]
    #
    nat_freq = 1/(np.sqrt(evalus))
-   print("\nnatural frequencies:\n"," "*8,nat_freq)                                           
+   #
+   #                natural frequencies
+   print(" "*8,nat_freq)
+            [14.52166783 31.04769646 46.09947622]
    #
    evect = np.array(eigen[1])                                
-   print("\neigenvectors:\n",tw.indent(str(evect), " "*8))
+   #
+   #               eigenvectors
+   print(tw.indent(str(evect), " "*8))
+           [[-0.81332769 -0.73942881  0.27304451]
+            [-0.52747169  0.44853685 -0.69406171]
+            [-0.24550292  0.50205551  0.66612689]]
 
 
 
- 
- 
+-------------------------
+
+
+
+.. _Plot Script:
+
+**0.6-3** | Plot Script
+--------------------------------------------------------------------------------
+
+.. code-block:: python
+
+   import numpy as np
+   import matplotlib.pyplot as plt
+   import os
+   from tabulate import tabulate as tb
+   # initialize eigenvector array (need (x,1) shapes for plotting
+   ms = np.shape(evect)
+   zz = np.zeros((ms[0],1))
+   x1=np.concatenate((evect,zz),1)
+   # plot mode shapes using matplotlib
+   y=np.array([0,1,2,3])
+   m3=x1[2]*.75+5
+   m2=x1[1]*.75+3
+   m1=x1[0]*.75+1.5
+   m=np.concatenate((m1,m2,m3))
+   plt.clf()
+   plt.plot(m1,y)
+   plt.plot(m2,y)
+   plt.plot(m3,y)
+   plt.xlim(.5,6.)
+   plt.xlabel("mode")
+   plt.ylabel("levels")
+   plt.title("Mode Shapes")
+   plt.grid()
+   curdir=os.getcwd()
+   imgdir=os.path.join(curdir,"image","mode_shapes.png")
+   plt.savefig(imgdir)
+   # table of eigenvalues and normalized eigenvectors
+   evectt = np.transpose(evect)     
+   for i1 in range(len(nat_freq)):
+        evectt[i1] = evectt[i1]/evectt[i1][0] 
+   v1 = np.concatenate((nat_freq[:, np.newaxis],evect),1)                          
+   v2 = np.round(v1, 4)
+   h1 = ["freq","level 3","level 2","level 1"]                   
+   tb1 = np.vstack((h1,v2))
+   #               Table of eigenvalues and normalized eigenvectors
+   print(tb(tb1, headers="firstrow", tablefmt="rst"))
+   =======  =========  =========  =========
+      freq    level 3    level 2    level 1
+   =======  =========  =========  =========
+   14.5217     1          1          1
+   31.0477     0.6485    -0.6066    -2.5419
+   46.0995     0.3018    -0.679      2.4396
+   =======  =========  =========  =========
+
 
 
 -------------------------
@@ -117,76 +155,35 @@ natural frequencies and mode shapes (fter Clough and Penzien  `[0.6.1]`_ )
 
 .. _Plot Mode Shapes:
 
-**0.6-2** | Plot Mode Shapes
+**0.6-4** | Plot Mode Shapes
 --------------------------------------------------------------------------------
  
 
-.. figure:: c:/git/rivtbk-example-04-git/bk6-System-Period/img/modes.jpg
-   :width: 70%
+.. rst-class:: align-right
+
+   **blue:** mode 1
+
+
+.. rst-class:: align-right
+
+   **red:** mode 2
+
+
+.. rst-class:: align-right
+
+   **green:** mode 3
+
+
+.. figure:: C:/git/rivtbk-example-04-git/bk6-System-Period/image/mode_shapes.png
+   :width: 90%
    :align: center
 
-   **Fig. 2** - Structural Model   
-    
-
-
- 
-Plot normalized mode shapes and compare to Penzien and Clough.  `[0.6.2]`_ 
- 
-
-.. code-block:: python
-
-   import numpy as np
-   import matplotlib.pyplot as plt
-   import os
-   from tabulate import tabulate as tb
-   # initialize eigenvector array (need (x,1) shapes for plotting
-   ms = np.shape(evect)
-   zz = np.zeros((ms[0],1))
-   x1=np.concatenate((evect,zz),1)
-   #plot mode shapes using matplotlib
-   y=np.array([0,1,2,3])
-   m3=x1[2]*.35+5
-   m2=x1[1]*.35+3
-   m1=x1[0]*.35+1
-   m=np.concatenate((m1,m2,m3))
-   plt.clf()
-   plt.plot(m1,y)
-   plt.plot(m2,y)
-   plt.plot(m3,y)
-   plt.xlim(.5,6.)
-   plt.xlabel("mode")
-   plt.ylabel("levels")
-   plt.title("Mode Shapes")
-   plt.grid()
-   curdir=os.getcwd()
-   imgdir=os.path.join(curdir,"img","mode_shapes.png")
-   plt.savefig(imgdir)
-   # table of eigenvalues and normalized eigenvectors
-   evectt = np.transpose(evect)     
-   for i in range(len(nat_freq)):
-        evectt[i] = evectt[i]/evectt[i][0] 
-   xx = np.concatenate((nat_freq[:, np.newaxis],evect),1)                          
-   xx = np.round(xx, 4)
-   yy = ["freq","level 3","level 2","level 1"]                   
-   tt = np.vstack((yy,xx))
-   print("\nTable of eigenvalues and normalized eigenvectors\n",
-   tb(tt, headers="firstrow", tablefmt="rst"))    
-
-
-
- 
-
-.. figure:: c:/git/rivtbk-example-04-git/bk6-System-Period/img/mode_shapes.png
-   :width: 60%
-   :align: center
-
-   **Fig. 3** - Calculated Normalized Modes   
+   **Fig. 4.1** - Calculated Normalized Modes   
     
 
 
  
  
-
 
 --------------------
 
@@ -207,3 +204,6 @@ Plot normalized mode shapes and compare to Penzien and Clough.  `[0.6.2]`_
 
 
 
+
+ 
+ 

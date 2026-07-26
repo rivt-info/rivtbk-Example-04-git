@@ -1,61 +1,14 @@
 
 --------------------------------------------------------------------------------
-| rivt | Shear Stiffness | R Holland | v-1.0.0a14 | 2026-07-15 - 11:19AM
+| rivt | Shear Stiffness | R Holland | v-1.0.0a14 | 2026-07-26 - 12:37AM
 --------------------------------------------------------------------------------
 
 
-0.3-1 | Rubber Elastic Properties
-================================================================================
- 
- 
-
-Table 1: IRHD hardness scale (MN/m2)
- 
-==========  ===============  ==============  ====  ===============
-Hardness    Young's modulus  Shear modulus    k    Bulk modulus
-IRHD +/-2   E, MN/m2         G, MN/m2              B(inf), MN/m2
-==========  ===============  ==============  ====  ===============
-30          0.92             0.30            0.93  1000
-35          1.18             0.37            0.89  1000
-40          1.50             0.45            0.85  1000
-45          1.80             0.54            0.80  1000
-50          2.20             0.64            0.73  1030
-55          3.25             0.81            0.64  1090
-60          4.45             1.06            0.57  1150
-65          5.85             1.37            0.54  1210
-70          7.35             1.73            0.53  1270
-75          9.40             2.22            0.52  1330
-==========  ===============  ==============  ====  ===============
- 
+0.3-1 | Shear Stiffness Example
+================================================================================]
  
 
-Table 2: Shore A hardness scale (lbf/in2)
- 
-============  ===============  ==============  ====  ===============
-Shore A       Young's modulus  Shear modulus     k    Bulk modulus
-(approx.)     lbf/in2          lbf/in2               lbf/in2
-============  ===============  ==============  ====  ===============
-35            168              53              0.89  142 000
-45            256              76              0.80  142 000
-55            460              115             0.64  154 000
-65            830              195             0.54  171 000
-75            1340             317             0.52  189 000
-============  ===============  ==============  ====  ===============
- 
-#. The majority of springs are in the hardness range 40-60 IRHD. #.
-Theoretically, with a Poisson's ratio of 1/2, B should equal 3G. This is    true
-for soft gum rubbers. For harder rubbers containing a fair proportion    of non-
-rubber constituents, thixotropic and other effects increase 3G to    about 4G.
-
-
- 
- 
-
-0.3-2 | Shear Stiffness Example
---------------------------------------------------------------------------------
- 
-
-Table 3: Bearing Specifications
+Table 1.1: Bearing Specifications
 ==========  ==============  ===========  =======================
 variable    value           [value]      description
 ==========  ==============  ===========  =======================
@@ -73,39 +26,39 @@ Bearing Stiffness for Circular Bearing
 
 
 
-┌  Eq-1 | rubber height
+┌  Eq-1.1 | rubber height
 │
 │     rht = rnl⋅rthk
 └
 
 rht = 20.40 inch    [rht] = 51.82 cm  | rubber height
 
-===============  ================
-rthk             rnl
-===============  ================
-0.40 inch        51
-—————            —————
-layer thickness  number of rubber
--                layers
-===============  ================
+================  ===============
+rnl               rthk
+================  ===============
+51                0.40 inch
+—————             —————
+number of rubber  layer thickness
+layers            -
+================  ===============
 
-┌  Eq-2 | bearing height
+┌  Eq-1.2 | bearing height
 │
 │     bht = rht + sthk⋅(rnl - 1)
 └
 
 bht = 24.95 inch    [bht] = 63.37 cm  | bearing height
 
-=============  =============  ================
-sthk           rht            rnl
-=============  =============  ================
-0.09 inch      20.40 inch     51
-—————          —————          —————
-11 guage shim  rubber height  number of rubber
-thickness      -              layers
-=============  =============  ================
+=============  ================  =============
+sthk           rnl               rht
+=============  ================  =============
+0.09 inch      51                20.40 inch
+—————          —————             —————
+11 guage shim  number of rubber  rubber height
+thickness      layers            -
+=============  ================  =============
 
-┌  Eq-3 | shear stiffness
+┌  Eq-1.3 | shear stiffness
 │
 │                      2
 │           G₁⋅cpi⋅rdia 
@@ -115,19 +68,19 @@ thickness      -              layers
 
 Ks₁ = 3.48 k_in    [Ks₁] = 6.10 kN_cm  | shear stiffness
 
-==========  =============  =============  ================
-cpi         G₁             rht            rdia
-==========  =============  =============  ================
-3.1418      58.00 p_si     20.40 inch     39.50 inch
-—————       —————          —————          —————
-contant pi  shear modulus  rubber height  bearing diameter
-==========  =============  =============  ================
+================  =============  =============  ==========
+rdia              G₁             rht            cpi
+================  =============  =============  ==========
+39.50 inch        58.00 p_si     20.40 inch     3.1418
+—————             —————          —————          —————
+bearing diameter  shear modulus  rubber height  contant pi
+================  =============  =============  ==========
  
 Shape Factor for Circular Bearing
 
 
 
-┌  Eq-4 | shape factor 1
+┌  Eq-1.4 | shape factor 1
 │
 │              sdia 
 │     sh₁ ₁ = ──────
@@ -144,7 +97,7 @@ rthk             sdia
 layer thickness  shim diameter
 ===============  =============
 
-┌  Eq-5 | shape factor 2
+┌  Eq-1.5 | shape factor 2
 │
 │             bht 
 │     sh₂ ₁ = ────
@@ -163,10 +116,8 @@ bearing height  bearing diameter
  
  
 
-0.3-3 | shear
+0.3-2 | Natural Frequency
 --------------------------------------------------------------------------------
- 
-    Natural Frequency
  
 The natural frequency (n_f) in Hz of a mounted body on a spring is
  
@@ -235,8 +186,8 @@ directions can be varied independently. The design of such springs, of
 which the inclined shear mounting is a typical example, requires only a
 knowledge of mechanics and the principal stiffnesses of the units.
  
-SHEAR MOUNTING
- 
-[Figure: fig18_shear_mounting.png]
-Fig. 18. Shear mounting.
+          ----------------------------------------
+Fig. 2.1 - Shear Mounting [file: shear_mounting.jpg  ]
+          ----------------------------------------
+
  

@@ -1,7 +1,7 @@
 import rivtlib.rvapi as rv
 
-# %% rv.I(r"""Rate Independent Damping
-rv.I(r"""Rate Independent Damping
+# %% rv.I("""Rate Independent Damping
+rv.I("""Rate Independent Damping
 
     Experiments on structural metals indicate that the energy dissipated
     internally in cyclic straining of the material is essentially independent
@@ -42,7 +42,7 @@ rv.I(r"""Rate Independent Damping
     In contrast, the energy dissipated in viscous damping increases linearly
     with the forcing frequency, as shown in Fig. 1.
 
-    | IMAGE | img/fig3-10-1.jpg | Viscous and Rate Independent Damping, 50, num, not 
+    | IMAGE | fig3-10-1.jpg | Viscous and Rate Independent Damping, 50, num, not 
 
     Rate-independent damping is easily described if the excitation is harmonic
     and we are interested only in the steady-state response of this system.
@@ -57,8 +57,8 @@ rv.I(r"""Rate Independent Damping
 
 """)
 
-# %% rv.I(r"""Steady-State Response to Harmonic Force
-rv.I(r"""Steady-State Response to Harmonic Force | pdfpage
+# %% rv.I("""Steady-State Response to Harmonic Force | pdfpage
+rv.I("""Steady-State Response to Harmonic Force | pdfpage
 
     The equation for an SDF system with rate-independent linear damping,
     denoted by a crossed box in Fig. 3.10.2, is Eq. (3.2.1) with the damping
@@ -97,7 +97,7 @@ rv.I(r"""Steady-State Response to Harmonic Force | pdfpage
     for viscous damping; this implies that motion with rate-independent damping
     can never be in phase with the forcing function.
 
-    | IMAGE | img/fig_3.10.2.jpg | SDF Rate Independent Linear Damping, 70, num, not 
+    | IMAGE | fig_3.10.2.jpg | SDF Rate Independent Linear Damping, 70, num, not 
 
     These differences between forced vibration with rate-independent damping
     and forced vibration with viscous damping are not significant, but they are
@@ -107,11 +107,11 @@ rv.I(r"""Steady-State Response to Harmonic Force | pdfpage
     next section this error is shown to be small when the real damping is rate
     independent.
 
-    | IMAGE | img/fig_3.10.3.png | Rate Independent Damping, 70, num, not 
+    | IMAGE | fig_3.10.3.png | Rate Independent Damping, 70, num, not 
 
-""")
+    """)
 
-rv.I(r"""Solution Using Equivalent Viscous Damping | pdfpage
+rv.I("""Solution Using Equivalent Viscous Damping | pdfpage
 
     In this section an approximate solution for the steady-state harmonic
     response of a system with rate-independent damping is obtained by modeling
@@ -134,9 +134,10 @@ rv.I(r"""Solution Using Equivalent Viscous Damping | pdfpage
     replaced by the simpler Eq. (3.2.1) for a system with equivalent viscous
     damping defined by Eq. (3.10.8). This is the basic advantage of equivalent
     viscous damping.
-""")
 
-rv.I(r"""Harmonic Vibration with Coulomb Friction | pdfpage
+    """)
+
+rv.I("""Harmonic Vibration with Coulomb Friction | pdfpage
 
     Equation of Motion  _[B]
 
@@ -163,7 +164,7 @@ rv.I(r"""Harmonic Vibration with Coulomb Friction | pdfpage
     Fig. 4 subjected to harmonic force was developed by J. P. Den Hartog in
     1933. 
     
-    | IMAGE | img/fig_3.11.1.jpg | SDF Coulomb Damping, 70, num, not 
+    | IMAGE | fig_3.11.1.jpg | SDF Coulomb Damping, 70, num, not 
 
     The analysis is not included here, but his results are shown by solid
     lines in Fig. 5. The displacement amplitude u0, normalized relative to
@@ -173,24 +174,20 @@ rv.I(r"""Harmonic Vibration with Coulomb Friction | pdfpage
     system. The friction force reduces the displacement amplitude u0, with the
     reduction depending on the frequency ratio ω/ωn.
     
-    | IMAGE | img/fig_3.11.2.png |  Damping with Coulomb Friction, 70, num, not 
+    | IMAGE | fig_3.11.2.png |  Damping with Coulomb Friction, 70, num, not 
 
-    _[[TEXT]] italic
-    Deformation response factor and phase angle of a system
+    
+    *Deformation response factor and phase angle of a system
     with Coulomb friction excited by harmonic force. Exact solution from J. P.
-    Den Hartog; approximate solution is based on equivalent viscous damping.    
-    _[[END]]]
+    Den Hartog; approximate solution is based on equivalent viscous damping.*
 
-""")
-
-rv.T(r"""Bibliography | endnotes
-
-    Anil K.Anil K. Chopra, Dynamics of Structures: Theory and Applications to
+    _[[ENDNOTES]]
+    Anil K. Chopra, Dynamics of Structures: Theory and Applications to
     Earthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
+    _[[END]]]
+    """)
 
-""")
-
-rv.D(r"""Publish Doc 
+rv.D("""Publish Doc 
 
     | PUBLISH | Rate Independent Damping | pdf
     
@@ -212,7 +209,7 @@ rv.D(r"""Publish Doc
     fork1_license = https://opensource.org/license/mit/
     [layout]
     ;----------------------- cover page and runner settings
-    ;--- put logo files in /img folder of first chapter, size is % page width
+    ;--- put logo files in /image folder of first chapter, size is % page width
     subtitle =  Seismic Isolation Bearing Design
     copyright = --
     client = Example 04 - rivtbook

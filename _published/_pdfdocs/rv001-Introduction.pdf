@@ -7,7 +7,7 @@
 endobj
 2 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 7 0 R /XYZ 51.35433 707.478 0 ] /Rect [ 48.51969 627.5685 186.464 639.5685 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 7 0 R /XYZ 51.35433 707.478 0 ] /Rect [ 48.51969 627.5685 157.7824 639.5685 ] /Subtype /Link /Type /Annot
 >>
 endobj
 3 0 obj
@@ -55,7 +55,7 @@ endobj
 /CA 0
 >>
 >> /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
-/FormXob.36a96817bfa8fff93833a6b492ada087 6 0 R /FormXob.3cff7741ddae0e7620eba4bc59927e53 4 0 R
+/FormXob.3cff7741ddae0e7620eba4bc59927e53 4 0 R /FormXob.c5bf91a4dee6735c5766d64f78e6eb01 6 0 R
 >>
 >> /Rotate 0 /Trans <<
 
@@ -2073,7 +2073,7 @@ endobj
 endobj
 25 0 obj
 <<
-/Author () /CreationDate (D:20260715004242-07'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260715004242-07'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+/Author () /CreationDate (D:20260725113248-07'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260725113248-07'00') /Producer (ReportLab PDF Library - \(opensource\)) 
   /Subject (\(unspecified\)) /Title () /Trapped /False
 >>
 endobj
@@ -2084,7 +2084,7 @@ endobj
 endobj
 27 0 obj
 <<
-/Dest [ 7 0 R /XYZ 51.35433 707.478 0 ] /Parent 26 0 R /Title (0.1-1 | rivtbook Example)
+/Dest [ 7 0 R /XYZ 51.35433 707.478 0 ] /Parent 26 0 R /Title (0.1-1 | Introduction)
 >>
 endobj
 28 0 obj
@@ -2094,14 +2094,14 @@ endobj
 endobj
 29 0 obj
 <<
-/Length 1571
+/Length 1567
 >>
 stream
 1 0 0 1 0 0 cm 
 q
 1 0 0 1 48.51969 732.315 cm
 q
-BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (rivtbook Example - Introduction) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13) Tj T* ET
+BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (rivtbook Example - Introduction) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a14) Tj T* ET
 Q
 Q
 q
@@ -2135,7 +2135,7 @@ q
 q
 1 0 0 1 0 3 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL .647059 .164706 .164706 rg /F1+0 10 Tf 12 TL (0.1-1 | rivtbook Example) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL .647059 .164706 .164706 rg /F1+0 10 Tf 12 TL (0.1-1 | Introduction) Tj T* ET
 Q
 Q
 q
@@ -2162,7 +2162,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-15       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-25       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -2203,25 +2203,25 @@ endstream
 endobj
 30 0 obj
 <<
-/Length 3034
+/Length 4147
 >>
 stream
 1 0 0 1 0 0 cm 
 q
 1 0 0 1 51.35433 693.078 cm
 q
-BT 1 0 0 1 0 2.4 Tm 14.4 TL .133333 .133333 .133333 rg /F1+0 12 Tf 14.4 TL (0.1-1 | rivtbook Example) Tj T* ET
+BT 1 0 0 1 0 2.4 Tm 14.4 TL .133333 .133333 .133333 rg /F1+0 12 Tf 14.4 TL (0.1-1 | Introduction) Tj T* ET
 Q
 Q
 q
-1 0 0 1 51.35433 633.078 cm
+1 0 0 1 51.35433 619.078 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 32 Tm .499178 Tw /F2+0 10 Tf 14 TL (A rivtbook is a collection of rivt files with common subject matter that may be published as a PDF or) Tj T* 0 Tw .417123 Tw (text report. Files are organized for selective addition to rivt reports. Each chapter is contained within) Tj T* 0 Tw (a folder with an identifying name.) Tj T* ET
+BT 1 0 0 1 0 46 Tm .499178 Tw /F2+0 10 Tf 14 TL (A rivtbook is a collection of rivt files with common subject matter that may be published as a PDF or) Tj T* 0 Tw .435547 Tw (text report. The files are organized under a root folder rivtbk- with a name that identifies the subject) Tj T* 0 Tw 1.751832 Tw (matter. Each rivt doc is contained within a chapter folder that includes the rivt file its associated) Tj T* 0 Tw (sources. This facilitates extracting single docs or merging a chapter into a rivt report.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 51.35433 561.878 cm
+1 0 0 1 51.35433 459.878 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -2231,35 +2231,91 @@ q
 .662745 .662745 .662745 RG
 .5 w
 .819608 .870588 .870588 rg
-n -6 -6 510.926 67 re B*
+n -6 -6 510.926 155 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 45 Tm /F3+0 10 Tf 11 TL (bk1-chapter title) Tj T* ( \001\002\002 data/) Tj T* ( \001\002\002 img/) Tj T* ( \001\002\002 scripts/) Tj T* ( \003\002\002 rv001-book-chapter.py) Tj T* ET
+BT 1 0 0 1 0 133 Tm /F3+0 10 Tf 11 TL (rivtbook Folder Structure) Tj T*  T* (rivtbk-subject-matter) Tj T* (\001\002\002 bk1-chapter title) Tj T* (        \001\002\002 data/) Tj T* (        \001\002\002 image/) Tj T* (        \001\002\002 scripts/) Tj T* (        \003\002\002 rv001-book-chapter.py) Tj T* (\003\002\002 bk2-chapter title            `) Tj T* (            \001\002\002 data/) Tj T* (            \001\002\002 image/) Tj T* (            \001\002\002 scripts/) Tj T* (            \003\002\002 rv002-book-chapter.py) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 51.35433 527.878 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 18 Tm .671361 Tw /F2+0 10 Tf 14 TL (A rivtbook chapter can be copied to a rivt report by copying the data, img and scripts folders to the) Tj T* 0 Tw (rvsrc report folder and the rivt file to the rivt-report folder.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 51.35433 508.878 cm
-Q
-q
-1 0 0 1 51.35433 162.4334 cm
+1 0 0 1 51.35433 439.878 cm
 q
 0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2+0 10 Tf 14 TL (A rivtbook chapter may be copied to a rivt report by:) Tj T* ET
+Q
+Q
 q
-1 0 0 1 6 23 cm
+1 0 0 1 51.35433 432.878 cm
+Q
 q
-500.126 0 0 320.4445 0 0 cm
-/FormXob.36a96817bfa8fff93833a6b492ada087 Do
+1 0 0 1 51.35433 432.878 cm
+Q
+q
+1 0 0 1 51.35433 418.878 cm
+q
+0 0 0 rg
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm 1.958984 0 Td /F4+0 10 Tf 14 TL (1.) Tj T* -1.958984 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2+0 10 Tf 14 TL (merging the data, image and scripts folders into the /rvsrc folder) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 51.35433 413.878 cm
+Q
+q
+1 0 0 1 51.35433 399.878 cm
+q
+0 0 0 rg
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm 1.958984 0 Td /F4+0 10 Tf 14 TL (2.) Tj T* -1.958984 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2+0 10 Tf 14 TL (copying the rivt file to the /rivt-report folder.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 51.35433 398.878 cm
+Q
+q
+1 0 0 1 51.35433 380.878 cm
+Q
+q
+1 0 0 1 51.35433 82.50009 cm
+q
+0 0 0 rg
+q
+1 0 0 1 43.50945 23 cm
+q
+425.1071 0 0 272.3779 0 0 cm
+/FormXob.c5bf91a4dee6735c5766d64f78e6eb01 Do
 Q
 Q
 q
@@ -2273,7 +2329,7 @@ Q
 Q
 Q
 q
-1 0 0 1 51.35433 150.4334 cm
+1 0 0 1 51.35433 79.68504 cm
 Q
 q
 1 0 0 1 45.35433 776.6614 cm
@@ -2285,7 +2341,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (rivtbook Example - Introduction) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.1-1 | rivtbook Example) Tj T* ET
+BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (rivtbook Example - Introduction) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a14         ) Tj /F1+0 10 Tf 14 TL (0.1-1 | Introduction) Tj T* ET
 Q
 Q
 q
@@ -2345,7 +2401,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-15       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-25       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -2404,41 +2460,41 @@ xref
 0000000000 65535 f 
 0000000061 00000 n 
 0000000134 00000 n 
-0000000299 00000 n 
-0000000465 00000 n 
-0000006120 00000 n 
-0000006438 00000 n 
-0000423927 00000 n 
-0000424269 00000 n 
-0000426217 00000 n 
-0000461412 00000 n 
-0000461681 00000 n 
-0000463034 00000 n 
-0000464968 00000 n 
-0000500500 00000 n 
-0000500759 00000 n 
-0000502098 00000 n 
-0000504059 00000 n 
-0000529159 00000 n 
-0000529431 00000 n 
-0000530805 00000 n 
-0000532751 00000 n 
-0000558715 00000 n 
-0000558978 00000 n 
-0000560347 00000 n 
-0000560453 00000 n 
-0000560708 00000 n 
-0000560782 00000 n 
-0000560893 00000 n 
-0000560959 00000 n 
-0000562582 00000 n 
-0000565668 00000 n 
-0000565718 00000 n 
-0000565752 00000 n 
+0000000300 00000 n 
+0000000466 00000 n 
+0000006121 00000 n 
+0000006439 00000 n 
+0000423928 00000 n 
+0000424270 00000 n 
+0000426218 00000 n 
+0000461413 00000 n 
+0000461682 00000 n 
+0000463035 00000 n 
+0000464969 00000 n 
+0000500501 00000 n 
+0000500760 00000 n 
+0000502099 00000 n 
+0000504060 00000 n 
+0000529160 00000 n 
+0000529432 00000 n 
+0000530806 00000 n 
+0000532752 00000 n 
+0000558716 00000 n 
+0000558979 00000 n 
+0000560348 00000 n 
+0000560454 00000 n 
+0000560709 00000 n 
+0000560783 00000 n 
+0000560890 00000 n 
+0000560956 00000 n 
+0000562575 00000 n 
+0000566774 00000 n 
+0000566824 00000 n 
+0000566858 00000 n 
 trailer
 <<
 /ID 
-[<c66bed8789a65dda57332c6c6233370d><c66bed8789a65dda57332c6c6233370d>]
+[<d6b90c4f27e2413f3a4a08410f590be5><d6b90c4f27e2413f3a4a08410f590be5>]
 % ReportLab generated PDF document -- digest (opensource)
 
 /Info 25 0 R
@@ -2446,5 +2502,5 @@ trailer
 /Size 34
 >>
 startxref
-565786
+566892
 %%EOF

@@ -1,30 +1,45 @@
 
 --------------------------------------------------------------------------------
-| rivt | rivtbook Example - Introduction | R Holland | v-1.0.0a14 | 2026-07-15 - 11:19AM
+| rivt | rivtbook Example - Introduction | R Holland | v-1.0.0a14 | 2026-07-26 - 12:37AM
 --------------------------------------------------------------------------------
 
 
-0.1-1 | rivtbook Example
-================================================================================
+0.1-1 | Introduction
+================================================================================]
  
 A rivtbook is a collection of rivt files with common subject matter that
-may be published as a PDF or text report. Files are organized for selective
-addition to rivt reports. Each chapter is contained within a folder
-with an identifying name.
+may be published as a PDF or text report. The files are organized under a
+root folder rivtbk- with a name that identifies the subject matter. Each
+rivt doc is contained within a chapter folder that includes the
+rivt file its associated sources. This facilitates extracting single docs
+or merging a chapter into a rivt report.
  
-   bk1-chapter title            
-    ├── data/                    
-    ├── img/                        
-    ├── scripts/
-    └── rv001-book-chapter.py
+ 
 
+
+    rivtbook Folder Structure
+
+    rivtbk-subject-matter 
+    ├── bk1-chapter title            
+            ├── data/                    
+            ├── image/                        
+            ├── scripts/
+            └── rv001-book-chapter.py
+    └── bk2-chapter title            `
+                ├── data/                    
+                ├── image/                        
+                ├── scripts/
+                └── rv002-book-chapter.py
+    
+    
  
-A rivtbook chapter can be copied to a rivt report by copying the data, img
-and scripts folders to the rvsrc report folder and the rivt file to the
-rivt-report folder.
+A rivtbook chapter may be copied to a rivt report by:
+ 
+#. merging the data, image and scripts folders into the /rvsrc folder
+#. copying the rivt file to the /rivt-report folder.
  
           ----------------------------------------
-Fig. 1 - rivtbook chapter copied to a report [file: img/rvbk-rivt.jpg  ]
+Fig. 1.1 - rivtbook chapter copied to a report [file: rvbk-rivt.jpg  ]
           ----------------------------------------
 
  

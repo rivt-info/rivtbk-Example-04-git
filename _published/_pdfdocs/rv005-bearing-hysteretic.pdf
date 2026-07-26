@@ -17,32 +17,32 @@ endobj
 endobj
 4 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 16 0 R /XYZ 51.35433 707.478 0 ] /Rect [ 68.51969 609.5685 319.0568 621.5685 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 15 0 R /XYZ 48.51969 360.0358 0 ] /Rect [ 68.51969 609.5685 319.0568 621.5685 ] /Subtype /Link /Type /Annot
 >>
 endobj
 5 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 16 0 R /XYZ 51.35433 707.478 0 ] /Rect [ 554.2834 610.3185 560.6457 622.3185 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 15 0 R /XYZ 48.51969 360.0358 0 ] /Rect [ 554.2834 610.3185 560.6457 622.3185 ] /Subtype /Link /Type /Annot
 >>
 endobj
 6 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 21 0 R /XYZ 48.51969 707.478 0 ] /Rect [ 68.51969 591.5685 324.9064 603.5685 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 20 0 R /XYZ 51.35433 185.0554 0 ] /Rect [ 68.51969 591.5685 324.9064 603.5685 ] /Subtype /Link /Type /Annot
 >>
 endobj
 7 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 21 0 R /XYZ 48.51969 707.478 0 ] /Rect [ 554.2834 592.3185 560.6457 604.3185 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 20 0 R /XYZ 51.35433 185.0554 0 ] /Rect [ 554.2834 592.3185 560.6457 604.3185 ] /Subtype /Link /Type /Annot
 >>
 endobj
 8 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 23 0 R /XYZ 51.35433 707.478 0 ] /Rect [ 68.51969 573.5685 316.3127 585.5685 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 21 0 R /XYZ 48.51969 434.9315 0 ] /Rect [ 68.51969 573.5685 316.3127 585.5685 ] /Subtype /Link /Type /Annot
 >>
 endobj
 9 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 23 0 R /XYZ 51.35433 707.478 0 ] /Rect [ 554.2834 574.3185 560.6457 586.3185 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 21 0 R /XYZ 48.51969 434.9315 0 ] /Rect [ 554.2834 574.3185 560.6457 586.3185 ] /Subtype /Link /Type /Annot
 >>
 endobj
 10 0 obj
@@ -71,7 +71,7 @@ endobj
 endobj
 12 0 obj
 <<
-/Border [ 0 0 0 ] /Contents () /Dest [ 25 0 R /XYZ 68.51969 166.1995 0 ] /Rect [ 260.3436 565.078 293.5907 577.078 ] /Subtype /Link /Type /Annot
+/Border [ 0 0 0 ] /Contents () /Dest [ 25 0 R /XYZ 68.51969 185.1995 0 ] /Rect [ 260.3436 565.078 293.5907 577.078 ] /Subtype /Link /Type /Annot
 >>
 endobj
 13 0 obj
@@ -106,7 +106,7 @@ endobj
 /CA 0
 >>
 >> /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
-/FormXob.3cff7741ddae0e7620eba4bc59927e53 10 0 R /FormXob.b820aae5cbf2bec83b0def1d4116a53f 14 0 R
+/FormXob.3cff7741ddae0e7620eba4bc59927e53 10 0 R /FormXob.70110962ef23a0b21a352ef30b42bc0a 14 0 R
 >>
 >> /Rotate 0 /Trans <<
 
@@ -146,7 +146,7 @@ endobj
 /CA 0
 >>
 >> /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
-/FormXob.3cff7741ddae0e7620eba4bc59927e53 10 0 R /FormXob.8e3c76ecd428920a3b93183005ab47d2 17 0 R
+/FormXob.3cff7741ddae0e7620eba4bc59927e53 10 0 R /FormXob.988d7c6213e536b9a33f7d97f402db7b 17 0 R
 >>
 >> /Rotate 0 /Trans <<
 
@@ -210,7 +210,7 @@ endobj
 /CA 0
 >>
 >> /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
-/FormXob.3cff7741ddae0e7620eba4bc59927e53 10 0 R /FormXob.976a81371be72090e2ef886094ef8a41 22 0 R
+/FormXob.3cff7741ddae0e7620eba4bc59927e53 10 0 R /FormXob.76d76351aab99df141c4f1f94ffd8479 22 0 R
 >>
 >> /Rotate 0 /Trans <<
 
@@ -2928,7 +2928,7 @@ endobj
 endobj
 47 0 obj
 <<
-/Author () /CreationDate (D:20260714191706-07'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260714191706-07'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+/Author () /CreationDate (D:20260725190010-07'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260725190010-07'00') /Producer (ReportLab PDF Library - \(opensource\)) 
   /Subject (\(unspecified\)) /Title () /Trapped /False
 >>
 endobj
@@ -2944,17 +2944,17 @@ endobj
 endobj
 50 0 obj
 <<
-/Dest [ 16 0 R /XYZ 51.35433 707.478 0 ] /Next 51 0 R /Parent 49 0 R /Title (0.5-2 | Steady-State Response to Harmonic Force)
+/Dest [ 15 0 R /XYZ 48.51969 360.0358 0 ] /Next 51 0 R /Parent 49 0 R /Title (0.5-2 | Steady-State Response to Harmonic Force)
 >>
 endobj
 51 0 obj
 <<
-/Dest [ 21 0 R /XYZ 48.51969 707.478 0 ] /Next 52 0 R /Parent 49 0 R /Prev 50 0 R /Title (0.5-3 | Solution Using Equivalent Viscous Damping)
+/Dest [ 20 0 R /XYZ 51.35433 185.0554 0 ] /Next 52 0 R /Parent 49 0 R /Prev 50 0 R /Title (0.5-3 | Solution Using Equivalent Viscous Damping)
 >>
 endobj
 52 0 obj
 <<
-/Dest [ 23 0 R /XYZ 51.35433 707.478 0 ] /Parent 49 0 R /Prev 51 0 R /Title (0.5-4 | Harmonic Vibration with Coulomb Friction)
+/Dest [ 21 0 R /XYZ 48.51969 434.9315 0 ] /Parent 49 0 R /Prev 51 0 R /Title (0.5-4 | Harmonic Vibration with Coulomb Friction)
 >>
 endobj
 53 0 obj
@@ -2971,7 +2971,7 @@ stream
 q
 1 0 0 1 48.51969 732.315 cm
 q
-BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13) Tj T* ET
+BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a14) Tj T* ET
 Q
 Q
 q
@@ -3025,7 +3025,7 @@ q
 1 0 0 1 440.126 39 cm
 q
 .647059 .164706 .164706 rg
-BT 1 0 0 1 0 2 Tm 65.6377 0 Td /F2+0 10 Tf 12 TL (3) Tj T* -65.6377 0 Td ET
+BT 1 0 0 1 0 2 Tm 65.6377 0 Td /F2+0 10 Tf 12 TL (2) Tj T* -65.6377 0 Td ET
 Q
 Q
 q
@@ -3038,7 +3038,7 @@ q
 1 0 0 1 440.126 21 cm
 q
 .647059 .164706 .164706 rg
-BT 1 0 0 1 0 2 Tm 65.6377 0 Td /F2+0 10 Tf 12 TL (6) Tj T* -65.6377 0 Td ET
+BT 1 0 0 1 0 2 Tm 65.6377 0 Td /F2+0 10 Tf 12 TL (5) Tj T* -65.6377 0 Td ET
 Q
 Q
 q
@@ -3051,7 +3051,7 @@ q
 1 0 0 1 440.126 3 cm
 q
 .647059 .164706 .164706 rg
-BT 1 0 0 1 0 2 Tm 65.6377 0 Td /F2+0 10 Tf 12 TL (7) Tj T* -65.6377 0 Td ET
+BT 1 0 0 1 0 2 Tm 65.6377 0 Td /F2+0 10 Tf 12 TL (6) Tj T* -65.6377 0 Td ET
 Q
 Q
 q
@@ -3071,7 +3071,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-14       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-25       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -3112,7 +3112,7 @@ endstream
 endobj
 55 0 obj
 <<
-/Length 5664
+/Length 5668
 >>
 stream
 1 0 0 1 0 0 cm 
@@ -3159,7 +3159,7 @@ q
 1 0 0 1 51.35433 382.078 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Eq.1:) Tj T* ET
+BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Eq.1.2:) Tj T* ET
 Q
 Q
 q
@@ -3207,7 +3207,7 @@ q
 1 0 0 1 51.35433 241.878 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Eq.2:) Tj T* ET
+BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Eq.1.3:) Tj T* ET
 Q
 Q
 q
@@ -3251,7 +3251,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.5-1 | Rate Independent Damping) Tj T* ET
+BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a14         ) Tj /F1+0 10 Tf 14 TL (0.5-1 | Rate Independent Damping) Tj T* ET
 Q
 Q
 q
@@ -3311,7 +3311,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-14       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-25       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -3352,7 +3352,7 @@ endstream
 endobj
 56 0 obj
 <<
-/Length 2858
+/Length 4942
 >>
 stream
 1 0 0 1 0 0 cm 
@@ -3364,13 +3364,13 @@ q
 1 0 0 1 131.0315 23 cm
 q
 250.063 0 0 171.0957 0 0 cm
-/FormXob.b820aae5cbf2bec83b0def1d4116a53f Do
+/FormXob.70110962ef23a0b21a352ef30b42bc0a Do
 Q
 Q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 128.5347 0 Td 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Fig. 1) Tj /F2+0 10 Tf 14 TL ( - Viscous and Rate Independent Damping) Tj T* -128.5347 0 Td ET
+BT 1 0 0 1 0 4 Tm 123.1563 0 Td 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Fig. 1.1) Tj /F2+0 10 Tf 14 TL ( - Viscous and Rate Independent Damping) Tj T* -123.1563 0 Td ET
 Q
 Q
 q
@@ -3392,19 +3392,128 @@ q
 n 0 14.17323 m 512.126 14.17323 l S
 Q
 q
-1 0 0 1 48.51969 364.0358 cm
+1 0 0 1 48.51969 346.8358 cm
+q
+BT 1 0 0 1 0 2.2 Tm 13.2 TL .133333 .133333 .133333 rg /F1+0 11 Tf 13.2 TL (0.5-2 | Steady-State Response to Harmonic Force) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 300.8358 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 18 Tm .653126 Tw /F2+0 10 Tf 14 TL (The equation for an SDF system with rate-independent linear damping, denoted by a crossed box in) Tj T* 0 Tw (Fig. 3.10.2, is Eq. \(3.2.1\) with the damping term replaced by Eq. \(3.10.1\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 293.8358 cm
+Q
+q
+1 0 0 1 48.51969 279.8358 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2+0 10 Tf 14 TL ( ) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 277.8358 cm
+Q
+q
+1 0 0 1 48.51969 257.8358 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Eq.2.2:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 208.6358 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.819608 .870588 .870588 rg
+n -6 -6 510.926 45 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 23 Tm /F3+0 10 Tf 11 TL (      k\001u\002\001\003) Tj T* (k\001u + \004\004\004\004\004 + m\001\010 = p\(t\)) Tj T* (        \005) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 48.51969 174.6358 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 18 Tm .558724 Tw /F2+0 10 Tf 14 TL (The mathematical solution of this equation is quite complex for arbitrary p\(t\). Here we consider only) Tj T* 0 Tw (the steady-state motion due to a sinusoidal forcing function, p\(t\) = p0sin\(\004t\), which is described by) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 167.6358 cm
+Q
+q
+1 0 0 1 48.51969 153.6358 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2+0 10 Tf 14 TL ( ) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 151.6358 cm
+Q
+q
+1 0 0 1 48.51969 131.6358 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Eq.2.3:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 104.4358 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.819608 .870588 .870588 rg
+n -6 -6 510.926 23 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F3+0 10 Tf 11 TL (u\(t\) = u\006\001sin\(t\001\005 - \011\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 48.51969 84.43576 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2+0 10 Tf 14 TL (The amplitude u0 and phase angle \005 are) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 79.68504 cm
 Q
 q
 1 0 0 1 42.51969 776.6614 cm
 Q
 q
-1 0 0 1 42.51969 749.6614 cm
+1 0 0 1 42.51969 742.6614 cm
 q
 0 0 0 rg
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.5-1 | Rate Independent Damping) Tj T* ET
+BT 1 0 0 1 0 18 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a14         ) Tj /F1+0 10 Tf 14 TL (0.5-2 | Steady-State Response to) Tj T* (Harmonic Force) Tj T* ET
 Q
 Q
 q
@@ -3444,15 +3553,15 @@ q
 0 0 0 RG
 /gRLs0 gs
 .25 w
-n 0 27 m 524.126 27 l S
+n 0 34 m 524.126 34 l S
 n 0 0 m 524.126 0 l S
-n 0 0 m 0 27 l S
-n 524.126 0 m 524.126 27 l S
+n 0 0 m 0 34 l S
+n 524.126 0 m 524.126 34 l S
 Q
 Q
 Q
 q
-1 0 0 1 42.51969 739.6614 cm
+1 0 0 1 42.51969 732.6614 cm
 Q
 q
 1 0 0 1 42.51969 41.33858 cm
@@ -3464,7 +3573,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-14       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-25       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -3505,141 +3614,29 @@ endstream
 endobj
 57 0 obj
 <<
-/Length 5775
+/Length 5291
 >>
 stream
 1 0 0 1 0 0 cm 
 q
-1 0 0 1 51.35433 694.278 cm
-q
-BT 1 0 0 1 0 2.2 Tm 13.2 TL .133333 .133333 .133333 rg /F1+0 11 Tf 13.2 TL (0.5-2 | Steady-State Response to Harmonic Force) Tj T* ET
-Q
-Q
-q
-1 0 0 1 51.35433 648.278 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 18 Tm .653126 Tw /F2+0 10 Tf 14 TL (The equation for an SDF system with rate-independent linear damping, denoted by a crossed box in) Tj T* 0 Tw (Fig. 3.10.2, is Eq. \(3.2.1\) with the damping term replaced by Eq. \(3.10.1\):) Tj T* ET
-Q
-Q
-q
-1 0 0 1 51.35433 641.278 cm
-Q
-q
-1 0 0 1 51.35433 627.278 cm
+1 0 0 1 51.35433 693.478 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 4 Tm /F2+0 10 Tf 14 TL ( ) Tj T* ET
 Q
 Q
 q
-1 0 0 1 51.35433 625.278 cm
+1 0 0 1 51.35433 691.478 cm
 Q
 q
-1 0 0 1 51.35433 605.278 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Eq.3:) Tj T* ET
-Q
-Q
-q
-1 0 0 1 51.35433 556.078 cm
-q
-q
-1 0 0 1 0 0 cm
-q
-1 0 0 1 6.6 6.6 cm
-q
-.662745 .662745 .662745 RG
-.5 w
-.819608 .870588 .870588 rg
-n -6 -6 510.926 45 re B*
-Q
+1 0 0 1 51.35433 671.478 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 23 Tm /F3+0 10 Tf 11 TL (      k\001u\002\001\003) Tj T* (k\001u + \004\004\004\004\004 + m\001\010 = p\(t\)) Tj T* (        \005) Tj T* ET
-Q
-Q
-Q
+BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Eq.2.4:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 51.35433 522.078 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 18 Tm .558724 Tw /F2+0 10 Tf 14 TL (The mathematical solution of this equation is quite complex for arbitrary p\(t\). Here we consider only) Tj T* 0 Tw (the steady-state motion due to a sinusoidal forcing function, p\(t\) = p0sin\(\004t\), which is described by) Tj T* ET
-Q
-Q
-q
-1 0 0 1 51.35433 515.078 cm
-Q
-q
-1 0 0 1 51.35433 501.078 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 4 Tm /F2+0 10 Tf 14 TL ( ) Tj T* ET
-Q
-Q
-q
-1 0 0 1 51.35433 499.078 cm
-Q
-q
-1 0 0 1 51.35433 479.078 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Eq.4:) Tj T* ET
-Q
-Q
-q
-1 0 0 1 51.35433 451.878 cm
-q
-q
-1 0 0 1 0 0 cm
-q
-1 0 0 1 6.6 6.6 cm
-q
-.662745 .662745 .662745 RG
-.5 w
-.819608 .870588 .870588 rg
-n -6 -6 510.926 23 re B*
-Q
-q
-0 0 0 rg
-BT 1 0 0 1 0 1 Tm /F3+0 10 Tf 11 TL (u\(t\) = u\006\001sin\(t\001\005 - \011\)) Tj T* ET
-Q
-Q
-Q
-Q
-Q
-q
-1 0 0 1 51.35433 431.878 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 4 Tm /F2+0 10 Tf 14 TL (The amplitude u0 and phase angle \005 are) Tj T* ET
-Q
-Q
-q
-1 0 0 1 51.35433 424.878 cm
-Q
-q
-1 0 0 1 51.35433 410.878 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 4 Tm /F2+0 10 Tf 14 TL ( ) Tj T* ET
-Q
-Q
-q
-1 0 0 1 51.35433 408.878 cm
-Q
-q
-1 0 0 1 51.35433 388.878 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Eq.5:) Tj T* ET
-Q
-Q
-q
-1 0 0 1 51.35433 284.678 cm
+1 0 0 1 51.35433 567.278 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -3660,27 +3657,27 @@ Q
 Q
 Q
 q
-1 0 0 1 51.35433 275.678 cm
+1 0 0 1 51.35433 558.278 cm
 Q
 q
-1 0 0 1 51.35433 261.678 cm
+1 0 0 1 51.35433 544.278 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 4 Tm /F2+0 10 Tf 14 TL ( ) Tj T* ET
 Q
 Q
 q
-1 0 0 1 51.35433 259.678 cm
+1 0 0 1 51.35433 542.278 cm
 Q
 q
-1 0 0 1 51.35433 239.678 cm
+1 0 0 1 51.35433 522.278 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Eq.6:) Tj T* ET
+BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Eq.2.5:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 51.35433 157.478 cm
+1 0 0 1 51.35433 440.078 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -3701,24 +3698,134 @@ Q
 Q
 Q
 q
-1 0 0 1 51.35433 109.478 cm
+1 0 0 1 51.35433 392.078 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 32 Tm 1.285287 Tw /F2+0 10 Tf 14 TL (These results are obtained by modifying the viscous damping ratio in Eqs. \(3.2.11\) and \(3.2.12\) to) Tj T* 0 Tw -0.031775 Tw (reflect the damping force associated with rate-independent damping, Eq. \(3.10.1\). In particular, \006 was) Tj T* 0 Tw (replaced by) Tj T* ET
 Q
 Q
 q
-1 0 0 1 51.35433 102.478 cm
+1 0 0 1 51.35433 385.078 cm
 Q
 q
-1 0 0 1 51.35433 88.47795 cm
+1 0 0 1 51.35433 371.078 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 4 Tm /F2+0 10 Tf 14 TL ( ) Tj T* ET
 Q
 Q
 q
-1 0 0 1 51.35433 86.47795 cm
+1 0 0 1 51.35433 369.078 cm
+Q
+q
+1 0 0 1 51.35433 349.078 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Eq.2.6:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 299.878 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.819608 .870588 .870588 rg
+n -6 -6 510.926 45 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 23 Tm /F3+0 10 Tf 11 TL (     c) Tj T* (\024 = \004\004\004) Tj T* (    c_c) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 51.35433 290.878 cm
+Q
+q
+1 0 0 1 51.35433 276.878 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2+0 10 Tf 14 TL ( ) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 274.878 cm
+Q
+q
+1 0 0 1 51.35433 254.878 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Eq.2.7:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 205.678 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.819608 .870588 .870588 rg
+n -6 -6 510.926 45 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 23 Tm /F3+0 10 Tf 11 TL (      k\001\003) Tj T* (\024 = \004\004\004\004\004\004\004\004) Tj T* (    \005\0012\001m\001\005n) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 51.35433 196.678 cm
+Q
+q
+1 0 0 1 51.35433 182.678 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2+0 10 Tf 14 TL ( ) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 180.678 cm
+Q
+q
+1 0 0 1 51.35433 160.678 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Eq.2.8:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 89.47795 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.819608 .870588 .870588 rg
+n -6 -6 510.926 67 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 45 Tm /F3+0 10 Tf 11 TL (      \003) Tj T* (\024 = \004\004\004\004\004) Tj T* (    \0152\001\005\016) Tj T* (    \017\004\004\004\020) Tj T* (    \022\005n \023) Tj T* ET
+Q
+Q
+Q
+Q
 Q
 q
 1 0 0 1 45.35433 776.6614 cm
@@ -3730,7 +3837,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 18 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.5-2 | Steady-State Response to) Tj T* (Harmonic Force) Tj T* ET
+BT 1 0 0 1 0 18 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a14         ) Tj /F1+0 10 Tf 14 TL (0.5-2 | Steady-State Response to) Tj T* (Harmonic Force) Tj T* ET
 Q
 Q
 q
@@ -3790,7 +3897,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-14       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-25       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -3831,144 +3938,34 @@ endstream
 endobj
 58 0 obj
 <<
-/Length 4967
+/Length 3390
 >>
 stream
 1 0 0 1 0 0 cm 
 q
-1 0 0 1 48.51969 693.478 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Eq.7:) Tj T* ET
-Q
-Q
-q
-1 0 0 1 48.51969 644.278 cm
-q
-q
-1 0 0 1 0 0 cm
-q
-1 0 0 1 6.6 6.6 cm
-q
-.662745 .662745 .662745 RG
-.5 w
-.819608 .870588 .870588 rg
-n -6 -6 510.926 45 re B*
-Q
-q
-0 0 0 rg
-BT 1 0 0 1 0 23 Tm /F3+0 10 Tf 11 TL (     c) Tj T* (\024 = \004\004\004) Tj T* (    c_c) Tj T* ET
-Q
-Q
-Q
-Q
-Q
-q
-1 0 0 1 48.51969 635.278 cm
-Q
-q
-1 0 0 1 48.51969 621.278 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 4 Tm /F2+0 10 Tf 14 TL ( ) Tj T* ET
-Q
-Q
-q
-1 0 0 1 48.51969 619.278 cm
-Q
-q
-1 0 0 1 48.51969 599.278 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Eq.8:) Tj T* ET
-Q
-Q
-q
-1 0 0 1 48.51969 550.078 cm
-q
-q
-1 0 0 1 0 0 cm
-q
-1 0 0 1 6.6 6.6 cm
-q
-.662745 .662745 .662745 RG
-.5 w
-.819608 .870588 .870588 rg
-n -6 -6 510.926 45 re B*
-Q
-q
-0 0 0 rg
-BT 1 0 0 1 0 23 Tm /F3+0 10 Tf 11 TL (      k\001\003) Tj T* (\024 = \004\004\004\004\004\004\004\004) Tj T* (    \005\0012\001m\001\005n) Tj T* ET
-Q
-Q
-Q
-Q
-Q
-q
-1 0 0 1 48.51969 541.078 cm
-Q
-q
-1 0 0 1 48.51969 527.078 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 4 Tm /F2+0 10 Tf 14 TL ( ) Tj T* ET
-Q
-Q
-q
-1 0 0 1 48.51969 525.078 cm
-Q
-q
-1 0 0 1 48.51969 505.078 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Eq.9:) Tj T* ET
-Q
-Q
-q
-1 0 0 1 48.51969 433.878 cm
-q
-q
-1 0 0 1 0 0 cm
-q
-1 0 0 1 6.6 6.6 cm
-q
-.662745 .662745 .662745 RG
-.5 w
-.819608 .870588 .870588 rg
-n -6 -6 510.926 67 re B*
-Q
-q
-0 0 0 rg
-BT 1 0 0 1 0 45 Tm /F3+0 10 Tf 11 TL (      \003) Tj T* (\024 = \004\004\004\004\004) Tj T* (    \0152\001\005\016) Tj T* (    \017\004\004\004\020) Tj T* (    \022\005n \023) Tj T* ET
-Q
-Q
-Q
-Q
-Q
-q
-1 0 0 1 48.51969 343.878 cm
+1 0 0 1 48.51969 623.478 cm
 q
 BT 1 0 0 1 0 74 Tm -0.075241 Tw 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (Shown in Fig 3 by solid lines are plots of u0/\(u_st\)0 and \005 as a function of the frequency ratio \004/\004n for) Tj T* 0 Tw 3.434876 Tw (damping coefficient \003 = 0, 0.2, and 0.4; the dashed lines are described in the next section.) Tj T* 0 Tw .886022 Tw (Comparing these results with those in Fig. 3.2.6 for viscous damping, two differences are apparent:) Tj T* 0 Tw .144152 Tw (First, resonance \(maximum amplitude\) occurs at \004 = \004n, not at \004 < \004n. Second, the phase angle for) Tj T* 0 Tw 4.04768 Tw (\004 = 0 is \005 = arctan\(\003\) instead of zero for viscous damping; this implies that motion with) Tj T* 0 Tw (rate-independent damping can never be in phase with the forcing function.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 48.51969 324.878 cm
+1 0 0 1 48.51969 604.478 cm
 Q
 q
-1 0 0 1 48.51969 171.3516 cm
+1 0 0 1 48.51969 450.9516 cm
 q
 0 0 0 rg
 q
 1 0 0 1 81.0189 23 cm
 q
 350.0882 0 0 127.5263 0 0 cm
-/FormXob.8e3c76ecd428920a3b93183005ab47d2 Do
+/FormXob.988d7c6213e536b9a33f7d97f402db7b Do
 Q
 Q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 131.4985 0 Td 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Fig. 2) Tj /F2+0 10 Tf 14 TL ( - SDF Rate Independent Linear Damping) Tj T* -131.4985 0 Td ET
+BT 1 0 0 1 0 4 Tm 126.1201 0 Td 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Fig. 2.1) Tj /F2+0 10 Tf 14 TL ( - SDF Rate Independent Linear Damping) Tj T* -126.1201 0 Td ET
 Q
 Q
 q
@@ -3976,16 +3973,16 @@ Q
 Q
 Q
 q
-1 0 0 1 48.51969 159.3516 cm
+1 0 0 1 48.51969 438.9516 cm
 Q
 q
-1 0 0 1 48.51969 83.35163 cm
+1 0 0 1 48.51969 362.9516 cm
 q
 BT 1 0 0 1 0 60 Tm .308683 Tw 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (These differences between forced vibration with rate-independent damping and forced vibration with) Tj T* 0 Tw .366016 Tw (viscous damping are not significant, but they are the source of some difficulty in reconciling physical) Tj T* 0 Tw .397921 Tw (data. In most damped vibration, damping is not viscous, and to assume that it is without knowing its) Tj T* 0 Tw .253447 Tw (real physical characteristics is an assumption of some error. In the next section this error is shown to) Tj T* 0 Tw (be small when the real damping is rate independent.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 48.51969 79.68504 cm
+1 0 0 1 48.51969 343.9516 cm
 Q
 q
 1 0 0 1 42.51969 776.6614 cm
@@ -3997,7 +3994,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 18 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.5-2 | Steady-State Response to) Tj T* (Harmonic Force) Tj T* ET
+BT 1 0 0 1 0 18 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a14         ) Tj /F1+0 10 Tf 14 TL (0.5-2 | Steady-State Response to) Tj T* (Harmonic Force) Tj T* ET
 Q
 Q
 q
@@ -4057,7 +4054,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-14       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-25       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -4098,7 +4095,7 @@ endstream
 endobj
 59 0 obj
 <<
-/Length 1944
+/Length 2430
 >>
 stream
 1 0 0 1 0 0 cm 
@@ -4116,7 +4113,7 @@ Q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 160.1167 0 Td 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Fig. 3) Tj /F2+0 10 Tf 14 TL ( - Rate Independent Damping) Tj T* -160.1167 0 Td ET
+BT 1 0 0 1 0 4 Tm 154.7383 0 Td 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Fig. 2.2) Tj /F2+0 10 Tf 14 TL ( - Rate Independent Damping) Tj T* -154.7383 0 Td ET
 Q
 Q
 q
@@ -4132,7 +4129,17 @@ q
 n 0 14.17323 m 512.126 14.17323 l S
 Q
 q
-1 0 0 1 51.35433 189.0554 cm
+1 0 0 1 51.35433 171.8554 cm
+q
+BT 1 0 0 1 0 2.2 Tm 13.2 TL .133333 .133333 .133333 rg /F1+0 11 Tf 13.2 TL (0.5-3 | Solution Using Equivalent Viscous Damping) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 111.8554 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 32 Tm 2.12242 Tw /F2+0 10 Tf 14 TL (In this section an approximate solution for the steady-state harmonic response of a system with) Tj T* 0 Tw 1.231979 Tw (rate-independent damping is obtained by modeling this damping mechanism as equivalent viscous) Tj T* 0 Tw (damping.) Tj T* ET
+Q
 Q
 q
 1 0 0 1 45.35433 776.6614 cm
@@ -4144,7 +4151,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 18 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.5-2 | Steady-State Response to) Tj T* (Harmonic Force) Tj T* ET
+BT 1 0 0 1 0 18 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a14         ) Tj /F1+0 10 Tf 14 TL (0.5-3 | Solution Using Equivalent) Tj T* (Viscous Damping) Tj T* ET
 Q
 Q
 q
@@ -4204,7 +4211,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-14       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-25       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -4245,52 +4252,39 @@ endstream
 endobj
 60 0 obj
 <<
-/Length 3961
+/Length 5501
 >>
 stream
 1 0 0 1 0 0 cm 
 q
-1 0 0 1 48.51969 694.278 cm
-q
-BT 1 0 0 1 0 2.2 Tm 13.2 TL .133333 .133333 .133333 rg /F1+0 11 Tf 13.2 TL (0.5-3 | Solution Using Equivalent Viscous Damping) Tj T* ET
-Q
-Q
-q
-1 0 0 1 48.51969 634.278 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 32 Tm 2.12242 Tw /F2+0 10 Tf 14 TL (In this section an approximate solution for the steady-state harmonic response of a system with) Tj T* 0 Tw 1.231979 Tw (rate-independent damping is obtained by modeling this damping mechanism as equivalent viscous) Tj T* 0 Tw (damping.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 48.51969 600.278 cm
+1 0 0 1 48.51969 679.478 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 18 Tm 1.617676 Tw /F2+0 10 Tf 14 TL (Matching dissipated energies at \004 = \004n \(Fig. 3.10.1\) led to Eq. \(3.9.2\), where ED is given by Eq.) Tj T* 0 Tw (\(3.10.2\), leading to the equivalent viscous damping ratio:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 48.51969 593.278 cm
+1 0 0 1 48.51969 672.478 cm
 Q
 q
-1 0 0 1 48.51969 579.278 cm
+1 0 0 1 48.51969 658.478 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 4 Tm /F2+0 10 Tf 14 TL ( ) Tj T* ET
 Q
 Q
 q
-1 0 0 1 48.51969 577.278 cm
+1 0 0 1 48.51969 656.478 cm
 Q
 q
-1 0 0 1 48.51969 557.278 cm
+1 0 0 1 48.51969 636.478 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Eq.10:) Tj T* ET
+BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Eq.3.2:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 48.51969 508.078 cm
+1 0 0 1 48.51969 587.278 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -4311,19 +4305,66 @@ Q
 Q
 Q
 q
-1 0 0 1 48.51969 390.078 cm
+1 0 0 1 48.51969 469.278 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 102 Tm 2.246224 Tw /F2+0 10 Tf 14 TL (Substituting this \006_eq for \006 in Eqs. \(3.2.10\) to \(3.2.12\) gives the system response. The resulting) Tj T* 0 Tw 1.961792 Tw (amplitude u0 and phase angle \005 are shown by the dashed lines in Fig. 3.10.3. This approximate) Tj T* 0 Tw 1.007124 Tw (solution matches the exact result at \004 = \004n because that was the criterion used in selecting \006_eq.) Tj T* 0 Tw .563607 Tw (Over a wide range of excitation frequencies the approximate solution is seen to be accurate enough) Tj T* 0 Tw .084961 Tw (for many engineering applications. Thus Eq. \(3.10.3\) - which is difficult to solve for arbitrary force p\(t\)) Tj T* 0 Tw .134245 Tw (that contains many harmonic components of different frequencies \004 - can be replaced by the simpler) Tj T* 0 Tw 1.352967 Tw (Eq. \(3.2.1\) for a system with equivalent viscous damping defined by Eq. \(3.10.8\). This is the basic) Tj T* 0 Tw (advantage of equivalent viscous damping.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 48.51969 360.7315 cm
+1 0 0 1 48.51969 439.9315 cm
 0 0 0 RG
 n 0 14.17323 m 512.126 14.17323 l S
 Q
 q
-1 0 0 1 48.51969 359.7315 cm
+1 0 0 1 48.51969 421.7315 cm
+q
+BT 1 0 0 1 0 2.2 Tm 13.2 TL .133333 .133333 .133333 rg /F1+0 11 Tf 13.2 TL (0.5-4 | Harmonic Vibration with Coulomb Friction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 389.7315 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Equation of Motion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 327.7315 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 46 Tm .060145 Tw /F2+0 10 Tf 14 TL (Shown in Fig. 3.11.1 is a mass-spring system with Coulomb friction force F = \007*N that opposes sliding) Tj T* 0 Tw .120552 Tw (of the mass. As defined in Section 2.4, the coefficients of static and kinetic friction are assumed to be) Tj T* 0 Tw .565159 Tw (equal to \007, and N is the normal force across the sliding surfaces. The equation of motion is obtained) Tj T* 0 Tw (by including the exciting force in Eqs. \(2.4.1\) and \(2.4.2\) governing the free vibration of the system:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 307.7315 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (m*\001 + k*u \002 F = p\(t\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 231.7315 cm
+q
+BT 1 0 0 1 0 60 Tm 1.519819 Tw 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (The sign of the friction force changes with the direction of motion; the positive sign applies if the) Tj T* 0 Tw .33063 Tw (motion is from left to right \(u\010 > 0\) and the negative sign is for motion from right to left \(u\010 < 0\). Each) Tj T* 0 Tw .300912 Tw (of the two differential equations is linear, but the overall problem is nonlinear because the governing) Tj T* 0 Tw 2.678793 Tw (equation changes every half-cycle of motion. Therefore, exact analytical solutions would not be) Tj T* 0 Tw (possible except in special cases.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 211.7315 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Steady-State Response to Harmonic Force) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 177.7315 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 18 Tm 2.812956 Tw /F2+0 10 Tf 14 TL (An exact analytical solution for the steady-state response of the system of Fig. 4 subjected to) Tj T* 0 Tw (harmonic force was developed by J. P. Den Hartog in 1933.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48.51969 158.7315 cm
 Q
 q
 1 0 0 1 42.51969 776.6614 cm
@@ -4335,7 +4376,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 18 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.5-3 | Solution Using Equivalent) Tj T* (Viscous Damping) Tj T* ET
+BT 1 0 0 1 0 18 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a14         ) Tj /F1+0 10 Tf 14 TL (0.5-4 | Harmonic Vibration with) Tj T* (Coulomb Friction) Tj T* ET
 Q
 Q
 q
@@ -4395,7 +4436,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-14       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-25       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -4436,75 +4477,25 @@ endstream
 endobj
 61 0 obj
 <<
-/Length 4649
+/Length 2573
 >>
 stream
 1 0 0 1 0 0 cm 
 q
-1 0 0 1 51.35433 694.278 cm
-q
-BT 1 0 0 1 0 2.2 Tm 13.2 TL .133333 .133333 .133333 rg /F1+0 11 Tf 13.2 TL (0.5-4 | Harmonic Vibration with Coulomb Friction) Tj T* ET
-Q
-Q
-q
-1 0 0 1 51.35433 662.278 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Equation of Motion) Tj T* ET
-Q
-Q
-q
-1 0 0 1 51.35433 600.278 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 46 Tm .060145 Tw /F2+0 10 Tf 14 TL (Shown in Fig. 3.11.1 is a mass-spring system with Coulomb friction force F = \007*N that opposes sliding) Tj T* 0 Tw .120552 Tw (of the mass. As defined in Section 2.4, the coefficients of static and kinetic friction are assumed to be) Tj T* 0 Tw .565159 Tw (equal to \007, and N is the normal force across the sliding surfaces. The equation of motion is obtained) Tj T* 0 Tw (by including the exciting force in Eqs. \(2.4.1\) and \(2.4.2\) governing the free vibration of the system:) Tj T* ET
-Q
-Q
-q
-1 0 0 1 51.35433 580.278 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (m*\001 + k*u \002 F = p\(t\)) Tj T* ET
-Q
-Q
-q
-1 0 0 1 51.35433 504.278 cm
-q
-BT 1 0 0 1 0 60 Tm 1.519819 Tw 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (The sign of the friction force changes with the direction of motion; the positive sign applies if the) Tj T* 0 Tw .33063 Tw (motion is from left to right \(u\010 > 0\) and the negative sign is for motion from right to left \(u\010 < 0\). Each) Tj T* 0 Tw .300912 Tw (of the two differential equations is linear, but the overall problem is nonlinear because the governing) Tj T* 0 Tw 2.678793 Tw (equation changes every half-cycle of motion. Therefore, exact analytical solutions would not be) Tj T* 0 Tw (possible except in special cases.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 51.35433 484.278 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL (Steady-State Response to Harmonic Force) Tj T* ET
-Q
-Q
-q
-1 0 0 1 51.35433 450.278 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 18 Tm 2.812956 Tw /F2+0 10 Tf 14 TL (An exact analytical solution for the steady-state response of the system of Fig. 4 subjected to) Tj T* 0 Tw (harmonic force was developed by J. P. Den Hartog in 1933.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 51.35433 431.278 cm
-Q
-q
-1 0 0 1 51.35433 304.7859 cm
+1 0 0 1 51.35433 580.9859 cm
 q
 0 0 0 rg
 q
 1 0 0 1 81.0189 23 cm
 q
 350.0882 0 0 100.4921 0 0 cm
-/FormXob.976a81371be72090e2ef886094ef8a41 Do
+/FormXob.76d76351aab99df141c4f1f94ffd8479 Do
 Q
 Q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 171.2715 0 Td 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Fig. 4) Tj /F2+0 10 Tf 14 TL ( - SDF Coulomb Damping) Tj T* -171.2715 0 Td ET
+BT 1 0 0 1 0 4 Tm 165.8931 0 Td 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Fig. 4.1) Tj /F2+0 10 Tf 14 TL ( - SDF Coulomb Damping) Tj T* -165.8931 0 Td ET
 Q
 Q
 q
@@ -4512,16 +4503,16 @@ Q
 Q
 Q
 q
-1 0 0 1 51.35433 292.7859 cm
+1 0 0 1 51.35433 568.9859 cm
 Q
 q
-1 0 0 1 51.35433 216.7859 cm
+1 0 0 1 51.35433 492.9859 cm
 q
 BT 1 0 0 1 0 60 Tm .458822 Tw 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (The analysis is not included here, but his results are shown by solid lines in Fig. 5. The displacement) Tj T* 0 Tw .580021 Tw (amplitude u0, normalized relative to \(u_st\)0 = p0/k, and the phase angle \005 are plotted as a function) Tj T* 0 Tw 1.239844 Tw (of the frequency ratio \004/\004n for three values of F/p0. If there is no friction, F = 0 and u0/\(u_st\)0 =) Tj T* 0 Tw 2.724415 Tw (\(Rd\)_\006=0, the same as in Eq. \(3.1.11\) for an undamped system. The friction force reduces the) Tj T* 0 Tw (displacement amplitude u0, with the reduction depending on the frequency ratio \004/\004n.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 51.35433 197.7859 cm
+1 0 0 1 51.35433 473.9859 cm
 Q
 q
 1 0 0 1 45.35433 776.6614 cm
@@ -4533,7 +4524,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 18 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.5-4 | Harmonic Vibration with) Tj T* (Coulomb Friction) Tj T* ET
+BT 1 0 0 1 0 18 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a14         ) Tj /F1+0 10 Tf 14 TL (0.5-4 | Harmonic Vibration with) Tj T* (Coulomb Friction) Tj T* ET
 Q
 Q
 q
@@ -4593,7 +4584,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-14       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-25       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -4634,39 +4625,25 @@ endstream
 endobj
 62 0 obj
 <<
-/Length 2801
+/Length 2695
 >>
 stream
 1 0 0 1 0 0 cm 
 q
-1 0 0 1 48.51969 224.546 cm
+1 0 0 1 48.51969 291.546 cm
 q
 0 0 0 rg
 q
-1 0 0 1 81.0189 90 cm
+1 0 0 1 81.0189 23 cm
 q
 350.0882 0 0 389.932 0 0 cm
 /FormXob.f5a02e8f2880d7603a843602bcac982a Do
 Q
 Q
 q
-1 0 0 1 6 70 cm
+1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 150.3267 0 Td 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Fig. 5) Tj /F2+0 10 Tf 14 TL ( - Damping with Coulomb Friction) Tj T* -150.3267 0 Td ET
-Q
-Q
-q
-1 0 0 1 256.063 58 cm
-Q
-q
-1 0 0 1 6 10 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm  T* ET
-q
-1 0 0 1 20 0 cm
-q
-BT 1 0 0 1 0 32 Tm 1.757738 Tw 14 TL 0 0 0 rg /F5+0 10 Tf 14 TL (Deformation response factor and phase angle of a system with Coulomb friction excited by) Tj T* 0 Tw 3.48738 Tw (harmonic force. Exact solution from J. P. Den Hartog; approximate solution is based on) Tj T* 0 Tw (equivalent viscous damping.) Tj T* ET
+BT 1 0 0 1 0 4 Tm 144.9482 0 Td 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Fig. 4.2) Tj /F2+0 10 Tf 14 TL ( - Damping with Coulomb Friction) Tj T* -144.9482 0 Td ET
 Q
 Q
 q
@@ -4674,36 +4651,35 @@ Q
 Q
 Q
 q
-1 0 0 1 256.063 3 cm
+1 0 0 1 48.51969 279.546 cm
 Q
 q
-Q
+1 0 0 1 48.51969 231.546 cm
+q
+BT 1 0 0 1 0 32 Tm .330079 Tw 14 TL 0 0 0 rg /F5+0 10 Tf 14 TL (Deformation response factor and phase angle of a system with Coulomb friction excited by harmonic) Tj T* 0 Tw 2.234724 Tw (force. Exact solution from J. P. Den Hartog; approximate solution is based on equivalent viscous) Tj T* 0 Tw (damping.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 48.51969 212.546 cm
-Q
-q
-1 0 0 1 48.51969 183.1995 cm
+1 0 0 1 48.51969 202.1995 cm
 0 0 0 RG
 n 0 14.17323 m 512.126 14.17323 l S
 Q
 q
-1 0 0 1 48.51969 165.1995 cm
+1 0 0 1 48.51969 184.1995 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 4 Tm /F1+0 10 Tf 14 TL ([0.5.1]) Tj T* ET
 Q
 Q
 q
-1 0 0 1 48.51969 134.1995 cm
+1 0 0 1 48.51969 153.1995 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 18 Tm  T* ET
 q
 1 0 0 1 20 0 cm
 q
-BT 1 0 0 1 0 18 Tm .119141 Tw 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (Anil K.Anil K. Chopra, Dynamics of Structures: Theory and Applications toEarthquake Engineering.) Tj T* 0 Tw (Englewood Cliffs, NJ, USA: Prentice Hall, 1995.) Tj T* ET
+BT 1 0 0 1 0 18 Tm 3.296095 Tw 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (Anil K. Chopra, Dynamics of Structures: Theory and Applications toEarthquake Engineering.) Tj T* 0 Tw (Englewood Cliffs, NJ, USA: Prentice Hall, 1995.) Tj T* ET
 Q
 Q
 q
@@ -4720,7 +4696,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 18 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a13         ) Tj /F1+0 10 Tf 14 TL (0.5-4 | Harmonic Vibration with) Tj T* (Coulomb Friction) Tj T* ET
+BT 1 0 0 1 0 18 Tm 14 TL 0 0 0 rg /F1+0 10 Tf 14 TL (Rate Independent Damping) Tj /F2+0 10 Tf 14 TL ( - v1.0.0a14         ) Tj /F1+0 10 Tf 14 TL (0.5-4 | Harmonic Vibration with) Tj T* (Coulomb Friction) Tj T* ET
 Q
 Q
 q
@@ -4780,7 +4756,7 @@ q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-14       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
+BT 1 0 0 1 0 4 Tm 14 TL 0 0 0 rg /F2+0 10 Tf 14 TL (2026-07-25       ) Tj /F1+0 10 Tf 14 TL (|) Tj /F2+0 10 Tf 14 TL (       R Holland) Tj T* ET
 Q
 Q
 q
@@ -4877,78 +4853,78 @@ xref
 0000000147 00000 n 
 0000000314 00000 n 
 0000000481 00000 n 
-0000000648 00000 n 
-0000000815 00000 n 
-0000000982 00000 n 
-0000001149 00000 n 
-0000001316 00000 n 
-0000001483 00000 n 
-0000007139 00000 n 
-0000007495 00000 n 
-0000007662 00000 n 
-0000007977 00000 n 
-0000079980 00000 n 
-0000080325 00000 n 
-0000080621 00000 n 
-0000143918 00000 n 
-0000144263 00000 n 
-0000316633 00000 n 
-0000316978 00000 n 
-0000317274 00000 n 
-0000365573 00000 n 
-0000365918 00000 n 
-0000548206 00000 n 
-0000548551 00000 n 
-0000550500 00000 n 
-0000585988 00000 n 
-0000586258 00000 n 
-0000587612 00000 n 
-0000589546 00000 n 
-0000626206 00000 n 
-0000626465 00000 n 
-0000627796 00000 n 
-0000629757 00000 n 
-0000656333 00000 n 
-0000656605 00000 n 
-0000657979 00000 n 
-0000659925 00000 n 
-0000685889 00000 n 
-0000686152 00000 n 
-0000687521 00000 n 
-0000689479 00000 n 
-0000728451 00000 n 
-0000728720 00000 n 
-0000730067 00000 n 
-0000730173 00000 n 
-0000730428 00000 n 
-0000730502 00000 n 
-0000730658 00000 n 
-0000730806 00000 n 
-0000730969 00000 n 
-0000731118 00000 n 
-0000731235 00000 n 
-0000733792 00000 n 
-0000739508 00000 n 
-0000742418 00000 n 
-0000748245 00000 n 
-0000753264 00000 n 
-0000755260 00000 n 
-0000759273 00000 n 
-0000763974 00000 n 
-0000766827 00000 n 
-0000766943 00000 n 
-0000766977 00000 n 
-0000767011 00000 n 
-0000767045 00000 n 
-0000767079 00000 n 
-0000767113 00000 n 
-0000767147 00000 n 
-0000767181 00000 n 
-0000767215 00000 n 
+0000000649 00000 n 
+0000000817 00000 n 
+0000000985 00000 n 
+0000001153 00000 n 
+0000001321 00000 n 
+0000001489 00000 n 
+0000007145 00000 n 
+0000007501 00000 n 
+0000007668 00000 n 
+0000007983 00000 n 
+0000079986 00000 n 
+0000080331 00000 n 
+0000080627 00000 n 
+0000143924 00000 n 
+0000144269 00000 n 
+0000316639 00000 n 
+0000316984 00000 n 
+0000317280 00000 n 
+0000365579 00000 n 
+0000365924 00000 n 
+0000548212 00000 n 
+0000548557 00000 n 
+0000550506 00000 n 
+0000585994 00000 n 
+0000586264 00000 n 
+0000587618 00000 n 
+0000589552 00000 n 
+0000626212 00000 n 
+0000626471 00000 n 
+0000627802 00000 n 
+0000629763 00000 n 
+0000656339 00000 n 
+0000656611 00000 n 
+0000657985 00000 n 
+0000659931 00000 n 
+0000685895 00000 n 
+0000686158 00000 n 
+0000687527 00000 n 
+0000689485 00000 n 
+0000728457 00000 n 
+0000728726 00000 n 
+0000730073 00000 n 
+0000730179 00000 n 
+0000730434 00000 n 
+0000730508 00000 n 
+0000730664 00000 n 
+0000730813 00000 n 
+0000730977 00000 n 
+0000731127 00000 n 
+0000731244 00000 n 
+0000733801 00000 n 
+0000739521 00000 n 
+0000744515 00000 n 
+0000749858 00000 n 
+0000753300 00000 n 
+0000755782 00000 n 
+0000761335 00000 n 
+0000763960 00000 n 
+0000766707 00000 n 
+0000766823 00000 n 
+0000766857 00000 n 
+0000766891 00000 n 
+0000766925 00000 n 
+0000766959 00000 n 
+0000766993 00000 n 
+0000767027 00000 n 
+0000767061 00000 n 
+0000767095 00000 n 
 trailer
 <<
 /ID 
-[<2aa1b68e610533c30bca5252c263887c><2aa1b68e610533c30bca5252c263887c>]
+[<bfb5c413f46417949fba9113b6385dbf><bfb5c413f46417949fba9113b6385dbf>]
 % ReportLab generated PDF document -- digest (opensource)
 
 /Info 47 0 R
@@ -4956,5 +4932,5 @@ trailer
 /Size 73
 >>
 startxref
-767249
+767129
 %%EOF

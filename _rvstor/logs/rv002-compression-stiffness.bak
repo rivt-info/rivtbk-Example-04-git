@@ -1,33 +1,36 @@
 import rivtlib.rvapi as rv
 
-# %% rv.I(r"""Shape Factor 
-rv.I(r"""Bearing Shape Factor 
+# %% rv.I("""Shape Factor 
+rv.I("""Bearing Shape Factor 
 
     The stiffness of rubber in compression, when the loaded surfaces are
     prevented from slipping by bonding or by mechanical location, depends
     upon the shape factor S defined as the ratio of one loaded
     area to the total force-free area (see Fig. 1). _[#]
 
-    | IMAGE | img/fig27.jpg | Shape Factor, 80, num, not 
+    | IMAGE | fig27.jpg | Shape Factor, 80, num, not 
 
-    _[[TEXT]] italic
-    Effect of shape factor: Experimental stress-strain curves for 6.3 mm thick
+    | IMAGE | fig28.png | Compression Modulus, 60, num, not 
+
+    """)
+
+rv.T("""Rubber Properties | m | | rst4
+    *Shape factor: Experimental stress-strain curves for 6.3 mm thick
     disks of rubber (47 IRHD) in compression. The shape factor is shown
-    alongside each curve; the diameter in mm is 25.4 times the shape factor.
-    _[[END]]
+    alongside each curve; the diameter in mm is 25.4 times the shape factor.*
 
-    | IMAGE | img/fig28.png | Compression Modulus, 60, num, not 
+    *Compression Modulus: Variation of compression modulus Ec with 
+    shape factor S for natural rubbers of differing hardnesses (SRF black filler 
+    used for 55 IRHD and above). Although deformation due to bulk compression 
+    can normally be ignored, it can cause a noticeable reduction in Ec when the 
+    ratio Ec/E\∞ exceeds about10% (E\∞ is the modulus of bulk compression). To allow 
+    for this reduction, use a modified compression modulus obtained by dividing Ec
+    by 1+(Ec/E\∞). If Wood and Martin's value for bulk modulus is preferred  
+    then the E\∞ value in Table 3 should be doubled.*
+    """)
 
-    _[[TEXT]] italic
-    Variation of compression modulus Ec with shape factor S for natural rubbers
-    of differing hardnesses (SRF black filler used for 55 IRHD and above).
-    Although deformation due to bulk compression can normally be ignored, it
-    can cause a noticeable reduction in Ec when the ratio Ec/E∞ exceeds about
-    10%. (E∞ is the modulus of bulk compression) To allow for
-    this reduction, use a modified compression modulus obtained by dividing Ec
-    by 1+(Ec/E∞). If Wood and Martin's value for bulk modulus is preferred  
-    then the E∞ value in Table 3 should be doubled.
-    _[[END]]
+# %% rv.I("""Rubber Property Tables 
+rv.I("""Rubber Property Tables 
 
     _[[TABLE]] IRHD hardness scale (MN/m^2)
     =========  ==================  ===============  ======  =====================
@@ -48,7 +51,7 @@ rv.I(r"""Bearing Shape Factor
 
     _[[TABLE]] Shore A hardness scale (lbf/in^2)
     =========  ==================  =============== =======  =====================
-    Hardness    Young's mod E0       Shear mod G     k       Bulk mod 
+    Hardness    Young's mod E0        Shear mod G     k       Bulk mod 
     =========  ==================  =============== =======  =====================
     35         168                    53            0.89        142 000
     45         256                    76            0.80        142 000
@@ -58,8 +61,9 @@ rv.I(r"""Bearing Shape Factor
     =========  ==================  =============== =======  =====================
     _[[END]]]
 
-    _[[TEXT]] topic
-    Notes
+    """)
+
+rv.T("""rubber notes | m | | note
 
     - k is used in the calculation of compression characteristics.
 
@@ -75,13 +79,11 @@ rv.I(r"""Bearing Shape Factor
     - Based on experiments on natural rubber spring vulcanizates 
       containing (above 48 IRHD) SRF black as filler. Note that
       hardness is subject to an uncertainty of about +/-2 degrees.
-    _[[END]]]
-
 """)
     
 
-# %% rv.V(r"""Block Compression Stiffness
-rv.V(r"""Block Compression Stiffness
+# %% rv.V("""Block Compression Stiffness
+rv.V("""Block Compression Stiffness
 
     Shape Factor Parameters _[T]
     t1 ==: .25 | inch, mm, 2 | thickness
@@ -110,13 +112,10 @@ rv.V(r"""Block Compression Stiffness
     When S > 3 it may be more convenient to use:
     E1c <=: 5*G1*S1**2 | k_si, MPA, 2 | compression stiffness - modified
 
-    | IMAGE | img/fig29.png | Compression Stiffness Kc, 80, num, not 
+    | IMAGE | fig29.png | Compression Stiffness Kc, 80, num, not 
 
-    
-    _[[TEXT]] italic
-    The diagram shows a rectangular rubber block of thickness t, deflecting by x
-    under a compressive load F applied to a cylindrical rubber sample.    
-    _[[END]]]
+    *The diagram shows a rectangular rubber block of thickness t, deflecting by x
+    under a compressive load F applied to a cylindrical rubber sample.*
 
     The compression stiffness Kc is given by:
     Kc = F/x = Ec*A/t _[M]
@@ -146,24 +145,25 @@ rv.V(r"""Block Compression Stiffness
 """)
 
 
-# %% rv.V(r"""Strip Analysis
-rv.I(r"""Strip Compression Stiffness
+# %% rv.V("""Strip Analysis
+rv.I("""Strip Compression Stiffness
 
-    ## The following equations still need conversion to rivt. 
+    ## The following equations still need conversion to rivt to make them active
+    ## calculations
 
     When a long strip of rubber is compressed the strain in the direction of
     its length will be negligible.
 
-    Shape factor _[B]
+    Shape factor _[C]
 
     SF = b / (2*t)  _[M]
 
-    | IMAGE | img/fig30.png | Compression Strip, 80, num, not 
+    | IMAGE | fig30.png | Compression Strip, 80, num, not 
 
     Diagram shows a long rectangular strip of rubber of width b, thickness t,
     and unit length, compressed by a load F applied per unit length.
 
-    Compression modulus Ec
+    Compression modulus Ec _[C]
 
     Ec = 4*E0*(1 + k*SF**2) / 3 _[M]
 
@@ -174,8 +174,10 @@ rv.I(r"""Strip Compression Stiffness
     Kc = Ec*b/t   _[M]
 
     Kc = (4*b*E0*(1 + k*SF**2)) / (3*t) _[M]
+    
+    """)
 
-    _[[TEXT]] text
+rv.T("""compression vars | m | | text
     F = load per unit length
     Ec = compression modulus (corrected, if necessary, for the effect of bulk compression)
     E0 = Young's modulus (from Table 3)
@@ -183,21 +185,22 @@ rv.I(r"""Strip Compression Stiffness
     t = thickness of strip
     x = deflexion
     k = a numerical factor (from Table 3)
-    SF = shape factor
-    _[[END]]]
-    
-    The load per unit length (F)—deflexion (x) curve for a compressed strip is
+    SF = shape factor 
+    """)
+
+
+rv.I("""stiffness curve | m | |
+    The load (F) per unit length deflexion (x) curve for a compressed strip is
     non-linear. It has the approximate form
 
     F = Ec*b*e*(1 + 3*e/2) _[M]
 
     where e, the compressive strain, equals x/t. As in the case of blocks, the
     non-linearity is usually ignored for strains up to about 10%.
+    """)
 
-""")
-
-# %% rv.I(r"""Derivation of Compression Characteristics 
-rv.I(r"""Derivation of Compression Characteristics 
+# %% rv.I("""Derivation of Compression Characteristics 
+rv.I("""Derive Compression Characteristics 
 
     Approximate load-deformation relations are derived below for small
     compressions of rubber blocks, between rigid plates to which they adhere or
@@ -284,12 +287,12 @@ rv.I(r"""Derivation of Compression Characteristics
     where the shape factor S, the ratio of one loaded surface to the force-free
     surface, is equal to b/(2*t)
 
-    | IMAGE | img/fig41.png | Initial and Deformed States, 80, num, not 
+    | IMAGE | fig41.png | Initial and Deformed States, 80, num, not 
     
-    _[[TEXT]] italic
-    Initial and deformed states for an infinitely long block
-    subjected to a small compression.
-    _[[END]]]
+
+    *Initial and deformed states for an infinitely long block
+    subjected to a small compression.*
+
 
     Circular Disks_[B]
 
@@ -340,12 +343,9 @@ rv.I(r"""Derivation of Compression Characteristics
     NOTE: In practice it is necessary to multiply the S**2 term by the factor
     k, given in Table 1. _[#]
 
-""")
 
-# %% rv.R(r"""Footnotes | endnotes
-rv.R(r"""Footnotes | endnotes
-
-    P.B. Lindley, Engineering Design with Natural Rubber, NR Technical Bulletin.
+    _[[ENDNOTES]]
+        P.B. Lindley, Engineering Design with Natural Rubber, NR Technical Bulletin.
     Malaysian Rubber Producers' Research Association, Brickendonbury, U.K. 
     pages 26-28, 1959.
     
@@ -362,12 +362,12 @@ rv.R(r"""Footnotes | endnotes
     50, p. 334.
 
     DIENES, G. J. and KLEMM, H. F. 1946 J. Appl. Phys., vol. 17, p. 458.
+    _[[END]]]
 
+    """)
 
-""")
-
-# %% rv.D(r"""Publish Doc 
-rv.D(r"""Publish Doc 
+# %% rv.D("""Publish Doc 
+rv.D("""Publish Doc 
     
     | PUBLISH | Compression Stiffness | pdf
     
@@ -389,7 +389,7 @@ rv.D(r"""Publish Doc
     fork1_license = https://opensource.org/license/mit/
     [layout]
     ;----------------------- cover page and runner settings
-    ;--- put logo files in /img folder of first chapter, size is % page width
+    ;--- put logo files in /image folder of first chapter, size is % page width
     subtitle =  Seismic Isolation Bearing Design
     copyright = --
     client = Example 04 - rivtbook
