@@ -9,7 +9,7 @@
 .. _Bearing Shape Factor:
 
 **0.2-1** | Bearing Shape Factor
-================================================================================]
+================================================================================
  
 The stiffness of rubber in compression, when the loaded surfaces are
 prevented from slipping by bonding or by mechanical location, depends
@@ -17,7 +17,7 @@ upon the shape factor S defined as the ratio of one loaded
 area to the total force-free area (see Fig. 1).  `[0.2.1]`_ 
  
 
-.. figure:: C:/git/rivtbk-example-04-git/bk2-Bearing-Compression-Stiffness/image/fig27.jpg
+.. figure:: ../bk2-Bearing-Compression-Stiffness/image/fig27.jpg
    :width: 80%
    :align: center
 
@@ -27,7 +27,7 @@ area to the total force-free area (see Fig. 1).  `[0.2.1]`_
 
  
 
-.. figure:: C:/git/rivtbk-example-04-git/bk2-Bearing-Compression-Stiffness/image/fig28.png
+.. figure:: ../bk2-Bearing-Compression-Stiffness/image/fig28.png
    :width: 60%
    :align: center
 
@@ -164,12 +164,12 @@ For a rectangualar section (length = L and breadth = B):
 
            S₁ = 16.0     [S₁] = 16.0   | shape factor
 
-           t₁         B₁       L₁
-           —————————  ———————  ——————
-           0.25       12.0     24.0
-           —————      —————    —————
-           thickness  breadth  length
-           —————————  ———————  ——————
+           L₁      t₁         B₁
+           ——————  —————————  ———————
+           24.0    0.25       12.0
+           —————   —————      —————
+           length  thickness  breadth
+           ——————  —————————  ———————
 
 
  
@@ -191,12 +191,12 @@ L):
 
            S₂ = 24.0     [S₂] = 24.0   | shape factor
 
-           t₁         L₁
-           —————————  ——————
-           0.25       24.0
-           —————      —————
-           thickness  length
-           —————————  ——————
+           L₁      t₁
+           ——————  —————————
+           24.0    0.25
+           —————   —————
+           length  thickness
+           ——————  —————————
 
 
  
@@ -229,12 +229,12 @@ G1          0.50 k_si    3.45 MPA   shear modulus
 
            Ec = 35.94 k_si     [Ec] = 247.80 MPA   | compression modulus
 
-           k₁                 S₁            E₀
-           —————————————————  ————————————  ————————————————————
-           0.7                16.0          100.00 p_si
-           —————              —————         —————
-           adjustment factor  shape factor  compresssion modulus
-           —————————————————  ————————————  ————————————————————
+           E₀                    k₁                 S₁
+           ————————————————————  —————————————————  ————————————
+           100.00 p_si           0.7                16.0
+           —————                 —————              —————
+           compresssion modulus  adjustment factor  shape factor
+           ————————————————————  —————————————————  ————————————
 
 
  
@@ -253,17 +253,17 @@ When S > 3 it may be more convenient to use:
 
            E1c = 640.00 k_si     [E1c] = 4412.64 MPA   | compression stiffness - modified
 
-           S₁            G₁
-           ————————————  —————————————
-           16.0          0.50 k_si
-           —————         —————
-           shape factor  shear modulus
-           ————————————  —————————————
+           G₁             S₁
+           —————————————  ————————————
+           0.50 k_si      16.0
+           —————          —————
+           shear modulus  shape factor
+           —————————————  ————————————
 
 
  
 
-.. figure:: C:/git/rivtbk-example-04-git/bk2-Bearing-Compression-Stiffness/image/fig29.png
+.. figure:: ../bk2-Bearing-Compression-Stiffness/image/fig29.png
    :width: 80%
    :align: center
 
@@ -391,7 +391,7 @@ its length will be negligible.
 
  
 
-.. figure:: C:/git/rivtbk-example-04-git/bk2-Bearing-Compression-Stiffness/image/fig30.png
+.. figure:: ../bk2-Bearing-Compression-Stiffness/image/fig30.png
    :width: 80%
    :align: center
 
@@ -723,7 +723,7 @@ where the shape factor S, the ratio of one loaded surface to the force-free
 surface, is equal to b/(2*t)
  
 
-.. figure:: C:/git/rivtbk-example-04-git/bk2-Bearing-Compression-Stiffness/image/fig41.png
+.. figure:: ../bk2-Bearing-Compression-Stiffness/image/fig41.png
    :width: 80%
    :align: center
 

@@ -1,11 +1,11 @@
 
 --------------------------------------------------------------------------------
-| rivt | Viscous Damping | R Holland | v-1.0.0a14 | 2026-07-26 - 12:37AM
+| rivt | Viscous Damping | R Holland | v-1.0.0a14 | 2026-07-27 - 01:59PM
 --------------------------------------------------------------------------------
 
 
 0.4-1 | Equivalent Viscous Damping
-================================================================================]
+================================================================================
  
 Equivalent viscous damping is the simplest form of damping for analysis
 since the governing differential equation of motion is linear and hence

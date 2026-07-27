@@ -9,7 +9,7 @@
 .. _Eigenvalues and Vectors:
 
 **0.6-1** | Eigenvalues and Vectors
-================================================================================]
+================================================================================
  
 Analyze a 3-story shear frame using the flexibility method to determine
 natural frequencies and mode shapes (after Clough and Penzien  `[0.6.1]`_ )
@@ -19,7 +19,7 @@ as the isolated foundation system. In this example, the model
 is calibrated to reproduce the Clough example.
  
 
-.. figure:: C:/git/rivtbk-example-04-git/bk6-System-Period/image/frames.jpg
+.. figure:: ../bk6-System-Period/image/frames.jpg
    :width: 70%
    :align: center
 
@@ -32,7 +32,7 @@ Normalized mode shapes are calculated and compared to Penzien and
 Clough.  `[0.6.2]`_ 
  
 
-.. figure:: C:/git/rivtbk-example-04-git/bk6-System-Period/image/modes.jpg
+.. figure:: ../bk6-System-Period/image/modes.jpg
    :width: 70%
    :align: center
 
@@ -174,7 +174,7 @@ Clough.  `[0.6.2]`_
    **green:** mode 3
 
 
-.. figure:: C:/git/rivtbk-example-04-git/bk6-System-Period/image/mode_shapes.png
+.. figure:: ../bk6-System-Period/image/mode_shapes.png
    :width: 90%
    :align: center
 

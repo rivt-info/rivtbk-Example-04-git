@@ -1,11 +1,11 @@
 
 --------------------------------------------------------------------------------
-| rivt | Rate Independent Damping | R Holland | v-1.0.0a14 | 2026-07-26 - 12:37AM
+| rivt | Rate Independent Damping | R Holland | v-1.0.0a14 | 2026-07-27 - 01:59PM
 --------------------------------------------------------------------------------
 
 
 0.5-1 | Rate Independent Damping
-================================================================================]
+================================================================================
  
 Experiments on structural metals indicate that the energy dissipated
 internally in cyclic straining of the material is essentially independent

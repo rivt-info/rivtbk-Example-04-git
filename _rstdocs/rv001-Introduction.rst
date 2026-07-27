@@ -9,7 +9,7 @@
 .. _Introduction:
 
 **0.1-1** | Introduction
-================================================================================]
+================================================================================
  
 A rivtbook is a collection of rivt files with common subject matter that
 may be published as a PDF or text report. The files are organized under a
@@ -49,7 +49,7 @@ A rivtbook chapter may be copied to a rivt report by:
 #. copying the rivt file to the /rivt-report folder.
  
 
-.. figure:: C:/git/rivtbk-example-04-git/bk1-Introduction/image/rvbk-rivt.jpg
+.. figure:: ../bk1-Introduction/image/rvbk-rivt.jpg
    :width: 85%
    :align: center
 

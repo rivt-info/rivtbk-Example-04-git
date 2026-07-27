@@ -1,13 +1,13 @@
-07-26 00:37  rv003-shear-stiffness   INFO     Doc start
-07-26 00:37  rv003-shear-stiffness   INFO     rivtlib version: 1.0.0a5
-07-26 00:37  rv003-shear-stiffness   INFO     rivt backup : C:\git\rivtbk-example-04-git\_rvstor\logs\rv003-shear-stiffness.bak
-07-26 00:37  rv003-shear-stiffness   INFO     Shear Stiffness Example
-07-26 00:37  rv003-shear-stiffness   INFO     SECTION 0.3-1 - type V
-07-26 00:37  rv003-shear-stiffness   INFO     tag : _[T]
-07-26 00:37  rv003-shear-stiffness   INFO     tag : _[B]
-07-26 00:37  rv003-shear-stiffness   INFO     tag : _[B]
-07-26 00:37  rv003-shear-stiffness   INFO      Natural Frequency
-07-26 00:37  rv003-shear-stiffness   INFO     SECTION 0.3-2 - type I
-07-26 00:37  rv003-shear-stiffness   INFO     command : IMAGE
-07-26 00:37  rv003-shear-stiffness   INFO     SECTION : Publish Doc 
-07-26 00:37  rv003-shear-stiffness   INFO     block tag : METADATA]]
+07-27 13:59  rv003-shear-stiffness   INFO     Doc start
+07-27 13:59  rv003-shear-stiffness   INFO     rivtlib version: 1.0.0a5
+07-27 13:59  rv003-shear-stiffness   INFO     rivt backup : C:\git\rivtbk-example-04-git\_rvstor\logs\rv003-shear-stiffness.bak
+07-27 13:59  rv003-shear-stiffness   INFO     Shear Stiffness Example
+07-27 13:59  rv003-shear-stiffness   INFO     SECTION 0.3-1 - type V
+07-27 13:59  rv003-shear-stiffness   INFO     tag : _[T]
+07-27 13:59  rv003-shear-stiffness   INFO     tag : _[B]
+07-27 13:59  rv003-shear-stiffness   INFO     tag : _[B]
+07-27 13:59  rv003-shear-stiffness   INFO      Natural Frequency
+07-27 13:59  rv003-shear-stiffness   INFO     SECTION 0.3-2 - type I
+07-27 13:59  rv003-shear-stiffness   INFO     command : IMAGE
+07-27 13:59  rv003-shear-stiffness   INFO     SECTION : Publish Doc 
+07-27 13:59  rv003-shear-stiffness   INFO     block tag : METADATA]]

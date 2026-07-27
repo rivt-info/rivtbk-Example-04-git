@@ -1,6 +1,6 @@
 
 ================================================================================
-Isolation Bearing Design | R Holland | 1.0.0a17 | 2026-07-26 - 12:37AM
+Isolation Bearing Design | R Holland | 1.0.0a17 | 2026-07-27 - 01:58PM
 ================================================================================
 
 
@@ -16,7 +16,7 @@ Table of Contents
 
 
 --------------------------------------------------------------------------------
-rivtbook Example - Introduction | R Holland | v-1.0.0a14 | 2026-07-26 - 12:36AM
+rivtbook Example - Introduction | R Holland | v-1.0.0a14 | 2026-07-27 - 01:58PM
 --------------------------------------------------------------------------------
 
 
@@ -64,7 +64,7 @@ Fig. 1.1 - rivtbook chapter copied to a report
  
 
 --------------------------------------------------------------------------------
-Compression Stiffness | R Holland | v-1.0.0a14 | 2026-07-26 - 12:37AM
+Compression Stiffness | R Holland | v-1.0.0a14 | 2026-07-27 - 01:58PM
 --------------------------------------------------------------------------------
 
 
@@ -183,13 +183,13 @@ For a rectangualar section (length = L and breadth = B):
 
 S₁ = 16.0    [S₁] = 16.0  | shape factor
 
-=======  =========  ======
-B₁       t₁         L₁
-=======  =========  ======
-12.0     0.25       24.0
-—————    —————      —————
-breadth  thickness  length
-=======  =========  ======
+======  =========  =======
+L₁      t₁         B₁
+======  =========  =======
+24.0    0.25       12.0
+—————   —————      —————
+length  thickness  breadth
+======  =========  =======
  
 For a block of square section (i.e. L = B) or circular section (diameter =
 L):
@@ -204,13 +204,13 @@ L):
 
 S₂ = 24.0    [S₂] = 24.0  | shape factor
 
-=========  ======
-t₁         L₁
-=========  ======
-0.25       24.0
-—————      —————
-thickness  length
-=========  ======
+======  =========
+L₁      t₁
+======  =========
+24.0    0.25
+—————   —————
+length  thickness
+======  =========
  
 The compression modulus Ec depends upon the shape factor S (for derivation
 see Section 5).
@@ -234,13 +234,13 @@ G1          0.50 k_si    3.45 MPA   shear modulus
 
 Ec = 35.94 k_si    [Ec] = 247.80 MPA  | compression modulus
 
-=================  ============  ====================
-k₁                 S₁            E₀
-=================  ============  ====================
-0.7                16.0          100.00 p_si
-—————              —————         —————
-adjustment factor  shape factor  compresssion modulus
-=================  ============  ====================
+=================  ====================  ============
+k₁                 E₀                    S₁
+=================  ====================  ============
+0.7                100.00 p_si           16.0
+—————              —————                 —————
+adjustment factor  compresssion modulus  shape factor
+=================  ====================  ============
  
 When S > 3 it may be more convenient to use:
 
@@ -298,13 +298,13 @@ x1          1.00 inch  25.40 mm      deflection
 
 Kc = 2875.20 k_in    [Kc] = 5035.25 kN_cm  | compression stiffness
 
-====================  ===================  =========
-A₁                    Ec                   t₁
-====================  ===================  =========
-20.00 in2             35940.00 p_si        0.25 inch
-—————                 —————                —————
-cross-sectional area  compression modulus  thickness
-====================  ===================  =========
+===================  =========  ====================
+Ec                   t₁         A₁
+===================  =========  ====================
+35940.00 p_si        0.25 inch  20.00 in2
+—————                —————      —————
+compression modulus  thickness  cross-sectional area
+===================  =========  ====================
  
 If S > μ/2, where S is the shape factor and μ the coefficient of friction,
 slip may occur. In such cases, the rubber should be bonded to the rigid
@@ -712,7 +712,7 @@ p. 334.
  
 
 --------------------------------------------------------------------------------
-Shear Stiffness | R Holland | v-1.0.0a14 | 2026-07-26 - 12:37AM
+Shear Stiffness | R Holland | v-1.0.0a14 | 2026-07-27 - 01:58PM
 --------------------------------------------------------------------------------
 
 
@@ -782,13 +782,13 @@ rubber height  11 guage shim  number of rubber
 
 Ks₁ = 3.48 k_in    [Ks₁] = 6.10 kN_cm  | shear stiffness
 
-================  =============  =============  ==========
-rdia              rht            G₁             cpi
-================  =============  =============  ==========
-39.50 inch        20.40 inch     58.00 p_si     3.1418
-—————             —————          —————          —————
-bearing diameter  rubber height  shear modulus  contant pi
-================  =============  =============  ==========
+=============  =============  ==========  ================
+rht            G₁             cpi         rdia
+=============  =============  ==========  ================
+20.40 inch     58.00 p_si     3.1418      39.50 inch
+—————          —————          —————       —————
+rubber height  shear modulus  contant pi  bearing diameter
+=============  =============  ==========  ================
  
 Shape Factor for Circular Bearing
 
@@ -909,7 +909,7 @@ Fig. 2.1 - Shear Mounting
  
 
 --------------------------------------------------------------------------------
-Viscous Damping | R Holland | v-1.0.0a14 | 2026-07-26 - 12:37AM
+Viscous Damping | R Holland | v-1.0.0a14 | 2026-07-27 - 01:58PM
 --------------------------------------------------------------------------------
 
 
@@ -1024,7 +1024,7 @@ toEarthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
  
 
 --------------------------------------------------------------------------------
-Rate Independent Damping | R Holland | v-1.0.0a14 | 2026-07-26 - 12:37AM
+Rate Independent Damping | R Holland | v-1.0.0a14 | 2026-07-27 - 01:58PM
 --------------------------------------------------------------------------------
 
 
@@ -1327,7 +1327,7 @@ toEarthquake Engineering. Englewood Cliffs, NJ, USA: Prentice Hall, 1995.
  
 
 --------------------------------------------------------------------------------
-Three Story Vibration | R Holland | v-1.0.0a14 | 2026-07-26 - 12:37AM
+Three Story Vibration | R Holland | v-1.0.0a14 | 2026-07-27 - 01:58PM
 --------------------------------------------------------------------------------
 
 

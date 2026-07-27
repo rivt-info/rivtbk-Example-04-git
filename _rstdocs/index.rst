@@ -25,7 +25,7 @@
         :align: left
         :widths: 84 22 16
         
-        * - 2026-07-26 |s| |s| |s| **|** |s| |s| |s| R Holland        
+        * - 2026-07-27 |s| |s| |s| **|** |s| |s| |s| R Holland        
           - **rivt**        
           - |blklogo|                  
 

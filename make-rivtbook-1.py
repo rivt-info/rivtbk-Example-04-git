@@ -2,7 +2,7 @@
 """generate a rivtbook
 
 Run this Python script in the rivtbk root folder to generate a PDF or txt book.
-The HTML format is not available for books. Copy and rename this file to save
+The HTML format is not available for rivtbooks. Copy and rename this file to save
 custom book settings (e.g. make-rivtbook-2.py). See https://www.rivt.info for
 more details.
 

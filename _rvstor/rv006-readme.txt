@@ -1,11 +1,11 @@
 
 --------------------------------------------------------------------------------
-| rivt | Three Story Vibration | R Holland | v-1.0.0a14 | 2026-07-26 - 12:37AM
+| rivt | Three Story Vibration | R Holland | v-1.0.0a14 | 2026-07-27 - 01:59PM
 --------------------------------------------------------------------------------
 
 
 0.6-1 | Eigenvalues and Vectors
-================================================================================]
+================================================================================
  
 Analyze a 3-story shear frame using the flexibility method to determine
 natural frequencies and mode shapes (after Clough and Penzien [0.6.1])

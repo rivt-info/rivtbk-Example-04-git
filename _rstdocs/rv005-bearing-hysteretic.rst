@@ -9,7 +9,7 @@
 .. _Rate Independent Damping:
 
 **0.5-1** | Rate Independent Damping
-================================================================================]
+================================================================================
  
 Experiments on structural metals indicate that the energy dissipated
 internally in cyclic straining of the material is essentially independent
@@ -76,7 +76,7 @@ In contrast, the energy dissipated in viscous damping increases linearly
 with the forcing frequency, as shown in Fig. 1.
  
 
-.. figure:: C:/git/rivtbk-example-04-git/bk5-Bearing-Hysteretic-Damping/image/fig3-10-1.jpg
+.. figure:: ../bk5-Bearing-Hysteretic-Damping/image/fig3-10-1.jpg
    :width: 50%
    :align: center
 
@@ -245,7 +245,7 @@ for viscous damping; this implies that motion with rate-independent damping
 can never be in phase with the forcing function.
  
 
-.. figure:: C:/git/rivtbk-example-04-git/bk5-Bearing-Hysteretic-Damping/image/fig_3.10.2.jpg
+.. figure:: ../bk5-Bearing-Hysteretic-Damping/image/fig_3.10.2.jpg
    :width: 70%
    :align: center
 
@@ -263,7 +263,7 @@ next section this error is shown to be small when the real damping is rate
 independent.
  
 
-.. figure:: C:/git/rivtbk-example-04-git/bk5-Bearing-Hysteretic-Damping/image/fig_3.10.3.png
+.. figure:: ../bk5-Bearing-Hysteretic-Damping/image/fig_3.10.3.png
    :width: 70%
    :align: center
 
@@ -363,7 +363,7 @@ Fig. 4 subjected to harmonic force was developed by J. P. Den Hartog in
 1933. 
  
 
-.. figure:: C:/git/rivtbk-example-04-git/bk5-Bearing-Hysteretic-Damping/image/fig_3.11.1.jpg
+.. figure:: ../bk5-Bearing-Hysteretic-Damping/image/fig_3.11.1.jpg
    :width: 70%
    :align: center
 
@@ -381,7 +381,7 @@ system. The friction force reduces the displacement amplitude u0, with the
 reduction depending on the frequency ratio ω/ωn.
  
 
-.. figure:: C:/git/rivtbk-example-04-git/bk5-Bearing-Hysteretic-Damping/image/fig_3.11.2.png
+.. figure:: ../bk5-Bearing-Hysteretic-Damping/image/fig_3.11.2.png
    :width: 70%
    :align: center
 

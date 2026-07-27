@@ -9,7 +9,7 @@
 .. _Equivalent Viscous Damping:
 
 **0.4-1** | Equivalent Viscous Damping
-================================================================================]
+================================================================================
  
 Equivalent viscous damping is the simplest form of damping for analysis
 since the governing differential equation of motion is linear and hence
@@ -19,7 +19,7 @@ the combined effect of all damping mechanisms present in the actual
 structure.  `[0.4.1]`_ 
  
 
-.. figure:: C:/git/rivtbk-example-04-git/bk4-Bearing-Viscous-Damping/image/fig201-1.png
+.. figure:: ../bk4-Bearing-Viscous-Damping/image/fig201-1.png
    :width: 50%
    :align: center
 
@@ -49,7 +49,7 @@ the energy-dissipating mechanisms that existed in the experiments.
  
  
 
-.. figure:: C:/git/rivtbk-example-04-git/bk4-Bearing-Viscous-Damping/image/fig201-2.png
+.. figure:: ../bk4-Bearing-Viscous-Damping/image/fig201-2.png
    :width: 50%
    :align: center
 
